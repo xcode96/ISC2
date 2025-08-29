@@ -1,0 +1,224 @@
+
+---
+
+### **Domain 4.1.7 – Performance Metrics**
+
+**Front:**
+*Domain/Subdomain: 4.1.7*
+What is the difference between **bandwidth** and **throughput**?
+
+**Back:**
+
+* **Bandwidth**: Theoretical maximum data transfer rate over a network in a given time.
+* **Throughput**: Actual data transfer rate achieved.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.7*
+What is **latency** and how is it measured?
+
+**Back:**
+The time it takes for data to travel from source to destination and back (round trip), measured in milliseconds.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.7*
+What is **jitter** in networking?
+
+**Back:**
+Variation in packet delay times; measured in milliseconds. Low jitter is important for real-time applications.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.7*
+What does **SNR** stand for and why is it important?
+
+**Back:**
+**Signal-to-Noise Ratio** — measures signal quality compared to background noise. Higher SNR allows higher data rates.
+
+---
+
+---
+
+### **Domain 4.1.8 – Traffic Flows**
+
+**Front:**
+*Domain/Subdomain: 4.1.8*
+What is **north-south traffic** in a data center?
+
+**Back:**
+Traffic flowing into and out of the data center between external clients and internal servers.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.8*
+What is **east-west traffic** in a data center?
+
+**Back:**
+Traffic moving laterally between servers, storage systems, and applications inside the data center or between connected data centers.
+
+---
+
+---
+
+### **Domain 4.1.9 – Physical Segmentation**
+
+**Front:**
+*Domain/Subdomain: 4.1.9*
+What is the difference between **in-band** and **out-of-band** management?
+
+**Back:**
+
+* **In-band**: Management traffic shares the same network as production traffic.
+* **Out-of-band**: Management uses a dedicated, separate network.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.9*
+What is **air gapping**?
+
+**Back:**
+Physically isolating a system or network from all other networks, including the internet, for security purposes.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.9*
+What is the difference between **physical segmentation** and **logical segmentation**?
+
+**Back:**
+
+* **Physical segmentation**: Uses separate physical hardware or cabling to isolate networks.
+* **Logical segmentation**: Uses VLANs, subnets, or software-based controls to isolate traffic on shared infrastructure.
+
+---
+
+
+---
+
+### **Domain 4.1.10 – Network Separation**
+
+**Front:**
+*Domain/Subdomain: 4.1.10*
+What is the purpose of **network separation**?
+
+**Back:**
+To isolate systems or networks with different security requirements, reducing the risk of unauthorized access or data leakage between them.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.10*
+What are common methods for implementing network separation?
+
+**Back:**
+
+* Physical separation (air-gapped networks)
+* VLANs and subnets
+* Firewalls between segments
+
+---
+
+---
+
+### **Domain 4.1.11 – Wireless Networks**
+
+**Front:**
+*Domain/Subdomain: 4.1.11*
+What security protocol replaced WEP for wireless encryption and why?
+
+**Back:**
+**WPA2** replaced WEP due to WEP’s weak key management and encryption flaws; WPA2 uses AES-based CCMP for stronger security.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.11*
+What is the difference between **WPA2-Personal** and **WPA2-Enterprise**?
+
+**Back:**
+
+* **WPA2-Personal**: Uses a pre-shared key (PSK).
+* **WPA2-Enterprise**: Uses 802.1X authentication with a RADIUS server.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.11*
+What is **MAC filtering** in wireless networks?
+
+**Back:**
+A method of allowing or denying network access based on device MAC addresses; offers weak security as MAC addresses can be spoofed.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.11*
+What is a **deauthentication attack**?
+
+**Back:**
+A Wi-Fi DoS attack that sends spoofed management frames to disconnect clients from an access point.
+
+---
+
+---
+
+### **Domain 4.1.12 – Load Balancing & Resiliency**
+
+**Front:**
+*Domain/Subdomain: 4.1.12*
+What is the purpose of **load balancing**?
+
+**Back:**
+To distribute network traffic across multiple servers or links for optimized performance, availability, and fault tolerance.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.12*
+What is the difference between **stateful** and **stateless** load balancing?
+
+**Back:**
+
+* **Stateful**: Maintains session information, ensuring client requests return to the same server.
+* **Stateless**: Routes each request independently, without tracking session state.
+
+---
+
+---
+
+### **Domain 4.1.13 – Firewalls & Proxies**
+
+**Front:**
+*Domain/Subdomain: 4.1.13*
+What is a **stateful firewall**?
+
+**Back:**
+A firewall that tracks active connections and makes filtering decisions based on connection state as well as rules.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.13*
+What is the difference between a **proxy** and a **reverse proxy**?
+
+**Back:**
+
+* **Proxy**: Forwards client requests to external servers, hiding the client’s identity.
+* **Reverse proxy**: Forwards requests from external clients to internal servers, hiding the servers.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.13*
+What is a **DMZ** (Demilitarized Zone)?
+
+**Back:**
+A network segment that separates an organization’s internal network from the public internet, hosting systems that require external access while protecting the internal network.
+
+---

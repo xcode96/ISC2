@@ -1,0 +1,313 @@
+/* Ultra-Optimized Progress Page Styles - Minimal Animations */
+
+.progress-page-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Static gradient background - no animation, no pseudo-elements */
+.gradient-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  /* Simple, performant gradient */
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+
+/* Remove ALL gradient layers completely */
+.gradient-layer {
+  display: none !important;
+}
+
+/* Content wrapper */
+.progress-content-wrapper {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-content-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Back button - minimal transition */
+.back-button-progress {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s ease;
+  margin-bottom: 2rem;
+}
+
+.back-button-progress:hover {
+  color: #e2e8f0;
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Remove ALL animations from main content */
+.progress-main-content {
+  opacity: 1; /* No fade-in */
+}
+
+/* Dashboard optimizations */
+.progress-dashboard {
+  background: transparent !important;
+}
+
+.progress-dashboard .dashboard-header {
+  position: relative;
+  padding: 2rem 0 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Static gradient text - no animation */
+.progress-dashboard .dashboard-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #f3f4f6; /* Fallback to solid color for better performance */
+  margin-bottom: 1rem;
+}
+
+/* Optional: Add gradient text only on high-performance devices */
+@media (min-width: 768px) and (prefers-reduced-motion: no-preference) {
+  .progress-dashboard .dashboard-title {
+    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+.progress-dashboard .dashboard-subtitle {
+  color: #94a3b8;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+/* Stat cards - no hover effects, use contain for performance */
+.progress-dashboard .stat-card {
+  background: rgba(31, 41, 55, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  contain: layout style paint;
+  will-change: auto; /* Don't pre-optimize transforms */
+}
+
+/* Minimal hover state */
+.progress-dashboard .stat-card:hover {
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+/* Section styling - static */
+.progress-dashboard .section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  color: #f3f4f6;
+  border-left: 3px solid #60a5fa;
+}
+
+/* Remove pseudo-element */
+.progress-dashboard .section-title::before {
+  display: none;
+}
+
+/* Attempt cards - minimal styling */
+.progress-dashboard .attempt-card {
+  background: rgba(31, 41, 55, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 1rem;
+  contain: layout style;
+}
+
+.progress-dashboard .attempt-card:hover {
+  border-color: rgba(139, 92, 246, 0.2);
+}
+
+/* Domain cards - minimal styling */
+.progress-dashboard .domain-card {
+  background: rgba(31, 41, 55, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  contain: layout style paint;
+}
+
+.progress-dashboard .domain-card:hover {
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+/* Management section */
+.progress-dashboard .progress-management {
+  background: rgba(31, 41, 55, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+/* Button styles - minimal transitions */
+.progress-dashboard .management-btn {
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  transition: opacity 0.15s ease;
+}
+
+.progress-dashboard .management-btn:hover {
+  opacity: 0.85;
+}
+
+.progress-dashboard .btn-export {
+  background: rgba(59, 130, 246, 0.25);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+}
+
+.progress-dashboard .btn-clear {
+  background: rgba(239, 68, 68, 0.25);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+/* Modal - instant display, no animation */
+.progress-dashboard .modal-overlay {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.progress-dashboard .modal-content {
+  background: #1f2937;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* ========== SCROLL NAVIGATION - REMOVED ========== */
+.progress-nav {
+  display: none !important; /* Remove side navigation for performance */
+}
+
+/* Scroll to Top Button - simplified */
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(59, 130, 246, 0.9);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+  z-index: 100;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-to-top:hover {
+  background: rgba(59, 130, 246, 1);
+}
+
+/* Remove ALL section animations */
+.scroll-section {
+  scroll-margin-top: 80px;
+  opacity: 1 !important; /* No fade-in */
+  transform: none !important; /* No slide-in */
+  animation: none !important; /* No animations */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .progress-content-inner {
+    padding: 1rem;
+  }
+  
+  .progress-dashboard .dashboard-title {
+    font-size: 2rem;
+    color: #f3f4f6; /* Solid color on mobile */
+  }
+  
+  .back-button-progress {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .scroll-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Disable backdrop-filter on mobile for performance */
+  .progress-dashboard .stat-card,
+  .progress-dashboard .attempt-card,
+  .progress-dashboard .domain-card,
+  .back-button-progress {
+    backdrop-filter: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .progress-dashboard .dashboard-title {
+    font-size: 1.75rem;
+  }
+  
+  .progress-dashboard .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Performance optimizations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Use GPU acceleration only where needed */
+.progress-dashboard .stat-card,
+.progress-dashboard .domain-card {
+  transform: translateZ(0); /* Create layer for better scrolling performance */
+}
+
+/* Optimize repaints */
+.progress-dashboard {
+  isolation: isolate; /* Create new stacking context */
+}
+
+/* Reduce paint areas */
+.stat-value,
+.attempt-score strong {
+  contain: layout style;
+}

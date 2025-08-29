@@ -1,0 +1,1237 @@
+{
+  "domain_id": 8,
+  "domain_name": "Software Development Security",
+  "domain_weight": 11,
+  "total_questions": 59,
+  "generated_at": "2025-08-28T02:47:37.777Z",
+  "questions": [
+    {
+      "id": 199,
+      "question_text": "What is the primary purpose of “code obfuscation” in software development?",
+      "options": [
+        "To make the code more readable and maintainable",
+        "To enhance the performance of the software application",
+        "To protect intellectual property and prevent unauthorized access by making code difficult ",
+        "To debug and remove errors from the software code"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To protect intellectual property and prevent unauthorized access by making code  difficult to understand",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 244,
+      "question_text": "What is the primary purpose of the Open Web Application Security Project (OWASP)?",
+      "options": [
+        "To provide a set of tools for building secure web applications",
+        "To regulate the internet and its content",
+        "To offer certifications for web developers",
+        "To improve the security of software through its community-led open source software "
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "The correct answer is: To improve the security of software through its community-led open source  software projects",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "owasp",
+        "web application security",
+        "application security",
+        "open source"
+      ]
+    },
+    {
+      "id": 395,
+      "question_text": "Which of the following best describes the function of a Web Application Firewall (WAF)?",
+      "options": [
+        "To accelerate website performance through caching",
+        "To monitor and block potentially harmful traffic to web applications",
+        "To provide a secure tunnel for web browsing activities",
+        "To encrypt web application source code"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and block potentially harmful traffic to web applications",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "waf",
+        "web application firewall"
+      ]
+    },
+    {
+      "id": 436,
+      "question_text": "In which phase of the Secure Software Development Life Cycle (SDLC) is penetration testing ",
+      "options": [
+        "Requirements gathering",
+        "Design",
+        "Implementation",
+        "Verification"
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "The correct answer is: Verification",
+      "domain_id": 8,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "sdlc"
+      ]
+    },
+    {
+      "id": 523,
+      "question_text": "Which of the following is a key aspect of the Secure Software Development Lifecycle ",
+      "options": [
+        "Ensuring that software is developed as quickly as possible",
+        "Focusing solely on the functionality of the software, rather than security",
+        "Integrating security practices at every phase of software development",
+        "Outsourcing software development to reduce costs"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Integrating security practices at every phase of software development",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "software development lifecycle"
+      ]
+    },
+    {
+      "id": 544,
+      "question_text": "What is the primary function of a web application firewall (WAF)?",
+      "options": [
+        "To monitor outbound web traffic",
+        "To protect web applications by filtering and monitoring HTTP traffic between a web ",
+        "To encrypt web traffic",
+        "To speed up website performance"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To protect web applications by filtering and monitoring HTTP traffic between a  web application and the Internet",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "waf",
+        "web application firewall"
+      ]
+    },
+    {
+      "id": 761,
+      "question_text": "Which of the following best describes the function of a Web Application Firewall (WAF)?",
+      "options": [
+        "To monitor and block potentially harmful traffic to web applications",
+        "To encrypt web traffic between the client and the server",
+        "To distribute web traffic across multiple servers",
+        "To provide a secure tunnel for web application access"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To monitor and block potentially harmful traffic to web applications",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "waf",
+        "web application firewall"
+      ]
+    },
+    {
+      "id": 832,
+      "question_text": "What is the primary purpose of a Business Impact Analysis (BIA)?",
+      "options": [
+        "To identify and prioritize critical business functions and their dependencies",
+        "To assess the overall security posture of an organization",
+        "To evaluate the effectiveness of security controls",
+        "To detect vulnerabilities in software applications"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify and prioritize critical business functions and their dependencies",
+      "domain_id": 8,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "dependencies"
+      ]
+    },
+    {
+      "id": 863,
+      "question_text": "Which of the following is a primary goal of the Secure Software Development Life Cycle ",
+      "options": [
+        "To ensure that software is developed as quickly as possible",
+        "To integrate security practices throughout the software development process",
+        "To reduce the cost of software development",
+        "To increase the number of features in the final product"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To integrate security practices throughout the software development process",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 901,
+      "question_text": "Which of the following is a characteristic of the Waterfall Model in software development?",
+      "options": [
+        "Iterative feedback after each phase",
+        "Testing happens at the end of the development lifecycle",
+        "Phases are flexible and can overlap",
+        "Customer involvement throughout the development process"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The Waterfall Model is characterized by sequential phases where testing typically occurs at the end of the development lifecycle.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "waterfall",
+        "sdlc",
+        "software_development"
+      ]
+    },
+    {
+      "id": 902,
+      "question_text": "In secure software development, what is the primary goal of Threat Modeling?",
+      "options": [
+        "To create use cases for testing the application",
+        "To identify vulnerabilities and weaknesses in the system",
+        "To ensure performance optimization",
+        "To create an intuitive user interface"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Threat Modeling's primary goal is to identify vulnerabilities and weaknesses in the system before they can be exploited.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "threat_modeling",
+        "secure_development",
+        "vulnerabilities"
+      ]
+    },
+    {
+      "id": 903,
+      "question_text": "Which security concern is most associated with the DevOps methodology in software development?",
+      "options": [
+        "Lack of documentation",
+        "Inadequate scalability",
+        "Speed of deployment leading to potential security gaps",
+        "Inflexible testing environments"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The rapid deployment cycles in DevOps can lead to security gaps if security is not properly integrated into the process.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 85,
+      "keywords": [
+        "devops",
+        "security",
+        "deployment"
+      ]
+    },
+    {
+      "id": 904,
+      "question_text": "Which of the following is a primary benefit of incorporating security requirements during the early stages of the Software Development Life Cycle (SDLC)?",
+      "options": [
+        "Reduced overall cost of development",
+        "Increased time-to-market",
+        "Higher software performance",
+        "Less frequent security audits"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "Incorporating security early in the SDLC reduces the overall cost of development by preventing expensive fixes later.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "sdlc",
+        "security_requirements",
+        "cost"
+      ]
+    },
+    {
+      "id": 905,
+      "question_text": "Which of the following best describes static code analysis in the context of secure software development?",
+      "options": [
+        "Reviewing the system's source code without executing it",
+        "Analyzing the system's performance during execution",
+        "Identifying runtime vulnerabilities such as memory leaks",
+        "Testing software under normal and abnormal conditions"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "Static code analysis involves reviewing source code without executing it to identify potential security vulnerabilities.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "static_analysis",
+        "sast",
+        "code_review"
+      ]
+    },
+    {
+      "id": 906,
+      "question_text": "Which of the following practices can help prevent injection attacks in web applications?",
+      "options": [
+        "Using hard-coded credentials in scripts",
+        "Limiting access to the database to administrators only",
+        "Using parameterized queries",
+        "Implementing client-side input validation"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Parameterized queries prevent injection attacks by separating SQL code from data, preventing malicious input from being executed.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "injection",
+        "parameterized_queries",
+        "sql_injection"
+      ]
+    },
+    {
+      "id": 907,
+      "question_text": "What is the primary function of a Software Bill of Materials (SBOM) in secure software development?",
+      "options": [
+        "To provide a detailed list of all software dependencies and components",
+        "To specify the functional requirements of the software",
+        "To track user activity within the application",
+        "To manage the software's source code versions"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "An SBOM provides a detailed inventory of all software dependencies and components, helping identify potential security vulnerabilities.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "sbom",
+        "software_bill_of_materials",
+        "dependencies"
+      ]
+    },
+    {
+      "id": 908,
+      "question_text": "Which of the following is an example of a secure coding best practice?",
+      "options": [
+        "Relying solely on third-party libraries for security features",
+        "Disabling logging for error messages",
+        "Implementing input validation on both the client and server sides",
+        "Using single-factor authentication for administrative access"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Input validation on both client and server sides provides defense in depth against malicious input.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "secure_coding",
+        "input_validation",
+        "best_practices"
+      ]
+    },
+    {
+      "id": 909,
+      "question_text": "Which of the following is a primary advantage of using the Agile software development methodology from a security perspective?",
+      "options": [
+        "Security is integrated at the end of the development cycle",
+        "Continuous feedback loops facilitate ongoing security improvements",
+        "It allows for less testing during the development process",
+        "Security risks are ignored to meet faster delivery deadlines"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Agile's continuous feedback loops allow for ongoing security improvements and early detection of vulnerabilities.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "agile",
+        "security",
+        "feedback_loops"
+      ]
+    },
+    {
+      "id": 910,
+      "question_text": "What is the primary purpose of performing a code review in the context of secure software development?",
+      "options": [
+        "To optimize the performance of the application",
+        "To identify security vulnerabilities and coding errors",
+        "To test the application's functionality",
+        "To assess compliance with user interface design standards"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Code reviews are primarily conducted to identify security vulnerabilities and coding errors before they reach production.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "code_review",
+        "security",
+        "vulnerabilities"
+      ]
+    },
+    {
+      "id": 911,
+      "question_text": "What is the main goal of the Secure Development Life Cycle (SDLC)?",
+      "options": [
+        "To build software that focuses solely on functionality",
+        "To integrate security measures at every phase of software development",
+        "To delay security integration until after testing",
+        "To limit the involvement of security teams in the development process"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The Secure SDLC aims to integrate security measures at every phase of software development to build secure applications.",
+      "domain_id": 8,
+      "difficulty": 1,
+      "confidence": 95,
+      "keywords": [
+        "sdlc",
+        "secure_development",
+        "security_integration"
+      ]
+    },
+    {
+      "id": 912,
+      "question_text": "Which of the following is an effective way to mitigate cross-site scripting (XSS) vulnerabilities?",
+      "options": [
+        "Encrypting all sensitive data in the database",
+        "Implementing input validation and output encoding",
+        "Using MD5 to hash user passwords",
+        "Disabling SSL/TLS to improve performance"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Input validation and output encoding are the primary defenses against XSS attacks, preventing malicious scripts from being executed.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "xss",
+        "cross_site_scripting",
+        "output_encoding",
+        "input_validation"
+      ]
+    },
+    {
+      "id": 913,
+      "question_text": "Which software testing method involves simulating attacks on the application to uncover vulnerabilities?",
+      "options": [
+        "Static testing",
+        "Unit testing",
+        "Penetration testing",
+        "System integration testing"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Penetration testing simulates real-world attacks on an application to uncover security vulnerabilities.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "penetration_testing",
+        "security_testing",
+        "vulnerability_assessment"
+      ]
+    },
+    {
+      "id": 914,
+      "question_text": "Which of the following practices helps to ensure data integrity during software development?",
+      "options": [
+        "Encrypting all network traffic",
+        "Implementing hashing algorithms",
+        "Using multi-factor authentication",
+        "Disabling unused network ports"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Hashing algorithms ensure data integrity by creating a unique fingerprint that can detect any changes to the data.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "data_integrity",
+        "hashing",
+        "security"
+      ]
+    },
+    {
+      "id": 915,
+      "question_text": "Which of the following is considered a secure coding best practice to mitigate buffer overflow vulnerabilities?",
+      "options": [
+        "Using dynamic memory allocation without bounds checking",
+        "Performing proper bounds checking on all input data",
+        "Storing all data in global variables",
+        "Using fixed-size buffers for all data inputs"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Proper bounds checking on all input data prevents buffer overflow vulnerabilities by ensuring data doesn't exceed allocated memory.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "buffer_overflow",
+        "bounds_checking",
+        "secure_coding"
+      ]
+    },
+    {
+      "id": 916,
+      "question_text": "In the context of secure software development, which of the following is a common method to mitigate injection attacks?",
+      "options": [
+        "Encrypting data at rest",
+        "Using prepared statements with parameterized queries",
+        "Applying a security patch after deployment",
+        "Implementing server-side client validation"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Prepared statements with parameterized queries separate data from code, preventing injection attacks.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "injection",
+        "prepared_statements",
+        "parameterized_queries"
+      ]
+    },
+    {
+      "id": 917,
+      "question_text": "Which of the following security mechanisms is typically used to prevent Cross-Site Request Forgery (CSRF) attacks?",
+      "options": [
+        "Enforcing strong password policies",
+        "Using anti-CSRF tokens in forms",
+        "Implementing a Web Application Firewall (WAF)",
+        "Encrypting sensitive data in transit"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Anti-CSRF tokens verify that requests are coming from legitimate users and not from malicious sites.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "csrf",
+        "cross_site_request_forgery",
+        "anti_csrf_tokens"
+      ]
+    },
+    {
+      "id": 918,
+      "question_text": "Which of the following is a common goal of using software fuzz testing?",
+      "options": [
+        "To increase application performance",
+        "To detect security vulnerabilities by inputting random or unexpected data",
+        "To verify that the software meets functional requirements",
+        "To assess the user interface design for usability"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Fuzz testing detects security vulnerabilities by inputting random or unexpected data to find crashes and security flaws.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "fuzz_testing",
+        "fuzzing",
+        "security_testing"
+      ]
+    },
+    {
+      "id": 919,
+      "question_text": "What is the main purpose of the Open Web Application Security Project (OWASP) Top 10 list?",
+      "options": [
+        "To provide a checklist for functional testing",
+        "To outline the most critical web application security risks",
+        "To define performance benchmarks for web applications",
+        "To offer guidance on coding standards for web developers"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The OWASP Top 10 outlines the most critical web application security risks to help developers prioritize security efforts.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "owasp",
+        "owasp_top_10",
+        "web_security"
+      ]
+    },
+    {
+      "id": 920,
+      "question_text": "Which of the following is a key characteristic of DevSecOps in secure software development?",
+      "options": [
+        "Security is handled exclusively by the security team at the end of the development cycle",
+        "Security is integrated into every phase of the development process",
+        "Security is tested only during the deployment phase",
+        "Developers are not involved in security decisions"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "DevSecOps integrates security into every phase of the development process, making security everyone's responsibility.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "devsecops",
+        "security_integration",
+        "continuous_security"
+      ]
+    },
+    {
+      "id": 921,
+      "question_text": "Which of the following is a key benefit of using a sandbox environment in software development?",
+      "options": [
+        "Reducing the cost of development",
+        "Preventing malicious code from impacting production systems",
+        "Ensuring that all code meets performance benchmarks",
+        "Increasing the speed of development"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Sandboxes isolate potentially malicious code from production systems, allowing safe testing and analysis.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "sandbox",
+        "isolation",
+        "security_testing"
+      ]
+    },
+    {
+      "id": 922,
+      "question_text": "Which of the following tools is best suited for identifying vulnerabilities in third-party libraries used in an application?",
+      "options": [
+        "Penetration testing",
+        "Static Application Security Testing (SAST)",
+        "Dynamic Application Security Testing (DAST)",
+        "Software Composition Analysis (SCA)"
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "Software Composition Analysis (SCA) is specifically designed to identify vulnerabilities in third-party libraries and dependencies.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 95,
+      "keywords": [
+        "sca",
+        "software_composition_analysis",
+        "third_party_libraries"
+      ]
+    },
+    {
+      "id": 923,
+      "question_text": "Which of the following secure coding practices can help mitigate the risk of Cross-Site Scripting (XSS) attacks?",
+      "options": [
+        "Using weak encryption algorithms",
+        "Output encoding for dynamic web content",
+        "Disabling input validation",
+        "Hard-coding sensitive data into the application"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Output encoding ensures that user-supplied data is rendered as text rather than executable code, preventing XSS attacks.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "xss",
+        "output_encoding",
+        "secure_coding"
+      ]
+    },
+    {
+      "id": 924,
+      "question_text": "Which of the following describes a key characteristic of the Spiral Model in software development?",
+      "options": [
+        "A focus on iterative development with risk assessment at every phase",
+        "Strict sequential phases that do not overlap",
+        "Development phases are completed once without iteration",
+        "Minimal customer involvement until the final phase"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The Spiral Model emphasizes iterative development with risk assessment at every phase to manage project risks effectively.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "spiral_model",
+        "risk_assessment",
+        "iterative_development"
+      ]
+    },
+    {
+      "id": 925,
+      "question_text": "In secure software development, which type of testing specifically focuses on uncovering security flaws by simulating real-world attacks?",
+      "options": [
+        "Unit testing",
+        "Penetration testing",
+        "Functional testing",
+        "Regression testing"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Penetration testing simulates real-world attacks to uncover security flaws that could be exploited by attackers.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "penetration_testing",
+        "security_testing",
+        "attack_simulation"
+      ]
+    },
+    {
+      "id": 926,
+      "question_text": "Which of the following techniques is the most effective in mitigating SQL injection vulnerabilities?",
+      "options": [
+        "Disabling input validation",
+        "Using stored procedures with dynamic SQL",
+        "Using parameterized queries and input validation",
+        "Hard-coding SQL queries in the source code"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Parameterized queries combined with input validation provide the strongest defense against SQL injection attacks.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "sql_injection",
+        "parameterized_queries",
+        "input_validation"
+      ]
+    },
+    {
+      "id": 927,
+      "question_text": "Which of the following is a core principle of DevSecOps?",
+      "options": [
+        "Security testing is only performed after development is complete",
+        "Security is a shared responsibility across development, security, and operations teams",
+        "Developers are responsible for all security decisions",
+        "Only security teams are involved in testing the application"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "DevSecOps makes security a shared responsibility across all teams, integrating it throughout the development lifecycle.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "devsecops",
+        "shared_responsibility",
+        "security_integration"
+      ]
+    },
+    {
+      "id": 928,
+      "question_text": "Which secure coding practice can help mitigate buffer overflow attacks?",
+      "options": [
+        "Using strong encryption for all sensitive data",
+        "Conducting thorough input validation and bounds checking",
+        "Storing sensitive information in global variables",
+        "Avoiding the use of encryption in memory"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Input validation and bounds checking prevent buffer overflow by ensuring data doesn't exceed allocated memory boundaries.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "buffer_overflow",
+        "input_validation",
+        "bounds_checking"
+      ]
+    },
+    {
+      "id": 929,
+      "question_text": "Which of the following describes a key feature of the NIST Secure Software Development Framework (SSDF)?",
+      "options": [
+        "It mandates the use of specific coding languages",
+        "It provides guidelines for integrating security into each phase of the software development lifecycle",
+        "It focuses exclusively on post-deployment security",
+        "It limits the involvement of developers in security decisions"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The NIST SSDF provides comprehensive guidelines for integrating security throughout the software development lifecycle.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "nist_ssdf",
+        "secure_development",
+        "security_framework"
+      ]
+    },
+    {
+      "id": 930,
+      "question_text": "Which of the following practices helps reduce the risk of hardcoded sensitive information in software applications?",
+      "options": [
+        "Using environment variables to store sensitive data",
+        "Storing encryption keys in the source code",
+        "Embedding database credentials directly into the application",
+        "Allowing hardcoded credentials for administrative access"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "Environment variables keep sensitive data separate from source code, reducing the risk of exposure.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "environment_variables",
+        "sensitive_data",
+        "secure_coding"
+      ]
+    },
+    {
+      "id": 931,
+      "question_text": "Which of the following is the best description of the principle of 'Least Privilege' in software development security?",
+      "options": [
+        "Users and processes are given only the minimum permissions necessary to perform their tasks",
+        "All users are granted full access to all system resources to improve collaboration",
+        "Permissions are assigned to users based on their job title, regardless of actual need",
+        "Administrative privileges are assigned to every user to ensure system accessibility"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "Least Privilege ensures users and processes have only the minimum permissions necessary, reducing potential security risks.",
+      "domain_id": 8,
+      "difficulty": 1,
+      "confidence": 95,
+      "keywords": [
+        "least_privilege",
+        "access_control",
+        "security_principle"
+      ]
+    },
+    {
+      "id": 932,
+      "question_text": "Which of the following practices is essential for preventing session hijacking in web applications?",
+      "options": [
+        "Implementing session IDs in URLs",
+        "Using secure cookies with the 'HttpOnly' and 'Secure' flags",
+        "Allowing session IDs to be shared across multiple users",
+        "Disabling session timeouts to enhance user convenience"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Secure cookies with 'HttpOnly' and 'Secure' flags prevent session hijacking by protecting session data from client-side access and ensuring transmission over HTTPS.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "session_hijacking",
+        "secure_cookies",
+        "httponly",
+        "secure_flag"
+      ]
+    },
+    {
+      "id": 933,
+      "question_text": "Which of the following is the best method to mitigate time-of-check to time-of-use (TOCTOU) vulnerabilities in software?",
+      "options": [
+        "Implementing proper input validation",
+        "Using secure coding libraries for file access",
+        "Ensuring that the system performs immediate access control checks at the time of resource use",
+        "Avoiding dynamic memory allocation"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Performing access control checks immediately at the time of resource use prevents TOCTOU vulnerabilities by eliminating the time gap between checking and using.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "toctou",
+        "race_condition",
+        "access_control"
+      ]
+    },
+    {
+      "id": 934,
+      "question_text": "What is the purpose of input sanitization in secure software development?",
+      "options": [
+        "To improve application performance",
+        "To ensure that data is safely processed and does not contain malicious content",
+        "To disable all user inputs to prevent attacks",
+        "To allow all types of inputs for flexibility"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Input sanitization ensures data is safely processed by removing or encoding potentially malicious content.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "input_sanitization",
+        "secure_coding",
+        "data_validation"
+      ]
+    },
+    {
+      "id": 935,
+      "question_text": "Which of the following is a key feature of Static Application Security Testing (SAST)?",
+      "options": [
+        "It scans running applications to find vulnerabilities",
+        "It identifies security flaws in the source code without executing the application",
+        "It tests for performance and scalability issues",
+        "It is only useful after the application has been deployed"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "SAST analyzes source code without executing the application, identifying security flaws early in development.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "sast",
+        "static_testing",
+        "code_analysis"
+      ]
+    },
+    {
+      "id": 936,
+      "question_text": "Which of the following methods is used to prevent replay attacks?",
+      "options": [
+        "Using strong encryption for all communications",
+        "Implementing a firewall to block unwanted traffic",
+        "Using nonces or timestamps in communication protocols",
+        "Disabling input validation"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Nonces (number used once) or timestamps prevent replay attacks by ensuring each request is unique and time-bound.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "replay_attack",
+        "nonce",
+        "timestamp",
+        "security"
+      ]
+    },
+    {
+      "id": 937,
+      "question_text": "Which of the following is a characteristic of dynamic application security testing (DAST)?",
+      "options": [
+        "It requires access to the source code",
+        "It tests the application while it is running",
+        "It focuses on detecting syntax errors",
+        "It cannot detect vulnerabilities in the user interface"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "DAST tests applications while they are running, simulating real-world attacks without requiring source code access.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "dast",
+        "dynamic_testing",
+        "runtime_testing"
+      ]
+    },
+    {
+      "id": 938,
+      "question_text": "Which of the following is the best example of a security measure that can prevent Cross-Site Request Forgery (CSRF) attacks?",
+      "options": [
+        "Implementing strong password policies",
+        "Using a token-based mechanism for each user request",
+        "Encrypting all database queries",
+        "Disabling session cookies"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Token-based mechanisms verify that requests are legitimate and not forged by malicious sites.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "csrf",
+        "token",
+        "request_forgery"
+      ]
+    },
+    {
+      "id": 939,
+      "question_text": "Which secure coding practice is the most effective in preventing race conditions in multithreaded applications?",
+      "options": [
+        "Using nonces in data communications",
+        "Implementing access controls for system administrators",
+        "Using proper locking mechanisms to synchronize access to shared resources",
+        "Enforcing encryption on all network communications"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Proper locking mechanisms ensure thread-safe access to shared resources, preventing race conditions.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "race_condition",
+        "multithreading",
+        "locking",
+        "synchronization"
+      ]
+    },
+    {
+      "id": 940,
+      "question_text": "Which of the following practices helps prevent buffer overflow attacks?",
+      "options": [
+        "Disabling firewalls to allow unrestricted traffic",
+        "Using input validation and bounds checking",
+        "Allowing direct memory access to improve performance",
+        "Storing sensitive data in global variables"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Input validation and bounds checking prevent buffer overflow by ensuring data doesn't exceed allocated memory.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "buffer_overflow",
+        "input_validation",
+        "bounds_checking"
+      ]
+    },
+    {
+      "id": 941,
+      "question_text": "Which of the following is the most effective way to prevent SQL injection attacks?",
+      "options": [
+        "Enabling verbose error messages for debugging",
+        "Using parameterized queries or prepared statements",
+        "Storing passwords in plaintext",
+        "Allowing user inputs directly into SQL queries without validation"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Parameterized queries or prepared statements separate data from code, preventing SQL injection attacks.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "sql_injection",
+        "parameterized_queries",
+        "prepared_statements"
+      ]
+    },
+    {
+      "id": 942,
+      "question_text": "Which software development model involves iterative cycles of development and risk analysis?",
+      "options": [
+        "Waterfall Model",
+        "Spiral Model",
+        "Agile Model",
+        "Big Bang Model"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The Spiral Model combines iterative development with systematic risk analysis at each iteration.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "spiral_model",
+        "risk_analysis",
+        "iterative"
+      ]
+    },
+    {
+      "id": 943,
+      "question_text": "Which of the following is the primary goal of Software Composition Analysis (SCA) in secure development?",
+      "options": [
+        "To improve application performance",
+        "To identify vulnerabilities in third-party and open-source components",
+        "To test for functionality in software modules",
+        "To assess user experience in the software interface"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "SCA identifies vulnerabilities in third-party and open-source components that may introduce security risks.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "sca",
+        "third_party",
+        "open_source",
+        "vulnerabilities"
+      ]
+    },
+    {
+      "id": 944,
+      "question_text": "What is the primary security risk associated with the use of third-party libraries in software development?",
+      "options": [
+        "Increased application performance",
+        "Potential inclusion of unpatched vulnerabilities",
+        "Enhanced security features",
+        "Simplified integration with APIs"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Third-party libraries may contain unpatched vulnerabilities that can be exploited if not properly managed.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "third_party_libraries",
+        "vulnerabilities",
+        "supply_chain"
+      ]
+    },
+    {
+      "id": 945,
+      "question_text": "Which of the following techniques can prevent Cross-Site Scripting (XSS) attacks?",
+      "options": [
+        "Encrypting all sensitive data",
+        "Output encoding of user inputs before displaying on web pages",
+        "Using multi-factor authentication",
+        "Storing session tokens in URLs"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Output encoding prevents XSS by ensuring user inputs are displayed as text rather than executable code.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "xss",
+        "output_encoding",
+        "cross_site_scripting"
+      ]
+    },
+    {
+      "id": 946,
+      "question_text": "What is the purpose of implementing nonce values in web applications?",
+      "options": [
+        "To prevent buffer overflow attacks",
+        "To mitigate replay attacks",
+        "To enable faster processing of user inputs",
+        "To encrypt data at rest"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Nonce values ensure each request is unique, preventing replay attacks where old requests are resubmitted.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "nonce",
+        "replay_attack",
+        "security"
+      ]
+    },
+    {
+      "id": 947,
+      "question_text": "Which of the following is a key security risk when using open-source software components in an application?",
+      "options": [
+        "Lack of performance optimization",
+        "Limited documentation",
+        "Introduction of known vulnerabilities",
+        "Poor user interface design"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Open-source components may introduce known vulnerabilities if not properly vetted and updated.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "open_source",
+        "vulnerabilities",
+        "security_risk"
+      ]
+    },
+    {
+      "id": 948,
+      "question_text": "What is the primary role of fuzz testing in secure software development?",
+      "options": [
+        "To enhance the graphical user interface",
+        "To test software functionality under high workloads",
+        "To input random data into an application to uncover vulnerabilities",
+        "To check compliance with user interface design standards"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Fuzz testing inputs random or malformed data to uncover crashes, memory leaks, and security vulnerabilities.",
+      "domain_id": 8,
+      "difficulty": 3,
+      "confidence": 90,
+      "keywords": [
+        "fuzz_testing",
+        "fuzzing",
+        "vulnerability_detection"
+      ]
+    },
+    {
+      "id": 949,
+      "question_text": "Which of the following measures helps protect against Cross-Site Request Forgery (CSRF) attacks?",
+      "options": [
+        "Using CAPTCHA challenges",
+        "Implementing unique anti-CSRF tokens",
+        "Encrypting session cookies",
+        "Using client-side validation"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "Unique anti-CSRF tokens verify that requests are legitimate and not forged by malicious sites.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "csrf",
+        "anti_csrf_tokens",
+        "security"
+      ]
+    },
+    {
+      "id": 950,
+      "question_text": "Which of the following describes threat modeling in secure software development?",
+      "options": [
+        "The process of identifying functional software requirements",
+        "The practice of simulating attacks on the software to identify vulnerabilities",
+        "The technique of identifying potential threats and vulnerabilities in a system",
+        "The creation of performance benchmarks for the application"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "Threat modeling identifies potential threats and vulnerabilities in a system to guide security design decisions.",
+      "domain_id": 8,
+      "difficulty": 2,
+      "confidence": 95,
+      "keywords": [
+        "threat_modeling",
+        "vulnerability_identification",
+        "security_design"
+      ]
+    }
+  ]
+}

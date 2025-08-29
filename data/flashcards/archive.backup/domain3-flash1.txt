@@ -1,0 +1,370 @@
+Of course. Here are the flashcards for Domain 3, including the relevant domain and subdomain for each topic.
+
+### **Domain 3.1: Secure Design Principles**
+
+**Front:**
+*Domain/Subdomain: 3.1.1*
+What is **threat modeling**?
+
+**Back:**
+It's a security process where potential threats are identified, categorized, and analyzed. It can be performed proactively during design or reactively after deployment to identify potential harm, probability, priority, and mitigation strategies.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.1.3*
+What is **Defense in Depth**?
+
+**Back:**
+Also known as layering, it's the use of multiple security controls in a series. The failure of a single control should not result in the exposure of systems or data.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.1.5*
+What is the principle of **Fail Securely**?
+
+**Back:**
+If a system, asset, or process fails, it should not reveal sensitive information or become less secure than it was during normal operation. This could involve reverting to default settings.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.1.6*
+What is **Separation of Duties (SoD)**?
+
+**Back:**
+A process that ensures no single person has total control over a critical function or system. It is designed to minimize opportunities for misuse of data or environmental damage and helps prevent fraud.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.1.8*
+What is the core principle of **Zero Trust**?
+
+**Back:**
+It's a security concept based on the principle of "never trust, always verify." It assumes that no user or device is automatically trusted, and every access request must be authenticated, authorized, and encrypted before access is granted.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.1.9*
+What are the 7 principles of **Privacy by Design (PbD)**?
+
+**Back:**
+1.  **Proactive, not reactive; preventative, not remedial**
+2.  **Privacy as the default setting**
+3.  **Privacy embedded into design**
+4.  **Full functionality — positive-sum, not zero-sum** (achieve both security and privacy)
+5.  **End-to-end security — full lifecycle protection**
+6.  **Visibility and transparency — keep it open**
+7.  **Respect for user privacy — keep it user-centric**
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.1.11*
+What is **Secure Access Service Edge (SASE)**?
+
+**Back:**
+SASE is a cloud-delivered framework that brings networking and security functions together into a unified platform. It integrates capabilities like SD-WAN, Secure Web Gateway (SWG), CASB, Firewall-as-a-Service (FWaaS), and Zero Trust Network Access (ZTNA).
+
+***
+
+### **Domain 3.2: Security Models**
+
+**Front:**
+*Domain/Subdomain: 3.2*
+What are the key rules of the **Bell-LaPadula** security model?
+
+**Back:**
+Focused on **confidentiality**, its rules are:
+* **Simple Property**: "No read up."
+* **Star (*) Property**: "No write down."
+* **Strong Star Property**: A subject can only read/write at their own secrecy level.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.2*
+What are the key rules of the **Biba** security model?
+
+**Back:**
+Focused on **integrity**, its rules are:
+* **Simple Integrity Property**: "No read down."
+* **Star (*) Integrity Property**: "No write up."
+* **Invocation Property**: A subject at one level of integrity cannot invoke a subject at a higher level.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.2*
+What is the purpose of the **Brewer and Nash Model**?
+
+**Back:**
+Also known as the "ethical wall," its primary purpose is to prevent conflicts of interest by dynamically restricting access to information based on a user's previous activity.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.2*
+What are the key components of the **Clark-Wilson** model?
+
+**Back:**
+Designed to protect integrity, its main components are:
+* **Users**: Active agents (subjects).
+* **Transformation Procedures (TPs)**: The only way subjects can manipulate protected objects.
+* **Constrained Data Items (CDIs)**: Objects that can only be manipulated by a TP.
+* **Unconstrained Data Items (UDIs)**: Objects that can be accessed directly.
+* **Integrity Verification Procedures (IVPs)**: Audit the TPs to ensure consistency.
+
+***
+
+### **Domain 3.3: System Security Controls**
+
+**Front:**
+*Domain/Subdomain: 3.3*
+What are the key concepts of the **Common Criteria (CC)** evaluation?
+
+**Back:**
+* **Target of Evaluation (TOE)**: The system or product being evaluated.
+* **Protection Profile (PP)**: The document outlining the customer's security needs.
+* **Security Target (ST)**: The document specifying the vendor's security claims for the TOE.
+* **Evaluation Assurance Level (EAL)**: A numerical rating from EAL1 (lowest) to EAL7 (highest) that describes the rigor of the evaluation.
+
+***
+
+### **Domain 3.4: Security Capabilities of Information Systems**
+
+**Front:**
+*Domain/Subdomain: 3.4*
+What is a **Trusted Platform Module (TPM)**?
+
+**Back:**
+A TPM is a tamper-resistant cryptographic chip built into a motherboard. It can perform cryptographic operations, protect sensitive information like keys and passwords, and is an example of a Hardware Security Module (HSM).
+
+***
+
+### **Domain 3.5: Vulnerabilities of Security Architectures**
+
+**Front:**
+*Domain/Subdomain: 3.5.3*
+What is the difference between an **aggregation attack** and an **inference attack** in databases?
+
+**Back:**
+* **Aggregation Attack**: A mathematical attack where functions that combine records (like SUM or AVG) are used to derive sensitive information.
+* **Inference Attack**: A human deduction attack where several pieces of non-sensitive information are combined to access information at a higher classification level.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.5.4*
+What is **Kerckhoff's Principle**?
+
+**Back:**
+A cryptographic system should be secure even if everything about the system, except the key, is public knowledge.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.5.5*
+What are **Industrial Control Systems (ICS)** and what are some examples?
+
+**Back:**
+ICS are computer-management devices that control industrial processes and machines, also known as Operational Technology (OT). Examples include Distributed Control Systems (DCS), Programmable Logic Controllers (PLC), and Supervisory Control and Data Acquisition (SCADA) systems.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.5.6*
+What are the three main cloud service models?
+
+**Back:**
+* **Software as a Service (SaaS)**: Provides fully functional applications, typically accessed via a web browser.
+* **Platform as a Service (PaaS)**: Provides a computing platform, including hardware, OS, and a runtime environment.
+* **Infrastructure as a Service (IaaS)**: Provides basic computing resources like servers, storage, and networking. The vendor provides the least maintenance in this model.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.5.10*
+What is **containerization**?
+
+**Back:**
+Also known as OS virtualization, it's a concept where applications are placed into a container with only the resources they need, while shared OS elements are used from the hypervisor. This provides much higher application density than traditional virtualization.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.5.15*
+What is a **VM escape**?
+
+**Back:**
+A VM escape occurs when software within a guest operating system is able to breach the isolation protection provided by the hypervisor and access the host system or other VMs.
+
+***
+
+### **Domain 3.6: Cryptographic Solutions**
+
+**Front:**
+*Domain/Subdomain: 3.6.2*
+What is the primary difference between **symmetric** and **asymmetric** encryption?
+
+**Back:**
+* **Symmetric encryption** uses the **same key** for both encryption and decryption. It is faster and used for bulk encryption.
+* **Asymmetric encryption** uses a **different key** for encryption (public key) and decryption (private key). It is slower but provides better key management and non-repudiation.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.6.2*
+How many keys are required for `n` parties to communicate using symmetric cryptography?
+
+**Back:**
+The formula is: **(n * (n - 1)) / 2**
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.6.2*
+What are the common modes of operation for symmetric block ciphers?
+
+**Back:**
+* **Electronic Code Book (ECB)**: Simplest and weakest; encrypts each block separately.
+* **Cipher Block Chaining (CBC)**: Chains blocks together by XORing the current plaintext block with the previous ciphertext block.
+* **Counter (CTR)**: Acts like a stream cipher and allows parallel processing by encrypting a counter and XORing it with the plaintext.
+* **Galois/Counter Mode (GCM)**: Combines CTR mode with authentication, providing both confidentiality and integrity. It is very fast.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.6.2*
+How are keys used for encryption and digital signatures in asymmetric cryptography?
+
+**Back:**
+* **To encrypt a message**: Use the recipient's **public key**.
+* **To decrypt a message**: Use your **own private key**.
+* **To create a digital signature**: Encrypt a message hash with your **own private key**.
+* **To verify a digital signature**: Decrypt the signature with the sender's **public key**.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.6.3*
+What is a **Public Key Infrastructure (PKI)**?
+
+**Back:**
+A PKI is a hierarchy of trust relationships that combines asymmetric and symmetric cryptography with hashing and digital certificates. It is composed of Certification Authorities (CAs), certificates, policies, and templates to enable secure communication.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.6.5*
+What security services does a **digital signature** provide?
+
+**Back:**
+A digital signature ensures **integrity** (the message was not altered), **authentication** (the message came from the claimed sender), and **non-repudiation** (the sender cannot deny sending the message). It does not provide confidentiality on its own.
+
+***
+
+### **Domain 3.7: Cryptanalytic Attacks**
+
+**Front:**
+*Domain/Subdomain: 3.7.1 - 3.7.5*
+What is the difference between ciphertext-only, known-plaintext, and chosen-plaintext attacks?
+
+**Back:**
+* **Ciphertext-only**: The attacker only has the encrypted ciphertext message.
+* **Known-plaintext**: The attacker has a copy of both the encrypted message and the plaintext used to create it.
+* **Chosen-plaintext**: The attacker can obtain the ciphertexts for arbitrary plaintexts they choose.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.7.7*
+What is a **side-channel attack**?
+
+**Back:**
+An attack that uses information leaked from a system's physical implementation rather than flaws in the algorithm itself. Examples include monitoring power consumption, electromagnetic radiation, or timing to gain information.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.7.11*
+What is a **Pass the Hash (PtH)** attack?
+
+**Back:**
+A technique where an attacker captures a user's password hash and passes it for authentication without needing to crack the hash to get the plaintext password. It commonly exploits the NTLM authentication protocol.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.7.12*
+What is a **Golden Ticket** attack in Kerberos?
+
+**Back:**
+An attack where the adversary obtains the hash of the Kerberos service account (KRBTGT). This allows the attacker to create valid tickets at will for any user or resource within the Active Directory domain, giving them nearly unlimited power.
+
+***
+
+### **Domain 3.8 & 3.9: Site and Facility Design**
+
+**Front:**
+*Domain/Subdomain: 3.8*
+What are the three main principles of **Crime Prevention Through Environmental Design (CPTED)**?
+
+**Back:**
+1.  **Natural access control**: Guiding people entering and leaving a building through design.
+2.  **Natural surveillance**: Designing spaces to increase the opportunities for intruders to be observed.
+3.  **Natural territorial reinforcement**: Making an area feel like an inclusive community to discourage crime.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.9.6*
+What is the difference between a **fault**, **blackout**, **sag**, and **brownout** in power systems?
+
+**Back:**
+* **Fault**: A momentary loss of power.
+* **Blackout**: A complete loss of power.
+* **Sag**: A momentary low voltage.
+* **Brownout**: A prolonged low voltage.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.9.8*
+What are the fire extinguisher classes?
+
+**Back:**
+* **Class A**: Common combustibles (wood, paper).
+* **Class B**: Liquids (gasoline, oil).
+* **Class C**: Electrical fires.
+* **Class D**: Metals.
+* **Class K**: Cooking materials (grease, oil).
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.9.8*
+What is the difference between a **wet pipe** and a **dry pipe** sprinkler system?
+
+**Back:**
+* **Wet pipe system**: Is always filled with water, which discharges immediately when triggered.
+* **Dry pipe system**: Contains compressed inert gas; water only enters the pipes when the system is triggered. This is used in areas where freezing is a concern.
+
+***
+
+### **Domain 3.10: Information System Lifecycle**
+
+**Front:**
+*Domain/Subdomain: 3.10*
+What are the high-level phases of the Information System Lifecycle?
+
+**Back:**
+* Initiation/Requirements
+* Architecture & Design
+* Development
+* Testing (including verification and validation)
+* Release/Deployment
+* Operations/Maintenance

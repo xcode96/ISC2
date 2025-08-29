@@ -1,0 +1,341 @@
+{
+  "domain": "Domain 5: Identity and Access Management (IAM)",
+  "flashcards": [
+    {
+      "id": "5-1a",
+      "domain": "5.1",
+      "category": "Identity and Access Management",
+      "front": "What does controlling physical and logical access to information involve?",
+      "back": "Implementing security measures to ensure only authorized individuals can view, modify, or manage information, using access controls, encryption, and data classification."
+    },
+    {
+      "id": "5-1b",
+      "domain": "5.1",
+      "category": "Identity and Access Management",
+      "front": "How is physical and logical access controlled for systems?",
+      "back": "By enforcing authentication, role-based permissions, and physical security measures such as locked server rooms and tamper detection."
+    },
+    {
+      "id": "5-1c",
+      "domain": "5.1",
+      "category": "Identity and Access Management",
+      "front": "How is access to devices controlled?",
+      "back": "Through device authentication, endpoint security, asset tagging, and physical safeguards to prevent unauthorized removal or use."
+    },
+    {
+      "id": "5-1d",
+      "domain": "5.1",
+      "category": "Identity and Access Management",
+      "front": "How is access to facilities managed?",
+      "back": "Via physical controls like security guards, card readers, biometric scanners, CCTV monitoring, and visitor management systems."
+    },
+    {
+      "id": "5-1e",
+      "domain": "5.1",
+      "category": "Identity and Access Management",
+      "front": "How is access to applications controlled?",
+      "back": "Using application-level authentication, role-based access, input validation, and secure coding practices."
+    },
+    {
+      "id": "5-1f",
+      "domain": "5.1",
+      "category": "Identity and Access Management",
+      "front": "How is access to services restricted?",
+      "back": "By limiting service accounts, securing APIs, applying firewall rules, and using identity-based access controls."
+    },
+    {
+      "id": "5-2a",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is the role of groups in identification and authentication?",
+      "back": "Groups simplify access management by assigning permissions collectively, ensuring consistent and scalable privilege assignments."
+    },
+    {
+      "id": "5-2b",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "How are roles used in authentication strategies?",
+      "back": "Roles define access rights based on job functions, enabling easier permission management and principle of least privilege."
+    },
+    {
+      "id": "5-2c",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is AAA in security?",
+      "back": "Authentication, Authorization, and Accounting — a framework for validating users, determining privileges, and tracking activity."
+    },
+    {
+      "id": "5-2d",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is MFA and why is it important?",
+      "back": "Multi-Factor Authentication requires two or more authentication factors (something you know, have, or are) to increase security."
+    },
+    {
+      "id": "5-2e",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is passwordless authentication?",
+      "back": "An authentication method that replaces passwords with alternatives such as biometrics, security keys, or magic links."
+    },
+    {
+      "id": "5-2f",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is session management and why is it important?",
+      "back": "The practice of controlling how user sessions are created, maintained, and terminated to prevent hijacking and unauthorized access."
+    },
+    {
+      "id": "5-2g",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is identity proofing?",
+      "back": "The process of verifying that a claimed identity corresponds to a real person, often via government ID checks or third-party services."
+    },
+    {
+      "id": "5-2h",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is FIM in authentication strategy?",
+      "back": "Federated Identity Management — allows a user's authentication to be trusted across multiple systems and organizations."
+    },
+    {
+      "id": "5-2i",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is credential management?",
+      "back": "The secure creation, storage, rotation, and revocation of user credentials to prevent compromise."
+    },
+    {
+      "id": "5-2j",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is SSO and how does it improve authentication?",
+      "back": "Single Sign-On allows users to authenticate once and gain access to multiple systems without re-entering credentials, reducing password fatigue."
+    },
+    {
+      "id": "5-2k",
+      "domain": "5.2",
+      "category": "Identity and Access Management",
+      "front": "What is Just-In-Time access and why use it?",
+      "back": "A security model where elevated privileges are granted only when needed and for a limited time, reducing the attack surface."
+    },
+    {
+      "id": "5-3a",
+      "domain": "5.3",
+      "category": "Identity and Access Management",
+      "front": "What is an on-premise federated identity?",
+      "back": "Federated authentication managed entirely within an organization's local infrastructure, without relying on external services."
+    },
+    {
+      "id": "5-3b",
+      "domain": "5.3",
+      "category": "Identity and Access Management",
+      "front": "What is cloud-based federated identity?",
+      "back": "Authentication services hosted and managed by a cloud provider, enabling SSO and identity management across cloud apps."
+    },
+    {
+      "id": "5-3c",
+      "domain": "5.3",
+      "category": "Identity and Access Management",
+      "front": "What is hybrid federated identity?",
+      "back": "A mix of on-premise and cloud-based identity systems, allowing flexibility and gradual migration."
+    },
+    {
+      "id": "5-4a",
+      "domain": "5.4",
+      "category": "Identity and Access Management",
+      "front": "What is RBAC and how does it work?",
+      "back": "Role-Based Access Control assigns users to roles based on job functions, with permissions assigned to roles rather than individual users, simplifying administration and ensuring consistent access."
+    },
+    {
+      "id": "5-4b",
+      "domain": "5.4",
+      "category": "Identity and Access Management",
+      "front": "What is rule-based access control?",
+      "back": "An access control model that uses a set of rules, restrictions, or filters applied globally to all subjects, commonly used in firewalls with ACLs."
+    },
+    {
+      "id": "5-4c",
+      "domain": "5.4",
+      "category": "Identity and Access Management",
+      "front": "What is MAC and its key characteristic?",
+      "back": "Mandatory Access Control uses labels on both subjects and objects, with system-enforced access based on matching security labels, supporting hierarchical and compartmentalized environments."
+    },
+    {
+      "id": "5-4d",
+      "domain": "5.4",
+      "category": "Identity and Access Management",
+      "front": "What is DAC and who controls access?",
+      "back": "Discretionary Access Control where the object owner decides access permissions, with every object having an owner who can grant or deny access to other subjects."
+    },
+    {
+      "id": "5-4e",
+      "domain": "5.4",
+      "category": "Identity and Access Management",
+      "front": "What is ABAC and how is it different from rule-based control?",
+      "back": "Attribute-Based Access Control uses rules based on multiple attributes (user, environment, action, resource), providing more flexibility than simple rule-based models through policy-based decisions."
+    },
+    {
+      "id": "5-4f",
+      "domain": "5.4",
+      "category": "Identity and Access Management",
+      "front": "What is risk-based access control?",
+      "back": "An access model that evaluates environmental factors and situations to make dynamic access decisions based on risk assessment, often using machine learning for predictive analysis."
+    },
+    {
+      "id": "5-4g",
+      "domain": "5.4",
+      "category": "Identity and Access Management",
+      "front": "What are PDP and PEP in access policy enforcement?",
+      "back": "Policy Decision Point (PDP) makes access control decisions based on policies; Policy Enforcement Point (PEP) acts as gatekeeper, enforcing PDP decisions."
+    },
+    {
+      "id": "5-5a",
+      "domain": "5.5",
+      "category": "Identity and Access Management",
+      "front": "What should account access reviews include?",
+      "back": "Periodic review of user, system, and service accounts for policy compliance, checking for excessive privileges, unused accounts, and unauthorized privileged group membership."
+    },
+    {
+      "id": "5-5b",
+      "domain": "5.5",
+      "category": "Identity and Access Management",
+      "front": "What is account provisioning and what does it include?",
+      "back": "The process of creating and configuring user accounts with appropriate privileges, including enrollment, hardware issuance, and automated or workflow-based account creation."
+    },
+    {
+      "id": "5-5c",
+      "domain": "5.5",
+      "category": "Identity and Access Management",
+      "front": "What is deprovisioning and why is it critical?",
+      "back": "The process of disabling/deleting accounts when employees leave, including hardware collection, to prevent unauthorized access and potential sabotage from terminated employees."
+    },
+    {
+      "id": "5-5d",
+      "domain": "5.5",
+      "category": "Identity and Access Management",
+      "front": "What is privilege creep and how is it prevented?",
+      "back": "The accumulation of unnecessary privileges over time as roles change; prevented through regular access reviews and role transitions management."
+    },
+    {
+      "id": "5-5e",
+      "domain": "5.5",
+      "category": "Identity and Access Management",
+      "front": "What is privilege escalation and its types?",
+      "back": "Gaining elevated privileges beyond authorization; includes horizontal (similar privileges, different accounts) and vertical (significantly greater privileges) escalation."
+    },
+    {
+      "id": "5-5f",
+      "domain": "5.5",
+      "category": "Identity and Access Management",
+      "front": "What are service accounts and why do they need management?",
+      "back": "Non-human accounts used by applications/services to interact with resources; require careful management to prevent unauthorized access and privilege escalation attacks."
+    },
+    {
+      "id": "5-6a",
+      "domain": "5.6",
+      "category": "Identity and Access Management",
+      "front": "What is SAML and what does it provide?",
+      "back": "Security Assertion Markup Language - an XML-based standard for exchanging authentication and authorization information between federated organizations, enabling SSO for browser access."
+    },
+    {
+      "id": "5-6b",
+      "domain": "5.6",
+      "category": "Identity and Access Management",
+      "front": "What are the three types of SAML assertions?",
+      "back": "Authentication (proof of proper credentials), Authorization (access approval/denial), and Attribute (user information) assertions."
+    },
+    {
+      "id": "5-6c",
+      "domain": "5.6",
+      "category": "Identity and Access Management",
+      "front": "What is the difference between OAuth and OpenID Connect?",
+      "back": "OAuth provides authorization (delegated access), while OpenID Connect adds authentication layer on OAuth 2.0, providing both authentication and authorization using JSON Web Tokens."
+    },
+    {
+      "id": "5-6d",
+      "domain": "5.6",
+      "category": "Identity and Access Management",
+      "front": "What is Kerberos and what port does it use?",
+      "back": "A network authentication protocol using symmetric cryptography and tickets for SSO within organizations, operates on UDP port 88 by default."
+    },
+    {
+      "id": "5-6e",
+      "domain": "5.6",
+      "category": "Identity and Access Management",
+      "front": "What are the key components of Kerberos?",
+      "back": "Key Distribution Center (KDC), Authentication Server (AS), Ticket-Granting Service (TGS), Ticket-Granting Ticket (TGT), and service tickets."
+    },
+    {
+      "id": "5-6f",
+      "domain": "5.6",
+      "category": "Identity and Access Management",
+      "front": "What is RADIUS and how does it differ from TACACS+?",
+      "back": "RADIUS centralizes AAA for remote access using UDP, encrypting only passwords; TACACS+ separates AAA processes, uses TCP port 49, and encrypts all authentication information."
+    },
+    {
+      "id": "5-6g",
+      "domain": "5.6",
+      "category": "Identity and Access Management",
+      "front": "What is Diameter protocol?",
+      "back": "An advanced AAA protocol addressing RADIUS limitations with enhanced security (IPsec/TLS), extensive attributes support, and complex session handling capabilities."
+    },
+    {
+      "id": "5-0a",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What are the three access control principles?",
+      "back": "Need to know (access only to required information), least privilege (minimum necessary permissions), and separation of duties (dividing critical tasks)."
+    },
+    {
+      "id": "5-0b",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What are the three primary authentication factors?",
+      "back": "Something you know (Type 1 - passwords), something you have (Type 2 - tokens), and something you are (Type 3 - biometrics)."
+    },
+    {
+      "id": "5-0c",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What are AAL levels and their significance?",
+      "back": "Authenticator Assurance Levels (NIST 800-63-3b): AAL1 (single/multi-factor, basic), AAL2 (MFA required, replay-resistant), AAL3 (hardware MFA, phishing-resistant)."
+    },
+    {
+      "id": "5-0d",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What is CER in biometrics?",
+      "back": "Crossover Error Rate - the point where False Acceptance Rate equals False Rejection Rate, indicating biometric system accuracy and optimal operation point."
+    },
+    {
+      "id": "5-0e",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What is the difference between CSRF and XSS attacks?",
+      "back": "CSRF tricks authenticated users into submitting forged requests; XSS injects malicious scripts into trusted websites to execute in users' browsers."
+    },
+    {
+      "id": "5-0f",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What is the difference between centralized and decentralized access control?",
+      "back": "Centralized uses single entity for authorization (potential SPOF, easier management); decentralized distributes authorization across multiple entities (harder consistency, more complex)."
+    },
+    {
+      "id": "5-0g",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What are capability tables?",
+      "back": "Lists of privileges assigned to subjects that identify which objects those subjects can access, used in access control systems."
+    },
+    {
+      "id": "5-0h",
+      "domain": "5.0",
+      "category": "Identity and Access Management",
+      "front": "What is split-response attack?",
+      "back": "An attack causing clients to download unintended content from requested web pages and store it in browser cache for later exploitation."
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "domain": "Domain 6: Security Assessment and Testing",
+  "flashcards": [
+    {
+      "id": "6-0a",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What are security assessments and what do they include?",
+      "back": "Comprehensive reviews of system/application security that identify vulnerabilities and make remediation recommendations. Include vulnerability assessments, penetration tests, software testing, audits, and control validation."
+    },
+    {
+      "id": "6-0b",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What are the three types of audit strategies?",
+      "back": "• Internal audits (within organization control)\n• External audits (outside organization control)\n• Third-party audits (outside of enterprise control)"
+    },
+    {
+      "id": "6-0c",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is the functional order of controls?",
+      "back": "Deter, deny, detect, delay, determine, and decide - the sequence of control functions in security defense."
+    },
+    {
+      "id": "6-0d",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is fuzzing and its two main types?",
+      "back": "Testing with modified inputs to test software under unexpected circumstances. Types:\n• Mutation (dumb) fuzzing - modifies known inputs\n• Generational (intelligent) fuzzing - develops inputs based on models"
+    },
+    {
+      "id": "6-0e",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What are SCAP components for vulnerability assessments?",
+      "back": "• CVE - naming system for vulnerabilities\n• CVSS - standardized severity scoring\n• CCE - naming for configuration issues\n• CPE - naming for OS/apps/devices\n• XCCDF - language for security checklists\n• OVAL - language for testing procedures"
+    },
+    {
+      "id": "6-0f",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is a POA&M?",
+      "back": "Plan of Action and Milestones - document identifying tasks to be accomplished with details, resources, milestones, and completion target dates."
+    },
+    {
+      "id": "6-0g",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is SSAE 18?",
+      "back": "Standards for Attestation Engagements document 18 - provides common standard for auditors assessing service organizations, allowing single assessment shared with multiple customers."
+    },
+    {
+      "id": "6-0h",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What are Fagan inspections?",
+      "back": "Most formal code review process with six steps: planning, overview, preparation, inspection, rework, and follow-up."
+    },
+    {
+      "id": "6-0i",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is misuse case testing?",
+      "back": "Testing from hostile actor's perspective, focusing on behaviors counter to proper system function, attempting to exploit known misuse cases."
+    },
+    {
+      "id": "6-0j",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is RUM?",
+      "back": "Real User Monitoring - passive technique recording user interactions with apps/systems to ensure performance and proper behavior."
+    },
+    {
+      "id": "6-0k",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is vulnerability management lifecycle?",
+      "back": "Cyclical process of identifying, classifying, prioritizing, and mitigating vulnerabilities through asset inventory, value identification, vulnerability identification, and ongoing review."
+    },
+    {
+      "id": "6-0l",
+      "domain": "6.0",
+      "category": "Security Assessment and Testing",
+      "front": "What is Rules of Engagement (RoE)?",
+      "back": "Set of rules/constraints establishing limits of participant activity in ethical penetration testing, defining scope and liability limits for testers and organizations."
+    },
+    {
+      "id": "6-1a",
+      "domain": "6.1",
+      "category": "Security Assessment and Testing",
+      "front": "What are internal audits and their characteristics?",
+      "back": "Audits performed by organization's internal staff for internal use, designed to evaluate controls and find improvements. Aligned to business operations with less conflict than external audits but potential for bias."
+    },
+    {
+      "id": "6-1b",
+      "domain": "6.1",
+      "category": "Security Assessment and Testing",
+      "front": "What are external audits and their advantages?",
+      "back": "Audits by outside firms with high external validity due to no conflict of interest. Generally acceptable to investors and governing bodies, complementing internal strategy."
+    },
+    {
+      "id": "6-1c",
+      "domain": "6.1",
+      "category": "Security Assessment and Testing",
+      "front": "What are SOC audit types and their focus?",
+      "back": "• SOC 1 - financial reporting controls\n• SOC 2 - security and privacy controls (5 trust principles)\n• SOC 3 - security and privacy for public disclosure"
+    },
+    {
+      "id": "6-1d",
+      "domain": "6.1",
+      "category": "Security Assessment and Testing",
+      "front": "What is the difference between Type I and Type II SOC reports?",
+      "back": "• Type I - auditor's opinion on control design at a point in time (documentation review)\n• Type II - includes operating effectiveness over 6+ months (traditional audit with verification)"
+    },
+    {
+      "id": "6-1e",
+      "domain": "6.1",
+      "category": "Security Assessment and Testing",
+      "front": "What are the assessment location types?",
+      "back": "• On-premise - in-house systems and facilities\n• Cloud - data/apps in service provider environment\n• Hybrid - connectivity between on-premise and cloud"
+    },
+    {
+      "id": "6-2a",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What are the steps in a vulnerability assessment?",
+      "back": "1. Reconnaissance (passive info gathering)\n2. Enumeration (active discovery)\n3. Vulnerability Analysis (identify potential vulnerabilities)\n4. Execution (pen testing only)\n5. Document Findings (report severity)"
+    },
+    {
+      "id": "6-2b",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What are the four main categories of vulnerability scans?",
+      "back": "• Network discovery scans\n• Network vulnerability scans\n• Web application vulnerability scans\n• Database vulnerability scans"
+    },
+    {
+      "id": "6-2c",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What is an authenticated scan?",
+      "back": "Credentialed security scan using valid credentials to simulate authenticated user actions, accessing deeper system layers for more accurate vulnerability assessment."
+    },
+    {
+      "id": "6-2d",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What are the types of penetration tests by knowledge level?",
+      "back": "• White-box (known environment) - detailed system information provided\n• Gray-box (partially known) - balances advantages of both\n• Black-box (unknown environment) - no prior information given"
+    },
+    {
+      "id": "6-2e",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What are red, blue, and purple teams?",
+      "back": "• Red team - offensive security (ethical hacking, pen testing)\n• Blue team - defensive security (monitoring, incident response)\n• Purple team - collaboration between red and blue teams"
+    },
+    {
+      "id": "6-2f",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What are SIEM capabilities?",
+      "back": "Aggregation, normalization, correlation, secure storage, analysis, and reporting of log data from multiple sources."
+    },
+    {
+      "id": "6-2g",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What is synthetic monitoring?",
+      "back": "Uses emulated or recorded transactions with known expected results to monitor for performance changes in response time, functionality, or other metrics."
+    },
+    {
+      "id": "6-2h",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What is the difference between SAST and DAST?",
+      "back": "• SAST (Static) - evaluates security without running code, analyzing source or compiled application\n• DAST (Dynamic) - evaluates security in runtime environment"
+    },
+    {
+      "id": "6-2i",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What are the five common test coverage criteria?",
+      "back": "• Branch coverage - all IF statements tested\n• Condition coverage - all logical tests executed\n• Functional coverage - all functions called\n• Loop coverage - loops tested multiple/once/not at all\n• Statement coverage - every line executed"
+    },
+    {
+      "id": "6-2j",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What types of interfaces should be tested?",
+      "back": "• APIs - standardized code module interactions\n• User interfaces - GUIs and command-line\n• Physical interfaces - machinery and logic controllers"
+    },
+    {
+      "id": "6-2k",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What is Breach and Attack Simulation (BAS)?",
+      "back": "Automated platforms that test security controls by injecting threat indicators to trigger detection/prevention controls, combining red and blue team techniques."
+    },
+    {
+      "id": "6-2l",
+      "domain": "6.2",
+      "category": "Security Assessment and Testing",
+      "front": "What are the NIST penetration testing phases?",
+      "back": "1. Planning - scope and rules of engagement\n2. Information gathering and discovery\n3. Attack - exploit attempts\n4. Reporting - results and recommendations"
+    },
+    {
+      "id": "6-3a",
+      "domain": "6.3",
+      "category": "Security Assessment and Testing",
+      "front": "What are preferred attacker techniques for privileged access?",
+      "back": "• Compromising existing privileged accounts (mitigated by strong auth/MFA)\n• Privilege escalation of regular accounts\n• Creation of new privileged accounts"
+    },
+    {
+      "id": "6-3b",
+      "domain": "6.3",
+      "category": "Security Assessment and Testing",
+      "front": "What is the Plan-Do-Check-Act loop in ISO 9000?",
+      "back": "• Plan - ISMS foundation and goals\n• Do - security operations\n• Check - security assessment and testing\n• Act - management review"
+    },
+    {
+      "id": "6-3c",
+      "domain": "6.3",
+      "category": "Security Assessment and Testing",
+      "front": "What are Key Performance Indicators (KPIs)?",
+      "back": "Backward-looking measures showing ISMS performance against goals, including open vulnerabilities, resolution time, compromised accounts, and repeat findings."
+    },
+    {
+      "id": "6-3d",
+      "domain": "6.3",
+      "category": "Security Assessment and Testing",
+      "front": "What are Key Risk Indicators (KRIs)?",
+      "back": "Forward-looking indicators showing exposure to operational risk, monitoring potential future shifts in risk conditions or emerging risks."
+    },
+    {
+      "id": "6-3e",
+      "domain": "6.3",
+      "category": "Security Assessment and Testing",
+      "front": "What should backup verification include?",
+      "back": "Reviewing logs, inspecting hash values, and requesting actual system/file restores to verify process effectiveness and data protection needs."
+    },
+    {
+      "id": "6-3f",
+      "domain": "6.3",
+      "category": "Security Assessment and Testing",
+      "front": "What is the difference between Business Continuity and Disaster Recovery?",
+      "back": "• BC - holistic processes ensuring vital business processes remain unaffected or quickly restored\n• DR - subset of BC focusing on restoring information systems after disaster"
+    },
+    {
+      "id": "6-3g",
+      "domain": "6.3",
+      "category": "Security Assessment and Testing",
+      "front": "What security awareness metric is commonly used?",
+      "back": "Phishing simulations to evaluate the effectiveness of security awareness programs and employee susceptibility to social engineering."
+    },
+    {
+      "id": "6-4a",
+      "domain": "6.4",
+      "category": "Security Assessment and Testing",
+      "front": "What are the three steps in analyzing test output?",
+      "back": "1. Review and understand the data\n2. Determine business impact (\"so what?\")\n3. Determine what is actionable"
+    },
+    {
+      "id": "6-4b",
+      "domain": "6.4",
+      "category": "Security Assessment and Testing",
+      "front": "What are compensatory controls?",
+      "back": "Measures addressing weaknesses of existing controls or compensating for inability to meet security requirements due to constraints (e.g., micro-segmentation for unpatchable devices)."
+    },
+    {
+      "id": "6-4c",
+      "domain": "6.4",
+      "category": "Security Assessment and Testing",
+      "front": "What is ethical disclosure?",
+      "back": "Security professionals' responsibility to privately report discovered vulnerabilities to vendors with reasonable time to patch before public disclosure if uncorrected."
+    },
+    {
+      "id": "6-5a",
+      "domain": "6.5",
+      "category": "Security Assessment and Testing",
+      "front": "What are advantages of internal security audits?",
+      "back": "• Understanding of environment reduces time\n• Ability to delve into all system parts\n• Agility in adapting to changing needs\n• Quick rescheduling of failed components"
+    },
+    {
+      "id": "6-5b",
+      "domain": "6.5",
+      "category": "Security Assessment and Testing",
+      "front": "What are disadvantages of internal security audits?",
+      "back": "• Limited exposure to new methodologies\n• Potential conflicts of interest\n• Possible agenda-driven findings\n• Internal politics influence"
+    },
+    {
+      "id": "6-5c",
+      "domain": "6.5",
+      "category": "Security Assessment and Testing",
+      "front": "What are advantages of third-party audits?",
+      "back": "• Breadth of experience across many systems/organizations\n• Not affected by internal dynamics or politics\n• High credibility for compliance demonstration"
+    },
+    {
+      "id": "6-5d",
+      "domain": "6.5",
+      "category": "Security Assessment and Testing",
+      "front": "What are disadvantages of third-party audits?",
+      "back": "• Higher cost than internal teams\n• Less frequent audits due to cost\n• Still requires internal resources to assist/guide auditors"
+    },
+    {
+      "id": "6-5e",
+      "domain": "6.5",
+      "category": "Security Assessment and Testing",
+      "front": "What is an external audit?",
+      "back": "Audit conducted by or on behalf of a business partner, scoped to include only contractual obligations of an organization."
+    }
+  ]
+}

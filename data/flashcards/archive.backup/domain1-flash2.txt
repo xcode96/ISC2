@@ -1,0 +1,159 @@
+Front:
+Domain/Subdomain: 1.4.4
+What is the Wassenaar Arrangement?
+
+Back:
+It is a multinational agreement that establishes a voluntary export control regime.
+
+Front:
+Domain/Subdomain: 1.4.5
+What are the consumer rights under the California Consumer Privacy Act (CCPA)?
+
+Back:
+California residents have the right to:
+
+(L)imit use and disclosure of personal info
+
+(O)pt-out of sale or sharing
+
+(C)orrect inaccurate info
+
+(K)now what personal info is collected
+
+(E)qual treatment / nondiscrimination
+
+(D)elete info held by businesses
+
+Front:
+Domain/Subdomain: 1.4.5
+What is the GDPR and what is its key breach notification requirement?
+
+Back:
+The General Data Protection Regulation (GDPR) is an EU law that harmonizes data privacy laws across the EU. It applies to any organization processing the personal data of EU residents. A data breach must be reported to the supervisory authority within 72 hours of its discovery.
+
+Front:
+Domain/Subdomain: 1.4.5
+What are the key aspects of China's Personal Information Protection Law (PIPL)?
+
+Back:
+Key aspects include requiring explicit consent for data processing, data minimization, providing data subject rights (access, correction, deletion), and imposing restrictions on transferring personal data outside of China.
+
+Front:
+Domain/Subdomain: 1.4.5
+What are the eight conditions for lawful data processing under South Africa's Protection of Personal Information Act (POPIA)?
+
+Back:
+
+Accountability
+
+Processing limitation (minimality and consent)
+
+Purpose specification
+
+Information quality
+
+Openness
+
+Security safeguards
+
+Data subject participation
+
+Limitation on further processing
+
+Front:
+Domain/Subdomain: 1.4.6
+What is the difference between Criminal, Civil, and Administrative law?
+
+Back:
+
+Criminal Law: Protects society from acts that violate basic principles; cases are prosecuted by the government.
+
+Civil Law: Provides a framework for business transactions between parties; cases are brought by one party against another.
+
+Administrative Law: Used by government agencies to carry out their day-to-day business.
+
+Front:
+Domain/Subdomain: 1.4.6
+What does the Sarbanes-Oxley (SOX) Act govern and require?
+
+Back:
+The SOX Act governs publicly traded corporations and requires top management to individually certify the accuracy of financial information. Violations can result in criminal penalties.
+
+Front:
+Domain/Subdomain: 1.4.6
+Who does the Gramm-Leach-Bliley Act (GLBA) affect and what does it require?
+
+Back:
+GLBA affects banks, insurance companies, and credit providers. It requires these financial institutions to provide written privacy policies to all their customers and places limitations on information sharing.
+
+Front:
+Domain/Subdomain: 1.4.6
+What does the Digital Millennium Copyright Act (DMCA) prohibit?
+
+Back:
+The DMCA prohibits the circumvention of copyright protection mechanisms placed in digital media. It also limits the liability of internet service providers for their users' activities.
+
+Domain 1.5: Investigation Types
+Front:
+Domain/Subdomain: 1.5
+What are the different types of investigations?
+
+Back:
+
+Administrative: Internal investigation of policy violations or operational issues.
+
+Criminal: Works with law enforcement to convict a perpetrator; requires proof "beyond a reasonable doubt".
+
+Civil: A lawsuit between two parties, usually for monetary damages; requires a "preponderance of evidence".
+
+Regulatory: Conducted by a regulatory agency against a suspected infraction.
+
+Industry Standards: An investigation to determine if an organization is adhering to a specific industry standard (e.g., PCI DSS).
+
+Domain 1.6: Security Documentation
+Front:
+Domain/Subdomain: 1.6
+Describe the hierarchy of security documentation.
+
+Back:
+
+Policy: High-level, mandatory documents created by senior management that define strategic goals.
+
+Standard: Defines compulsory requirements for the uniform use of technology and security controls.
+
+Baseline: Defines a minimum level of security that every system must meet.
+
+Guideline: Recommended, flexible advice on how standards and baselines should be implemented.
+
+Procedure (SOP): Detailed, step-by-step instructions for implementing a specific security mechanism or control.
+
+Domain 1.7: Business Continuity
+Front:
+Domain/Subdomain: 1.7.1
+What are RTO, RPO, and MTD?
+
+Back:
+
+Recovery Time Objective (RTO): The maximum tolerable time needed to recover systems to a defined service level after a disruption.
+
+Recovery Point Objective (RPO): The maximum tolerable amount of data loss, measured in time (e.g., 4 hours of data loss).
+
+Maximum Tolerable Downtime (MTD): The total time a critical business function can be unavailable before the organization ceases to be viable.
+
+Front:
+Domain/Subdomain: 1.7.1
+What is the difference between Business Continuity Planning (BCP) and Disaster Recovery (DR)?
+
+Back:
+
+BCP is strategic and focuses on maintaining business processes and operations during a disruption.
+
+DR is more tactical and focused on the technical activities required to recover IT systems and data after a disaster.
+
+Front:
+Domain/Subdomain: 1.7.2
+What is the top priority in any Business Continuity or Disaster Recovery plan?
+
+Back:
+People's safety. The first step is always to get people out of harm's way before addressing any technical recovery issues.
+

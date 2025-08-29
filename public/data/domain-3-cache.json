@@ -1,0 +1,3729 @@
+{
+  "domain_id": 3,
+  "domain_name": "Security Architecture and Engineering",
+  "domain_weight": 13,
+  "total_questions": 177,
+  "generated_at": "2025-08-24T17:36:32.405Z",
+  "questions": [
+    {
+      "id": 2,
+      "question_text": "In the context of cybersecurity, what does the term \"phishing\" refer to?",
+      "options": [
+        "A technique for load balancing in cloud environments",
+        "Unauthorized access to a system through a software vulnerability",
+        "Deceptive attempts to trick individuals into revealing sensitive information",
+        "The process of securing network communication through encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Deceptive attempts to trick individuals into revealing sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 7,
+      "question_text": "Which of the following is a characteristic of symmetric encryption?",
+      "options": [
+        "It uses different keys for encryption and decryption",
+        "It is primarily used for creating digital signatures",
+        "It uses the same key for both encryption and decryption",
+        "It is slower than asymmetric encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It uses the same key for both encryption and decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "asymmetric",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 10,
+      "question_text": "Which of the following best defines a vulnerability in cybersecurity?",
+      "options": [
+        "An action that reduces the effectiveness of security measures",
+        "A weakness in a system that can be exploited to cause harm",
+        "A type of malware designed to replicate itself and spread",
+        "An unauthorized attempt to bypass security controls"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A weakness in a system that can be exploited to cause harm",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 12,
+      "question_text": "Which of the following is an example of a physical security control?",
+      "options": [
+        "Firewalls",
+        "Intrusion detection systems",
+        "Biometric authentication",
+        "Encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Biometric authentication",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "ca",
+        "physical security",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 16,
+      "question_text": "Which of the following best describes a zero-day exploit?",
+      "options": [
+        "An attack that targets software vulnerabilities that are unknown to the vendor",
+        "A coordinated attack by multiple compromised systems on a single target",
+        "An exploit that is available on the day a software is released",
+        "A vulnerability that has been patched by the vendor but not applied by users"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack that targets software vulnerabilities that are unknown to the vendor",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "des",
+        "vulnerability",
+        "exploit",
+        "zero-day"
+      ]
+    },
+    {
+      "id": 17,
+      "question_text": "What is the main purpose of a digital certificate?",
+      "options": [
+        "To serve as a form of digital identification for websites",
+        "To encrypt email messages",
+        "To provide a secure means of password storage",
+        "To authenticate users to Wi-Fi networks"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To serve as a form of digital identification for websites",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "digital certificate",
+        "ca"
+      ]
+    },
+    {
+      "id": 20,
+      "question_text": "Which of the following best describes the principle of separation of duties in information ",
+      "options": [
+        "Assigning security responsibilities to external consultants",
+        "Dividing tasks and privileges among multiple users or processes to reduce the risk of ",
+        "Outsourcing security tasks to specialized firms",
+        "Separating network security management from application security management"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Dividing tasks and privileges among multiple users or processes to reduce the risk  of fraudulent activity",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 24,
+      "question_text": "Which of the following best describes the concept of \"defense in depth\"?",
+      "options": [
+        "A strategy that focuses solely on perimeter security",
+        "The use of multiple security measures to protect the information technology assets of an ",
+        "A military strategy applied to cybersecurity",
+        "A focus on deploying the most advanced security technologies available"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The use of multiple security measures to protect the information technology assets  of an organization",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "des"
+      ]
+    },
+    {
+      "id": 25,
+      "question_text": "What is the primary function of a security policy in an organization?",
+      "options": [
+        "To define the technical specifications of security tools",
+        "To outline the acceptable use of IT resources and the responsibilities of users and IT staff",
+        "To list all software approved for use by the IT department",
+        "To provide detailed instructions for configuring network devices"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To outline the acceptable use of IT resources and the responsibilities of users and  IT staff",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 26,
+      "question_text": "Which of the following is a characteristic of a public key infrastructure (PKI)?",
+      "options": [
+        "It uses symmetric encryption exclusively",
+        "It provides a framework for creating a secure method for exchanging information",
+        "It relies on a single key for both encryption and decryption",
+        "It is primarily used for securing email communications only"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It provides a framework for creating a secure method for exchanging information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "pki",
+        "public key infrastructure",
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 27,
+      "question_text": "What is the main purpose of a vulnerability assessment?",
+      "options": [
+        "To physically secure IT assets from theft or damage",
+        "To identify, quantify, and prioritize vulnerabilities in a system",
+        "To assess the financial impact of potential security breaches",
+        "To evaluate the effectiveness of security training programs"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, quantify, and prioritize vulnerabilities in a system",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "vulnerability assessment",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 30,
+      "question_text": "Which of the following is a benefit of using cloud-based security solutions?",
+      "options": [
+        "They eliminate the need for an internet connection",
+        "They offer unlimited physical access to security hardware",
+        "They can provide scalability and flexibility in security resource allocation",
+        "They guarantee 100% protection against all cyber threats"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: They can provide scalability and flexibility in security resource allocation",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 33,
+      "question_text": "In cybersecurity, what is meant by the term \"social engineering\"?",
+      "options": [
+        "The process of designing secure social networks",
+        "Manipulating individuals into divulging confidential information",
+        "The engineering of social media algorithms for security purposes",
+        "Developing secure communication channels for social apps"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Manipulating individuals into divulging confidential information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 45,
+      "question_text": "Which of the following is a benefit of using virtualization in cybersecurity?",
+      "options": [
+        "It simplifies the user authentication process",
+        "It reduces the need for physical hardware, lowering risk exposure",
+        "It eliminates the need for encryption",
+        "It increases the speed of internet connections"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It reduces the need for physical hardware, lowering risk exposure",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "ca"
+      ]
+    },
+    {
+      "id": 53,
+      "question_text": "Which of the following best describes a Public Key Infrastructure (PKI)?",
+      "options": [
+        "A physical infrastructure for public internet access",
+        "A framework for managing public and private keys to enable secure communication",
+        "An infrastructure for managing public relations",
+        "A key management system for public lockers"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A framework for managing public and private keys to enable secure  communication",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "pki",
+        "public key infrastructure",
+        "ca",
+        "des",
+        "key management"
+      ]
+    },
+    {
+      "id": 67,
+      "question_text": "Which of the following is a primary concern when implementing cloud computing in an ",
+      "options": [
+        "Decreased scalability of resources",
+        "Reduced control over data security",
+        "Increased physical security of data centers",
+        "Enhanced performance of legacy applications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Reduced control over data security",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "physical security",
+        "data center"
+      ]
+    },
+    {
+      "id": 68,
+      "question_text": "What does the term \"security posture\" refer to?",
+      "options": [
+        "The physical positioning of security guards within a facility",
+        "The overall security status of an organization's software and hardware assets",
+        "The alignment of security policies with regulatory requirements",
+        "The stance an organization takes on political issues related to cybersecurity"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The overall security status of an organization's software and hardware assets",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 77,
+      "question_text": "What is the main advantage of using asymmetric encryption over symmetric encryption?",
+      "options": [
+        "It is faster and requires less computational power",
+        "It eliminates the need for secure key exchange",
+        "It uses the same key for encryption and decryption",
+        "It is more suitable for encrypting large volumes of data"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It eliminates the need for secure key exchange",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "asymmetric",
+        "key exchange"
+      ]
+    },
+    {
+      "id": 84,
+      "question_text": "What is the primary purpose of \"security by design\"?",
+      "options": [
+        "To incorporate security measures at the end of the development process",
+        "To ensure that security is an integral part of the IT infrastructure from the outset",
+        "To design aesthetically pleasing security control interfaces",
+        "To create security policies that are flexible and easily changed"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that security is an integral part of the IT infrastructure from the outset",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "aes",
+        "des"
+      ]
+    },
+    {
+      "id": 85,
+      "question_text": "Which of the following best describes a \"mantrap\" in physical security?",
+      "options": [
+        "A software tool used to detect intruders in a network",
+        "A physical security device designed to catch intruders literally",
+        "A small room with two sets of interlocking doors, used to control access to secure areas",
+        "A trap set in software code to detect hackers"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: A small room with two sets of interlocking doors, used to control access to secure  areas",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "physical security",
+        "mantrap"
+      ]
+    },
+    {
+      "id": 100,
+      "question_text": "In cybersecurity, what is the primary function of a rootkit?",
+      "options": [
+        "To manage digital certificates and encryption keys",
+        "To provide a secure communication channel for remote administration",
+        "To enable unauthorized access to or control over a computer system without being detected",
+        "To scan and remove malware from infected systems"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enable unauthorized access to or control over a computer system without being  detected",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "digital certificate",
+        "ca"
+      ]
+    },
+    {
+      "id": 102,
+      "question_text": "In the context of cybersecurity, what does the term “phishing” refer to?",
+      "options": [
+        "A technique for load balancing in cloud environments",
+        "Unauthorized access to a system through a software vulnerability",
+        "Deceptive attempts to trick individuals into revealing sensitive information",
+        "The process of securing network communication through encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Deceptive attempts to trick individuals into revealing sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 107,
+      "question_text": "Which of the following is a characteristic of symmetric encryption?",
+      "options": [
+        "It uses two different keys for encryption and decryption",
+        "It is generally slower than asymmetric encryption",
+        "It uses the same key for both encryption and decryption",
+        "It is primarily used for digital signatures"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It uses the same key for both encryption and decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "asymmetric",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 110,
+      "question_text": "Which of the following best defines social engineering in the context of information ",
+      "options": [
+        "The process of designing a social media policy for an organization",
+        "The manipulation of people into performing actions or divulging confidential information",
+        "The engineering of social networks to enhance communication within an organization",
+        "The use of engineering techniques to solve social problems"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The manipulation of people into performing actions or divulging confidential  information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 56,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 114,
+      "question_text": "What does the term “vulnerability” refer to in cybersecurity?",
+      "options": [
+        "A tool used by attackers to gain unauthorized access to systems",
+        "A weakness in a system that can be exploited by threats to gain unauthorized access",
+        "A type of malware that damages systems",
+        "The state of being protected against unauthorized access to data"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A weakness in a system that can be exploited by threats to gain unauthorized  access",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 115,
+      "question_text": "Which of the following best describes the concept of a security policy?",
+      "options": [
+        "A detailed plan of action to respond to a cybersecurity incident",
+        "A set of rules and practices that specify or regulate how a system or organization provides ",
+        "An agreement signed by employees to not disclose sensitive information",
+        "A document that outlines the performance metrics for the IT department"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A set of rules and practices that specify or regulate how a system or organization  provides security services to protect sensitive and critical system resources",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 120,
+      "question_text": "Which of the following is an example of a physical security control?",
+      "options": [
+        "Passwords",
+        "Biometric authentication",
+        "Firewalls",
+        "Encryption"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Biometric authentication",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "physical security"
+      ]
+    },
+    {
+      "id": 126,
+      "question_text": "What is the primary function of a public key infrastructure (PKI)?",
+      "options": [
+        "To provide a framework for creating a secure method for exchanging information using a ",
+        "To distribute malware to public networks",
+        "To provide public access to a company’s internal network",
+        "To monitor public forums and social media for mentions of the company"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To provide a framework for creating a secure method for exchanging information  using a public and a private cryptographic key pair",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "pki",
+        "public key infrastructure"
+      ]
+    },
+    {
+      "id": 131,
+      "question_text": "Which of the following encryption algorithms is considered asymmetric?",
+      "options": [
+        "AES",
+        "3DES",
+        "RSA",
+        "Blowfish"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: RSA",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "aes",
+        "rsa",
+        "des",
+        "3des"
+      ]
+    },
+    {
+      "id": 142,
+      "question_text": "Which of the following is a common indicator of a phishing attempt?",
+      "options": [
+        "An email from a known colleague asking for a meeting",
+        "A message with urgent language requesting sensitive information",
+        "A newsletter subscription confirmation",
+        "An automated response to an email you sent"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A message with urgent language requesting sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 30,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 144,
+      "question_text": "Which of the following best describes the concept of “defense in depth”?",
+      "options": [
+        "A strategy that focuses solely on perimeter security",
+        "The use of multiple security layers to protect IT assets",
+        "A military strategy applied to cybersecurity",
+        "The deployment of a single, comprehensive security solution"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The use of multiple security layers to protect IT assets",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "des"
+      ]
+    },
+    {
+      "id": 160,
+      "question_text": "Which of the following best describes the term “security posture”?",
+      "options": [
+        "The physical stance a security guard must maintain",
+        "The overall security of an organization’s software applications",
+        "The total budget allocated to IT security measures",
+        "The organization’s overall security strategy and defenses"
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "The correct answer is: The organization’s overall security strategy and defense",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 164,
+      "question_text": "What is the main purpose of employing security controls based on the principle of defense ",
+      "options": [
+        "To ensure that each security layer is identical for simplicity",
+        "To provide multiple layers of security to protect against a variety of attacks",
+        "To focus all security efforts on the outer perimeter of the network",
+        "To reduce the budget required for information security"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide multiple layers of security to protect against a variety of attacks",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 168,
+      "question_text": "Which of the following is a benefit of implementing a Zero Trust security model?",
+      "options": [
+        "It assumes trust among all network devices, reducing the need for security controls",
+        "It eliminates the need for physical security measures",
+        "It minimizes the risk of internal threats by verifying everything trying to connect to the ",
+        "It allows for unrestricted access to all network resources, simplifying user experience"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It minimizes the risk of internal threats by verifying everything trying to connect  to the system before granting access",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "physical security"
+      ]
+    },
+    {
+      "id": 173,
+      "question_text": "In the context of cybersecurity, what is the significance of an “air gap” in network security?",
+      "options": [
+        "It refers to a wireless network that is not connected to the internet",
+        "It is a security measure that involves physically isolating a computer or network from other ",
+        "It describes the space between keys on a keyboard to prevent keylogging",
+        "It is a method for encrypting email communications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It is a security measure that involves physically isolating a computer or network  from other networks",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 181,
+      "question_text": "In cybersecurity, what is the significance of a “false positive” in the context of intrusion ",
+      "options": [
+        "It indicates a successful detection of an actual threat",
+        "It refers to an alert that incorrectly indicates the presence of a threat",
+        "It describes a situation where an IDS fails to detect a real threat",
+        "It signifies that the IDS is fully optimized and error-free"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It refers to an alert that incorrectly indicates the presence of a threat",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 182,
+      "question_text": "What is the primary function of a Certificate Authority (CA) in Public Key Infrastructure ",
+      "options": [
+        "To distribute malware to users under the guise of legitimate software",
+        "To issue, revoke, and manage digital certificates that verify the identity of entities",
+        "To encrypt all data transmitted over the internet automatically",
+        "To provide a directory service for retrieving public keys"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To issue, revoke, and manage digital certificates that verify the identity of entities",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "public key infrastructure",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 186,
+      "question_text": "Which of the following best describes the term “social engineering” in the context of ",
+      "options": [
+        "The process of designing and managing social media platforms",
+        "The use of technical skills to overcome cybersecurity measures",
+        "The manipulation of individuals into divulging confidential or personal information that ",
+        "The development of social policies to govern technology use in the workplace"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The manipulation of individuals into divulging confidential or personal  information that may be used for fraudulent purposes",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 194,
+      "question_text": "In the context of cybersecurity, what is the primary function of a Security Assertion Markup ",
+      "options": [
+        "To facilitate data encryption and decryption",
+        "To provide a method for network segmentation",
+        "To enable single sign-on (SSO) for web applications",
+        "To detect and prevent intrusion attempts"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enable single sign-on (SSO) for web applications",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "ca"
+      ]
+    },
+    {
+      "id": 195,
+      "question_text": "Which of the following best describes the purpose of a Business Continuity Plan (BCP) ",
+      "options": [
+        "To evaluate the effectiveness of marketing strategies",
+        "To ensure that IT systems are secure from cyber threats",
+        "To validate the effectiveness and efficiency of the plan in a simulated environment",
+        "To assess the physical security of an organization’s premises"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To validate the effectiveness and efficiency of the plan in a simulated environment",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "physical security"
+      ]
+    },
+    {
+      "id": 196,
+      "question_text": "What is the primary goal of a Clean Desk Policy in information security?",
+      "options": [
+        "To ensure that all employees have a tidy workspace",
+        "To minimize the risk of unauthorized access to sensitive information through physical ",
+        "To reduce the amount of paper used in the office",
+        "To ensure that all computers are turned off at the end of the day"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To minimize the risk of unauthorized access to sensitive information through  physical documents left unsecured",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 200,
+      "question_text": "In the context of digital certificates, what is the role of a Certificate Revocation List (CRL)?",
+      "options": [
+        "It lists all the certificates that a Certificate Authority (CA) has issued",
+        "It is a database that stores usernames and passwords for certificate authentication",
+        "It contains a list of digital certificates that have been revoked before their scheduled ",
+        "It is used to increase the encryption level of a digital certificate"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It contains a list of digital certificates that have been revoked before their  scheduled expiration dat",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 202,
+      "question_text": "In the context of cybersecurity, what does the term “phishing” refer to?",
+      "options": [
+        "A technique for load balancing in cloud environments",
+        "Unauthorized access to a system through a software vulnerability",
+        "Deceptive attempts to trick individuals into revealing sensitive information",
+        "The process of securing network communication through encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Deceptive attempts to trick individuals into revealing sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 207,
+      "question_text": "Which of the following is a characteristic of symmetric encryption?",
+      "options": [
+        "It uses different keys for encryption and decryption",
+        "It is primarily used for creating digital signatures",
+        "It uses the same key for both encryption and decryption",
+        "It is more computationally intensive than asymmetric encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It uses the same key for both encryption and decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "asymmetric",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 209,
+      "question_text": "What is a digital certificate used for in cybersecurity?",
+      "options": [
+        "To ensure the physical security of network devices",
+        "To provide a backup of data in case of system failure",
+        "To verify the identity of entities and encrypt internet communication",
+        "To log user activity on a network"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To verify the identity of entities and encrypt internet communication",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "digital certificate",
+        "ca",
+        "physical security"
+      ]
+    },
+    {
+      "id": 210,
+      "question_text": "Which of the following best defines a vulnerability in the context of information security?",
+      "options": [
+        "An action that violates a security policy",
+        "A weakness in a system that can be exploited to cause harm",
+        "A type of malware",
+        "An unauthorized attempt to access a system"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A weakness in a system that can be exploited to cause harm",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 212,
+      "question_text": "Which of the following is an example of a physical security control?",
+      "options": [
+        "Antivirus software",
+        "Firewalls",
+        "Biometric authentication",
+        "Encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Biometric authentication",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "ca",
+        "physical security"
+      ]
+    },
+    {
+      "id": 216,
+      "question_text": "Which of the following best describes the concept of “security through obscurity”?",
+      "options": [
+        "The practice of keeping the details of security mechanisms secret to enhance security",
+        "The use of multiple layers of security controls (defense in depth)",
+        "The implementation of strong encryption algorithms",
+        "The regular update and patching of software"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The practice of keeping the details of security mechanisms secret to enhance  security",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "encryption",
+        "des"
+      ]
+    },
+    {
+      "id": 217,
+      "question_text": "What is the main purpose of a penetration test?",
+      "options": [
+        "To evaluate the effectiveness of security policies",
+        "To physically secure an organization’s premises",
+        "To simulate an attack on a system or network to identify vulnerabilities",
+        "To monitor network traffic for malicious activity"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To simulate an attack on a system or network to identify vulnerabilities",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 218,
+      "question_text": "Which of the following is a characteristic of a public key infrastructure (PKI)?",
+      "options": [
+        "It uses symmetric key cryptography exclusively",
+        "It provides a framework for creating a secure method for exchanging information",
+        "It is used only for generating digital signatures",
+        "It encrypts data at rest only"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It provides a framework for creating a secure method for exchanging information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "cryptography",
+        "symmetric",
+        "pki",
+        "public key infrastructure",
+        "digital signature",
+        "des"
+      ]
+    },
+    {
+      "id": 226,
+      "question_text": "Which of the following best describes a Zero Trust security model?",
+      "options": [
+        "A model based on the assumption that threats exist both outside and inside the network",
+        "A model that trusts all users within the network by default",
+        "A model that requires no authentication for access to resources",
+        "A model that only applies encryption to external communications"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: A model based on the assumption that threats exist both outside and inside the  network",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 235,
+      "question_text": "Which of the following best describes the principle of “defense in depth”?",
+      "options": [
+        "Using multiple security measures to protect the IT infrastructure",
+        "Implementing physical security controls at the perimeter only",
+        "Focusing solely on electronic security measures",
+        "Relying on a single, strong layer of security"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Using multiple security measures to protect the IT infrastructure",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "ca",
+        "des",
+        "physical security"
+      ]
+    },
+    {
+      "id": 245,
+      "question_text": "Which of the following is a common indicator of a phishing attempt?",
+      "options": [
+        "An email from a known colleague asking for a meeting",
+        "A message with urgent language requesting immediate action",
+        "Regular updates from a subscribed newsletter",
+        "Notifications from social media platforms about new followers"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A message with urgent language requesting immediate action",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 21,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 246,
+      "question_text": "What is the primary goal of the Health Insurance Portability and Accountability Act ",
+      "options": [
+        "To ensure that individuals maintain their health insurance coverage",
+        "To protect and secure patient health information",
+        "To provide universal health care to all citizens",
+        "To regulate the cost of healthcare services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To protect and secure patient health information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "ca",
+        "rsa"
+      ]
+    },
+    {
+      "id": 251,
+      "question_text": "Which of the following best describes the purpose of a firewall?",
+      "options": [
+        "To serve as a physical barrier around a server",
+        "To monitor and control incoming and outgoing network traffic based on predetermined ",
+        "To detect and remove malware from a computer system",
+        "To manage the allocation of IP addresses on a network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and control incoming and outgoing network traffic based on  predetermined security rules",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 260,
+      "question_text": "What is the primary function of a digital signature?",
+      "options": [
+        "To verify the identity of the sender and ensure the integrity of the message",
+        "To encrypt the entire message for confidentiality",
+        "To increase the speed of digital transactions",
+        "To serve as a physical signature in digital form"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To verify the identity of the sender and ensure the integrity of the message",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 261,
+      "question_text": "Which of the following best describes the role of a Chief Information Security Officer ",
+      "options": [
+        "To manage the IT infrastructure of an organization",
+        "To oversee the organization’s information security program",
+        "To develop and implement software applications",
+        "To handle the organization’s financial accounting systems"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To oversee the organization’s information security program",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 273,
+      "question_text": "Which of the following best describes a “mantrap” in physical security?",
+      "options": [
+        "A software tool used to detect intruders in a network",
+        "A device that traps malware in a secure environment for analysis",
+        "A physical security mechanism designed to control access to secure areas",
+        "An email filtering technique to catch phishing attempts"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: A physical security mechanism designed to control access to secure areas",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "physical security",
+        "mantrap"
+      ]
+    },
+    {
+      "id": 275,
+      "question_text": "Which of the following is a key principle of the Information Security Management System ",
+      "options": [
+        "Prioritizing physical security over cybersecurity",
+        "Implementing a systematic approach to managing sensitive company information",
+        "Focusing solely on technology to secure information",
+        "Outsourcing security responsibilities to third-party vendors"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Implementing a systematic approach to managing sensitive company information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "physical security"
+      ]
+    },
+    {
+      "id": 294,
+      "question_text": "In the context of cybersecurity, what is the primary function of a Security Assertion Markup ",
+      "options": [
+        "To encrypt email communications",
+        "To facilitate single sign-on (SSO) for web applications",
+        "To manage digital rights and content protection",
+        "To provide a secure channel for VoIP communications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To facilitate single sign-on (SSO) for web applications",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 295,
+      "question_text": "Which of the following best describes the purpose of a Business Continuity Plan (BCP) test?",
+      "options": [
+        "To evaluate the performance of individual employees in a crisis",
+        "To ensure that the BCP is effective and can be implemented in a real-world scenario",
+        "To comply with international standards without actual implementation",
+        "To test the physical security of the organization’s premises"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that the BCP is effective and can be implemented in a real-world  scenario",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "physical security"
+      ]
+    },
+    {
+      "id": 302,
+      "question_text": "In the context of cybersecurity, what does the term “phishing” refer to?",
+      "options": [
+        "A technique for load balancing in cloud environments",
+        "Unauthorized access to a system through a software vulnerability",
+        "Deceptive attempts to trick individuals into revealing sensitive information",
+        "The process of securing network communication through encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Deceptive attempts to trick individuals into revealing sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 307,
+      "question_text": "Which of the following best describes a Zero Trust security model?",
+      "options": [
+        "Trusting all devices within the network perimeter",
+        "Never trusting, always verifying every device and user, regardless of their location",
+        "Trusting devices based on their operating system",
+        "Allowing unrestricted access to all resources for convenience"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Never trusting, always verifying every device and user, regardless of their location",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 311,
+      "question_text": "Which of the following is a characteristic of a public cloud environment?",
+      "options": [
+        "Resources are exclusively used by a single organization",
+        "Computing resources are owned and managed by the organization",
+        "Services are delivered over the internet and shared across organizations",
+        "High level of customization and control over security settings"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Services are delivered over the internet and shared across organizations",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "sha"
+      ]
+    },
+    {
+      "id": 312,
+      "question_text": "What is the primary purpose of a Digital Certificate?",
+      "options": [
+        "To ensure the physical security of a data center",
+        "To provide a secure means of storing data",
+        "To verify the identity of entities and encrypt internet communication",
+        "To serve as a legal document in digital transactions"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To verify the identity of entities and encrypt internet communication",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "digital certificate",
+        "ca",
+        "physical security",
+        "data center"
+      ]
+    },
+    {
+      "id": 317,
+      "question_text": "Which of the following best describes “social engineering”?",
+      "options": [
+        "A method of securing computer networks",
+        "The practice of using psychological manipulation to trick people into divulging confidential ",
+        "A technical means of bypassing security controls",
+        "The process of designing social media platforms for enhanced security"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The practice of using psychological manipulation to trick people into divulging  confidential information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 326,
+      "question_text": "What is the main difference between symmetric and asymmetric encryption?",
+      "options": [
+        "Symmetric encryption uses the same key for encryption and decryption, while asymmetric ",
+        "Symmetric encryption is faster but less secure than asymmetric encryption",
+        "Asymmetric encryption cannot be used for digital signatures, while symmetric can",
+        "Symmetric encryption uses digital certificates, whereas asymmetric does not"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Symmetric encryption uses the same key for encryption and decryption, while  asymmetric uses a pair of public and private keys",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "asymmetric",
+        "digital certificate",
+        "ca",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 328,
+      "question_text": "Which of the following is a primary concern when implementing IoT devices in a network?",
+      "options": [
+        "Ensuring that all devices are from the same manufacturer",
+        "The potential increase in bandwidth usage",
+        "The security vulnerabilities they may introduce",
+        "The physical space they occupy"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The security vulnerabilities they may introduce",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 331,
+      "question_text": "Which of the following encryption algorithms is considered asymmetric?",
+      "options": [
+        "AES",
+        "3DES",
+        "RSA",
+        "RC4"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: RSA",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "aes",
+        "rsa",
+        "des",
+        "3des"
+      ]
+    },
+    {
+      "id": 341,
+      "question_text": "Which of the following is a characteristic of a hardware security module (HSM)?",
+      "options": [
+        "It is primarily used for network traffic analysis",
+        "It is a physical device that manages digital keys for strong authentication",
+        "It is a software-based encryption tool",
+        "It is used for creating virtual networks"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It is a physical device that manages digital keys for strong authentication",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "ca"
+      ]
+    },
+    {
+      "id": 343,
+      "question_text": "Which of the following best describes the term “vulnerability”?",
+      "options": [
+        "An action that reduces the effectiveness of security measures",
+        "A weakness in a system that can be exploited by threats",
+        "A type of malware that damages data",
+        "The impact of a risk being realized"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A weakness in a system that can be exploited by threats",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 351,
+      "question_text": "Which of the following is a characteristic of the Advanced Encryption Standard (AES)?",
+      "options": [
+        "It is a symmetric key encryption algorithm",
+        "It is an asymmetric key encryption algorithm",
+        "It is primarily used for creating digital signatures",
+        "It is no longer considered secure"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: It is a symmetric key encryption algorithm",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "digital signature",
+        "aes"
+      ]
+    },
+    {
+      "id": 354,
+      "question_text": "What is the primary function of a certificate authority (CA) in a Public Key Infrastructure ",
+      "options": [
+        "To distribute hardware tokens for two-factor authentication",
+        "To issue and manage digital certificates",
+        "To encrypt data using symmetric key algorithms",
+        "To audit network security"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To issue and manage digital certificates",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "symmetric",
+        "public key infrastructure",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 369,
+      "question_text": "Which of the following best describes the principle of “defense in depth”?",
+      "options": [
+        "Implementing multiple security measures to protect the same asset",
+        "Using a single, comprehensive security solution to protect all assets",
+        "Focusing exclusively on perimeter security to defend against external threats",
+        "Relying on user education as the primary form of cybersecurity defense"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Implementing multiple security measures to protect the same asset",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 371,
+      "question_text": "Which of the following is a key feature of the Advanced Encryption Standard (AES)?",
+      "options": [
+        "It uses a variable block size for encryption",
+        "It is a symmetric key encryption algorithm",
+        "It relies on public key infrastructure (PKI) for key exchange",
+        "It is primarily used for digital signatures"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It is a symmetric key encryption algorithm",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "pki",
+        "public key infrastructure",
+        "digital signature",
+        "aes",
+        "key exchange"
+      ]
+    },
+    {
+      "id": 373,
+      "question_text": "Which of the following best describes the term “social engineering”?",
+      "options": [
+        "The process of designing and implementing secure network architectures",
+        "The practice of manipulating individuals into divulging confidential information",
+        "The technical analysis of network traffic to detect security threats",
+        "The development of software with built-in security features"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The practice of manipulating individuals into divulging confidential information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 377,
+      "question_text": "Which of the following best describes a man-in-the-middle (MITM) attack?",
+      "options": [
+        "An attack where the perpetrator secretly relays and possibly alters the communication ",
+        "A type of attack that involves flooding a target with excessive requests to overload its ",
+        "An attack that exploits vulnerabilities in software to gain unauthorized access to a system",
+        "A social engineering attack where the attacker pretends to be a trustworthy entity to trick "
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack where the perpetrator secretly relays and possibly alters the  communication between two parties who believe they are directly communicating with each  other",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "exploit"
+      ]
+    },
+    {
+      "id": 379,
+      "question_text": "Which of the following is a characteristic of spear phishing?",
+      "options": [
+        "It targets a specific individual or organization with personalized messages",
+        "It involves sending large volumes of unsolicited emails to random recipients",
+        "It encrypts the victim’s files and demands a ransom for decryption",
+        "It exploits software vulnerabilities without any user interaction"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: It targets a specific individual or organization with personalized messages",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "decryption",
+        "exploit"
+      ]
+    },
+    {
+      "id": 380,
+      "question_text": "In the context of cybersecurity, what is the primary purpose of a firewall?",
+      "options": [
+        "To detect and prevent unauthorized access to or from a private network",
+        "To encrypt data stored on a device or transmitted across networks",
+        "To serve as a physical barrier to protect data centers from unauthorized access",
+        "To manage the distribution of digital certificates for encryption purposes"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To detect and prevent unauthorized access to or from a private network",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "digital certificate",
+        "ca",
+        "data center"
+      ]
+    },
+    {
+      "id": 381,
+      "question_text": "Which of the following best describes the term “vulnerability”?",
+      "options": [
+        "A tool used by attackers to gain unauthorized access to systems",
+        "A weakness in a system that can be exploited to compromise security",
+        "A type of malware designed to damage or disrupt systems",
+        "The practice of monitoring network traffic to detect security threats"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A weakness in a system that can be exploited to compromise security",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 387,
+      "question_text": "What is the primary function of a certificate authority (CA) in a Public Key Infrastructure ",
+      "options": [
+        "To distribute hardware tokens for multi-factor authentication",
+        "To monitor network traffic for signs of malicious activity",
+        "To issue, revoke, and manage digital certificates",
+        "To encrypt data stored on a network"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To issue, revoke, and manage digital certificates",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "public key infrastructure",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 391,
+      "question_text": "Which of the following best describes the purpose of threat modeling?",
+      "options": [
+        "To predict the stock market trends for cybersecurity investments",
+        "To identify potential threats and vulnerabilities in a system or application",
+        "To design cryptographic algorithms for secure communications",
+        "To develop marketing strategies for cybersecurity products"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify potential threats and vulnerabilities in a system or application",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 402,
+      "question_text": "In the context of cybersecurity, what does the term “phishing” refer to?",
+      "options": [
+        "A technique for load balancing in cloud environments",
+        "Unauthorized access to a system through a software vulnerability",
+        "Deceptive attempts to trick individuals into revealing sensitive information",
+        "The process of securing network communication through encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Deceptive attempts to trick individuals into revealing sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 407,
+      "question_text": "Which of the following is a characteristic of symmetric encryption?",
+      "options": [
+        "It uses two different keys for encryption and decryption",
+        "It is generally slower than asymmetric encryption",
+        "It uses the same key for both encryption and decryption",
+        "It is primarily used for digital signatures"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It uses the same key for both encryption and decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "asymmetric",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 412,
+      "question_text": "Which of the following is an example of a physical security control?",
+      "options": [
+        "A firewall",
+        "An antivirus software",
+        "A mantrap",
+        "An encryption algorithm"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: A mantrap",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "ca",
+        "physical security",
+        "mantrap"
+      ]
+    },
+    {
+      "id": 413,
+      "question_text": "What is the purpose of a digital signature?",
+      "options": [
+        "To verify the physical signature of a person on a digital document",
+        "To ensure the confidentiality of a document by encrypting it",
+        "To verify the authenticity and integrity of a digital document",
+        "To increase the size of a document for archiving purposes"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To verify the authenticity and integrity of a digital document",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 414,
+      "question_text": "Which of the following best describes a vulnerability assessment?",
+      "options": [
+        "A process that aims to identify and quantify vulnerabilities in a system",
+        "A marketing strategy to identify weaknesses in competitors’ products",
+        "A financial audit to uncover areas of spending waste",
+        "A physical examination of hardware to find defects"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: A process that aims to identify and quantify vulnerabilities in a system",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability assessment",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 418,
+      "question_text": "Which of the following best describes the term “social engineering”?",
+      "options": [
+        "The process of designing and managing social media platforms",
+        "The manipulation of individuals into performing actions or divulging confidential ",
+        "The engineering of social spaces, such as parks and community centers",
+        "The study of social interactions within groups of people"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The manipulation of individuals into performing actions or divulging confidential  information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 60,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 422,
+      "question_text": "Which of the following best describes the principle of “defense in depth”?",
+      "options": [
+        "The use of multiple security measures to protect the integrity of information",
+        "The physical depth of a secure facility, such as a bunker",
+        "The depth at which data is encrypted within a database",
+        "The analysis depth used in vulnerability assessments"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The use of multiple security measures to protect the integrity of information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "ca",
+        "des",
+        "secure facility",
+        "vulnerability assessment",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 424,
+      "question_text": "Which of the following is a characteristic of a zero trust security model?",
+      "options": [
+        "It assumes that all network traffic is secure",
+        "It requires no authentication for users within the network",
+        "It verifies the security of all devices and users, both inside and outside the organization’s ",
+        "It allows unrestricted access to all resources to improve productivity"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It verifies the security of all devices and users, both inside and outside the  organization’s network, before granting access",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 431,
+      "question_text": "Which of the following encryption methods does not provide confidentiality?",
+      "options": [
+        "Symmetric encryption",
+        "Asymmetric encryption",
+        "Hashing",
+        "Transport Layer Security (TLS)"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Hashing",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "hash",
+        "hashing"
+      ]
+    },
+    {
+      "id": 437,
+      "question_text": "What is the primary function of the Security Assertion Markup Language (SAML)?",
+      "options": [
+        "To encrypt data at rest",
+        "To facilitate single sign-on (SSO) for web applications",
+        "To hash passwords for secure storage",
+        "To manage digital certificates for PKI"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To facilitate single sign-on (SSO) for web applications",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "pki",
+        "digital certificate",
+        "ca",
+        "hash"
+      ]
+    },
+    {
+      "id": 438,
+      "question_text": "Which of the following best describes a honeypot?",
+      "options": [
+        "A tool for automated vulnerability scanning",
+        "A decoy system designed to attract and trap potential attackers",
+        "A type of malware that replicates itself across networks",
+        "A security protocol for secure communication over the internet"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A decoy system designed to attract and trap potential attackers",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 442,
+      "question_text": "Which of the following best describes the purpose of an Information Security Policy?",
+      "options": [
+        "To outline the technical controls in place within an organization",
+        "To define the roles and responsibilities of the IT department",
+        "To establish the rules and guidelines for protecting organizational information",
+        "To document the network architecture of an organization"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To establish the rules and guidelines for protecting organizational information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 446,
+      "question_text": "Which of the following is a key principle of the Zero Trust security model?",
+      "options": [
+        "Trust no entity by default, even those already inside the network perimeter",
+        "Trust all entities within the network but none outside",
+        "Trust entities based on their physical location within the organization",
+        "Trust is established through the use of one-time passwords only"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Trust no entity by default, even those already inside the network perimeter",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 452,
+      "question_text": "Which of the following best describes the purpose of a vulnerability scanner?",
+      "options": [
+        "To detect active devices on a network",
+        "To identify weaknesses in systems and applications",
+        "To monitor network traffic for suspicious activity",
+        "To manage software updates and patches"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify weaknesses in systems and applications",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 460,
+      "question_text": "Which of the following best describes the concept of “privacy by design”?",
+      "options": [
+        "Retrofitting existing systems to comply with privacy laws",
+        "Considering privacy implications when designing systems and processes",
+        "Ensuring that all employees are trained on privacy policies",
+        "Implementing privacy controls only when mandated by regulations"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Considering privacy implications when designing systems and processes",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 469,
+      "question_text": "What is the primary purpose of encryption in cybersecurity?",
+      "options": [
+        "To increase the speed of network communications",
+        "To ensure the confidentiality and integrity of data",
+        "To reduce the amount of data stored on servers",
+        "To improve the aesthetics of digital content"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure the confidentiality and integrity of data",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "aes"
+      ]
+    },
+    {
+      "id": 470,
+      "question_text": "Which of the following best describes the concept of “security by design”?",
+      "options": [
+        "Incorporating security measures at the final stage of development",
+        "Considering security as an afterthought in the development process",
+        "Integrating security considerations throughout the development process",
+        "Outsourcing security responsibilities to third-party vendors"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Integrating security considerations throughout the development process",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 471,
+      "question_text": "What is the primary goal of a vulnerability assessment?",
+      "options": [
+        "To evaluate the organization’s financial health",
+        "To identify, quantify, and prioritize vulnerabilities in a system",
+        "To assess the performance of the IT department",
+        "To determine the market value of the organization’s assets"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, quantify, and prioritize vulnerabilities in a system",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 63,
+      "keywords": [
+        "vulnerability assessment",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 473,
+      "question_text": "What is the primary function of a firewall in cybersecurity?",
+      "options": [
+        "To serve as a physical barrier around the organization’s premises",
+        "To monitor and control incoming and outgoing network traffic based on predetermined ",
+        "To manage the organization’s social media presence",
+        "To encrypt all emails sent from the organization"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and control incoming and outgoing network traffic based on  predetermined security rules",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 475,
+      "question_text": "What is the primary purpose of a digital certificate?",
+      "options": [
+        "To certify the holder’s proficiency in digital marketing",
+        "To prove the ownership of a domain name",
+        "To establish the identity of entities and encrypt communications",
+        "To serve as a digital version of a physical certificate"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To establish the identity of entities and encrypt communications",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "digital certificate",
+        "ca"
+      ]
+    },
+    {
+      "id": 486,
+      "question_text": "Which of the following is a characteristic of symmetric encryption?",
+      "options": [
+        "It uses the same key for encryption and decryption",
+        "It is primarily used for creating digital signatures",
+        "It requires the use of a token device at all times",
+        "It uses different keys for encryption and decryption"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: It uses the same key for encryption and decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 487,
+      "question_text": "What is the primary function of a public key infrastructure (PKI)?",
+      "options": [
+        "To provide a framework for creating, managing, distributing, using, storing, and revoking ",
+        "To ensure that all public keys are kept confidential",
+        "To distribute public keys to everyone in the organization",
+        "To act as a public repository for all encryption keys"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To provide a framework for creating, managing, distributing, using, storing, and  revoking digital certificates",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "pki",
+        "public key infrastructure",
+        "digital certificate",
+        "ca"
+      ]
+    },
+    {
+      "id": 488,
+      "question_text": "In the context of cybersecurity, what does the term “social engineering” refer to?",
+      "options": [
+        "The process of designing social media platforms",
+        "The manipulation of individuals into performing actions or divulging confidential ",
+        "The study of social interactions within an organization",
+        "The development of organizational hierarchies"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The manipulation of individuals into performing actions or divulging confidential  information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 490,
+      "question_text": "Which of the following best describes the purpose of a vulnerability scanner?",
+      "options": [
+        "To distribute malware throughout the network",
+        "To identify, classify, and prioritize vulnerabilities in computer systems",
+        "To scan and organize documents for digital storage",
+        "To monitor internet usage by employees"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, classify, and prioritize vulnerabilities in computer systems",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 492,
+      "question_text": "What is the primary purpose of conducting a penetration test?",
+      "options": [
+        "To evaluate the effectiveness of security policies",
+        "To identify and exploit vulnerabilities in systems and networks",
+        "To monitor real-time traffic for signs of malicious activity",
+        "To assess the physical security of an organization’s premises"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify and exploit vulnerabilities in systems and networks",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "physical security",
+        "exploit"
+      ]
+    },
+    {
+      "id": 500,
+      "question_text": "What is the primary goal of cryptographic hash functions in cybersecurity?",
+      "options": [
+        "To encrypt data for secure transmission",
+        "To verify the integrity of data by producing a unique hash value",
+        "To manage digital signatures for email encryption",
+        "To generate passwords that are resistant to brute-force attacks"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To verify the integrity of data by producing a unique hash value.",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "digital signature",
+        "hash"
+      ]
+    },
+    {
+      "id": 502,
+      "question_text": "In the context of cybersecurity, what does the term “phishing” refer to?",
+      "options": [
+        "A technique for load balancing in cloud environments",
+        "Unauthorized access to a system through a software vulnerability",
+        "Deceptive attempts to trick individuals into revealing sensitive information",
+        "The process of securing network communication through encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Deceptive attempts to trick individuals into revealing sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 509,
+      "question_text": "In the context of information security, what is a vulnerability?",
+      "options": [
+        "A tool used by attackers to gain unauthorized access to systems",
+        "A weakness in a system that can be exploited by threats to gain unauthorized access",
+        "A type of malware that replicates itself",
+        "An action taken by a company to mitigate risks"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A weakness in a system that can be exploited by threats to gain unauthorized  access",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 516,
+      "question_text": "Which of the following best defines a security policy?",
+      "options": [
+        "A detailed plan of action to secure physical locations",
+        "A document that outlines the rules, behaviors, and technologies that are required to ",
+        "A technical manual for configuring firewalls and other security devices",
+        "A legal agreement between two companies to share confidential information securely"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A document that outlines the rules, behaviors, and technologies that are required  to protect organizational assets",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "sha"
+      ]
+    },
+    {
+      "id": 520,
+      "question_text": "Which of the following best describes the principle of “defense in depth”?",
+      "options": [
+        "A military strategy that focuses on the rapid deployment of forces",
+        "A cybersecurity approach that uses multiple layers of security controls (defensive ",
+        "A legal strategy for defending against cybercrime",
+        "A method of designing secure buildings and facilities"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A cybersecurity approach that uses multiple layers of security controls (defensive  mechanisms) throughout an IT system",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "des"
+      ]
+    },
+    {
+      "id": 524,
+      "question_text": "What is the primary goal of a penetration test?",
+      "options": [
+        "To penetrate the market with a new software product",
+        "To identify vulnerabilities in a system or network by simulating an attack from malicious ",
+        "To test the physical security of an organization’s premises",
+        "To assess the performance of network infrastructure under high load"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify vulnerabilities in a system or network by simulating an attack from  malicious outsiders",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "physical security"
+      ]
+    },
+    {
+      "id": 528,
+      "question_text": "What is the primary function of a public key infrastructure (PKI)?",
+      "options": [
+        "To provide public access to a company’s internal network",
+        "To support the distribution and identification of public encryption keys",
+        "To manage public relations for technology companies",
+        "To provide a public database of known security vulnerabilities"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To support the distribution and identification of public encryption keys",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "pki",
+        "public key infrastructure",
+        "ca"
+      ]
+    },
+    {
+      "id": 530,
+      "question_text": "Which of the following is a benefit of using cloud computing for a company’s IT needs?",
+      "options": [
+        "Increased control over physical hardware",
+        "Reduced need for technical staff",
+        "Scalability and flexibility in resource utilization",
+        "Guaranteed elimination of security threats"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Scalability and flexibility in resource utilization",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 531,
+      "question_text": "Which of the following encryption methods is considered asymmetric?",
+      "options": [
+        "AES",
+        "DES",
+        "RSA",
+        "3DES"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: RSA",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "aes",
+        "rsa",
+        "des",
+        "3des"
+      ]
+    },
+    {
+      "id": 535,
+      "question_text": "What is the main difference between a vulnerability assessment and a penetration test?",
+      "options": [
+        "A vulnerability assessment identifies weaknesses, while a penetration test exploits them to ",
+        "A penetration test identifies weaknesses, while a vulnerability assessment exploits them.",
+        "A vulnerability assessment is automated, while a penetration test is not.",
+        "A penetration test is only used in government organizations."
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: A vulnerability assessment identifies weaknesses, while a penetration test exploits  them to understand the impact.",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "vulnerability assessment",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 557,
+      "question_text": "What is the primary purpose of “security by design” in software development?",
+      "options": [
+        "To ensure that security is an integral part of the development process, rather than an ",
+        "To make the software as complex as possible to deter hackers",
+        "To reduce the cost of software development",
+        "To speed up the time to market for new software products"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that security is an integral part of the development process, rather than  an afterthought",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 561,
+      "question_text": "Which of the following best describes the role of a Chief Information Security Officer ",
+      "options": [
+        "To manage the IT infrastructure of an organization",
+        "To oversee the financial operations related to IT security",
+        "To lead the strategic, operational, and budgetary aspects of information security",
+        "To design and implement network architecture"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To lead the strategic, operational, and budgetary aspects of information security",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 562,
+      "question_text": "What is the primary purpose of conducting a security gap analysis?",
+      "options": [
+        "To identify the difference between current security postures and desired standards",
+        "To calculate the financial impact of a potential security breach",
+        "To determine the effectiveness of current encryption methods",
+        "To assess the performance of the IT department"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify the difference between current security postures and desired  standards",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 565,
+      "question_text": "What is the primary goal of the NIST Cybersecurity Framework?",
+      "options": [
+        "To provide a comprehensive set of IT management policies",
+        "To outline standards for secure software development",
+        "To offer a policy framework for critical infrastructure cybersecurity",
+        "To define the roles and responsibilities of IT staff"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To offer a policy framework for critical infrastructure cybersecurity",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 572,
+      "question_text": "In the context of cybersecurity, what is “asset inventory”?",
+      "options": [
+        "A list of company-owned physical assets",
+        "A financial report detailing company assets and liabilities",
+        "A comprehensive listing of all IT assets, including hardware and software",
+        "A catalog of employee-owned devices used for work"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: A comprehensive listing of all IT assets, including hardware and software",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 579,
+      "question_text": "In the context of cybersecurity, what is “social engineering”?",
+      "options": [
+        "The process of designing social media platforms",
+        "The use of psychological manipulation to trick users into making security mistakes",
+        "The engineering of social interactions in the workplace",
+        "The study of social trends for marketing purposes"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The use of psychological manipulation to trick users into making security  mistakes",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 582,
+      "question_text": "In cybersecurity, what is the purpose of a “firewall”?",
+      "options": [
+        "To physically secure an organization’s premises",
+        "To monitor and control incoming and outgoing network traffic based on predetermined ",
+        "To manage employee internet usage",
+        "To detect and remove malware from computers"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and control incoming and outgoing network traffic based on  predetermined security rules",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 589,
+      "question_text": "Which of the following best describes “application whitelisting”?",
+      "options": [
+        "The process of approving certain applications for use within an organization",
+        "The act of listing all applications on a public website",
+        "The process of creating a list of banned applications",
+        "The act of whitewashing security flaws in applications"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The process of approving certain applications for use within an organization",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 602,
+      "question_text": "Which of the following best describes a man-in-the-middle (MITM) attack?",
+      "options": [
+        "An attack where the perpetrator secretly relays and possibly alters the communication ",
+        "A type of attack that involves flooding a target with excessive requests to overload its ",
+        "An attack that exploits vulnerabilities in software to gain unauthorized access to a system",
+        "The act of creating a replica of a legitimate website to trick users into submitting personal "
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack where the perpetrator secretly relays and possibly alters the  communication between two parties who believe they are directly communicating with each  other",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "exploit"
+      ]
+    },
+    {
+      "id": 604,
+      "question_text": "Which of the following is a characteristic of symmetric encryption?",
+      "options": [
+        "It uses the same key for encryption and decryption",
+        "It uses different keys for encryption and decryption",
+        "It is primarily used for creating digital signatures",
+        "It is more computationally intensive than asymmetric encryption"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: It uses the same key for encryption and decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "asymmetric",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 611,
+      "question_text": "Which of the following best describes the concept of “defense in depth”?",
+      "options": [
+        "Using multiple layers of security controls throughout an IT system",
+        "Deploying a single, impenetrable security measure to protect against all threats",
+        "Focusing exclusively on perimeter security to defend against external attacks",
+        "Implementing physical security controls as the primary defense mechanism"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Using multiple layers of security controls throughout an IT system",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "ca",
+        "des",
+        "physical security"
+      ]
+    },
+    {
+      "id": 613,
+      "question_text": "Which of the following is an example of a physical security control?",
+      "options": [
+        "Firewalls",
+        "Intrusion detection systems",
+        "Biometric access controls",
+        "Antivirus software"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Biometric access controls",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "physical security",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 614,
+      "question_text": "What is the purpose of a vulnerability assessment?",
+      "options": [
+        "To physically secure an organization’s premises",
+        "To identify, quantify, and prioritize vulnerabilities in a system",
+        "To install security patches on a network",
+        "To monitor network traffic for suspicious activity"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, quantify, and prioritize vulnerabilities in a system",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "vulnerability assessment",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 621,
+      "question_text": "Which of the following best describes the term “social engineering”?",
+      "options": [
+        "The process of designing secure social networks",
+        "The manipulation of individuals into performing actions or divulging confidential ",
+        "The engineering of social spaces to enhance security",
+        "The use of engineering practices to develop social software"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The manipulation of individuals into performing actions or divulging confidential  information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 628,
+      "question_text": "What is the primary purpose of a penetration test?",
+      "options": [
+        "To physically secure an organization’s premises",
+        "To identify vulnerabilities that could be exploited by attackers",
+        "To comply with regulatory requirements",
+        "To install security patches on a network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify vulnerabilities that could be exploited by attackers",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "exploit"
+      ]
+    },
+    {
+      "id": 631,
+      "question_text": "Which of the following encryption methods does not provide forward secrecy?",
+      "options": [
+        "RSA",
+        "ECDHE",
+        "DHE",
+        "TLS 1.3"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: RSA",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "rsa"
+      ]
+    },
+    {
+      "id": 635,
+      "question_text": "Which of the following best describes a Zero Trust security model?",
+      "options": [
+        "Trusting all devices within the network perimeter",
+        "Trusting no one and verifying each request as if it originates from an open network",
+        "Trusting devices based on their physical location within the organization",
+        "Trusting users but not their devices"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Trusting no one and verifying each request as if it originates from an open network",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 651,
+      "question_text": "Which of the following is a key consideration when implementing a Public Key Infrastructure ",
+      "options": [
+        "Ensuring that all users have administrative access",
+        "Choosing a suitable hashing algorithm for password storage",
+        "Managing the lifecycle of digital certificates",
+        "Implementing physical security controls for server rooms"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Managing the lifecycle of digital certificates",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "public key infrastructure",
+        "digital certificate",
+        "ca",
+        "hash",
+        "hashing",
+        "physical security"
+      ]
+    },
+    {
+      "id": 656,
+      "question_text": "What is the primary function of a Certificate Authority (CA) in a Public Key Infrastructure ",
+      "options": [
+        "To encrypt email communications",
+        "To issue and manage digital certificates",
+        "To provide secure storage for encryption keys",
+        "To audit the security of web applications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To issue and manage digital certificates",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "public key infrastructure",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 658,
+      "question_text": "What is the primary purpose of a firewall in a network security architecture?",
+      "options": [
+        "To serve as a physical barrier to protect data center facilities",
+        "To detect and prevent malware infections on individual computers",
+        "To manage the allocation of IP addresses within the network",
+        "To control incoming and outgoing network traffic based on predetermined security rules"
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "The correct answer is: To control incoming and outgoing network traffic based on predetermined security  rules",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "security architecture",
+        "ca",
+        "data center"
+      ]
+    },
+    {
+      "id": 675,
+      "question_text": "In the context of digital certificates, what role does a Certificate Authority (CA) play?",
+      "options": [
+        "It acts as a secure data storage facility",
+        "It issues and manages digital certificates",
+        "It encrypts data using asymmetric cryptography",
+        "It audits organizational security policies"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It issues and manages digital certificates",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "cryptography",
+        "symmetric",
+        "asymmetric",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 676,
+      "question_text": "Which of the following best describes the concept of “defense in depth”?",
+      "options": [
+        "Using a single, comprehensive security measure to protect all assets",
+        "Implementing multiple layers of security controls throughout an IT system",
+        "Focusing exclusively on perimeter security to defend against external threats",
+        "Relying on artificial intelligence for all security decisions"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Implementing multiple layers of security controls throughout an IT system",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "des"
+      ]
+    },
+    {
+      "id": 679,
+      "question_text": "What is the primary purpose of conducting a vulnerability assessment?",
+      "options": [
+        "To evaluate the effectiveness of organizational training programs",
+        "To identify, quantify, and prioritize vulnerabilities in a system",
+        "To encrypt sensitive information stored on corporate servers",
+        "To monitor network traffic for suspicious activity"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, quantify, and prioritize vulnerabilities in a system",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vulnerability assessment",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 683,
+      "question_text": "In the context of information security, what is “social engineering”?",
+      "options": [
+        "The process of designing secure social media platforms",
+        "The technical analysis of social network infrastructures",
+        "The use of deception to manipulate individuals into divulging confidential information",
+        "The study of social trends to predict cyber attacks"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The use of deception to manipulate individuals into divulging confidential  information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 686,
+      "question_text": "Which of the following best describes a Zero Trust security model?",
+      "options": [
+        "A model that relies on a single, impenetrable perimeter to protect resources",
+        "A security approach that requires all users, even those inside the organization’s network, to ",
+        "A framework that trusts all devices within the network by default",
+        "A model that focuses solely on external threats and ignores potential insider threats"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A security approach that requires all users, even those inside the organization’s  network, to be authenticated, authorized, and continuously validated",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 696,
+      "question_text": "Which of the following best describes the purpose of an Information Security Management ",
+      "options": [
+        "To ensure compliance with physical security standards",
+        "To manage risks related to the use, processing, storage, and transmission of information",
+        "To provide a framework for managing IT service delivery",
+        "To define the roles and responsibilities of the IT support team"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To manage risks related to the use, processing, storage, and transmission of  information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des",
+        "physical security"
+      ]
+    },
+    {
+      "id": 698,
+      "question_text": "Which of the following is a key benefit of using cloud-based security solutions?",
+      "options": [
+        "They eliminate the need for an organization to manage its own security infrastructure",
+        "They guarantee 100% protection against all cyber threats",
+        "They require significant capital investment in hardware and software",
+        "They are inherently more secure than on-premises solutions"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: They eliminate the need for an organization to manage its own security  infrastructure",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca"
+      ]
+    },
+    {
+      "id": 702,
+      "question_text": "In the context of cybersecurity, what does the term “phishing” refer to?",
+      "options": [
+        "A technique for load balancing in cloud environments",
+        "Unauthorized access to a system through a software vulnerability",
+        "Deceptive attempts to trick individuals into revealing sensitive information",
+        "The process of securing network communication through encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Deceptive attempts to trick individuals into revealing sensitive information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 709,
+      "question_text": "Which of the following best describes a Zero Trust security model?",
+      "options": [
+        "It trusts all users inside the network but not the ones outside",
+        "It requires no authentication for users accessing network resources",
+        "It does not automatically trust anything inside or outside its perimeters and verifies ",
+        "It is based on the principle that users are trusted but devices are not"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It does not automatically trust anything inside or outside its perimeters and  verifies everything trying to connect to its systems before granting access",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 716,
+      "question_text": "Which of the following is a key feature of Public Key Infrastructure (PKI)?",
+      "options": [
+        "It uses symmetric encryption for secure communication",
+        "It provides a framework for creating a secure method for exchanging information using ",
+        "It eliminates the need for encryption",
+        "It only allows the use of digital signatures for email"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It provides a framework for creating a secure method for exchanging information  using public and private keys",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "pki",
+        "public key infrastructure",
+        "ca",
+        "digital signature",
+        "des"
+      ]
+    },
+    {
+      "id": 718,
+      "question_text": "Which of the following best describes “social engineering”?",
+      "options": [
+        "The process of designing secure social networks",
+        "The manipulation of people into performing actions or divulging confidential information",
+        "The study of social interactions within an organization",
+        "The use of social media to market security products"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The manipulation of people into performing actions or divulging confidential  information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 731,
+      "question_text": "Which of the following encryption methods is considered asymmetric?",
+      "options": [
+        "AES",
+        "DES",
+        "RSA",
+        "3DES"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: RSA",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "aes",
+        "rsa",
+        "des",
+        "3des"
+      ]
+    },
+    {
+      "id": 735,
+      "question_text": "Which of the following best describes a risk?",
+      "options": [
+        "An event that has already impacted the organization",
+        "The uncertainty of an event occurring that could have an impact on the achievement of ",
+        "A weakness that has been exploited",
+        "The absence of security measures"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The uncertainty of an event occurring that could have an impact on the  achievement of objectives",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "des",
+        "exploit"
+      ]
+    },
+    {
+      "id": 745,
+      "question_text": "Which of the following best describes the purpose of a firewall?",
+      "options": [
+        "To detect and prevent specific types of malware",
+        "To serve as a physical barrier around a server",
+        "To monitor and control incoming and outgoing network traffic based on predetermined ",
+        "To authenticate user access to network resources"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To monitor and control incoming and outgoing network traffic based on  predetermined security rules",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 753,
+      "question_text": "Which of the following best describes the concept of “defense in depth”?",
+      "options": [
+        "Focusing all security efforts on the perimeter defenses",
+        "Using a single, strong layer of security to protect all assets",
+        "Implementing multiple layers of security controls throughout the IT systems",
+        "Relying solely on antivirus software for protection"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Implementing multiple layers of security controls throughout the IT systems",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "defense in depth",
+        "des"
+      ]
+    },
+    {
+      "id": 764,
+      "question_text": "In the context of cryptography, what is a nonce?",
+      "options": [
+        "A public key used in asymmetric encryption",
+        "A private key used in symmetric encryption",
+        "An arbitrary number used only once in a cryptographic communication",
+        "A type of cryptographic algorithm designed for fast processing"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: An arbitrary number used only once in a cryptographic communication",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "cryptography",
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 766,
+      "question_text": "Which of the following best describes the concept of “privacy by design”?",
+      "options": [
+        "Implementing security measures at the end of the development process",
+        "Considering privacy at every stage of product development",
+        "Focusing on user interface design to enhance privacy settings",
+        "Designing privacy policies after a product has been launched"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Considering privacy at every stage of product development",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "des"
+      ]
+    },
+    {
+      "id": 771,
+      "question_text": "What is the primary purpose of a Certificate Authority (CA) in a Public Key Infrastructure ",
+      "options": [
+        "To generate private keys for users",
+        "To distribute symmetric keys to parties",
+        "To issue and manage digital certificates verifying the ownership of public keys",
+        "To encrypt data using the recipient’s public key"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To issue and manage digital certificates verifying the ownership of public keys",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "symmetric",
+        "public key infrastructure",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 776,
+      "question_text": "Which of the following best describes the principle of “defense in depth”?",
+      "options": [
+        "Using multiple security measures to protect the integrity of information",
+        "Deploying all security measures at the perimeter of the network",
+        "Focusing solely on physical security measures",
+        "Implementing a single, comprehensive security solution"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Using multiple security measures to protect the integrity of information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "defense in depth",
+        "ca",
+        "des",
+        "physical security"
+      ]
+    },
+    {
+      "id": 789,
+      "question_text": "Which of the following best describes the concept of “defense in depth”?",
+      "options": [
+        "Implementing a single, unbreakable security measure",
+        "Relying solely on antivirus software for security",
+        "Using multiple layers of security measures to protect information",
+        "Placing all security controls at the network perimeter"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Using multiple layers of security measures to protect information",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "defense in depth",
+        "des"
+      ]
+    },
+    {
+      "id": 797,
+      "question_text": "What is the primary purpose of employing Security Assertion Markup Language (SAML)?",
+      "options": [
+        "To facilitate data encryption in transit",
+        "To manage digital rights and licensing",
+        "To enable single sign-on (SSO) for web applications",
+        "To provide a framework for intrusion detection"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enable single sign-on (SSO) for web applications",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 802,
+      "question_text": "Which of the following is a characteristic of symmetric encryption?",
+      "options": [
+        "It uses the same key for encryption and decryption",
+        "It uses different keys for encryption and decryption",
+        "It is primarily used for creating digital signatures",
+        "It cannot be used for bulk data encryption"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: It uses the same key for encryption and decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "decryption",
+        "symmetric",
+        "ca",
+        "digital signature"
+      ]
+    },
+    {
+      "id": 807,
+      "question_text": "Which of the following is a key feature of a Public Key Infrastructure (PKI)?",
+      "options": [
+        "It exclusively uses symmetric encryption for data transmission",
+        "It provides a framework for digital signatures and encryption",
+        "It eliminates the need for encryption in digital communications",
+        "It only supports authentication for web-based applications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It provides a framework for digital signatures and encryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "pki",
+        "public key infrastructure",
+        "ca",
+        "digital signature",
+        "des"
+      ]
+    },
+    {
+      "id": 811,
+      "question_text": "Which of the following is an example of a physical control in information security?",
+      "options": [
+        "Firewalls",
+        "Intrusion detection systems",
+        "Biometric access controls",
+        "Antivirus software"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Biometric access controls",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 813,
+      "question_text": "Which of the following best describes the term “vulnerability”?",
+      "options": [
+        "An action that reduces the effectiveness of security measures",
+        "A weakness in a system that can be exploited to cause harm",
+        "A type of malware that replicates itself",
+        "The act of illegally accessing a computer or network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A weakness in a system that can be exploited to cause harm",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 816,
+      "question_text": "Which of the following is a primary concern of cloud security?",
+      "options": [
+        "Physical security of cloud data centers",
+        "Ensuring adequate heating, ventilation, and air conditioning (HVAC) in data centers",
+        "Data privacy and control in shared environments",
+        "Reducing the cost of cloud services"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Data privacy and control in shared environments",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "sha",
+        "physical security",
+        "hvac",
+        "data center"
+      ]
+    },
+    {
+      "id": 818,
+      "question_text": "Which of the following best describes “social engineering”?",
+      "options": [
+        "The process of designing social media platforms for enhanced security",
+        "The technical manipulation of network protocols",
+        "The use of deception to manipulate individuals into divulging confidential or personal ",
+        "The study of social interactions within an organization"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The use of deception to manipulate individuals into divulging confidential or  personal information",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 821,
+      "question_text": "What is the primary purpose of a vulnerability scan?",
+      "options": [
+        "To identify the physical location of network devices",
+        "To detect and classify system weaknesses in computers, networks, and communications ",
+        "To measure the performance of network equipment",
+        "To monitor network traffic for suspicious activity"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To detect and classify system weaknesses in computers, networks, and  communications equipment",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": 830,
+      "question_text": "Which of the following best describes the principle of “defense in depth”?",
+      "options": [
+        "Using a single, comprehensive security measure to protect all of an organization’s assets",
+        "The practice of layering multiple security measures to protect the information technology ",
+        "The strategy of focusing all security efforts on the perimeter defenses",
+        "Implementing security controls based solely on the latest technologies"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The practice of layering multiple security measures to protect the information  technology infrastructure",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "defense in depth",
+        "des"
+      ]
+    },
+    {
+      "id": 831,
+      "question_text": "Which of the following encryption methods does not provide confidentiality?",
+      "options": [
+        "Symmetric encryption",
+        "Asymmetric encryption",
+        "Hashing",
+        "Stream cipher"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Hashing",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "symmetric",
+        "asymmetric",
+        "hash",
+        "hashing"
+      ]
+    },
+    {
+      "id": 850,
+      "question_text": "What is the main difference between a vulnerability scan and a penetration test?",
+      "options": [
+        "A vulnerability scan identifies and evaluates known vulnerabilities in a system, while a ",
+        "A vulnerability scan is performed by external attackers, while a penetration test is ",
+        "A vulnerability scan focuses on compliance, while a penetration test focuses on uptime",
+        "There is no significant difference; both terms describe the same process"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: A vulnerability scan identifies and evaluates known vulnerabilities in a system,  while a penetration test attempts to exploit vulnerabilities to determine their impact",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "vulnerability",
+        "exploit"
+      ]
+    },
+    {
+      "id": 853,
+      "question_text": "Which of the following best describes the term “encryption”?",
+      "options": [
+        "The process of converting plaintext into a secure format to prevent unauthorized access",
+        "The act of scanning a network for open ports",
+        "The method of securely deleting files from storage",
+        "The practice of monitoring network traffic for anomalies"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The process of converting plaintext into a secure format to prevent unauthorized  access",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 856,
+      "question_text": "What is the primary function of a Certificate Authority (CA) in a Public Key Infrastructure ",
+      "options": [
+        "To distribute malware signatures to endpoint protection software",
+        "To issue, revoke, and manage digital certificates",
+        "To encrypt data stored on a network",
+        "To provide secure, encrypted communications between clients and servers"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To issue, revoke, and manage digital certificates",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "public key infrastructure",
+        "digital certificate",
+        "certificate authority",
+        "ca"
+      ]
+    },
+    {
+      "id": 869,
+      "question_text": "Which of the following best describes the term “security posture”?",
+      "options": [
+        "The physical positioning of security guards around a facility",
+        "The overall security level of an organization, including policies, procedures, and ",
+        "A specific stance taken by a firewall to block all incoming traffic",
+        "The alignment of security cameras to cover the maximum area"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The overall security level of an organization, including policies, procedures, and  technologies",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 872,
+      "question_text": "What is the primary goal of cryptographic key management?",
+      "options": [
+        "To ensure the secure creation, distribution, storage, and destruction of cryptographic keys",
+        "To create as many keys as possible to increase security",
+        "To share cryptographic keys publicly for transparency",
+        "To use a single key for all encryption needs to simplify management"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure the secure creation, distribution, storage, and destruction of  cryptographic keys",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "encryption",
+        "sha",
+        "des",
+        "key management"
+      ]
+    },
+    {
+      "id": 873,
+      "question_text": "Which of the following best describes a “mantrap” in the context of physical security?",
+      "options": [
+        "A software tool used to capture user credentials",
+        "A physical security device or enclosure that prevents unauthorized access to secure areas",
+        "A type of malware that locks users out of their systems",
+        "An undercover security officer positioned in high-risk areas"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A physical security device or enclosure that prevents unauthorized access to  secure areas",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ca",
+        "des",
+        "physical security",
+        "mantrap"
+      ]
+    },
+    {
+      "id": 881,
+      "question_text": "Which of the following is a benefit of using an Intrusion Detection System (IDS)?",
+      "options": [
+        "It can replace the need for a firewall",
+        "It can detect and prevent all types of malware infections",
+        "It provides a real-time alerting system for potential security threats",
+        "It eliminates the need for encryption"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It provides a real-time alerting system for potential security threats",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "des",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 883,
+      "question_text": "Which of the following best describes the term “patch management”?",
+      "options": [
+        "The process of managing a team of cybersecurity professionals",
+        "The process of repairing physical damage to network infrastructure",
+        "The process of regularly updating software to fix vulnerabilities and improve functionality",
+        "The process of designing and sewing patches for employee uniforms"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The process of regularly updating software to fix vulnerabilities and improve  functionality",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 889,
+      "question_text": "Which of the following is a characteristic of “ransomware”?",
+      "options": [
+        "It encrypts files on the infected system and demands payment for decryption",
+        "It allows for the anonymous browsing of the internet",
+        "It speeds up the performance of the infected system",
+        "It provides unauthorized access to the system’s webcam"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: It encrypts files on the infected system and demands payment for decryption",
+      "domain_id": 3,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "decryption",
+        "ca",
+        "des"
+      ]
+    },
+    {
+      "id": 891,
+      "question_text": "Which of the following best describes the concept of “security convergence”?",
+      "options": [
+        "Merging physical and digital security management for comprehensive protection",
+        "Converging multiple encryption algorithms to enhance data security",
+        "The process of consolidating security protocols to streamline operations",
+        "Merging of security roles and responsibilities to reduce personnel costs"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Merging physical and digital security management for comprehensive protection",
+      "domain_id": 3,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "encryption",
+        "ca",
+        "des"
+      ]
+    }
+  ]
+}

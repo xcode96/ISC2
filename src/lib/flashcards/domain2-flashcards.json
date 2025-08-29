@@ -1,0 +1,229 @@
+{
+  "domain": "Domain 2: Asset Security",
+  "flashcards": [
+    {
+      "id": "2-1-1a",
+      "domain": "2.1.1",
+      "category": "Identify and Classify Information and Assets",
+      "front": "What is the difference between Personally Identifiable Information (PII) and Protected Health Information (PHI)?",
+      "back": "• PII: Any information that can be used to distinguish or trace an individual's identity, such as name, social security number, or biometric records.\n• PHI: Any health-related information that can be related to a specific person. It is protected under HIPAA."
+    },
+    {
+      "id": "2-1-1b",
+      "domain": "2.1.1",
+      "category": "Identify and Classify Information and Assets",
+      "front": "What are the typical data classification labels used by governments versus non-government organizations?",
+      "back": "• Government: Top Secret, Secret, Unclassified.\n• Non-Government: Confidential/Proprietary, Private, Sensitive, Public."
+    },
+    {
+      "id": "2-1-1c",
+      "domain": "2.1.1",
+      "category": "Identify and Classify Information and Assets",
+      "front": "What is proprietary data?",
+      "back": "It is any data that helps an organization maintain a competitive edge."
+    },
+    {
+      "id": "2-1-1d",
+      "domain": "2.1.1",
+      "category": "Identify and Classify Information and Assets",
+      "front": "What is data categorization?",
+      "back": "It is the process of grouping sets of data that have comparable sensitivities and similar security needs based on laws, contracts, or compliance requirements. It is the act of assigning a classification level to an asset."
+    },
+    {
+      "id": "2-1-2a",
+      "domain": "2.1.2",
+      "category": "Identify and Classify Information and Assets",
+      "front": "What is asset classification?",
+      "back": "It is the process of assigning assets the level of protection they require based on their value to the organization. Asset classifications should match the classification of the data they handle, and owners are accountable for protecting the asset's value."
+    },
+    {
+      "id": "2-1-2b",
+      "domain": "2.1.2",
+      "category": "Identify and Classify Information and Assets",
+      "front": "What should a formal access approval process involve?",
+      "back": "The process should involve approval from the data or asset owner. Before access is granted, the user should be educated on the rules for working with that level of data classification."
+    },
+    {
+      "id": "2-2a",
+      "domain": "2.2",
+      "category": "Establish Information and Asset Handling Requirements",
+      "front": "What is the difference between labeling and marking?",
+      "back": "• Labeling: Associates security attributes with subjects and objects in a system-readable form (e.g., metadata, RFID tags) to enable system-based policy enforcement.\n• Marking: Associates security attributes in a human-readable form (e.g., a \"Confidential\" header) to enable process-based policy enforcement."
+    },
+    {
+      "id": "2-2b",
+      "domain": "2.2",
+      "category": "Establish Information and Asset Handling Requirements",
+      "front": "What are the different methods of data destruction as defined by NIST?",
+      "back": "• Erasing: A standard delete operation that leaves data remanence.\n• Clearing: Overwriting data to ensure it cannot be recovered with normal tools, though some data might still be recoverable.\n• Purging: A more intense removal process (like degaussing) ensuring data cannot be reconstructed by any known technique.\n• Destruction: Physically destroying the media through shredding, burning, or pulverizing."
+    },
+    {
+      "id": "2-2c",
+      "domain": "2.2",
+      "category": "Establish Information and Asset Handling Requirements",
+      "front": "What is data remanence and how can it be addressed?",
+      "back": "Data remanence is the data remaining on media after it has supposedly been erased.\nTools to address it include:\n• Degaussing: Uses a strong magnetic field to destroy data on magnetic media.\n• Crypto Shredding: Encrypts data with a strong key and then destroys the key, making the data unrecoverable."
+    },
+    {
+      "id": "2-2d",
+      "domain": "2.2",
+      "category": "Establish Information and Asset Handling Requirements",
+      "front": "What is the best practice for data collection limitations?",
+      "back": "When collecting data, a best practice is to limit the amount collected to only what is needed for a clear business purpose."
+    },
+    {
+      "id": "2-2e",
+      "domain": "2.2",
+      "category": "Establish Information and Asset Handling Requirements",
+      "front": "What are the three primary types of Data Loss Prevention (DLP) systems?",
+      "back": "• Network-based DLP: Scans all outgoing network data from the edge of the network.\n• Endpoint-based DLP: Scans files stored on endpoints and can prevent copying or printing of sensitive data.\n• Cloud-based DLP: Designed specifically to monitor data in cloud-native environments."
+    },
+    {
+      "id": "2-2f",
+      "domain": "2.2",
+      "category": "Establish Information and Asset Handling Requirements",
+      "front": "What is file carving?",
+      "back": "It is a computer forensics technique used to recover files from a storage device's raw data based on their structure and content. It is often used to recover deleted, formatted, or encrypted files."
+    },
+    {
+      "id": "2-3a",
+      "domain": "2.3",
+      "category": "Provision Information and Assets Securely",
+      "front": "What is the difference between Need-to-Know and Least Privilege?",
+      "back": "• Need-to-Know: Grants users access only to the data or resources they require to perform their assigned work tasks.\n• Least Privilege: Grants subjects only the privileges necessary to perform their work tasks and no more."
+    },
+    {
+      "id": "2-3-1",
+      "domain": "2.3.1",
+      "category": "Provision Information and Assets Securely",
+      "front": "Who is the data owner and what is their primary responsibility?",
+      "back": "The data owner is the person with ultimate organizational responsibility for data, typically a senior manager. Their primary responsibility is to ensure that appropriate security controls are in place to protect the data."
+    },
+    {
+      "id": "2-3-2",
+      "domain": "2.3.2",
+      "category": "Provision Information and Assets Securely",
+      "front": "What is the difference between tangible and intangible assets?",
+      "back": "• Tangible assets: Physical items owned by the company, such as hardware and software.\n• Intangible assets: Non-physical items representing potential revenue, such as patents, copyrights, and a company's reputation."
+    },
+    {
+      "id": "2-4-1",
+      "domain": "2.4.1",
+      "category": "Manage Data Lifecycle",
+      "front": "What are the key data roles and their functions?",
+      "back": "• Data Owner: Has ultimate responsibility for data and ensures it is protected.\n• System Owner: Controls the computer storing the data and is responsible for system operation and maintenance.\n• Data Controller: Decides what data to process and how to process it.\n• Data Processor: An entity that processes data on behalf of the data controller.\n• Data Custodian: Manages the day-to-day responsibilities for storing and protecting data.\n• User: Any person who accesses data to accomplish work."
+    },
+    {
+      "id": "2-4-5",
+      "domain": "2.4.5",
+      "category": "Manage Data Lifecycle",
+      "front": "What are the three fundamental questions for a data retention policy?",
+      "back": "1. How to retain data? Data should be kept in an accessible manner, considering its classification.\n2. How long to retain data? This can vary by regulation, but a general guideline for business data is 7 years.\n3. What data to retain? Determined by organizational requirements."
+    },
+    {
+      "id": "2-4-6",
+      "domain": "2.4.6",
+      "category": "Manage Data Lifecycle",
+      "front": "How can operating systems create data remanence in slack space?",
+      "back": "Many operating systems store files in clusters, which are groups of sectors. If a file doesn't fill an entire cluster, the leftover \"slack space\" may be filled with data from memory, which could be sensitive. This is why classified data should never be processed on unclassified systems."
+    },
+    {
+      "id": "2-4-7",
+      "domain": "2.4.7",
+      "category": "Manage Data Lifecycle",
+      "front": "What is defensible destruction?",
+      "back": "It is the process of eliminating data in a controlled, legally defensible, and regulatory-compliant way."
+    },
+    {
+      "id": "2-5",
+      "domain": "2.5",
+      "category": "Ensure Appropriate Asset Retention",
+      "front": "What is the difference between End-of-Life (EOL) and End-of-Support (EOS)?",
+      "back": "• End-of-Life (EOL): The time when a vendor stops offering a product for sale.\n• End-of-Support (EOS): The time when a vendor ends support for a product. Both can apply to hardware or software."
+    },
+    {
+      "id": "2-6-1a",
+      "domain": "2.6.1",
+      "category": "Determine Data Security Controls",
+      "front": "What are the three states of data?",
+      "back": "• Data at rest: Any data stored on media such as hard drives.\n• Data in transit: Any data transmitted over a network.\n• Data in use: Data currently in memory and being used by an application."
+    },
+    {
+      "id": "2-6-1b",
+      "domain": "2.6.1",
+      "category": "Determine Data Security Controls",
+      "front": "What are the primary real-world protections for data in use?",
+      "back": "Since there are fewer security options for data in use compared to data at rest or in transit, the primary protections are keeping systems patched, maintaining a standard computer build process, and running anti-virus/malware software."
+    },
+    {
+      "id": "2-6-2",
+      "domain": "2.6.2",
+      "category": "Determine Data Security Controls",
+      "front": "What is the difference between scoping and tailoring in the context of security controls?",
+      "back": "• Scoping: Part of the tailoring process; it refers to reviewing a list of baseline security controls and selecting only those that apply to the system you're protecting by removing controls that don't apply.\n• Tailoring: The overall process of modifying a list of security controls within a baseline to align with an organization's specific mission and security requirements."
+    },
+    {
+      "id": "2-6-4a",
+      "domain": "2.6.4",
+      "category": "Determine Data Security Controls",
+      "front": "What are Digital Rights Management (DRM) and Cloud Access Security Brokers (CASBs)?",
+      "back": "• Digital Rights Management (DRM): Methods used to protect copyrighted materials from unauthorized use, modification, and distribution. DRM \"travels with the data,\" making it useful for data at rest.\n• Cloud Access Security Brokers (CASBs): Software placed between users and cloud resources to ensure security policies and compliance are met when accessing cloud apps and data."
+    },
+    {
+      "id": "2-6-4b",
+      "domain": "2.6.4",
+      "category": "Determine Data Security Controls",
+      "front": "What is the difference between pseudonymization and tokenization?",
+      "back": "• Pseudonymization: Replaces data with aliases or pseudonyms. The original data can be recreated if the separate dataset linking them is available.\n• Tokenization: Replaces data with a random token. Similar to pseudonymization, but commonly used in credit card transactions to prevent theft at the point of sale (POS)."
+    },
+    {
+      "id": "2-6-4c",
+      "domain": "2.6.4",
+      "category": "Determine Data Security Controls",
+      "front": "What is anonymization?",
+      "back": "Anonymization is a permanent process that replaces private data with useful but inaccurate data to remove individual identities. When done correctly using methods like randomized masking, it cannot be reversed."
+    },
+    {
+      "id": "2-6-4d",
+      "domain": "2.6.4",
+      "category": "Determine Data Security Controls",
+      "front": "What are key protection methods for data at rest?",
+      "back": "Consider encryption for operating system volumes, data volumes, and backups. Also, consider all physical locations where data is at rest, such as tapes, USB drives, SANs, and optical media. Digital Rights Management (DRM) is also useful because it \"travels with the data\" regardless of its state."
+    },
+    {
+      "id": "2-6-4e",
+      "domain": "2.6.4",
+      "category": "Determine Data Security Controls",
+      "front": "What are the four cornerstones of Cloud Access Security Brokers (CASBs)?",
+      "back": "The four cornerstones of CASBs are visibility, data security, threat detection, and compliance."
+    },
+    {
+      "id": "2-0a",
+      "domain": "2.0",
+      "category": "General Concepts",
+      "front": "What is an asset?",
+      "back": "An asset is anything of value that is owned by the organization."
+    },
+    {
+      "id": "2-0b",
+      "domain": "2.0",
+      "category": "General Concepts",
+      "front": "What is the difference between RAM and ROM?",
+      "back": "• RAM (Random Access Memory) is volatile memory that loses its contents when the computer is powered off.\n• ROM (Read-Only Memory) is nonvolatile memory that cannot be written to by end users."
+    },
+    {
+      "id": "2-0c",
+      "domain": "2.0",
+      "category": "General Concepts",
+      "front": "What are PROM, EPROM, and EEPROM?",
+      "back": "• PROM (Programmable ROM): Memory whose contents can be changed once after manufacturing.\n• EPROM (Erasable PROM): Can be erased with ultraviolet light and reprogrammed.\n• EEPROM (Electrically Erasable PROM): Can be erased with an electrical current and reprogrammed."
+    },
+    {
+      "id": "2-0d",
+      "domain": "2.0",
+      "category": "General Concepts",
+      "front": "What is TEMPEST technology?",
+      "back": "TEMPEST is a classification of technology designed to minimize the electromagnetic emanations from computing devices to prevent eavesdropping. Countermeasures include Faraday cages, white noise, and shielding."
+    }
+  ]
+}

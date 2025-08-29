@@ -1,0 +1,317 @@
+/* Flashcard Modal Styles */
+.flashcard-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.flashcard-modal {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: 20px;
+  width: 90%;
+  max-width: 900px;
+  max-height: 90vh;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 24px 30px;
+  background: linear-gradient(135deg, var(--domain-color), transparent);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title h2 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.modal-title .card-counter {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.close-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.close-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(90deg);
+}
+
+/* Progress Section */
+.flashcard-modal .progress-section {
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.flashcard-modal .progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.flashcard-modal .progress-fill {
+  height: 100%;
+  transition: width 0.5s ease;
+  border-radius: 4px;
+}
+
+.flashcard-modal .progress-text {
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+/* Flashcard Container */
+.flashcard-modal .flashcard-container {
+  padding: 30px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashcard-modal .flashcard-wrapper {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.flashcard-modal .flashcard {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.flashcard-modal .flashcard.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-modal .flashcard-front,
+.flashcard-modal .flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.flashcard-modal .flashcard-front {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.flashcard-modal .flashcard-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, var(--domain-color), rgba(255, 255, 255, 0.1));
+  color: white;
+}
+
+/* Card Content */
+.flashcard-modal .card-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.flashcard-modal .card-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flashcard-modal .card-content p {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.flashcard-modal .answer-text {
+  text-align: left;
+  width: 100%;
+}
+
+.flashcard-modal .answer-text p {
+  margin: 12px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.flashcard-modal .flip-hint {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+/* Controls */
+.flashcard-modal .controls {
+  padding: 0 30px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.flashcard-modal .btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.flashcard-modal .btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.flashcard-modal .btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.flashcard-modal .btn-primary {
+  background: linear-gradient(135deg, #3B82F6, #2563EB);
+}
+
+.flashcard-modal .btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.flashcard-modal .btn-success {
+  background: linear-gradient(135deg, #10B981, #059669);
+}
+
+.flashcard-modal .btn-success-outline {
+  background: transparent;
+  border: 2px solid #10B981;
+  color: #10B981;
+}
+
+/* Keyboard Shortcuts */
+.flashcard-modal .shortcuts-hint {
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flashcard-modal .shortcuts-hint kbd {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .flashcard-modal {
+    width: 95%;
+    max-height: 95vh;
+  }
+  
+  .flashcard-modal .flashcard {
+    height: 300px;
+  }
+  
+  .flashcard-modal .card-content p {
+    font-size: 16px;
+  }
+  
+  .flashcard-modal .controls {
+    flex-wrap: wrap;
+  }
+  
+  .flashcard-modal .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  
+  .flashcard-modal .shortcuts-hint {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

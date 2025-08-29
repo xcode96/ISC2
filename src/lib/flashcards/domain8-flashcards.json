@@ -1,0 +1,355 @@
+{
+  "domain": "Domain 8: Software Development Security",
+  "flashcards": [
+    {
+      "id": "8-0a",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is the ACID Test for data integrity?",
+      "back": "Data integrity provided by enforcing:\n• Atomicity - transaction completes fully or not at all\n• Consistency - database remains in valid state\n• Isolation - transactions don't interfere with each other\n• Durability - committed transactions persist"
+    },
+    {
+      "id": "8-0b",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is a buffer overflow?",
+      "back": "Source code vulnerability allowing access to data locations outside of the storage space allocated to the buffer. Can be triggered by attempting to input data larger than the size of the buffer."
+    },
+    {
+      "id": "8-0c",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is polyinstantiation?",
+      "back": "Creates a new instance (copy) of a data item with the same identifier or key, allowing each process to have its own version. Useful for enforcing different security levels for a shared resource and preventing inference attacks."
+    },
+    {
+      "id": "8-0d",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is the difference between aggregation and inference?",
+      "back": "• Aggregation - security issue where combining non-sensitive data from separate sources creates sensitive info\n• Inference - attack where an attacker pulls together pieces of less sensitive info to derive info of greater sensitivity"
+    },
+    {
+      "id": "8-0e",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What are covert channels?",
+      "back": "Methods used to pass information over paths not normally used for communication. Communication pathways that violate security policy (deliberately or unwittingly). Two basic types:\n• Timing channels\n• Storage channels"
+    },
+    {
+      "id": "8-0f",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is a TOCTOU attack?",
+      "back": "Time of Check vs Time of Use attack - takes advantage of the time delay between a security check (authentication/authorization) being performed and actual use of the asset."
+    },
+    {
+      "id": "8-1",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What are the core values of the Agile Manifesto?",
+      "back": "• Individuals and interactions over processes and tools\n• Working software over comprehensive documentation\n• Customer collaboration over contract negotiation\n• Responding to change over following a plan"
+    },
+    {
+      "id": "8-1b",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What are the stages of the Waterfall model?",
+      "back": "1. System requirements\n2. Software requirements\n3. Preliminary design\n4. Detailed design\n5. Code and debug\n6. Testing\n7. Operations and maintenance"
+    },
+    {
+      "id": "8-1c",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What is DevOps vs DevSecOps?",
+      "back": "• DevOps - unites development, QA, and operations to shorten SDLC and provide continuous delivery\n• DevSecOps - extends DevOps by integrating security practices throughout the pipeline, supporting software-defined security"
+    },
+    {
+      "id": "8-1d",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What are the five maturity levels of SW-CMM?",
+      "back": "1. Initial - disorganized, ad-hoc processes\n2. Repeatable - basic lifecycle management introduced\n3. Defined - formal, documented processes\n4. Managed - quantitative measures used\n5. Optimizing - continuous improvement"
+    },
+    {
+      "id": "8-1e",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What are the five phases of the IDEAL model?",
+      "back": "• Initiating - outline business reasons for change\n• Diagnosing - analyze current state\n• Establishing - develop specific action plan\n• Acting - develop, test, and implement solutions\n• Learning - continuously analyze and propose new actions"
+    },
+    {
+      "id": "8-1f",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What are the five business functions in SAMM?",
+      "back": "• Governance - manage development processes\n• Design - define requirements and develop software\n• Implementation - build and deploy components\n• Verification - confirm code meets requirements\n• Operations - maintain security after release"
+    },
+    {
+      "id": "8-1g",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What are the three components of change management?",
+      "back": "• Request Control - organized framework for users to request modifications\n• Change Control - controlling specific changes during system lifecycle\n• Release Control - approval process for releasing finalized changes"
+    },
+    {
+      "id": "8-1h",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What is Scrum?",
+      "back": "Management framework where teams self-organize toward common goals. Uses set meetings, tools, and roles for efficient delivery. Named from daily team meetings (scrums). Development focuses on short sprints delivering finished products."
+    },
+    {
+      "id": "8-1i",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What is the Spiral model?",
+      "back": "Improved waterfall process providing Plan-Do-Check-Act (PDCA) sub-stages at each SDLC phase. Risk-driven development following iterative model while including waterfall elements. Allows return to planning stages as requirements iterate."
+    },
+    {
+      "id": "8-1j",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What is Scaled Agile Framework (SAFe)?",
+      "back": "Set of organizational and workflow patterns for implementing agile practices at enterprise scale. Allows large organizations with multiple teams to coordinate, collaborate, and deliver products."
+    },
+    {
+      "id": "8-2",
+      "domain": "8.2",
+      "category": "Software Development Security",
+      "front": "What is the difference between compiled and interpreted languages?",
+      "back": "• Compiled - converts source code to machine-executable format; less prone to manipulation but easier to embed backdoors\n• Interpreted - uses interpreter to execute; source code viewable (Python, JavaScript)"
+    },
+    {
+      "id": "8-2b",
+      "domain": "8.2",
+      "category": "Software Development Security",
+      "front": "What are key OOP concepts?",
+      "back": "• Class - collection of common methods defining behavior\n• Object/Instance - example of a class\n• Inheritance - child class inherits parent methods\n• Polymorphism - object responds differently to same message\n• Encapsulation - bundling data and methods together\n• Cohesion - strength of relationship between methods\n• Coupling - level of interaction between objects"
+    },
+    {
+      "id": "8-2c",
+      "domain": "8.2",
+      "category": "Software Development Security",
+      "front": "What is CI/CD?",
+      "back": "• Continuous Integration (CI) - new code integrated immediately, triggering automated tests\n• Continuous Delivery (CD) - incrementally building software that can be released anytime\nRelies on automation, enables daily or more frequent releases to production"
+    },
+    {
+      "id": "8-2d",
+      "domain": "8.2",
+      "category": "Software Development Security",
+      "front": "What is Software Configuration Management (SCM)?",
+      "back": "Product that identifies software attributes at various points and performs methodical change control to maintain integrity and traceability throughout SDLC. Manages and tracks revisions, provides concurrency management, versioning, and synchronization."
+    },
+    {
+      "id": "8-2e",
+      "domain": "8.2",
+      "category": "Software Development Security",
+      "front": "What is SAST vs DAST vs IAST?",
+      "back": "• SAST (Static) - analyzes code without executing, finds defects before compilation\n• DAST (Dynamic) - evaluates running program in real-time, finds logical errors\n• IAST (Interactive) - combines SAST and DAST, tests running system with source code access"
+    },
+    {
+      "id": "8-2f",
+      "domain": "8.2",
+      "category": "Software Development Security",
+      "front": "What is an Integrated Development Environment (IDE)?",
+      "back": "Software application providing programmers everything needed to specify, code, compile, test, and integrate code. Provides single environment for writing, testing, debugging, and compiling."
+    },
+    {
+      "id": "8-2g",
+      "domain": "8.2",
+      "category": "Software Development Security",
+      "front": "What are Runtime Environments (RTE)?",
+      "back": "Allow portable execution of code across different operating systems without recompiling (e.g., Java Virtual Machine). Enables portable code that needs translation between environments."
+    },
+    {
+      "id": "8-3",
+      "domain": "8.3",
+      "category": "Software Development Security",
+      "front": "What events should applications log according to OWASP?",
+      "back": "• Input validation failures\n• Authentication attempts (especially failures)\n• Access control failures\n• Tampering attempts\n• Invalid/expired session tokens\n• OS/application exceptions\n• Admin privilege use\n• TLS failures\n• Cryptographic errors"
+    },
+    {
+      "id": "8-3b",
+      "domain": "8.3",
+      "category": "Software Development Security",
+      "front": "Why is threat modeling important in DevSecOps?",
+      "back": "Helps development teams identify and map risks to implemented controls. Ensures software projects are tracked in organization's risk matrix, connecting dev team to broader risk management efforts."
+    },
+    {
+      "id": "8-4",
+      "domain": "8.4",
+      "category": "Software Development Security",
+      "front": "What is COTS software?",
+      "back": "Commercial Off-the-Shelf software - provided as finished products not intended for alteration by end-users. Usually well-tested by security researchers. Should research vendor certifications like ISO/IEC 27034."
+    },
+    {
+      "id": "8-4b",
+      "domain": "8.4",
+      "category": "Software Development Security",
+      "front": "What are risks of open-source software?",
+      "back": "• No service/support included\n• Requires in-house configuration and testing\n• Both developers and adversaries can review for vulnerabilities\n• Greatest risk: relying on outdated versions, especially shared libraries"
+    },
+    {
+      "id": "8-4c",
+      "domain": "8.4",
+      "category": "Software Development Security",
+      "front": "What are cloud service models?",
+      "back": "• SaaS - Software as a Service\n• IaaS - Infrastructure as a Service\n• PaaS - Platform as a Service\n• XaaS - Anything as a Service (catchall term)"
+    },
+    {
+      "id": "8-4d",
+      "domain": "8.4",
+      "category": "Software Development Security",
+      "front": "What are top reasons for cloud breaches?",
+      "back": "• Misconfigurations\n• Lack of visibility into access settings\n• Poor access controls"
+    },
+    {
+      "id": "8-4e",
+      "domain": "8.4",
+      "category": "Software Development Security",
+      "front": "What is third-party software?",
+      "back": "Software made specifically for an organization by a third party (outsourced). Not COTS since it's custom/customized. May rely on open-source but can have different vulnerabilities. Best practice: external audit and security assessment."
+    },
+    {
+      "id": "8-5",
+      "domain": "8.5",
+      "category": "Software Development Security",
+      "front": "What is the OWASP Top 10 (2024)?",
+      "back": "1. Broken access control\n2. Cryptographic failures\n3. Injection\n4. Insecure design\n5. Security misconfiguration\n6. Vulnerable and outdated components\n7. Identification and authentication failures\n8. Software and data integrity failures\n9. Security logging and monitoring failures\n10. Server Side Request Forgery (SSRF)"
+    },
+    {
+      "id": "8-5b",
+      "domain": "8.5",
+      "category": "Software Development Security",
+      "front": "What is the difference between design flaws and implementation flaws?",
+      "back": "• Design flaw - vulnerability exists even if everything implemented correctly\n• Implementation flaw - developer incorrectly implemented part of a good design"
+    },
+    {
+      "id": "8-5c",
+      "domain": "8.5",
+      "category": "Software Development Security",
+      "front": "What is parameter validation?",
+      "back": "Ensuring any API parameter is checked against being malformed, invalid, or malicious. Confirms parameter values are within defined limits before processing. Helps ensure secure API use."
+    },
+    {
+      "id": "8-5d",
+      "domain": "8.5",
+      "category": "Software Development Security",
+      "front": "What makes a secure coding practice a standard vs guideline?",
+      "back": "Standards (mandatory):\n• Reduces risk of specific vulnerability\n• Enforceable across all development\n• Verifiably implemented\n\nGuidelines (recommended):\n• Less specific than standards\n• Provide flexibility for unforeseen circumstances"
+    },
+    {
+      "id": "8-5e",
+      "domain": "8.5",
+      "category": "Software Development Security",
+      "front": "What is Software-Defined Security (SDS)?",
+      "back": "Security model where functions like firewalling, IDS/IPS, and segmentation are implemented in software within SDN environment. Advantages:\n• Dynamic sensor repositioning\n• Decoupling from physical devices\n• Supports cloud services and virtualized data centers"
+    },
+    {
+      "id": "8-0g",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is encapsulation in software development?",
+      "back": "Enforcement of data/code hiding during all phases of development and operational use. Bundling together data and methods. Provides black-box approach to abstraction (opposite of unpacking/revealing)."
+    },
+    {
+      "id": "8-0h",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is a trapdoor/backdoor?",
+      "back": "Also called maintenance hook - hidden mechanism bypassing access controls. Entry point inserted by developers during development for modification/support, or by attackers to bypass security measures."
+    },
+    {
+      "id": "8-0i",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What are database models?",
+      "back": "• Hierarchical - tree-like parent-child structures\n• Network - arbitrary linked fashion (lists, clusters)\n• Relational (RDBMS) - data in tables linked by relationships\n• Object-oriented - uses OOP concepts like classes and objects"
+    },
+    {
+      "id": "8-0j",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is data mining vs data warehouse?",
+      "back": "• Data Mining - extracting deeper meanings from many instances/types of data\n• Data Warehouse - collection of data sources providing broader base for analysis\n• Data Lake - warehouse incorporating unstructured/semi-structured data streams"
+    },
+    {
+      "id": "8-0k",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is regression testing?",
+      "back": "Testing to determine if recent modifications changed performance of other functions or introduced unauthorized behavior. Runs known inputs against application and compares to results from earlier versions."
+    },
+    {
+      "id": "8-0l",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is Infrastructure as Code (IaC)?",
+      "back": "Viewing hardware configuration as elements managed the same way as software and code under DevSecOps, rather than manual, hands-on administration."
+    },
+    {
+      "id": "8-0m",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is CORBA?",
+      "back": "Common Object Request Broker Architecture - standards addressing interoperability between software/hardware products across networks. Provides object location and use across a network."
+    },
+    {
+      "id": "8-1k",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What is Extreme Programming (XP)?",
+      "back": "Agile methodology targeting speed and simplicity with short development cycles. Uses five guiding values and five rules. Goal is higher quality through rigid structure, focused sprints, and continuous integration."
+    },
+    {
+      "id": "8-1l",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What is the Rational Unified Process (RUP)?",
+      "back": "Agile methodology with four phases:\n• Inception - define scope and business case\n• Elaboration - plan project and baseline architecture\n• Construction - build the product\n• Transition - deliver to users"
+    },
+    {
+      "id": "8-1m",
+      "domain": "8.1",
+      "category": "Software Development Security",
+      "front": "What is an Integrated Product Team (IPT)?",
+      "back": "Multifunctional team with single goal of delivering product or developing process/policy. Fosters parallel rather than sequential decisions. Ensures all aspects considered during development."
+    },
+    {
+      "id": "8-0n",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is User Acceptance Testing (UAT)?",
+      "back": "Typically the last phase of testing. Verifies solution meets user requirements and validates against use cases."
+    },
+    {
+      "id": "8-0o",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is defensive programming?",
+      "back": "Design/coding that allows acceptable but sanitized data inputs. Constantly looking for opportunities for things to go badly. Treats all input routines as untrusted until proven otherwise."
+    },
+    {
+      "id": "8-0p",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is mobile code/executable content?",
+      "back": "Files sent by a system to others that either control execution of systems/applications on the client or are directly executed. Examples include JavaScript, ActiveX controls, Java applets."
+    },
+    {
+      "id": "8-0q",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is Runtime Application Security Protection (RASP)?",
+      "back": "Security agents comprised of small code units built into applications. Can detect security violations and cause app to terminate or take other protective actions when violations detected."
+    },
+    {
+      "id": "8-0r",
+      "domain": "8.0",
+      "category": "Software Development Security",
+      "front": "What is reputation monitoring?",
+      "back": "Defensive tactic using trust reputation of websites/IP addresses to block connections to possible malware sources. Possibly the only real defense against zero-day exploits. Monitors URLs, domains, IP addresses to separate untrustworthy traffic."
+    }
+  ]
+}

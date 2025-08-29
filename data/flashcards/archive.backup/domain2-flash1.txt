@@ -1,0 +1,186 @@
+### **Domain 2.1: Identify and Classify Information and Assets**
+
+**Front:**
+*Domain/Subdomain: 2.1.1*
+What is the difference between Personally Identifiable Information (PII) and Protected Health Information (PHI)?
+
+**Back:**
+* **PII**: Any information that can be used to distinguish or trace an individual's identity, such as name, social security number, or biometric records.
+* **PHI**: Any health-related information that can be related to a specific person. It is protected under HIPAA.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.1.1*
+What are the typical data classification labels used by governments versus non-government organizations?
+
+**Back:**
+* **Government**: Top Secret, Secret, Unclassified.
+* **Non-Government**: Confidential/Proprietary, Private, Sensitive, Public.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.1.2*
+What is **asset classification**?
+
+**Back:**
+It is the process of assigning assets the level of protection they require based on their value to the organization. Asset classifications should match the classification of the data they handle, and owners are accountable for protecting the asset's value.
+
+***
+
+### **Domain 2.2: Establish Information and Asset Handling Requirements**
+
+**Front:**
+*Domain/Subdomain: 2.2*
+What is the difference between **labeling** and **marking**?
+
+**Back:**
+* **Labeling**: Associates security attributes with subjects and objects in a **system-readable** form (e.g., metadata, RFID tags) to enable system-based policy enforcement.
+* **Marking**: Associates security attributes in a **human-readable** form (e.g., a "Confidential" header) to enable process-based policy enforcement.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.2*
+What are the different methods of data destruction as defined by NIST?
+
+**Back:**
+* **Erasing**: A standard delete operation that leaves data remanence.
+* **Clearing**: Overwriting data to ensure it cannot be recovered with normal tools, though some data might still be recoverable.
+* **Purging**: A more intense removal process (like degaussing) ensuring data cannot be reconstructed by any known technique.
+* **Destruction**: Physically destroying the media through shredding, burning, or pulverizing.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.2*
+What is **data remanence** and how can it be addressed?
+
+**Back:**
+**Data remanence** is the data remaining on media after it has supposedly been erased.
+Tools to address it include:
+* **Degaussing**: Uses a strong magnetic field to destroy data on magnetic media.
+* **Crypto Shredding**: Encrypts data with a strong key and then destroys the key, making the data unrecoverable.
+
+***
+
+### **Domain 2.3: Provision Information and Assets Securely**
+
+**Front:**
+*Domain/Subdomain: 2.3*
+What is the difference between **Need-to-Know** and **Least Privilege**?
+
+**Back:**
+* **Need-to-Know**: Grants users access only to the data or resources they require to perform their assigned work tasks.
+* **Least Privilege**: Grants subjects only the privileges necessary to perform their work tasks and no more.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.3.1*
+Who is the **data owner** and what is their primary responsibility?
+
+**Back:**
+The **data owner** is the person with ultimate organizational responsibility for data, typically a senior manager. Their primary responsibility is to ensure that appropriate security controls are in place to protect the data.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.3.2*
+What is the difference between tangible and intangible assets?
+
+**Back:**
+* **Tangible assets**: Physical items owned by the company, such as hardware and software.
+* **Intangible assets**: Non-physical items representing potential revenue, such as patents, copyrights, and a company's reputation.
+
+***
+
+### **Domain 2.4: Manage Data Lifecycle**
+
+**Front:**
+*Domain/Subdomain: 2.4.1*
+What are the key data roles and their functions?
+
+**Back:**
+* **Data Owner**: Has ultimate responsibility for data and ensures it is protected.
+* **System Owner**: Controls the computer storing the data and is responsible for system operation and maintenance.
+* **Data Controller**: Decides what data to process and how to process it.
+* **Data Processor**: An entity that processes data on behalf of the data controller.
+* **Data Custodian**: Manages the day-to-day responsibilities for storing and protecting data.
+* **User**: Any person who accesses data to accomplish work.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.4.5*
+What are the three fundamental questions for a data retention policy?
+
+**Back:**
+1.  **How to retain data?** Data should be kept in an accessible manner, considering its classification.
+2.  **How long to retain data?** This can vary by regulation, but a general guideline for business data is 7 years.
+3.  **What data to retain?** Determined by organizational requirements.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.4.7*
+What is **defensible destruction**?
+
+**Back:**
+It is the process of eliminating data in a controlled, legally defensible, and regulatory-compliant way.
+
+***
+
+### **Domain 2.5: Ensure Appropriate Asset Retention**
+
+**Front:**
+*Domain/Subdomain: 2.5*
+What is the difference between End-of-Life (EOL) and End-of-Support (EOS)?
+
+**Back:**
+* **End-of-Life (EOL)**: The time when a vendor stops offering a product for sale.
+* **End-of-Support (EOS)**: The time when a vendor ends support for a product. Both can apply to hardware or software.
+
+***
+
+### **Domain 2.6: Determine Data Security Controls**
+
+**Front:**
+*Domain/Subdomain: 2.6.1*
+What are the three states of data?
+
+**Back:**
+* **Data at rest**: Any data stored on media such as hard drives.
+* **Data in transit**: Any data transmitted over a network.
+* **Data in use**: Data currently in memory and being used by an application.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.6.2*
+What is the difference between **scoping** and **tailoring** in the context of security controls?
+
+**Back:**
+* **Scoping**: Part of the tailoring process; it refers to reviewing a list of baseline security controls and selecting only those that apply to the system you're protecting by removing controls that don't apply.
+* **Tailoring**: The overall process of modifying a list of security controls within a baseline to align with an organization's specific mission and security requirements.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.6.4*
+What are Digital Rights Management (DRM) and Cloud Access Security Brokers (CASBs)?
+
+**Back:**
+* **Digital Rights Management (DRM)**: Methods used to protect copyrighted materials from unauthorized use, modification, and distribution. DRM "travels with the data," making it useful for data at rest.
+* **Cloud Access Security Brokers (CASBs)**: Software placed between users and cloud resources to ensure security policies and compliance are met when accessing cloud apps and data.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.6.4*
+What is the difference between **pseudonymization** and **tokenization**?
+
+**Back:**
+* **Pseudonymization**: Replaces data with aliases or pseudonyms. The original data can be recreated if the separate dataset linking them is available.
+* **Tokenization**: Replaces data with a random token. Similar to pseudonymization, but commonly used in credit card transactions to prevent theft at the point of sale (POS).

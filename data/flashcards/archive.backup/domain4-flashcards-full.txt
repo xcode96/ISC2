@@ -1,0 +1,163 @@
+### **Domain 4: Communication and Network Security**
+
+**Front:**  
+*Domain/Subdomain: 4.0*  
+What percentage of the CISSP exam does Domain 4 cover and what is its general focus?  
+
+**Back:**  
+Domain 4 covers about **13%** of the exam and focuses on **communication and network security**. Candidates with a networking background may find it easier, but those without should dedicate extra study time.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.0*  
+What is the difference between **active-active** and **active-passive** configurations?  
+
+**Back:**  
+* **Active-active**: All systems or pathways are in use during normal operations, distributing workloads across nodes; higher performance in normal conditions but reduced capacity during failures.  
+* **Active-passive**: Only one system/pathway is active, with secondary units dormant until needed; consistent capacity during failures but unused capacity during normal operations.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.0*  
+What is **ARP poisoning** and its typical goal?  
+
+**Back:**  
+Also known as **ARP spoofing**, it’s an attack where malicious ARP messages are sent to associate the attacker’s MAC address with another device’s IP (often the gateway), enabling **MITM**, eavesdropping, or DoS attacks.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.0*  
+What is the difference between **Bluejacking**, **Bluesnarfing**, and **Bluebugging**?  
+
+**Back:**  
+* **Bluejacking**: Sending unsolicited messages via Bluetooth; mostly harmless.  
+* **Bluesnarfing**: Stealing sensitive data via Bluetooth without user knowledge.  
+* **Bluebugging**: Taking full control of a Bluetooth-enabled device to eavesdrop, send messages, or change settings.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.0*  
+What is **Evil Twin** in wireless security?  
+
+**Back:**  
+A rogue Wi-Fi access point mimicking a legitimate AP to trick users into connecting, enabling interception, monitoring, and theft of sensitive data.
+
+***
+
+### **Domain 4.1.1 – OSI & TCP/IP Models**
+
+**Front:**  
+*Domain/Subdomain: 4.1.1*  
+What are the four layers of the **TCP/IP model**?  
+
+**Back:**  
+1. **Application** (Process)  
+2. **Transport** (Host-to-Host)  
+3. **Internet** (Internetworking)  
+4. **Link** (Network Interface/Access)
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.1*  
+What is the purpose of the **OSI Reference Model**?  
+
+**Back:**  
+Developed by ISO, it provides a standard framework for network communication, allowing interoperability between systems via seven layers.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.1*  
+What is **encapsulation** in networking?  
+
+**Back:**  
+The process where each OSI layer adds its own header (and sometimes footer) to the data from the layer above before passing it down the stack.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.1*  
+List the OSI model layers from top to bottom and the common mnemonic used.  
+
+**Back:**  
+Layers: Application, Presentation, Session, Transport, Network, Data Link, Physical.  
+Mnemonic: **All People Seem To Need Delicious Pizza**.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.1*  
+What is the **Transport Layer** responsible for, and name two key protocols.  
+
+**Back:**  
+Responsible for connection integrity, flow control, and error checking.  
+Key protocols: **TCP** (connection-oriented, reliable) and **UDP** (connectionless, fast).
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.1*  
+What is the difference between **distance-vector** and **link-state** routing protocols?  
+
+**Back:**  
+* **Distance-vector**: Chooses paths based on distance (e.g., hop count) and vector (exit interface); examples: RIP, EIGRP.  
+* **Link-state**: Chooses paths based on network characteristics like speed and reliability; examples: OSPF, IS-IS.
+
+***
+
+### **Domain 4.1.2 – IPv4 & IPv6**
+
+**Front:**  
+*Domain/Subdomain: 4.1.2*  
+What is the primary difference between **IPv4** and **IPv6**?  
+
+**Back:**  
+* **IPv4**: 32-bit addresses (~4.3 billion possible).  
+* **IPv6**: 128-bit addresses (~3.4×10³⁸ possible) and requires IPSec.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.2*  
+What is **CIDR notation** and give an example.  
+
+**Back:**  
+A compact way to express IP addresses and subnet masks, written as `address/prefix-length`.  
+Example: `192.168.1.0/24` means the first 24 bits are network bits, leaving 8 bits for hosts.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.2*  
+Define **Unicast**, **Broadcast**, and **Multicast**.  
+
+**Back:**  
+* **Unicast**: One-to-one communication.  
+* **Broadcast**: One-to-all communication in a subnet.  
+* **Multicast**: One-to-many communication to subscribed group members only.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.2*  
+What is **Anycast** used for in networking?  
+
+**Back:**  
+It directs traffic to the nearest or best destination (e.g., CDN nodes) to improve speed and reliability.
+
+***
+
+**Front:**  
+*Domain/Subdomain: 4.1.2*  
+What is the purpose of **IPSec**?  
+
+**Back:**  
+Provides encryption, authentication, and integrity for IP traffic; used in VPNs in either transport mode (encrypt payload only) or tunnel mode (encrypt entire packet).
+
+***
+

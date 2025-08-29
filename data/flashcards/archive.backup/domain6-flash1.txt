@@ -1,0 +1,372 @@
+Domain 6 – Security Assessment and Testing
+
+Front:
+Domain/Subdomain: 6.0
+What are security assessments and what do they include?
+
+Back:
+Comprehensive reviews of system/application security that identify vulnerabilities and make remediation recommendations. Include vulnerability assessments, penetration tests, software testing, audits, and control validation.
+
+Front:
+Domain/Subdomain: 6.0
+What are the three types of audit strategies?
+
+Back:
+- Internal audits (within organization control)
+- External audits (outside organization control)  
+- Third-party audits (outside of enterprise control)
+
+Front:
+Domain/Subdomain: 6.0
+What is the functional order of controls?
+
+Back:
+Deter, deny, detect, delay, determine, and decide - the sequence of control functions in security defense.
+
+Front:
+Domain/Subdomain: 6.0
+What is fuzzing and its two main types?
+
+Back:
+Testing with modified inputs to test software under unexpected circumstances. Types:
+- Mutation (dumb) fuzzing - modifies known inputs
+- Generational (intelligent) fuzzing - develops inputs based on models
+
+Front:
+Domain/Subdomain: 6.0
+What are SCAP components for vulnerability assessments?
+
+Back:
+- CVE - naming system for vulnerabilities
+- CVSS - standardized severity scoring
+- CCE - naming for configuration issues
+- CPE - naming for OS/apps/devices
+- XCCDF - language for security checklists
+- OVAL - language for testing procedures
+
+Front:
+Domain/Subdomain: 6.0
+What is a POA&M?
+
+Back:
+Plan of Action and Milestones - document identifying tasks to be accomplished with details, resources, milestones, and completion target dates.
+
+Domain 6.1 – Design and Validate Assessment, Test, and Audit Strategies
+
+Front:
+Domain/Subdomain: 6.1
+What are internal audits and their characteristics?
+
+Back:
+Audits performed by organization's internal staff for internal use, designed to evaluate controls and find improvements. Aligned to business operations with less conflict than external audits but potential for bias.
+
+Front:
+Domain/Subdomain: 6.1
+What are external audits and their advantages?
+
+Back:
+Audits by outside firms with high external validity due to no conflict of interest. Generally acceptable to investors and governing bodies, complementing internal strategy.
+
+Front:
+Domain/Subdomain: 6.1
+What are SOC audit types and their focus?
+
+Back:
+- SOC 1 - financial reporting controls
+- SOC 2 - security and privacy controls (5 trust principles)
+- SOC 3 - security and privacy for public disclosure
+
+Front:
+Domain/Subdomain: 6.1
+What is the difference between Type I and Type II SOC reports?
+
+Back:
+- Type I - auditor's opinion on control design at a point in time (documentation review)
+- Type II - includes operating effectiveness over 6+ months (traditional audit with verification)
+
+Front:
+Domain/Subdomain: 6.1
+What are the assessment location types?
+
+Back:
+- On-premise - in-house systems and facilities
+- Cloud - data/apps in service provider environment
+- Hybrid - connectivity between on-premise and cloud
+
+Domain 6.2 – Conduct Security Controls Testing
+
+Front:
+Domain/Subdomain: 6.2
+What are the steps in a vulnerability assessment?
+
+Back:
+1. Reconnaissance (passive info gathering)
+2. Enumeration (active discovery)
+3. Vulnerability Analysis (identify potential vulnerabilities)
+4. Execution (pen testing only)
+5. Document Findings (report severity)
+
+Front:
+Domain/Subdomain: 6.2
+What are the four main categories of vulnerability scans?
+
+Back:
+- Network discovery scans
+- Network vulnerability scans
+- Web application vulnerability scans
+- Database vulnerability scans
+
+Front:
+Domain/Subdomain: 6.2
+What is an authenticated scan?
+
+Back:
+Credentialed security scan using valid credentials to simulate authenticated user actions, accessing deeper system layers for more accurate vulnerability assessment.
+
+Front:
+Domain/Subdomain: 6.2
+What are the types of penetration tests by knowledge level?
+
+Back:
+- White-box (known environment) - detailed system information provided
+- Gray-box (partially known) - balances advantages of both
+- Black-box (unknown environment) - no prior information given
+
+Front:
+Domain/Subdomain: 6.2
+What are red, blue, and purple teams?
+
+Back:
+- Red team - offensive security (ethical hacking, pen testing)
+- Blue team - defensive security (monitoring, incident response)
+- Purple team - collaboration between red and blue teams
+
+Front:
+Domain/Subdomain: 6.2
+What are SIEM capabilities?
+
+Back:
+Aggregation, normalization, correlation, secure storage, analysis, and reporting of log data from multiple sources.
+
+Front:
+Domain/Subdomain: 6.2
+What is synthetic monitoring?
+
+Back:
+Uses emulated or recorded transactions with known expected results to monitor for performance changes in response time, functionality, or other metrics.
+
+Front:
+Domain/Subdomain: 6.2
+What is the difference between SAST and DAST?
+
+Back:
+- SAST (Static) - evaluates security without running code, analyzing source or compiled application
+- DAST (Dynamic) - evaluates security in runtime environment
+
+Front:
+Domain/Subdomain: 6.2
+What are the five common test coverage criteria?
+
+Back:
+- Branch coverage - all IF statements tested
+- Condition coverage - all logical tests executed
+- Functional coverage - all functions called
+- Loop coverage - loops tested multiple/once/not at all
+- Statement coverage - every line executed
+
+Front:
+Domain/Subdomain: 6.2
+What types of interfaces should be tested?
+
+Back:
+- APIs - standardized code module interactions
+- User interfaces - GUIs and command-line
+- Physical interfaces - machinery and logic controllers
+
+Front:
+Domain/Subdomain: 6.2
+What is Breach and Attack Simulation (BAS)?
+
+Back:
+Automated platforms that test security controls by injecting threat indicators to trigger detection/prevention controls, combining red and blue team techniques.
+
+Domain 6.3 – Collect Security Process Data
+
+Front:
+Domain/Subdomain: 6.3
+What are preferred attacker techniques for privileged access?
+
+Back:
+- Compromising existing privileged accounts (mitigated by strong auth/MFA)
+- Privilege escalation of regular accounts
+- Creation of new privileged accounts
+
+Front:
+Domain/Subdomain: 6.3
+What is the Plan-Do-Check-Act loop in ISO 9000?
+
+Back:
+- Plan - ISMS foundation and goals
+- Do - security operations
+- Check - security assessment and testing
+- Act - management review
+
+Front:
+Domain/Subdomain: 6.3
+What are Key Performance Indicators (KPIs)?
+
+Back:
+Backward-looking measures showing ISMS performance against goals, including open vulnerabilities, resolution time, compromised accounts, and repeat findings.
+
+Front:
+Domain/Subdomain: 6.3
+What are Key Risk Indicators (KRIs)?
+
+Back:
+Forward-looking indicators showing exposure to operational risk, monitoring potential future shifts in risk conditions or emerging risks.
+
+Front:
+Domain/Subdomain: 6.3
+What should backup verification include?
+
+Back:
+Reviewing logs, inspecting hash values, and requesting actual system/file restores to verify process effectiveness and data protection needs.
+
+Front:
+Domain/Subdomain: 6.3
+What is the difference between Business Continuity and Disaster Recovery?
+
+Back:
+- BC - holistic processes ensuring vital business processes remain unaffected or quickly restored
+- DR - subset of BC focusing on restoring information systems after disaster
+
+Domain 6.4 – Analyze Test Output and Generate Report
+
+Front:
+Domain/Subdomain: 6.4
+What are the three steps in analyzing test output?
+
+Back:
+1. Review and understand the data
+2. Determine business impact ("so what?")
+3. Determine what is actionable
+
+Front:
+Domain/Subdomain: 6.4
+What are compensatory controls?
+
+Back:
+Measures addressing weaknesses of existing controls or compensating for inability to meet security requirements due to constraints (e.g., micro-segmentation for unpatchable devices).
+
+Front:
+Domain/Subdomain: 6.4
+What is ethical disclosure?
+
+Back:
+Security professionals' responsibility to privately report discovered vulnerabilities to vendors with reasonable time to patch before public disclosure if uncorrected.
+
+Domain 6.5 – Conduct or Facilitate Security Audits
+
+Front:
+Domain/Subdomain: 6.5
+What are advantages of internal security audits?
+
+Back:
+- Understanding of environment reduces time
+- Ability to delve into all system parts
+- Agility in adapting to changing needs
+- Quick rescheduling of failed components
+
+Front:
+Domain/Subdomain: 6.5
+What are disadvantages of internal security audits?
+
+Back:
+- Limited exposure to new methodologies
+- Potential conflicts of interest
+- Possible agenda-driven findings
+- Internal politics influence
+
+Front:
+Domain/Subdomain: 6.5
+What are advantages of third-party audits?
+
+Back:
+- Breadth of experience across many systems/organizations
+- Not affected by internal dynamics or politics
+- High credibility for compliance demonstration
+
+Front:
+Domain/Subdomain: 6.5
+What are disadvantages of third-party audits?
+
+Back:
+- Higher cost than internal teams
+- Less frequent audits due to cost
+- Still requires internal resources to assist/guide auditors
+
+Front:
+Domain/Subdomain: 6.5
+What is an external audit?
+
+Back:
+Audit conducted by or on behalf of a business partner, scoped to include only contractual obligations of an organization.
+
+Front:
+Domain/Subdomain: 6.0
+What is SSAE 18?
+
+Back:
+Standards for Attestation Engagements document 18 - provides common standard for auditors assessing service organizations, allowing single assessment shared with multiple customers.
+
+Front:
+Domain/Subdomain: 6.0
+What are Fagan inspections?
+
+Back:
+Most formal code review process with six steps: planning, overview, preparation, inspection, rework, and follow-up.
+
+Front:
+Domain/Subdomain: 6.0
+What is misuse case testing?
+
+Back:
+Testing from hostile actor's perspective, focusing on behaviors counter to proper system function, attempting to exploit known misuse cases.
+
+Front:
+Domain/Subdomain: 6.2
+What are the NIST penetration testing phases?
+
+Back:
+1. Planning - scope and rules of engagement
+2. Information gathering and discovery
+3. Attack - exploit attempts
+4. Reporting - results and recommendations
+
+Front:
+Domain/Subdomain: 6.0
+What is RUM?
+
+Back:
+Real User Monitoring - passive technique recording user interactions with apps/systems to ensure performance and proper behavior.
+
+Front:
+Domain/Subdomain: 6.0
+What is vulnerability management lifecycle?
+
+Back:
+Cyclical process of identifying, classifying, prioritizing, and mitigating vulnerabilities through asset inventory, value identification, vulnerability identification, and ongoing review.
+
+Front:
+Domain/Subdomain: 6.3
+What security awareness metric is commonly used?
+
+Back:
+Phishing simulations to evaluate the effectiveness of security awareness programs and employee susceptibility to social engineering.
+
+Front:
+Domain/Subdomain: 6.0
+What is Rules of Engagement (RoE)?
+
+Back:
+Set of rules/constraints establishing limits of participant activity in ethical penetration testing, defining scope and liability limits for testers and organizations.

@@ -1,0 +1,778 @@
+{
+  "domain_id": 6,
+  "domain_name": "Security Assessment and Testing",
+  "domain_weight": 12,
+  "total_questions": 41,
+  "generated_at": "2025-08-24T17:36:32.409Z",
+  "questions": [
+    {
+      "id": 29,
+      "question_text": "What is the primary goal of a security audit?",
+      "options": [
+        "To fix all identified vulnerabilities within the system",
+        "To assess the effectiveness of an organization's security measures",
+        "To monitor employee activities and ensure compliance with security policies",
+        "To configure security devices and software"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the effectiveness of an organization's security measures",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 35,
+      "question_text": "What is the main goal of penetration testing?",
+      "options": [
+        "To repair vulnerabilities in software",
+        "To test the physical security of a building",
+        "To identify vulnerabilities in a system or network",
+        "To ensure compliance with legal requirements"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To identify vulnerabilities in a system or network",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 56,
+      "question_text": "What is the primary function of a Chief Information Security Officer (CISO)?",
+      "options": [
+        "To manage the company's financial investments",
+        "To oversee the organization's IT security strategy and operations",
+        "To handle the organization's marketing strategies",
+        "To manage the organization's software development projects"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To oversee the organization's IT security strategy and operations",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 57,
+      "question_text": "In cybersecurity, what is the purpose of a sandbox environment?",
+      "options": [
+        "For children to play in during company picnics",
+        "To isolate untested code or potentially malicious software",
+        "To store sand for construction projects",
+        "To create a relaxing environment for stressed employees"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To isolate untested code or potentially malicious software",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 64,
+      "question_text": "In the context of cybersecurity, what is meant by \"asset valuation\"?",
+      "options": [
+        "The process of determining the effectiveness of security controls",
+        "The process of assessing the potential impact of a cyber attack",
+        "The process of determining the financial worth of information assets to the organization",
+        "The process of evaluating the performance of security personnel"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The process of determining the financial worth of information assets to the  organization",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 119,
+      "question_text": "What is the purpose of a security audit?",
+      "options": [
+        "To evaluate the efficiency of IT department employees",
+        "To assess the security posture of an organization by identifying vulnerabilities and non\u0002compliance with established policies and standards",
+        "To monitor employee activities on the internet",
+        "To configure network devices for optimal performance"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the security posture of an organization by identifying vulnerabilities  and non-compliance with established policies and standards",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 127,
+      "question_text": "What is the primary purpose of penetration testing?",
+      "options": [
+        "To evaluate the organization’s compliance with data protection regulations",
+        "To assess the security of an IT infrastructure by safely trying to exploit vulnerabilities",
+        "To repair vulnerabilities in the organization’s software applications",
+        "To penetrate the market with new products"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the security of an IT infrastructure by safely trying to exploit  vulnerabilities",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 145,
+      "question_text": "What is the primary concern of mobile security?",
+      "options": [
+        "Ensuring that mobile apps have the latest features",
+        "Protecting mobile devices from theft and unauthorized access",
+        "Increasing the battery life of mobile devices",
+        "Enhancing the speed of mobile networks"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Protecting mobile devices from theft and unauthorized access",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 159,
+      "question_text": "What is the purpose of a vulnerability assessment?",
+      "options": [
+        "To evaluate the effectiveness of organizational training programs",
+        "To identify, quantify, and prioritize vulnerabilities in a system",
+        "To assess the financial impact of potential security breaches",
+        "To determine the speed of the network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, quantify, and prioritize vulnerabilities in a system",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vulnerability assessment"
+      ]
+    },
+    {
+      "id": 197,
+      "question_text": "In cybersecurity, what is the significance of “root of trust”?",
+      "options": [
+        "It is the initial step in a penetration testing process",
+        "It refers to the most critical vulnerability in a system",
+        "It is a set of functions in the trusted computing module that is always trusted by the ",
+        "It is the main directory of a Linux-based operating system"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It is a set of functions in the trusted computing module that is always trusted by  the operating system",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 230,
+      "question_text": "Which of the following best describes the purpose of a security audit?",
+      "options": [
+        "To evaluate the physical security of a building",
+        "To assess the efficiency of an organization’s IT department",
+        "To identify and rectify vulnerabilities in an organization’s information systems",
+        "To monitor employee productivity"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To identify and rectify vulnerabilities in an organization’s information systems",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 289,
+      "question_text": "Which of the following best describes the purpose of a security audit?",
+      "options": [
+        "To evaluate the effectiveness of an organization’s security measures",
+        "To increase the organization’s sales and marketing efforts",
+        "To design new logos and branding materials",
+        "To recruit new members for the IT department"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To evaluate the effectiveness of an organization’s security measures",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 323,
+      "question_text": "Which of the following best describes “penetration testing”?",
+      "options": [
+        "Testing the physical security of a building",
+        "A live test of the effectiveness of security defenses through mimicked attacks",
+        "The process of testing software for vulnerabilities before release",
+        "Scanning networks for vulnerabilities with automated tools"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A live test of the effectiveness of security defenses through mimicked attacks",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 342,
+      "question_text": "What is the primary goal of a penetration test?",
+      "options": [
+        "To evaluate the effectiveness of security policies",
+        "To identify vulnerabilities that could be exploited by attackers",
+        "To comply with regulatory requirements",
+        "To train employees in cybersecurity practices"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify vulnerabilities that could be exploited by attackers",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 348,
+      "question_text": "What is the primary purpose of a Security Information and Event Management (SIEM) ",
+      "options": [
+        "To manage employee access to applications",
+        "To provide real-time analysis of security alerts generated by applications and network ",
+        "To encrypt data at rest",
+        "To conduct penetration testing"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide real-time analysis of security alerts generated by applications and  network hardware",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "penetration testing",
+        "siem"
+      ]
+    },
+    {
+      "id": 360,
+      "question_text": "What is the primary purpose of a security audit?",
+      "options": [
+        "To repair vulnerabilities in software",
+        "To assess the effectiveness of an organization’s security measures",
+        "To install security updates and patches",
+        "To monitor employee internet usage"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the effectiveness of an organization’s security measures",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 393,
+      "question_text": "Which of the following is a principle of the Zero Trust security model?",
+      "options": [
+        "Trust but verify",
+        "Never trust, always verify",
+        "Trust no one, but make exceptions",
+        "Always trust, sometimes verify"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Never trust, always verify",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": []
+    },
+    {
+      "id": 399,
+      "question_text": "What is the primary purpose of conducting a vulnerability assessment?",
+      "options": [
+        "To evaluate the performance of network equipment",
+        "To identify, quantify, and prioritize vulnerabilities in a system",
+        "To measure the financial impact of potential security breaches",
+        "To assess the company’s compliance with international standards"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, quantify, and prioritize vulnerabilities in a system",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vulnerability assessment"
+      ]
+    },
+    {
+      "id": 420,
+      "question_text": "Which of the following is a common method used in penetration testing?",
+      "options": [
+        "Social media marketing",
+        "Financial auditing",
+        "Simulated cyber attacks on a system to evaluate its security",
+        "Employee performance evaluations"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Simulated cyber attacks on a system to evaluate its security",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 425,
+      "question_text": "What is the primary purpose of a security audit?",
+      "options": [
+        "To evaluate the efficiency of the organization’s IT department",
+        "To assess the security posture of an organization by identifying weaknesses and non\u0002compliance with established policies and standards",
+        "To count the physical assets owned by an organization",
+        "To monitor employee internet usage"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the security posture of an organization by identifying weaknesses and  non-compliance with established policies and standards",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 457,
+      "question_text": "What is the primary function of a Chief Information Security Officer (CISO)?",
+      "options": [
+        "To manage the IT infrastructure of an organization",
+        "To oversee the organization’s information security program",
+        "To develop software applications with security features",
+        "To conduct financial audits of IT expenditures"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To oversee the organization’s information security program",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 463,
+      "question_text": "Which of the following is a characteristic of an effective security policy?",
+      "options": [
+        "It is vague and open to interpretation",
+        "It is reviewed and updated frequently",
+        "It applies only to the IT department",
+        "It is kept confidential from most employees"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It is reviewed and updated frequently",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 537,
+      "question_text": "What is the primary goal of security information and event management (SIEM) systems?",
+      "options": [
+        "To replace the need for manual security audits",
+        "To provide real-time analysis of security alerts generated by applications and network ",
+        "To automate the patch management process",
+        "To manage employee access to applications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide real-time analysis of security alerts generated by applications and  network hardware",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "siem",
+        "security audit"
+      ]
+    },
+    {
+      "id": 546,
+      "question_text": "Which of the following best describes the purpose of a security audit?",
+      "options": [
+        "To evaluate the physical security of a building",
+        "To assess the efficiency of an organization’s IT department",
+        "To systematically evaluate the security of an organization’s information system by ",
+        "To calculate the annual loss expectancy of an organization"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To systematically evaluate the security of an organization’s information system by  measuring how well it conforms to a set of established criteria",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 563,
+      "question_text": "In the context of cybersecurity, what is “spear phishing”?",
+      "options": [
+        "A broad attempt to trick individuals into revealing sensitive information",
+        "A targeted attempt to trick a specific individual or organization into revealing sensitive ",
+        "A method of encrypting phishing attempts",
+        "A technique for detecting phishing attempts"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A targeted attempt to trick a specific individual or organization into revealing  sensitive information",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 568,
+      "question_text": "In cybersecurity, what is the purpose of “red teaming”?",
+      "options": [
+        "To perform administrative tasks in a secure manner",
+        "To conduct an adversarial attack simulation to test an organization’s defenses",
+        "To manage the IT department",
+        "To develop secure software applications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To conduct an adversarial attack simulation to test an organization’s defenses",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "red team"
+      ]
+    },
+    {
+      "id": 590,
+      "question_text": "What is the primary purpose of “penetration testing”?",
+      "options": [
+        "To test the physical security of a building",
+        "To assess the effectiveness of an organization’s security measures by simulating an attack",
+        "To test the strength of passwords",
+        "To check the speed of a network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the effectiveness of an organization’s security measures by simulating  an attack",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 622,
+      "question_text": "What is the primary function of a security audit?",
+      "options": [
+        "To fix vulnerabilities in software",
+        "To assess the effectiveness of security controls and identify weaknesses",
+        "To monitor real-time network traffic",
+        "To configure security devices on a network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the effectiveness of security controls and identify weaknesses",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 664,
+      "question_text": "In the context of cybersecurity, what is the primary goal of a Red Team?",
+      "options": [
+        "To perform administrative tasks securely",
+        "To defend digital assets from real-time attacks",
+        "To simulate cyber attacks to test the effectiveness of security measures",
+        "To develop and implement security policies"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To simulate cyber attacks to test the effectiveness of security measures",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "red team"
+      ]
+    },
+    {
+      "id": 738,
+      "question_text": "What is the main purpose of penetration testing?",
+      "options": [
+        "To repair vulnerabilities in the system",
+        "To comply with regulatory requirements",
+        "To simulate an attack on the system to identify vulnerabilities",
+        "To monitor network traffic for suspicious activity"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To simulate an attack on the system to identify vulnerabilities",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 741,
+      "question_text": "Which of the following best describes “security through obscurity”?",
+      "options": [
+        "The practice of keeping the details of the security mechanisms secret",
+        "Implementing multiple layers of security controls",
+        "The use of strong, complex passwords",
+        "Regularly updating and patching software"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The practice of keeping the details of the security mechanisms secret",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 744,
+      "question_text": "What is the primary goal of a Security Information and Event Management (SIEM) ",
+      "options": [
+        "To replace the need for manual log reviews",
+        "To provide real-time analysis of security alerts generated by applications and network ",
+        "To serve as the primary firewall for an organization",
+        "To manage software patches and updates"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide real-time analysis of security alerts generated by applications and  network hardware",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "log review",
+        "siem"
+      ]
+    },
+    {
+      "id": 754,
+      "question_text": "What is the primary purpose of a security audit?",
+      "options": [
+        "To fix all identified vulnerabilities immediately",
+        "To assess the effectiveness of an organization’s security measures",
+        "To configure network devices and software",
+        "To monitor employee activities and behaviors"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the effectiveness of an organization’s security measures",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 790,
+      "question_text": "What is the primary purpose of a security audit?",
+      "options": [
+        "To punish organizations for non-compliance with regulations",
+        "To assess the effectiveness of an organization’s security measures",
+        "To install security software on all devices",
+        "To provide a general overview of the organization’s financial health"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assess the effectiveness of an organization’s security measures",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 799,
+      "question_text": "Which of the following is a characteristic of a “Blue Team” in cybersecurity exercises?",
+      "options": [
+        "They are attackers attempting to breach systems",
+        "They defend against real-time attacks",
+        "They focus exclusively on patching software vulnerabilities",
+        "They are external auditors assessing system security"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: They defend against real-time attacks",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "blue team"
+      ]
+    },
+    {
+      "id": 836,
+      "question_text": "What is the primary goal of a Security Operations Center (SOC)?",
+      "options": [
+        "To develop and enforce IT security policies",
+        "To monitor, detect, investigate, and respond to cyber threats",
+        "To manage network operations and ensure uptime",
+        "To conduct vulnerability assessments and penetration testing"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor, detect, investigate, and respond to cyber threats",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "penetration testing",
+        "vulnerability assessment"
+      ]
+    },
+    {
+      "id": 838,
+      "question_text": "What is the primary function of a Data Protection Officer (DPO)?",
+      "options": [
+        "To manage the IT department",
+        "To ensure compliance with data protection laws",
+        "To conduct penetration testing",
+        "To develop security awareness programs"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure compliance with data protection laws",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "penetration testing"
+      ]
+    },
+    {
+      "id": 843,
+      "question_text": "Which of the following is a common indicator of a phishing attempt?",
+      "options": [
+        "An email from a known colleague asking for a meeting",
+        "A website that uses HTTPS",
+        "An unsolicited email requesting sensitive information",
+        "A text message from your bank with a security alert"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: An unsolicited email requesting sensitive information",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 862,
+      "question_text": "What is the primary purpose of implementing segregation of duties in an organization?",
+      "options": [
+        "To ensure that no single individual has control over all aspects of a financial transaction",
+        "To increase the workload on employees and improve efficiency",
+        "To simplify the process of auditing and compliance checks",
+        "To reduce the cost of operations by minimizing the number of employees needed"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that no single individual has control over all aspects of a financial  transaction",
+      "domain_id": 6,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": []
+    },
+    {
+      "id": 887,
+      "question_text": "Which of the following best describes the purpose of a “security audit”?",
+      "options": [
+        "To assess the physical fitness of security personnel",
+        "To evaluate the effectiveness of an organization’s security measures",
+        "To calculate the financial value of an organization’s security investments",
+        "To determine the speed of the organization’s network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To evaluate the effectiveness of an organization’s security measures",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security audit",
+        "security audit"
+      ]
+    },
+    {
+      "id": 888,
+      "question_text": "What is the primary concern when dealing with “end-of-life” (EOL) software?",
+      "options": [
+        "The software may not perform as well as newer versions",
+        "The software may become more expensive to license",
+        "The software will no longer receive updates, including security patches",
+        "The software will take up more space on storage devices"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The software will no longer receive updates, including security patches",
+      "domain_id": 6,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": []
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+/* Optimized Progress Page Styles - Performance-focused */
+
+.progress-page-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  color: #f3f4f6;
+}
+
+/* Static gradient background - no animation */
+.gradient-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  /* Single static gradient - much better performance */
+  background: linear-gradient(135deg, 
+    #1a1a2e 0%, 
+    #16213e 25%, 
+    #0f3460 50%,
+    #16213e 75%,
+    #1a1a2e 100%
+  );
+}
+
+/* Remove all animated gradient layers */
+.gradient-layer {
+  display: none; /* Completely remove animated layers */
+}
+
+/* Alternative: Add a subtle mesh gradient overlay that's static */
+.gradient-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(at 20% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+    radial-gradient(at 40% 20%, rgba(34, 197, 94, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Content wrapper - unchanged */
+.progress-content-wrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+/* Back button - remove animation, keep hover effect simple */
+.back-button-progress {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.2s ease, color 0.2s ease;
+  margin-bottom: 2rem;
+  will-change: transform;
+}
+
+.back-button-progress:hover {
+  transform: translateX(-3px);
+  color: #e2e8f0;
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Simple fade in - no complex animation */
+.progress-main-content {
+  opacity: 0;
+  animation: simpleFadeIn 0.4s ease-out forwards;
+}
+
+@keyframes simpleFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Dashboard optimizations */
+.progress-dashboard {
+  background: transparent !important;
+}
+
+.progress-dashboard .dashboard-header {
+  position: relative;
+  padding: 2rem 0 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Static gradient text - no animation or effects */
+.progress-dashboard .dashboard-title {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #34d399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+.progress-dashboard .dashboard-subtitle {
+  color: #94a3b8;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+/* Simplified stat cards - remove hover animations */
+.progress-dashboard .stat-card {
+  background: rgba(31, 41, 55, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  border-radius: 12px;
+  contain: layout style paint;
+}
+
+.progress-dashboard .stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Section styling - static */
+.progress-dashboard .section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1rem;
+  color: #f3f4f6;
+}
+
+.progress-dashboard .section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 24px;
+  background: #60a5fa;
+  border-radius: 3px;
+}
+
+/* Simplified attempt cards */
+.progress-dashboard .attempt-card {
+  background: rgba(31, 41, 55, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease;
+  border-radius: 8px;
+  padding: 1rem;
+  contain: layout style;
+}
+
+.progress-dashboard .attempt-card:hover {
+  transform: translateX(3px);
+  border-color: rgba(139, 92, 246, 0.2);
+}
+
+/* Simplified domain cards */
+.progress-dashboard .domain-card {
+  background: rgba(31, 41, 55, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+  contain: layout style paint;
+}
+
+.progress-dashboard .domain-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Static management section */
+.progress-dashboard .progress-management {
+  background: rgba(31, 41, 55, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+/* Simple button styles */
+.progress-dashboard .management-btn {
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.progress-dashboard .management-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.progress-dashboard .btn-export {
+  background: rgba(59, 130, 246, 0.25);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+}
+
+.progress-dashboard .btn-clear {
+  background: rgba(239, 68, 68, 0.25);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+/* Modal - simple fade in */
+.progress-dashboard .modal-overlay {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.2s ease-out;
+}
+
+.progress-dashboard .modal-content {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  animation: modalFadeIn 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive adjustments - unchanged */
+@media (max-width: 768px) {
+  .progress-content-wrapper {
+    padding: 1rem;
+  }
+  
+  .progress-dashboard .dashboard-title {
+    font-size: 2rem;
+  }
+  
+  .back-button-progress {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .progress-dashboard .dashboard-title {
+    font-size: 1.75rem;
+  }
+  
+  .progress-dashboard .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* REMOVED: All floating particles animations */
+/* REMOVED: All gradient shift animations */
+/* REMOVED: Rotate animations */
+/* REMOVED: Complex hover effects with ::before/::after pseudo elements */

@@ -1,0 +1,164 @@
+Of course. Here is another set of flashcards from the Domain 3 document.
+
+### **General Concepts (From Introduction)**
+
+**Front:**
+*Domain/Subdomain: 3.0*
+What is the difference between a **block cipher** and a **stream cipher**?
+
+**Back:**
+* **Block cipher**: A method that encrypts a fixed-length block of data all at once using a key and an algorithm.
+* **Stream cipher**: Encrypts plaintext one digit or bit at a time, often by combining it with a pseudorandom cipher digit stream.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.0*
+What is the difference between a **cipher** and a **code**?
+
+**Back:**
+* A **cipher** is always secret and is meant to hide the true meaning of a message.
+* A **code** is a system of symbols that operates on words or phrases; it can be secret but doesn't always provide confidentiality.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.0*
+What is the difference between **cryptography** and **cryptanalysis**?
+
+**Back:**
+* **Cryptography** is the study and application of methods to secure the meaning and content of messages.
+* **Cryptanalysis** is the study of techniques used to defeat cryptographic methods without having access to the key.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.0*
+What is a **one-time pad**, and what are its requirements for success?
+
+**Back:**
+A one-time pad is a series of randomly generated symmetric encryption keys, where each key is used only once.
+For it to be successful:
+* The key must be generated randomly.
+* The key must be at least as long as the message.
+* The pads must be physically protected.
+* Each pad must be used only once and then discarded.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.0*
+Differentiate between **salting**, **peppering**, and **key stretching** for password hashing.
+
+**Back:**
+* **Salting**: Adds unique, random bits to a password *before* hashing to thwart rainbow table attacks. The salt is stored with the hash.
+* **Peppering**: Adds a large, constant number (the pepper) to the password before hashing. The pepper is stored separately from the hashed passwords.
+* **Key Stretching**: Deliberately slows down the hashing process by repeating it many times, making brute-force attacks more difficult. Algorithms like PBKDF2 and bcrypt use this.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.0*
+What is a **work factor** in cryptography?
+
+**Back:**
+A work factor is a measure of the strength of a cryptographic system. It quantifies the effort, in terms of cost or time, required to decrypt a message using a brute-force attack.
+
+***
+
+### **Domain 3.1: Secure Design Principles**
+
+**Front:**
+*Domain/Subdomain: 3.1.5*
+Regarding the "Fail Securely" principle, what is the difference between **fail-open** and **fail-closed** for physical and digital systems?
+
+**Back:**
+| State | Digital | Physical |
+| :--- | :--- | :--- |
+| **Fail-Open** | Maintains system availability. | Protects people. |
+| **Fail-Closed** | Maintains confidentiality/integrity. | Protects the asset. |
+
+***
+
+### **Domain 3.2: Security Models**
+
+**Front:**
+*Domain/Subdomain: 3.2*
+What is the **Take-Grant** security model?
+
+**Back:**
+The Take-Grant model is a confidentiality-based model that uses a directed graph to show how rights can be passed between subjects and objects. Its four basic operations are **take**, **grant**, **create**, and **revoke**.
+
+***
+
+### **Domain 3.5: Vulnerabilities of Security Architectures**
+
+**Front:**
+*Domain/Subdomain: 3.5.3*
+What are the **ACID** properties of a database?
+
+**Back:**
+* **Atomicity**: Transactions are all-or-nothing; they are either fully performed or not at all.
+* **Consistency**: Transactions must leave the database in a consistent state.
+* **Isolation**: Transactions are processed independently of one another.
+* **Durability**: Once a transaction is committed, it is permanently recorded.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.5.8*
+What is the "three dumb routers" security strategy for IoT devices?
+
+**Back:**
+It is a mitigation strategy where you deploy a distinct and isolated network specifically for IoT equipment to keep it separate from the main production network.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.5.9*
+What is a **microservice**?
+
+**Back:**
+A microservice is one feature or function of a web application that can be called upon by other web apps. Applications built with microservices are a collection of loosely-coupled, small, and independent services, each exposing an API for communication.
+
+***
+
+### **Domain 3.6: Cryptographic Solutions**
+
+**Front:**
+*Domain/Subdomain: 3.6.1*
+What do the NIST terms **approved**, **deprecated**, and **disallowed** mean for cryptographic algorithms?
+
+**Back:**
+* **Approved**: The algorithm is specified as a NIST or FIPS recommendation.
+* **Deprecated**: The algorithm is okay to use but carries some risk, and its use should be avoided.
+* **Disallowed**: The algorithm and/or key length is no longer allowed for the indicated use.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.6.4*
+What is **m of n control** in key escrow?
+
+**Back:**
+It is a key recovery method where you designate a group of 'n' people as recovery agents, but only need a subset 'm' of them to be present to reconstruct or recover a key.
+
+***
+
+**Front:**
+*Domain/Subdomain: 3.6.5*
+What is the **Digital Signature Standard (DSS)**?
+
+**Back:**
+It is a federal standard (FIPS 186-5) that specifies three algorithms for generating and verifying digital signatures: Rivest-Shamir-Adleman (RSA), Elliptic Curve Digital Signature Algorithm (ECDSA), and Edwards-Curve Digital Signature Algorithm (EdDSA). The older Digital Signature Algorithm (DSA) is now only to be used for verifying existing signatures.
+
+***
+
+### **Domain 3.7: Cryptanalytic Attacks**
+
+**Front:**
+*Domain/Subdomain: 3.7.10*
+What is a **Man-in-the-Middle (MITM)** attack?
+
+**Back:**
+Also known as an on-path or Adversary-in-the-Middle (AitM) attack, a malicious individual intercepts communications between two parties. The attacker sets up separate secure sessions with both the originator and the recipient, allowing them to read all traffic as it passes between them.

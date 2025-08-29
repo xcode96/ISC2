@@ -1,0 +1,288 @@
+Domain 1.8: Personnel Security
+Front:
+Domain/Subdomain: 1.8.2
+What are examples of employment agreements used to support security policies?
+
+Back:
+
+Non-compete agreement: Restricts an employee from working for a competitor for a certain period.
+
+Acceptable Use Policy (AUP): Defines what is and is not acceptable use of company equipment and resources.
+
+Nondisclosure Agreement (NDA): Protects confidential information from being disclosed by a current or former employee.
+
+Front:
+Domain/Subdomain: 1.8.3
+What are key security processes for onboarding, transfers, and termination?
+
+Back:
+
+Onboarding: The process of bringing a new employee into the organization, ensuring they are integrated quickly and consistently through documented procedures.
+
+Transfer: When an employee moves to a new job, their account access must be adjusted to maintain the principle of least privilege.
+
+Termination (Offboarding): The removal of an employee's identity from the system; the ex-employee should be escorted off the premises and not allowed to return.
+
+Domain 1.9: Risk Management
+Front:
+Domain/Subdomain: 1.9.1
+Define Threat, Vulnerability, and Risk.
+
+Back:
+
+Threat: Any potential occurrence that could cause an undesirable outcome for an asset.
+
+Vulnerability: A weakness in an asset or the absence of a safeguard.
+
+Risk: The likelihood that a threat will exploit a vulnerability, combined with the severity of the potential damage. The conceptual formula is: Risk = Threat * Vulnerability.
+
+Front:
+Domain/Subdomain: 1.9.1
+What are the formulas for SLE and ALE in quantitative risk analysis?
+
+Back:
+
+Single Loss Expectancy (SLE): The cost associated with a single realized risk. The formula is SLE=Asset Value (AV)×Exposure Factor (EF).
+
+Annualized Loss Expectancy (ALE): The possible yearly cost of all instances of a specific threat. The formula is ALE=SLE×Annualized Rate of Occurrence (ARO).
+
+Front:
+Domain/Subdomain: 1.9.1
+What is the formula for evaluating the value of a safeguard?
+
+Back:
+(ALE before safeguard−ALE with safeguard)−Annual Cost of Safeguard (ACS).
+
+Front:
+Domain/Subdomain: 1.9.3
+What are the common risk response strategies?
+
+Back:
+
+Mitigation: Implementing controls to reduce risk.
+
+Assignment/Transfer: Placing the financial impact of a risk onto another entity, such as an insurance company.
+
+Avoidance: Not performing an activity due to its associated risk.
+
+Acceptance: Agreeing to bear the consequences if a risk is realized.
+
+Deterrence: Implementing deterrents (e.g., security cameras) to convince a threat agent not to attack.
+
+Rejection: An invalid response of ignoring or denying a risk.
+
+Front:
+Domain/Subdomain: 1.9.3
+Define Total Risk vs. Residual Risk.
+
+Back:
+
+Total Risk: The risk an organization would face if no safeguards were implemented. The formula is Total Risk=Threats×Vulnerabilities×Asset Value.
+
+Residual Risk: The risk that remains after security controls have been put in place. The formula is Residual Risk=Total Risk−Controls Gap.
+
+Front:
+Domain/Subdomain: 1.9.4
+What are the three types of security controls based on how they are implemented?
+
+Back:
+
+Administrative: Policies, procedures, and other management-defined controls.
+
+Technical / Logical: Controls implemented in software or hardware, such as firewalls and encryption.
+
+Physical: Controls that protect the facility and real-world objects, like locks and security guards.
+
+Front:
+Domain/Subdomain: 1.9.4
+Name the different categories of security controls based on their function.
+
+Back:
+
+Preventive: Stops an unwanted activity from occurring.
+
+Deterrent: Discourages violations.
+
+Detective: Discovers an unwanted activity after it has occurred.
+
+Corrective: Returns systems to normal after an incident.
+
+Recovery: Restores resources and capabilities after a more damaging violation.
+
+Compensating: Provides an alternative or additional control.
+
+Directive: Directs or controls actions to enforce policies.
+
+Front:
+Domain/Subdomain: 1.9.5
+What is a Security Control Assessment (SCA) and what is its goal?
+
+Back:
+An SCA is a formal evaluation and review of individual controls against a baseline. A primary goal is to ensure the effectiveness of security mechanisms.
+
+Front:
+Domain/Subdomain: 1.9.8
+What are the five levels of a typical Risk Maturity Model (RMM)?
+
+Back:
+
+Ad hoc: A chaotic starting point with no formal processes.
+
+Preliminary: Loose attempts are made to follow risk management processes, but they are not consistent.
+
+Defined: A common, standardized risk framework is adopted across the organization.
+
+Integrated: Risk management is integrated into business processes, and metrics are used to measure effectiveness.
+
+Optimized: Risk management focuses on achieving strategic objectives, and lessons learned are used for continuous improvement.
+
+Front:
+Domain/Subdomain: 1.9.9
+What are the 7 steps of the NIST Risk Management Framework (RMF)?
+
+Back:
+
+Prepare: Establish a context for managing risk.
+
+Categorize: Classify the system and its information based on the impact of loss.
+
+Select: Choose an initial set of controls for the system.
+
+Implement: Put the selected controls in place.
+
+Assess: Determine if controls are implemented correctly and working as intended.
+
+Authorize: Formally authorize the system to operate.
+
+Monitor: Continuously monitor the system and its controls.
+
+Domain 1.10: Threat Modeling
+Front:
+Domain/Subdomain: 1.10
+What does the STRIDE threat model stand for?
+
+Back:
+
+Spoofing
+
+Tampering
+
+Repudiation
+
+Information Disclosure
+
+Denial of Service (DoS)
+
+Elevation of Privilege
+
+Front:
+Domain/Subdomain: 1.10
+What does the DREAD threat prioritization model stand for?
+
+Back:
+
+Damage potential
+
+Reproducibility
+
+Exploitability
+
+Affected users
+
+Discoverability
+
+Front:
+Domain/Subdomain: 1.10
+What is the MITRE ATT&CK framework?
+
+Back:
+It is a comprehensive, globally accessible knowledge base that documents real-world tactics, techniques, and procedures (TTPs) used by cyber adversaries. It is widely used to improve threat detection and incident response.
+
+Front:
+Domain/Subdomain: 1.10
+What is the PASTA threat modeling methodology?
+
+Back:
+PASTA (Process for Attack Simulation and Threat Analysis) is a seven-stage, risk-centric threat modeling methodology.
+
+Front:
+Domain/Subdomain: 1.10
+What is the Trike methodology?
+
+Back:
+Trike is an open-source, risk-based threat modeling methodology. It provides a method for performing a reliable and repeatable security audit and serves as a framework for collaboration.
+
+Front:
+Domain/Subdomain: 1.10
+Name three standards used for exchanging threat intelligence.
+
+Back:
+
+STIX (Structured Threat Information eXpression): A language used to describe threats in a standardized way.
+
+TAXII (Trusted Automated eXchange of Indicator Information): Defines how threat information can be shared and exchanged.
+
+CAPEC (Common Attack Pattern Enumeration and Classification): A dictionary of known patterns of attack.
+
+Domain 1.11: Supply Chain Risk Management
+Front:
+Domain/Subdomain: 1.11.1
+What is Supply Chain Risk Management (SCRM)?
+
+Back:
+SCRM is the process of ensuring that all vendors or links in a supply chain are reliable, trustworthy, and reputable. The goal is to ensure the final product is high-quality and has not been counterfeited or tampered with during the process.
+
+Front:
+Domain/Subdomain: 1.11.2
+What is a Software Bill of Materials (SBOM)?
+
+Back:
+An SBOM is a detailed list of all components, libraries, and dependencies included in a software application. Its purpose is to provide transparency to help manage vulnerabilities and compliance risks.
+
+Front:
+Domain/Subdomain: 1.11.2
+What is a silicon root of trust (RoT)?
+
+Back:
+Also known as a hardware root of trust, it is a technology used to ensure the integrity, authenticity, and confidentiality of a system's startup process.
+
+Front:
+Domain/Subdomain: 1.11.2
+What is a Physically Unclonable Function (PUF)?
+
+Back:
+A PUF is a physical component that creates a unique digital identifier, like an electronic fingerprint, for an integrated circuit or device.
+
+Domain 1.12: Security Awareness, Education, and Training
+Front:
+Domain/Subdomain: 1.12
+Differentiate between security awareness, training, and education.
+
+Back:
+
+Awareness: Establishes a common baseline of security understanding.
+
+Training: Teaches employees how to perform their specific work tasks securely and in compliance with policy.
+
+Education: A more in-depth pursuit of knowledge, often for certification or career advancement, that goes beyond what is needed for a specific job task.
+
+Front:
+Domain/Subdomain: 1.12.1
+What is the social engineering principle of familiarity?
+
+Back:
+It's an attack that exploits a person's natural trust in things that are familiar. An attacker might claim to know a coworker to make the target more willing to provide information.
+
+Front:
+Domain/Subdomain: 1.12.1
+What is the role of a security champion?
+
+Back:
+A security champion is a team member who acts as a liaison between their team and the security team. They are responsible for evangelizing security, promoting secure development practices, and helping to integrate security into daily workflows.
+
+
+
+
+
+
+

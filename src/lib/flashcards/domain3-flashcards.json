@@ -1,0 +1,348 @@
+{
+  "domain": "Domain 3: Security Architecture and Engineering",
+  "flashcards": [
+    {
+      "id": "3-1-1",
+      "domain": "3.1.1",
+      "category": "Security Architecture and Engineering",
+      "front": "What is **threat modeling**?",
+      "back": "It's a security process where potential threats are identified, categorized, and analyzed. It can be performed proactively during design or reactively after deployment to identify potential harm, probability, priority, and mitigation strategies."
+    },
+    {
+      "id": "3-1-3",
+      "domain": "3.1.3",
+      "category": "Security Architecture and Engineering",
+      "front": "What is **Defense in Depth**?",
+      "back": "Also known as layering, it's the use of multiple security controls in a series. The failure of a single control should not result in the exposure of systems or data."
+    },
+    {
+      "id": "3-1-5",
+      "domain": "3.1.5",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the principle of **Fail Securely**?",
+      "back": "If a system, asset, or process fails, it should not reveal sensitive information or become less secure than it was during normal operation. This could involve reverting to default settings."
+    },
+    {
+      "id": "3-1-5b",
+      "domain": "3.1.5",
+      "category": "Security Architecture and Engineering",
+      "front": "Regarding the \"Fail Securely\" principle, what is the difference between **fail-open** and **fail-closed** for physical and digital systems?",
+      "back": "| State | Digital | Physical |\n| :--- | :--- | :--- |\n| **Fail-Open** | Maintains system availability. | Protects people. |\n| **Fail-Closed** | Maintains confidentiality/integrity. | Protects the asset. |"
+    },
+    {
+      "id": "3-1-6",
+      "domain": "3.1.6",
+      "category": "Security Architecture and Engineering",
+      "front": "What is **Separation of Duties (SoD)**?",
+      "back": "A process that ensures no single person has total control over a critical function or system. It is designed to minimize opportunities for misuse of data or environmental damage and helps prevent fraud."
+    },
+    {
+      "id": "3-1-8",
+      "domain": "3.1.8",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the core principle of **Zero Trust**?",
+      "back": "It's a security concept based on the principle of \"never trust, always verify.\" It assumes that no user or device is automatically trusted, and every access request must be authenticated, authorized, and encrypted before access is granted."
+    },
+    {
+      "id": "3-1-9",
+      "domain": "3.1.9",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the 7 principles of **Privacy by Design (PbD)**?",
+      "back": "1. **Proactive, not reactive; preventative, not remedial**\n2. **Privacy as the default setting**\n3. **Privacy embedded into design**\n4. **Full functionality — positive-sum, not zero-sum** (achieve both security and privacy)\n5. **End-to-end security — full lifecycle protection**\n6. **Visibility and transparency — keep it open**\n7. **Respect for user privacy — keep it user-centric**"
+    },
+    {
+      "id": "3-1-11",
+      "domain": "3.1.11",
+      "category": "Security Architecture and Engineering",
+      "front": "What is **Secure Access Service Edge (SASE)**?",
+      "back": "SASE is a cloud-delivered framework that brings networking and security functions together into a unified platform. It integrates capabilities like SD-WAN, Secure Web Gateway (SWG), CASB, Firewall-as-a-Service (FWaaS), and Zero Trust Network Access (ZTNA)."
+    },
+    {
+      "id": "3-0a",
+      "domain": "3.0",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the difference between a **block cipher** and a **stream cipher**?",
+      "back": "• **Block cipher**: A method that encrypts a fixed-length block of data all at once using a key and an algorithm.\n• **Stream cipher**: Encrypts plaintext one digit or bit at a time, often by combining it with a pseudorandom cipher digit stream."
+    },
+    {
+      "id": "3-0b",
+      "domain": "3.0",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the difference between a **cipher** and a **code**?",
+      "back": "• A **cipher** is always secret and is meant to hide the true meaning of a message.\n• A **code** is a system of symbols that operates on words or phrases; it can be secret but doesn't always provide confidentiality."
+    },
+    {
+      "id": "3-0c",
+      "domain": "3.0",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the difference between **cryptography** and **cryptanalysis**?",
+      "back": "• **Cryptography** is the study and application of methods to secure the meaning and content of messages.\n• **Cryptanalysis** is the study of techniques used to defeat cryptographic methods without having access to the key."
+    },
+    {
+      "id": "3-0d",
+      "domain": "3.0",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **one-time pad**, and what are its requirements for success?",
+      "back": "A one-time pad is a series of randomly generated symmetric encryption keys, where each key is used only once.\nFor it to be successful:\n• The key must be generated randomly.\n• The key must be at least as long as the message.\n• The pads must be physically protected.\n• Each pad must be used only once and then discarded."
+    },
+    {
+      "id": "3-0e",
+      "domain": "3.0",
+      "category": "Security Architecture and Engineering",
+      "front": "Differentiate between **salting**, **peppering**, and **key stretching** for password hashing.",
+      "back": "• **Salting**: Adds unique, random bits to a password *before* hashing to thwart rainbow table attacks. The salt is stored with the hash.\n• **Peppering**: Adds a large, constant number (the pepper) to the password before hashing. The pepper is stored separately from the hashed passwords.\n• **Key Stretching**: Deliberately slows down the hashing process by repeating it many times, making brute-force attacks more difficult. Algorithms like PBKDF2 and bcrypt use this."
+    },
+    {
+      "id": "3-0f",
+      "domain": "3.0",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **work factor** in cryptography?",
+      "back": "A work factor is a measure of the strength of a cryptographic system. It quantifies the effort, in terms of cost or time, required to decrypt a message using a brute-force attack."
+    },
+    {
+      "id": "3-2a",
+      "domain": "3.2",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the key rules of the **Bell-LaPadula** security model?",
+      "back": "Focused on **confidentiality**, its rules are:\n• **Simple Property**: \"No read up.\"\n• **Star (*) Property**: \"No write down.\"\n• **Strong Star Property**: A subject can only read/write at their own secrecy level."
+    },
+    {
+      "id": "3-2b",
+      "domain": "3.2",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the key rules of the **Biba** security model?",
+      "back": "Focused on **integrity**, its rules are:\n• **Simple Integrity Property**: \"No read down.\"\n• **Star (*) Integrity Property**: \"No write up.\"\n• **Invocation Property**: A subject at one level of integrity cannot invoke a subject at a higher level."
+    },
+    {
+      "id": "3-2c",
+      "domain": "3.2",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the purpose of the **Brewer and Nash Model**?",
+      "back": "Also known as the \"ethical wall,\" its primary purpose is to prevent conflicts of interest by dynamically restricting access to information based on a user's previous activity."
+    },
+    {
+      "id": "3-2d",
+      "domain": "3.2",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the key components of the **Clark-Wilson** model?",
+      "back": "Designed to protect integrity, its main components are:\n• **Users**: Active agents (subjects).\n• **Transformation Procedures (TPs)**: The only way subjects can manipulate protected objects.\n• **Constrained Data Items (CDIs)**: Objects that can only be manipulated by a TP.\n• **Unconstrained Data Items (UDIs)**: Objects that can be accessed directly.\n• **Integrity Verification Procedures (IVPs)**: Audit the TPs to ensure consistency."
+    },
+    {
+      "id": "3-2e",
+      "domain": "3.2",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the **Take-Grant** security model?",
+      "back": "The Take-Grant model is a confidentiality-based model that uses a directed graph to show how rights can be passed between subjects and objects. Its four basic operations are **take**, **grant**, **create**, and **revoke**."
+    },
+    {
+      "id": "3-3",
+      "domain": "3.3",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the key concepts of the **Common Criteria (CC)** evaluation?",
+      "back": "• **Target of Evaluation (TOE)**: The system or product being evaluated.\n• **Protection Profile (PP)**: The document outlining the customer's security needs.\n• **Security Target (ST)**: The document specifying the vendor's security claims for the TOE.\n• **Evaluation Assurance Level (EAL)**: A numerical rating from EAL1 (lowest) to EAL7 (highest) that describes the rigor of the evaluation."
+    },
+    {
+      "id": "3-4",
+      "domain": "3.4",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **Trusted Platform Module (TPM)**?",
+      "back": "A TPM is a tamper-resistant cryptographic chip built into a motherboard. It can perform cryptographic operations, protect sensitive information like keys and passwords, and is an example of a Hardware Security Module (HSM)."
+    },
+    {
+      "id": "3-5-3a",
+      "domain": "3.5.3",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the difference between an **aggregation attack** and an **inference attack** in databases?",
+      "back": "• **Aggregation Attack**: A mathematical attack where functions that combine records (like SUM or AVG) are used to derive sensitive information.\n• **Inference Attack**: A human deduction attack where several pieces of non-sensitive information are combined to access information at a higher classification level."
+    },
+    {
+      "id": "3-5-3b",
+      "domain": "3.5.3",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the **ACID** properties of a database?",
+      "back": "• **Atomicity**: Transactions are all-or-nothing; they are either fully performed or not at all.\n• **Consistency**: Transactions must leave the database in a consistent state.\n• **Isolation**: Transactions are processed independently of one another.\n• **Durability**: Once a transaction is committed, it is permanently recorded."
+    },
+    {
+      "id": "3-5-4",
+      "domain": "3.5.4",
+      "category": "Security Architecture and Engineering",
+      "front": "What is **Kerckhoff's Principle**?",
+      "back": "A cryptographic system should be secure even if everything about the system, except the key, is public knowledge."
+    },
+    {
+      "id": "3-5-5",
+      "domain": "3.5.5",
+      "category": "Security Architecture and Engineering",
+      "front": "What are **Industrial Control Systems (ICS)** and what are some examples?",
+      "back": "ICS are computer-management devices that control industrial processes and machines, also known as Operational Technology (OT). Examples include Distributed Control Systems (DCS), Programmable Logic Controllers (PLC), and Supervisory Control and Data Acquisition (SCADA) systems."
+    },
+    {
+      "id": "3-5-6",
+      "domain": "3.5.6",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the three main cloud service models?",
+      "back": "• **Software as a Service (SaaS)**: Provides fully functional applications, typically accessed via a web browser.\n• **Platform as a Service (PaaS)**: Provides a computing platform, including hardware, OS, and a runtime environment.\n• **Infrastructure as a Service (IaaS)**: Provides basic computing resources like servers, storage, and networking. The vendor provides the least maintenance in this model."
+    },
+    {
+      "id": "3-5-8",
+      "domain": "3.5.8",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the \"three dumb routers\" security strategy for IoT devices?",
+      "back": "It is a mitigation strategy where you deploy a distinct and isolated network specifically for IoT equipment to keep it separate from the main production network."
+    },
+    {
+      "id": "3-5-9",
+      "domain": "3.5.9",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **microservice**?",
+      "back": "A microservice is one feature or function of a web application that can be called upon by other web apps. Applications built with microservices are a collection of loosely-coupled, small, and independent services, each exposing an API for communication."
+    },
+    {
+      "id": "3-5-10",
+      "domain": "3.5.10",
+      "category": "Security Architecture and Engineering",
+      "front": "What is **containerization**?",
+      "back": "Also known as OS virtualization, it's a concept where applications are placed into a container with only the resources they need, while shared OS elements are used from the hypervisor. This provides much higher application density than traditional virtualization."
+    },
+    {
+      "id": "3-5-15",
+      "domain": "3.5.15",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **VM escape**?",
+      "back": "A VM escape occurs when software within a guest operating system is able to breach the isolation protection provided by the hypervisor and access the host system or other VMs."
+    },
+    {
+      "id": "3-6-1",
+      "domain": "3.6.1",
+      "category": "Security Architecture and Engineering",
+      "front": "What do the NIST terms **approved**, **deprecated**, and **disallowed** mean for cryptographic algorithms?",
+      "back": "• **Approved**: The algorithm is specified as a NIST or FIPS recommendation.\n• **Deprecated**: The algorithm is okay to use but carries some risk, and its use should be avoided.\n• **Disallowed**: The algorithm and/or key length is no longer allowed for the indicated use."
+    },
+    {
+      "id": "3-6-2a",
+      "domain": "3.6.2",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the primary difference between **symmetric** and **asymmetric** encryption?",
+      "back": "• **Symmetric encryption** uses the **same key** for both encryption and decryption. It is faster and used for bulk encryption.\n• **Asymmetric encryption** uses a **different key** for encryption (public key) and decryption (private key). It is slower but provides better key management and non-repudiation."
+    },
+    {
+      "id": "3-6-2b",
+      "domain": "3.6.2",
+      "category": "Security Architecture and Engineering",
+      "front": "How many keys are required for `n` parties to communicate using symmetric cryptography?",
+      "back": "The formula is: **(n * (n - 1)) / 2**"
+    },
+    {
+      "id": "3-6-2c",
+      "domain": "3.6.2",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the common modes of operation for symmetric block ciphers?",
+      "back": "• **Electronic Code Book (ECB)**: Simplest and weakest; encrypts each block separately.\n• **Cipher Block Chaining (CBC)**: Chains blocks together by XORing the current plaintext block with the previous ciphertext block.\n• **Counter (CTR)**: Acts like a stream cipher and allows parallel processing by encrypting a counter and XORing it with the plaintext.\n• **Galois/Counter Mode (GCM)**: Combines CTR mode with authentication, providing both confidentiality and integrity. It is very fast."
+    },
+    {
+      "id": "3-6-2d",
+      "domain": "3.6.2",
+      "category": "Security Architecture and Engineering",
+      "front": "How are keys used for encryption and digital signatures in asymmetric cryptography?",
+      "back": "• **To encrypt a message**: Use the recipient's **public key**.\n• **To decrypt a message**: Use your **own private key**.\n• **To create a digital signature**: Encrypt a message hash with your **own private key**.\n• **To verify a digital signature**: Decrypt the signature with the sender's **public key**."
+    },
+    {
+      "id": "3-6-3",
+      "domain": "3.6.3",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **Public Key Infrastructure (PKI)**?",
+      "back": "A PKI is a hierarchy of trust relationships that combines asymmetric and symmetric cryptography with hashing and digital certificates. It is composed of Certification Authorities (CAs), certificates, policies, and templates to enable secure communication."
+    },
+    {
+      "id": "3-6-4",
+      "domain": "3.6.4",
+      "category": "Security Architecture and Engineering",
+      "front": "What is **m of n control** in key escrow?",
+      "back": "It is a key recovery method where you designate a group of 'n' people as recovery agents, but only need a subset 'm' of them to be present to reconstruct or recover a key."
+    },
+    {
+      "id": "3-6-5a",
+      "domain": "3.6.5",
+      "category": "Security Architecture and Engineering",
+      "front": "What security services does a **digital signature** provide?",
+      "back": "A digital signature ensures **integrity** (the message was not altered), **authentication** (the message came from the claimed sender), and **non-repudiation** (the sender cannot deny sending the message). It does not provide confidentiality on its own."
+    },
+    {
+      "id": "3-6-5b",
+      "domain": "3.6.5",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the **Digital Signature Standard (DSS)**?",
+      "back": "It is a federal standard (FIPS 186-5) that specifies three algorithms for generating and verifying digital signatures: Rivest-Shamir-Adleman (RSA), Elliptic Curve Digital Signature Algorithm (ECDSA), and Edwards-Curve Digital Signature Algorithm (EdDSA). The older Digital Signature Algorithm (DSA) is now only to be used for verifying existing signatures."
+    },
+    {
+      "id": "3-7-1",
+      "domain": "3.7.1",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the difference between ciphertext-only, known-plaintext, and chosen-plaintext attacks?",
+      "back": "• **Ciphertext-only**: The attacker only has the encrypted ciphertext message.\n• **Known-plaintext**: The attacker has a copy of both the encrypted message and the plaintext used to create it.\n• **Chosen-plaintext**: The attacker can obtain the ciphertexts for arbitrary plaintexts they choose."
+    },
+    {
+      "id": "3-7-7",
+      "domain": "3.7.7",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **side-channel attack**?",
+      "back": "An attack that uses information leaked from a system's physical implementation rather than flaws in the algorithm itself. Examples include monitoring power consumption, electromagnetic radiation, or timing to gain information."
+    },
+    {
+      "id": "3-7-10",
+      "domain": "3.7.10",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **Man-in-the-Middle (MITM)** attack?",
+      "back": "Also known as an on-path or Adversary-in-the-Middle (AitM) attack, a malicious individual intercepts communications between two parties. The attacker sets up separate secure sessions with both the originator and the recipient, allowing them to read all traffic as it passes between them."
+    },
+    {
+      "id": "3-7-11",
+      "domain": "3.7.11",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **Pass the Hash (PtH)** attack?",
+      "back": "A technique where an attacker captures a user's password hash and passes it for authentication without needing to crack the hash to get the plaintext password. It commonly exploits the NTLM authentication protocol."
+    },
+    {
+      "id": "3-7-12",
+      "domain": "3.7.12",
+      "category": "Security Architecture and Engineering",
+      "front": "What is a **Golden Ticket** attack in Kerberos?",
+      "back": "An attack where the adversary obtains the hash of the Kerberos service account (KRBTGT). This allows the attacker to create valid tickets at will for any user or resource within the Active Directory domain, giving them nearly unlimited power."
+    },
+    {
+      "id": "3-8",
+      "domain": "3.8",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the three main principles of **Crime Prevention Through Environmental Design (CPTED)**?",
+      "back": "1. **Natural access control**: Guiding people entering and leaving a building through design.\n2. **Natural surveillance**: Designing spaces to increase the opportunities for intruders to be observed.\n3. **Natural territorial reinforcement**: Making an area feel like an inclusive community to discourage crime."
+    },
+    {
+      "id": "3-9-6",
+      "domain": "3.9.6",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the difference between a **fault**, **blackout**, **sag**, and **brownout** in power systems?",
+      "back": "• **Fault**: A momentary loss of power.\n• **Blackout**: A complete loss of power.\n• **Sag**: A momentary low voltage.\n• **Brownout**: A prolonged low voltage."
+    },
+    {
+      "id": "3-9-8a",
+      "domain": "3.9.8",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the fire extinguisher classes?",
+      "back": "• **Class A**: Common combustibles (wood, paper).\n• **Class B**: Liquids (gasoline, oil).\n• **Class C**: Electrical fires.\n• **Class D**: Metals.\n• **Class K**: Cooking materials (grease, oil)."
+    },
+    {
+      "id": "3-9-8b",
+      "domain": "3.9.8",
+      "category": "Security Architecture and Engineering",
+      "front": "What is the difference between a **wet pipe** and a **dry pipe** sprinkler system?",
+      "back": "• **Wet pipe system**: Is always filled with water, which discharges immediately when triggered.\n• **Dry pipe system**: Contains compressed inert gas; water only enters the pipes when the system is triggered. This is used in areas where freezing is a concern."
+    },
+    {
+      "id": "3-10",
+      "domain": "3.10",
+      "category": "Security Architecture and Engineering",
+      "front": "What are the high-level phases of the Information System Lifecycle?",
+      "back": "• Initiation/Requirements\n• Architecture & Design\n• Development\n• Testing (including verification and validation)\n• Release/Deployment\n• Operations/Maintenance"
+    }
+  ]
+}

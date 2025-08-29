@@ -1,0 +1,287 @@
+'use client'
+
+import { useState, useEffect, useCallback } from 'react'
+import { useRouter } from 'next/navigation'
+import MultiQuestionCard from '@/components/MultiQuestionCard'
+import { QuizQuestion } from '@/types/quiz'
+import Link from 'next/link'
+import '../quiz.css'
+
+const QUESTIONS_PER_PAGE = 10
+
+export default function PracticeQuizPage() {
+  const router = useRouter()
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [allQuestions, setAllQuestions] = useState<QuizQuestion[]>([])
+  const [currentPage, setCurrentPage] = useState(0)
+  const [userAnswers, setUserAnswers] = useState<Record<number, string>>({})
+  const [showResults, setShowResults] = useState(false)
+  const [startTime] = useState(Date.now())
+  const [timeSpent, setTimeSpent] = useState(0)
+  
+  // Calculate pagination
+  const totalPages = Math.ceil(allQuestions.length / QUESTIONS_PER_PAGE)
+  const currentQuestions = allQuestions.slice(
+    currentPage * QUESTIONS_PER_PAGE,
+    (currentPage + 1) * QUESTIONS_PER_PAGE
+  )
+  
+  // Load questions on mount
+  useEffect(() => {
+    const loadQuestions = async () => {
+      try {
+        setLoading(true)
+        
+        // Load questions from text file API
+        const response = await fetch('/api/quiz/text-questions?count=100&file=1&shuffle=true&shuffleAnswers=true')
+        
+        if (!response.ok) {
+          throw new Error('Failed to load questions')
+        }
+        
+        const data = await response.json()
+        
+        if (data.error) {
+          throw new Error(data.error)
+        }
+        
+        setAllQuestions(data.questions)
+        
+      } catch (error) {
+        console.error('Error loading questions:', error)
+        setError(error instanceof Error ? error.message : 'Failed to load quiz')
+      } finally {
+        setLoading(false)
+      }
+    }
+    
+    loadQuestions()
+  }, [])
+  
+  // Timer effect
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const elapsed = Math.floor((Date.now() - startTime) / 1000)
+      setTimeSpent(elapsed)
+    }, 1000)
+    
+    return () => clearInterval(interval)
+  }, [startTime])
+  
+  const handleAnswersChange = useCallback((answers: Record<number, string>) => {
+    setUserAnswers(prev => ({
+      ...prev,
+      ...answers
+    }))
+  }, [])
+  
+  const handleNextPage = () => {
+    if (currentPage < totalPages - 1) {
+      setCurrentPage(prev => prev + 1)
+      window.scrollTo(0, 0)
+    }
+  }
+  
+  const handlePreviousPage = () => {
+    if (currentPage > 0) {
+      setCurrentPage(prev => prev - 1)
+      window.scrollTo(0, 0)
+    }
+  }
+  
+  const handleSubmitQuiz = () => {
+    setShowResults(true)
+    window.scrollTo(0, 0)
+  }
+  
+  const handleRetakeQuiz = () => {
+    setUserAnswers({})
+    setShowResults(false)
+    setCurrentPage(0)
+    window.scrollTo(0, 0)
+  }
+  
+  const calculateScore = () => {
+    let correct = 0
+    allQuestions.forEach(question => {
+      if (userAnswers[question.id] === question.correct_answer) {
+        correct++
+      }
+    })
+    return {
+      correct,
+      total: allQuestions.length,
+      percentage: Math.round((correct / allQuestions.length) * 100)
+    }
+  }
+  
+  if (loading) {
+    return (
+      <div className="quiz-container">
+        <div className="quiz-content">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+            <p className="text-gray-400">Loading practice questions...</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+  
+  if (error) {
+    return (
+      <div className="quiz-container">
+        <div className="quiz-content">
+          <div className="text-center max-w-md mx-auto">
+            <div className="text-red-500 mb-4">
+              <svg className="w-12 h-12 mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+              </svg>
+            </div>
+            <h2 className="text-xl font-semibold text-gray-100 mb-2">Unable to load quiz</h2>
+            <p className="text-gray-400 mb-4">{error}</p>
+            <Link
+              href="/quiz"
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition inline-block"
+            >
+              Back to Quiz Selection
+            </Link>
+          </div>
+        </div>
+      </div>
+    )
+  }
+  
+  const score = showResults ? calculateScore() : null
+  
+  return (
+    <div className="quiz-container">
+      <Link href="/quiz" className="back-to-home">
+        ← Back to Quiz Selection
+      </Link>
+      
+      <div className="quiz-content">
+        <div className="quiz-header">
+          <h1>CISSP Practice Quiz</h1>
+          <p>Master your knowledge with comprehensive practice questions</p>
+        </div>
+        
+        {/* Results Summary */}
+        {showResults && score && (
+          <div className="custom-settings" style={{ marginBottom: '2rem' }}>
+            <h2 className="settings-title">Quiz Results</h2>
+            <div className="text-center">
+              <div className="text-6xl font-bold mb-4" style={{ 
+                background: 'linear-gradient(to right, #60a5fa, #a78bfa)',
+                WebkitBackgroundClip: 'text',
+                backgroundClip: 'text',
+                WebkitTextFillColor: 'transparent'
+              }}>
+                {score.percentage}%
+              </div>
+              <p className="text-xl text-gray-300 mb-2">
+                You got {score.correct} out of {score.total} questions correct
+              </p>
+              <p className="text-gray-400">
+                Time spent: {Math.floor(timeSpent / 60)}:{(timeSpent % 60).toString().padStart(2, '0')}
+              </p>
+              <div className="flex gap-4 justify-center mt-6">
+                <button
+                  onClick={handleRetakeQuiz}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                >
+                  Retake Quiz
+                </button>
+                <Link
+                  href="/quiz"
+                  className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition font-semibold inline-block"
+                >
+                  Back to Selection
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
+        
+        {/* Question Card */}
+        <MultiQuestionCard
+          questions={currentQuestions}
+          onAnswersChange={handleAnswersChange}
+          showResults={showResults}
+          userAnswers={userAnswers}
+        />
+        
+        {/* Navigation */}
+        <div className="mt-8 flex justify-between items-center">
+          <button
+            onClick={handlePreviousPage}
+            disabled={currentPage === 0}
+            className="px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            ← Previous
+          </button>
+          
+          <div className="text-center">
+            <span className="text-gray-400">
+              Page {currentPage + 1} of {totalPages}
+            </span>
+            <div className="mt-2 flex gap-2 justify-center">
+              {Array.from({ length: totalPages }, (_, i) => (
+                <button
+                  key={i}
+                  onClick={() => {
+                    setCurrentPage(i)
+                    window.scrollTo(0, 0)
+                  }}
+                  className={`w-3 h-3 rounded-full transition ${
+                    currentPage === i 
+                      ? 'bg-blue-500' 
+                      : 'bg-gray-600 hover:bg-gray-500'
+                  }`}
+                  aria-label={`Go to page ${i + 1}`}
+                />
+              ))}
+            </div>
+          </div>
+          
+          {currentPage === totalPages - 1 && !showResults ? (
+            <button
+              onClick={handleSubmitQuiz}
+              className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition font-semibold"
+            >
+              Submit Quiz
+            </button>
+          ) : (
+            <button
+              onClick={handleNextPage}
+              disabled={currentPage === totalPages - 1}
+              className="px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Next →
+            </button>
+          )}
+        </div>
+        
+        {/* Progress Bar */}
+        {!showResults && (
+          <div className="mt-8">
+            <div className="flex justify-between text-sm text-gray-400 mb-2">
+              <span>Progress: {Object.keys(userAnswers).length} / {allQuestions.length} answered</span>
+              <span>Time: {Math.floor(timeSpent / 60)}:{(timeSpent % 60).toString().padStart(2, '0')}</span>
+            </div>
+            <div className="w-full bg-gray-700 rounded-full h-3">
+              <div 
+                className="h-3 rounded-full transition-all duration-300"
+                style={{ 
+                  width: `${(Object.keys(userAnswers).length / allQuestions.length) * 100}%`,
+                  background: 'linear-gradient(to right, #60a5fa, #a78bfa)'
+                }}
+              />
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}

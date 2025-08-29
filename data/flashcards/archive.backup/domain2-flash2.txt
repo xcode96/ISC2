@@ -1,0 +1,149 @@
+Of course. Here are more flashcards from the Domain 2 document.
+
+### **Domain 2.1: Identify and Classify Information and Assets**
+
+**Front:**
+*Domain/Subdomain: 2.1.1*
+What is **proprietary data**?
+
+**Back:**
+It is any data that helps an organization maintain a competitive edge.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.1.1*
+What is **data categorization**?
+
+**Back:**
+It is the process of grouping sets of data that have comparable sensitivities and similar security needs based on laws, contracts, or compliance requirements. It is the act of assigning a classification level to an asset.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.1.2*
+What should a **formal access approval process** involve?
+
+**Back:**
+The process should involve approval from the data or asset owner. Before access is granted, the user should be educated on the rules for working with that level of data classification.
+
+***
+
+### **Domain 2.2: Establish Information and Asset Handling Requirements**
+
+**Front:**
+*Domain/Subdomain: 2.2*
+What is the best practice for **data collection limitations**?
+
+**Back:**
+When collecting data, a best practice is to limit the amount collected to only what is needed for a clear business purpose.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.2*
+What are the three primary types of **Data Loss Prevention (DLP)** systems?
+
+**Back:**
+* **Network-based DLP**: Scans all outgoing network data from the edge of the network.
+* **Endpoint-based DLP**: Scans files stored on endpoints and can prevent copying or printing of sensitive data.
+* **Cloud-based DLP**: Designed specifically to monitor data in cloud-native environments.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.2*
+What is **file carving**?
+
+**Back:**
+It is a computer forensics technique used to recover files from a storage device's raw data based on their structure and content. It is often used to recover deleted, formatted, or encrypted files.
+
+***
+
+### **Domain 2.4: Manage Data Lifecycle**
+
+**Front:**
+*Domain/Subdomain: 2.4.6*
+How can operating systems create data remanence in **slack space**?
+
+**Back:**
+Many operating systems store files in clusters, which are groups of sectors. If a file doesn't fill an entire cluster, the leftover "slack space" may be filled with data from memory, which could be sensitive. This is why classified data should never be processed on unclassified systems.
+
+***
+
+### **Domain 2.6: Determine Data Security Controls**
+
+**Front:**
+*Domain/Subdomain: 2.6.1*
+What are the primary real-world protections for **data in use**?
+
+**Back:**
+Since there are fewer security options for data in use compared to data at rest or in transit, the primary protections are keeping systems patched, maintaining a standard computer build process, and running anti-virus/malware software.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.6.4*
+What is **anonymization**?
+
+**Back:**
+Anonymization is a permanent process that replaces private data with useful but inaccurate data to remove individual identities. When done correctly using methods like randomized masking, it cannot be reversed.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.6.4*
+What are key protection methods for **data at rest**?
+
+**Back:**
+Consider encryption for operating system volumes, data volumes, and backups. Also, consider all physical locations where data is at rest, such as tapes, USB drives, SANs, and optical media. Digital Rights Management (DRM) is also useful because it "travels with the data" regardless of its state.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.6.4*
+What are the four cornerstones of **Cloud Access Security Brokers (CASBs)**?
+
+**Back:**
+The four cornerstones of CASBs are visibility, data security, threat detection, and compliance.
+
+***
+
+### **General Concepts (From Introduction)**
+
+**Front:**
+*Domain/Subdomain: 2.0*
+What is an **asset**?
+
+**Back:**
+An asset is anything of value that is owned by the organization.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.0*
+What is the difference between RAM and ROM?
+
+**Back:**
+* **RAM (Random Access Memory)** is volatile memory that loses its contents when the computer is powered off.
+* **ROM (Read-Only Memory)** is nonvolatile memory that cannot be written to by end users.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.0*
+What are PROM, EPROM, and EEPROM?
+
+**Back:**
+* **PROM (Programmable ROM)**: Memory whose contents can be changed once after manufacturing.
+* **EPROM (Erasable PROM)**: Can be erased with ultraviolet light and reprogrammed.
+* **EEPROM (Electrically Erasable PROM)**: Can be erased with an electrical current and reprogrammed.
+
+***
+
+**Front:**
+*Domain/Subdomain: 2.0*
+What is **TEMPEST** technology?
+
+**Back:**
+TEMPEST is a classification of technology designed to minimize the electromagnetic emanations from computing devices to prevent eavesdropping. Countermeasures include Faraday cages, white noise, and shielding.

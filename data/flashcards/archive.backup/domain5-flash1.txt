@@ -1,0 +1,145 @@
+Domain 5.1 – Control Physical and Logical Access to Assets
+
+Front:
+Domain/Subdomain: 5.1
+What does controlling physical and logical access to information involve?
+
+Back:
+Implementing security measures to ensure only authorized individuals can view, modify, or manage information, using access controls, encryption, and data classification.
+
+Front:
+Domain/Subdomain: 5.1
+How is physical and logical access controlled for systems?
+
+Back:
+By enforcing authentication, role-based permissions, and physical security measures such as locked server rooms and tamper detection.
+
+Front:
+Domain/Subdomain: 5.1
+How is access to devices controlled?
+
+Back:
+Through device authentication, endpoint security, asset tagging, and physical safeguards to prevent unauthorized removal or use.
+
+Front:
+Domain/Subdomain: 5.1
+How is access to facilities managed?
+
+Back:
+Via physical controls like security guards, card readers, biometric scanners, CCTV monitoring, and visitor management systems.
+
+Front:
+Domain/Subdomain: 5.1
+How is access to applications controlled?
+
+Back:
+Using application-level authentication, role-based access, input validation, and secure coding practices.
+
+Front:
+Domain/Subdomain: 5.1
+How is access to services restricted?
+
+Back:
+By limiting service accounts, securing APIs, applying firewall rules, and using identity-based access controls.
+
+Domain 5.2 – Design Identification and Authentication Strategy
+
+Front:
+Domain/Subdomain: 5.2
+What is the role of groups in identification and authentication?
+
+Back:
+Groups simplify access management by assigning permissions collectively, ensuring consistent and scalable privilege assignments.
+
+Front:
+Domain/Subdomain: 5.2
+How are roles used in authentication strategies?
+
+Back:
+Roles define access rights based on job functions, enabling easier permission management and principle of least privilege.
+
+Front:
+Domain/Subdomain: 5.2
+What is AAA in security?
+
+Back:
+Authentication, Authorization, and Accounting — a framework for validating users, determining privileges, and tracking activity.
+
+Front:
+Domain/Subdomain: 5.2
+What is MFA and why is it important?
+
+Back:
+Multi-Factor Authentication requires two or more authentication factors (something you know, have, or are) to increase security.
+
+Front:
+Domain/Subdomain: 5.2
+What is passwordless authentication?
+
+Back:
+An authentication method that replaces passwords with alternatives such as biometrics, security keys, or magic links.
+
+Front:
+Domain/Subdomain: 5.2
+What is session management and why is it important?
+
+Back:
+The practice of controlling how user sessions are created, maintained, and terminated to prevent hijacking and unauthorized access.
+
+Front:
+Domain/Subdomain: 5.2
+What is identity proofing?
+
+Back:
+The process of verifying that a claimed identity corresponds to a real person, often via government ID checks or third-party services.
+
+Front:
+Domain/Subdomain: 5.2
+What is FIM in authentication strategy?
+
+Back:
+Federated Identity Management — allows a user’s authentication to be trusted across multiple systems and organizations.
+
+Front:
+Domain/Subdomain: 5.2
+What is credential management?
+
+Back:
+The secure creation, storage, rotation, and revocation of user credentials to prevent compromise.
+
+Front:
+Domain/Subdomain: 5.2
+What is SSO and how does it improve authentication?
+
+Back:
+Single Sign-On allows users to authenticate once and gain access to multiple systems without re-entering credentials, reducing password fatigue.
+
+Front:
+Domain/Subdomain: 5.2
+What is Just-In-Time access and why use it?
+
+Back:
+A security model where elevated privileges are granted only when needed and for a limited time, reducing the attack surface.
+
+Domain 5.3 – Federated Identity with a Third-Party Service
+
+Front:
+Domain/Subdomain: 5.3
+What is an on-premise federated identity?
+
+Back:
+Federated authentication managed entirely within an organization’s local infrastructure, without relying on external services.
+
+Front:
+Domain/Subdomain: 5.3
+What is cloud-based federated identity?
+
+Back:
+Authentication services hosted and managed by a cloud provider, enabling SSO and identity management across cloud apps.
+
+Front:
+Domain/Subdomain: 5.3
+What is hybrid federated identity?
+
+Back:
+A mix of on-premise and cloud-based identity systems, allowing flexibility and gradual migration.

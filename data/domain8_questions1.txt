@@ -1,0 +1,504 @@
+1. Which of the following is a characteristic of the Waterfall Model in software development?
+
+Iterative feedback after each phase
+
+Testing happens at the end of the development lifecycle
+
+Phases are flexible and can overlap
+
+Customer involvement throughout the development process
+
+2. In secure software development, what is the primary goal of Threat Modeling?
+
+To create use cases for testing the application
+
+To identify vulnerabilities and weaknesses in the system
+
+To ensure performance optimization
+
+To create an intuitive user interface
+
+3. Which security concern is most associated with the DevOps methodology in software development?
+
+Lack of documentation
+
+Inadequate scalability
+
+Speed of deployment leading to potential security gaps
+
+Inflexible testing environments
+
+4. Which of the following is a primary benefit of incorporating security requirements during the early stages of the Software Development Life Cycle (SDLC)?
+
+Reduced overall cost of development
+
+Increased time-to-market
+
+Higher software performance
+
+Less frequent security audits
+
+5. Which of the following best describes static code analysis in the context of secure software development?
+
+Reviewing the system’s source code without executing it
+
+Analyzing the system’s performance during execution
+
+Identifying runtime vulnerabilities such as memory leaks
+
+Testing software under normal and abnormal conditions
+
+6. Which of the following practices can help prevent injection attacks in web applications?
+
+Using hard-coded credentials in scripts
+
+Limiting access to the database to administrators only
+
+Using parameterized queries
+
+Implementing client-side input validation
+
+7. What is the primary function of a Software Bill of Materials (SBOM) in secure software development?
+
+To provide a detailed list of all software dependencies and components
+
+To specify the functional requirements of the software
+
+To track user activity within the application
+
+To manage the software’s source code versions
+
+8. Which of the following is an example of a secure coding best practice?
+
+Relying solely on third-party libraries for security features
+
+Disabling logging for error messages
+
+Implementing input validation on both the client and server sides
+
+Using single-factor authentication for administrative access
+
+9. Which of the following is a primary advantage of using the Agile software development methodology from a security perspective?
+
+Security is integrated at the end of the development cycle
+
+Continuous feedback loops facilitate ongoing security improvements
+
+It allows for less testing during the development process
+
+Security risks are ignored to meet faster delivery deadlines
+
+10. What is the primary purpose of performing a code review in the context of secure software development?
+
+To optimize the performance of the application
+
+To identify security vulnerabilities and coding errors
+
+To test the application’s functionality
+
+To assess compliance with user interface design standards
+
+
+11. What is the main goal of the Secure Development Life Cycle (SDLC)?
+
+To build software that focuses solely on functionality
+
+To integrate security measures at every phase of software development
+
+To delay security integration until after testing
+
+To limit the involvement of security teams in the development process
+
+12. Which of the following is an effective way to mitigate cross-site scripting (XSS) vulnerabilities?
+
+Encrypting all sensitive data in the database
+
+Implementing input validation and output encoding
+
+Using MD5 to hash user passwords
+
+Disabling SSL/TLS to improve performance
+
+13. Which software testing method involves simulating attacks on the application to uncover vulnerabilities?
+
+Static testing
+
+Unit testing
+
+Penetration testing
+
+System integration testing
+
+14. Which of the following practices helps to ensure data integrity during software development?
+
+Encrypting all network traffic
+
+Implementing hashing algorithms
+
+Using multi-factor authentication
+
+Disabling unused network ports
+
+15. Which of the following is considered a secure coding best practice to mitigate buffer overflow vulnerabilities?
+
+Using dynamic memory allocation without bounds checking
+
+Performing proper bounds checking on all input data
+
+Storing all data in global variables
+
+Using fixed-size buffers for all data inputs
+
+Page : 4/10
+
+16. In the context of secure software development, which of the following is a common method to mitigate injection attacks?
+
+Encrypting data at rest
+
+Using prepared statements with parameterized queries
+
+Applying a security patch after deployment
+
+Implementing server-side client validation
+
+17. Which of the following security mechanisms is typically used to prevent Cross-Site Request Forgery (CSRF) attacks?
+
+Enforcing strong password policies
+
+Using anti-CSRF tokens in forms
+
+Implementing a Web Application Firewall (WAF)
+
+Encrypting sensitive data in transit
+
+18. Which of the following is a common goal of using software fuzz testing?
+
+To increase application performance
+
+To detect security vulnerabilities by inputting random or unexpected data
+
+To verify that the software meets functional requirements
+
+To assess the user interface design for usability
+
+19. What is the main purpose of the Open Web Application Security Project (OWASP) Top 10 list?
+
+To provide a checklist for functional testing
+
+To outline the most critical web application security risks
+
+To define performance benchmarks for web applications
+
+To offer guidance on coding standards for web developers
+
+20. Which of the following is a key characteristic of DevSecOps in secure software development?
+
+Security is handled exclusively by the security team at the end of the development cycle
+
+Security is integrated into every phase of the development process
+
+Security is tested only during the deployment phase
+
+Developers are not involved in security decisions
+
+21. Which of the following is a key benefit of using a sandbox environment in software development?
+
+Reducing the cost of development
+
+Preventing malicious code from impacting production systems
+
+Ensuring that all code meets performance benchmarks
+
+Increasing the speed of development
+
+22. Which of the following tools is best suited for identifying vulnerabilities in third-party libraries used in an application?
+
+Penetration testing
+
+Static Application Security Testing (SAST)
+
+Dynamic Application Security Testing (DAST)
+
+Software Composition Analysis (SCA)
+
+23. Which of the following secure coding practices can help mitigate the risk of Cross-Site Scripting (XSS) attacks?
+
+Using weak encryption algorithms
+
+Output encoding for dynamic web content
+
+Disabling input validation
+
+Hard-coding sensitive data into the application
+
+24. Which of the following describes a key characteristic of the Spiral Model in software development?
+
+A focus on iterative development with risk assessment at every phase
+
+Strict sequential phases that do not overlap
+
+Development phases are completed once without iteration
+
+Minimal customer involvement until the final phase
+
+25. In secure software development, which type of testing specifically focuses on uncovering security flaws by simulating real-world attacks?
+
+Unit testing
+
+Penetration testing
+
+Functional testing
+
+Regression testing
+
+Page : 6/10
+
+26. Which of the following techniques is the most effective in mitigating SQL injection vulnerabilities?
+
+Disabling input validation
+
+Using stored procedures with dynamic SQL
+
+Using parameterized queries and input validation
+
+Hard-coding SQL queries in the source code
+
+27. Which of the following is a core principle of DevSecOps?
+
+Security testing is only performed after development is complete
+
+Security is a shared responsibility across development, security, and operations teams
+
+Developers are responsible for all security decisions
+
+Only security teams are involved in testing the application
+
+28. Which secure coding practice can help mitigate buffer overflow attacks?
+
+Using strong encryption for all sensitive data
+
+Conducting thorough input validation and bounds checking
+
+Storing sensitive information in global variables
+
+Avoiding the use of encryption in memory
+
+29. Which of the following describes a key feature of the NIST Secure Software Development Framework (SSDF)?
+
+It mandates the use of specific coding languages
+
+It provides guidelines for integrating security into each phase of the software development lifecycle
+
+It focuses exclusively on post-deployment security
+
+It limits the involvement of developers in security decisions
+
+30. Which of the following practices helps reduce the risk of hardcoded sensitive information in software applications?
+
+Using environment variables to store sensitive data
+
+Storing encryption keys in the source code
+
+Embedding database credentials directly into the application
+
+Allowing hardcoded credentials for administrative access
+
+31. Which of the following is the best description of the principle of "Least Privilege" in software development security?
+
+Users and processes are given only the minimum permissions necessary to perform their tasks
+
+All users are granted full access to all system resources to improve collaboration
+
+Permissions are assigned to users based on their job title, regardless of actual need
+
+Administrative privileges are assigned to every user to ensure system accessibility
+
+32. Which of the following practices is essential for preventing session hijacking in web applications?
+
+Implementing session IDs in URLs
+
+Using secure cookies with the "HttpOnly" and "Secure" flags
+
+Allowing session IDs to be shared across multiple users
+
+Disabling session timeouts to enhance user convenience
+
+33. Which of the following is the best method to mitigate time-of-check to time-of-use (TOCTOU) vulnerabilities in software?
+
+Implementing proper input validation
+
+Using secure coding libraries for file access
+
+Ensuring that the system performs immediate access control checks at the time of resource use
+
+Avoiding dynamic memory allocation
+
+34. What is the purpose of input sanitization in secure software development?
+
+To improve application performance
+
+To ensure that data is safely processed and does not contain malicious content
+
+To disable all user inputs to prevent attacks
+
+To allow all types of inputs for flexibility
+
+35. Which of the following is a key feature of Static Application Security Testing (SAST)?
+
+It scans running applications to find vulnerabilities
+
+It identifies security flaws in the source code without executing the application
+
+It tests for performance and scalability issues
+
+It is only useful after the application has been deployed
+
+36. Which of the following methods is used to prevent replay attacks?
+
+Using strong encryption for all communications
+
+Implementing a firewall to block unwanted traffic
+
+Using nonces or timestamps in communication protocols
+
+Disabling input validation
+
+37. Which of the following is a characteristic of dynamic application security testing (DAST)?
+
+It requires access to the source code
+
+It tests the application while it is running
+
+It focuses on detecting syntax errors
+
+It cannot detect vulnerabilities in the user interface
+
+38. Which of the following is the best example of a security measure that can prevent Cross-Site Request Forgery (CSRF) attacks?
+
+Implementing strong password policies
+
+Using a token-based mechanism for each user request
+
+Encrypting all database queries
+
+Disabling session cookies
+
+39. Which secure coding practice is the most effective in preventing race conditions in multithreaded applications?
+
+Using nonces in data communications
+
+Implementing access controls for system administrators
+
+Using proper locking mechanisms to synchronize access to shared resources
+
+Enforcing encryption on all network communications Correct Answer: C
+
+40. Which of the following practices helps prevent buffer overflow attacks?
+
+Disabling firewalls to allow unrestricted traffic
+
+Using input validation and bounds checking
+
+Allowing direct memory access to improve performance
+
+Storing sensitive data in global variables
+
+41. Which of the following is the most effective way to prevent SQL injection attacks?
+
+Enabling verbose error messages for debugging
+
+Using parameterized queries or prepared statements
+
+Storing passwords in plaintext
+
+Allowing user inputs directly into SQL queries without validation
+
+42. Which software development model involves iterative cycles of development and risk analysis?
+
+Waterfall Model
+
+Spiral Model
+
+Agile Model
+
+Big Bang Model
+
+43. Which of the following is the primary goal of Software Composition Analysis (SCA) in secure development?
+
+To improve application performance
+
+To identify vulnerabilities in third-party and open-source components
+
+To test for functionality in software modules
+
+To assess user experience in the software interface
+
+44. What is the primary security risk associated with the use of third-party libraries in software development?
+
+Increased application performance
+
+Potential inclusion of unpatched vulnerabilities
+
+Enhanced security features
+
+Simplified integration with APIs
+
+45. Which of the following techniques can prevent Cross-Site Scripting (XSS) attacks?
+
+Encrypting all sensitive data
+
+Output encoding of user inputs before displaying on web pages
+
+Using multi-factor authentication
+
+Storing session tokens in URLs
+
+46. What is the purpose of implementing nonce values in web applications?
+
+To prevent buffer overflow attacks
+
+To mitigate replay attacks
+
+To enable faster processing of user inputs
+
+To encrypt data at rest
+
+47. Which of the following is a key security risk when using open-source software components in an application?
+
+Lack of performance optimization
+
+Limited documentation
+
+Introduction of known vulnerabilities
+
+Poor user interface design
+
+48. What is the primary role of fuzz testing in secure software development?
+
+To enhance the graphical user interface
+
+To test software functionality under high workloads
+
+To input random data into an application to uncover vulnerabilities
+
+To check compliance with user interface design standards
+
+49. Which of the following measures helps protect against Cross-Site Request Forgery (CSRF) attacks?
+
+Using CAPTCHA challenges
+
+Implementing unique anti-CSRF tokens
+
+Encrypting session cookies
+
+Using client-side validation
+
+50. Which of the following describes threat modeling in secure software development?
+
+The process of identifying functional software requirements
+
+The practice of simulating attacks on the software to identify vulnerabilities
+
+The technique of identifying potential threats and vulnerabilities in a system
+
+The creation of performance benchmarks for the application

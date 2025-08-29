@@ -1,0 +1,492 @@
+Domain 7 – Security Operations
+
+Front:
+Domain/Subdomain: 7.0
+What is the Trusted Computing Base (TCB)?
+
+Back:
+Collection of all hardware, software, and firmware components responsible for security and isolation of objects. Includes the Reference Monitor Concept with three principles: Complete Mediation, Verifiability, and Isolation.
+
+Front:
+Domain/Subdomain: 7.0
+What are the types of alarm systems?
+
+Back:
+- Deterrent - discourages unauthorized activity
+- Repellent - drives away intruders
+- Notification - alerts security personnel
+
+Front:
+Domain/Subdomain: 7.0
+What is the difference between clipping and sampling?
+
+Back:
+- Clipping - selects records exceeding a predefined threshold (non-statistical)
+- Sampling - uses statistical techniques to choose representative sample from entire pool
+
+Front:
+Domain/Subdomain: 7.0
+What are Indicators of Compromise (IoC)?
+
+Back:
+Signals that an intrusion, malware, or other predefined hostile events have occurred or are occurring. Technical artifacts suggesting attacks are imminent, underway, or completed.
+
+Front:
+Domain/Subdomain: 7.0
+What is MTBF vs MTTF vs MTTR?
+
+Back:
+- MTBF - Mean Time Between Failure (time between first and subsequent failures)
+- MTTF - Mean Time To Failure (expected functional lifetime)
+- MTTR - Mean Time To Repair (average repair time)
+
+Domain 7.1 – Understand and Comply with Investigations
+
+Front:
+Domain/Subdomain: 7.1
+What is the Locard Exchange Principle?
+
+Back:
+Whenever a crime is committed, something is taken and something is left behind - fundamental principle of forensic investigation.
+
+Front:
+Domain/Subdomain: 7.1
+What are the four types of investigations?
+
+Back:
+- Administrative - policy violations
+- Criminal - law enforcement for crimes
+- Civil - non-criminal matters like contract disputes
+- Regulatory - compliance investigations by government
+
+Front:
+Domain/Subdomain: 7.1
+What are the IOCE six principles for digital evidence?
+
+Back:
+1. Apply general forensic principles
+2. Seizing shouldn't change evidence
+3. Only trained professionals access originals
+4. Document all activity
+5. Person in possession responsible for actions
+6. Agency responsible for compliance
+
+Front:
+Domain/Subdomain: 7.1
+What are the five rules of evidence?
+
+Back:
+- Authentic - not fabricated or planted
+- Accurate - has integrity, not modified
+- Complete - all parts available
+- Convincing - easy to understand
+- Admissible - legally collected and relevant
+
+Front:
+Domain/Subdomain: 7.1
+What is the chain of custody?
+
+Back:
+Documentation of who collected and handled evidence, when, and where. Remember as: Tag, Bag, and Carry the evidence.
+
+Front:
+Domain/Subdomain: 7.1
+What is eDiscovery and its phases?
+
+Back:
+Process of identifying and producing electronic information for legal proceedings. 9 phases: Information Governance, Identification, Preservation, Collection, Processing, Review, Analysis, Production, Presentation.
+
+Domain 7.2 – Conduct Logging and Monitoring Activities
+
+Front:
+Domain/Subdomain: 7.2
+What is the difference between IDS and IPS?
+
+Back:
+- IDS - Detects and alerts on intrusions (passive monitoring)
+- IPS - Detects AND blocks attacks from reaching targets (active prevention)
+
+Front:
+Domain/Subdomain: 7.2
+What are SIEM capabilities?
+
+Back:
+- Aggregation
+- Normalization
+- Correlation
+- Secure storage
+- Analysis
+- Reporting
+
+Front:
+Domain/Subdomain: 7.2
+What is SOAR?
+
+Back:
+Security Orchestration, Automation, and Response - technologies that automatically respond to incidents using playbooks and runbooks, reducing admin workload and human error.
+
+Front:
+Domain/Subdomain: 7.2
+What is the Cyber Kill Chain?
+
+Back:
+Seven stages: Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command and Control, Actions on Objectives.
+
+Front:
+Domain/Subdomain: 7.2
+What is UEBA?
+
+Back:
+User and Entity Behavior Analytics - analyzes user/entity behavior to detect inappropriate activity by creating baselines and monitoring for deviations indicating malicious activity.
+
+Domain 7.3 – Perform Configuration Management
+
+Front:
+Domain/Subdomain: 7.3
+What are the three basic components of change control?
+
+Back:
+- Request control
+- Change control  
+- Release control
+
+Front:
+Domain/Subdomain: 7.3
+What is system hardening?
+
+Back:
+Process of applying security configurations including: disabling unused services, closing unused ports, removing unused applications, and changing default passwords.
+
+Front:
+Domain/Subdomain: 7.3
+What is a baseline in configuration management?
+
+Back:
+Starting point configuration for a system, often deployed as images to ensure consistent security settings and reduce deployment time.
+
+Domain 7.4 – Apply Foundational Security Operations Concepts
+
+Front:
+Domain/Subdomain: 7.4
+What is the difference between need-to-know and least privilege?
+
+Back:
+- Need-to-know - restricts WHAT information someone can access
+- Least privilege - restricts HOW MUCH access/permissions someone has
+
+Front:
+Domain/Subdomain: 7.4
+What is Segregation of Duties (SoD)?
+
+Back:
+Ensures no single person has total control over critical functions, reducing fraud by requiring collusion between multiple people for unauthorized activity.
+
+Front:
+Domain/Subdomain: 7.4
+What is two-person control?
+
+Back:
+Requires approval of two individuals for critical tasks, ensuring peer review and reducing likelihood of collusion and fraud.
+
+Front:
+Domain/Subdomain: 7.4
+What is job rotation?
+
+Back:
+Employees rotate through jobs or responsibilities, providing peer review, reducing fraud, and enabling cross-training. Acts as both deterrent and detection mechanism.
+
+Domain 7.5 – Apply Resource Protection
+
+Front:
+Domain/Subdomain: 7.5
+What types of media require management?
+
+Back:
+- Paper
+- Microforms (microfilm/microfiche)
+- Magnetic (HD, disks, tapes)
+- Flash memory (SSD, memory cards)
+- Optical (CD, DVD)
+
+Front:
+Domain/Subdomain: 7.5
+How can data at rest and in transit be protected?
+
+Back:
+Both can be protected via encryption, with appropriate key management and access controls.
+
+Domain 7.6 – Conduct Incident Management
+
+Front:
+Domain/Subdomain: 7.6
+What are the incident response steps (DRMRRRL)?
+
+Back:
+Detection, Response, Mitigation, Reporting, Recovery, Remediation, Lessons Learned (remember as "drumroll").
+
+Front:
+Domain/Subdomain: 7.6
+What are the main goals of incident response?
+
+Back:
+- Provide effective response to reduce impact
+- Maintain or restore business continuity
+- Defend against future attacks
+
+Front:
+Domain/Subdomain: 7.6
+What happens during the mitigation phase?
+
+Back:
+Attempt to contain incident and prevent further damage, not fix the problem. May involve disconnecting systems from network.
+
+Front:
+Domain/Subdomain: 7.6
+What is the difference between recovery and remediation?
+
+Back:
+- Recovery - restoring systems to normal operational state
+- Remediation - implementing changes to prevent reoccurrence
+
+Domain 7.7 – Operate and Maintain Detection and Preventative Measures
+
+Front:
+Domain/Subdomain: 7.7
+What are the types of firewalls?
+
+Back:
+- Static Packet Filtering (Layer 3)
+- Application-Level (Layer 7)
+- Circuit-Level Gateway (Layer 5)
+- Stateful Inspection (Layers 3-4)
+- Next-Generation (Layers 3-7)
+- Internal Segmentation
+
+Front:
+Domain/Subdomain: 7.7
+What is sandboxing?
+
+Back:
+Isolated, secure environment to run and analyze untrusted programs without risking harm to host system or network.
+
+Front:
+Domain/Subdomain: 7.7
+What is the difference between honeypots and honeynets?
+
+Back:
+- Honeypot - individual computer trap with pseudo flaws
+- Honeynet - two or more networked honeypots simulating a network
+
+Front:
+Domain/Subdomain: 7.7
+What are the key malware types?
+
+Back:
+- Virus - requires user trigger
+- Worm - self-propagates
+- Trojan - appears harmless but malicious
+- Ransomware - encrypts data for ransom
+- Rootkit - embeds deep in OS
+- Zero-day - previously unknown vulnerability
+
+Front:
+Domain/Subdomain: 7.7
+What is the difference between allow lists and deny lists?
+
+Back:
+- Allow list - only authorized apps can run (deny by default)
+- Deny list - specific unauthorized apps blocked
+System uses one or the other, not both.
+
+Domain 7.8 – Implement and Support Patch and Vulnerability Management
+
+Front:
+Domain/Subdomain: 7.8
+What are the common steps in patch management?
+
+Back:
+1. Evaluate patches for applicability
+2. Test on isolated systems
+3. Approve patches (often via change management)
+4. Deploy patches
+5. Verify deployment
+
+Front:
+Domain/Subdomain: 7.8
+What are the three methods for determining patch levels?
+
+Back:
+- Agent - update software installed on devices
+- Agentless - remote connection to devices
+- Passive - monitor traffic to infer patch levels
+
+Domain 7.9 – Understand and Participate in Change Management
+
+Front:
+Domain/Subdomain: 7.9
+What are the steps in the change management process?
+
+Back:
+1. Change request
+2. Assess impact
+3. Approval/reject
+4. Build and test
+5. Schedule/notification
+6. Implement
+7. Validation
+8. Document
+
+Front:
+Domain/Subdomain: 7.9
+Why is change management important?
+
+Back:
+Creates documentation trail, allows review for unintended consequences, provides rollback capability, and ensures controlled changes to reduce risks.
+
+Domain 7.10 – Implement Recovery Strategies
+
+Front:
+Domain/Subdomain: 7.10
+What is the 3-2-1 backup rule?
+
+Back:
+- 3 copies of critical files
+- 2 backups on different media
+- 1 backup stored offsite
+
+Front:
+Domain/Subdomain: 7.10
+What are the three types of backups?
+
+Back:
+- Full - complete copy of all data
+- Incremental - changes since last incremental
+- Differential - changes since last full
+
+Front:
+Domain/Subdomain: 7.10
+What are the recovery site types?
+
+Back:
+- Cold site - facility with no computing equipment
+- Warm site - basic equipment installed, no current data
+- Hot site - fully operational with current data (subscription service)
+- Mobile site - portable recovery facility
+
+Front:
+Domain/Subdomain: 7.10
+What are RAID levels?
+
+Back:
+- RAID 0 - Striping (speed)
+- RAID 1 - Mirroring (redundancy)
+- RAID 5 - Parity protection (balance)
+- RAID 10 - Mirroring + Striping (speed + redundancy)
+
+Domain 7.11 – Implement Disaster Recovery Processes
+
+Front:
+Domain/Subdomain: 7.11
+What are the four key BCP/DRP measurements?
+
+Back:
+- RPO - Recovery Point Objective (max data loss)
+- RTO - Recovery Time Objective (max recovery time)
+- WRT - Work Recovery Time (verification time)
+- MTD - Maximum Tolerable Downtime
+
+Front:
+Domain/Subdomain: 7.11
+What is the difference between restoration and recovery?
+
+Back:
+- Restoration - bringing facility/environment to workable state
+- Recovery - bringing business operations/processes to working state
+
+Domain 7.12 – Test Disaster Recovery Plans
+
+Front:
+Domain/Subdomain: 7.12
+What are the five DR test types in order of complexity?
+
+Back:
+1. Read-through/checklist
+2. Structured walk-through/tabletop
+3. Simulation
+4. Parallel
+5. Full-interruption
+
+Front:
+Domain/Subdomain: 7.12
+What happens in a parallel test vs full-interruption test?
+
+Back:
+- Parallel - personnel relocate to alternate site, primary site continues
+- Full-interruption - primary site shuts down, operations shift to recovery site
+
+Domain 7.13 – Participate in Business Continuity Planning
+
+Front:
+Domain/Subdomain: 7.13
+What is the BCP lifecycle?
+
+Back:
+1. Developing BC concept
+2. Assessing current environment
+3. Implementing continuity strategies
+4. Training staff
+5. Testing, exercising, and maintaining plans
+
+Domain 7.14 – Implement and Manage Physical Security
+
+Front:
+Domain/Subdomain: 7.14
+What is PIDAS?
+
+Back:
+Perimeter Intrusion Detection and Assessment System - advanced fencing with 2-3 fences, space for patrols, touch detection, reduces false positives.
+
+Front:
+Domain/Subdomain: 7.14
+What is an access control vestibule?
+
+Back:
+Also known as mantrap - double set of doors preventing piggybacking, can trap individuals at security's discretion.
+
+Front:
+Domain/Subdomain: 7.14
+What are common perimeter security controls?
+
+Back:
+- Fences and gates
+- Turnstiles
+- Security bollards
+- Barricades
+- Lighting (deterrence)
+- Guards and guard dogs
+
+Domain 7.15 – Address Personnel Safety and Security Concerns
+
+Front:
+Domain/Subdomain: 7.15
+What are key travel security concerns?
+
+Back:
+- Devices shouldn't contain sensitive data
+- Risk of malware/monitoring devices
+- Dangers of free WiFi
+- Need for VPN usage
+
+Front:
+Domain/Subdomain: 7.15
+What is a duress system?
+
+Back:
+Emergency alert system (like panic button) allowing guards to raise alarms, useful when personnel work alone. May use code words to indicate false alarm or actual emergency.
+
+Front:
+Domain/Subdomain: 7.15
+What is 2FA fatigue?
+
+Back:
+User exhaustion from repeated authentication requests, requiring education on importance of 2FA and ways to make it more user-friendly.

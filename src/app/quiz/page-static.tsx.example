@@ -1,0 +1,34 @@
+// Example: Updated Quiz Page using static data
+// src/app/quiz/page.tsx
+
+import { CISSP_DOMAINS } from '@/data/domains'
+import QuizSelection from '@/components/QuizSelection'
+import Link from 'next/link'
+import './quiz.css'
+
+export default function QuizPage() {
+  // No async needed! No database calls!
+  // Just use the static data directly
+  
+  return (
+    <div className="quiz-container">
+      <Link href="/" className="back-to-home">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+        </svg>
+        <span>To Frontpage</span>
+      </Link>
+      
+      <div className="quiz-content">
+        <div className="quiz-header">
+          <h1>CISSP Practice Quiz</h1>
+          <p>Test your knowledge with practice questions from all 8 CISSP domains. 
+            Choose a specific domain or take a comprehensive mixed quiz.</p>
+        </div>
+        
+        {/* Pass static domains directly - no loading state needed! */}
+        <QuizSelection domains={CISSP_DOMAINS} />
+      </div>
+    </div>
+  )
+}

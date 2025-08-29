@@ -1,0 +1,376 @@
+{
+  "domain": "Domain 7: Security Operations",
+  "flashcards": [
+    {
+      "id": "7-0a",
+      "domain": "7.0",
+      "category": "Security Operations",
+      "front": "What is the Trusted Computing Base (TCB)?",
+      "back": "Collection of all hardware, software, and firmware components responsible for security and isolation of objects. Includes the Reference Monitor Concept with three principles: Complete Mediation, Verifiability, and Isolation."
+    },
+    {
+      "id": "7-0b",
+      "domain": "7.0",
+      "category": "Security Operations",
+      "front": "What are the types of alarm systems?",
+      "back": "• Deterrent - discourages unauthorized activity\n• Repellent - drives away intruders\n• Notification - alerts security personnel"
+    },
+    {
+      "id": "7-0c",
+      "domain": "7.0",
+      "category": "Security Operations",
+      "front": "What is the difference between clipping and sampling?",
+      "back": "• Clipping - selects records exceeding a predefined threshold (non-statistical)\n• Sampling - uses statistical techniques to choose representative sample from entire pool"
+    },
+    {
+      "id": "7-0d",
+      "domain": "7.0",
+      "category": "Security Operations",
+      "front": "What are Indicators of Compromise (IoC)?",
+      "back": "Signals that an intrusion, malware, or other predefined hostile events have occurred or are occurring. Technical artifacts suggesting attacks are imminent, underway, or completed."
+    },
+    {
+      "id": "7-0e",
+      "domain": "7.0",
+      "category": "Security Operations",
+      "front": "What is MTBF vs MTTF vs MTTR?",
+      "back": "• MTBF - Mean Time Between Failure (time between first and subsequent failures)\n• MTTF - Mean Time To Failure (expected functional lifetime)\n• MTTR - Mean Time To Repair (average repair time)"
+    },
+    {
+      "id": "7-1",
+      "domain": "7.1",
+      "category": "Security Operations",
+      "front": "What is the Locard Exchange Principle?",
+      "back": "Whenever a crime is committed, something is taken and something is left behind - fundamental principle of forensic investigation."
+    },
+    {
+      "id": "7-1b",
+      "domain": "7.1",
+      "category": "Security Operations",
+      "front": "What are the four types of investigations?",
+      "back": "• Administrative - policy violations\n• Criminal - law enforcement for crimes\n• Civil - non-criminal matters like contract disputes\n• Regulatory - compliance investigations by government"
+    },
+    {
+      "id": "7-1c",
+      "domain": "7.1",
+      "category": "Security Operations",
+      "front": "What are the IOCE six principles for digital evidence?",
+      "back": "1. Apply general forensic principles\n2. Seizing shouldn't change evidence\n3. Only trained professionals access originals\n4. Document all activity\n5. Person in possession responsible for actions\n6. Agency responsible for compliance"
+    },
+    {
+      "id": "7-1d",
+      "domain": "7.1",
+      "category": "Security Operations",
+      "front": "What are the five rules of evidence?",
+      "back": "• Authentic - not fabricated or planted\n• Accurate - has integrity, not modified\n• Complete - all parts available\n• Convincing - easy to understand\n• Admissible - legally collected and relevant"
+    },
+    {
+      "id": "7-1e",
+      "domain": "7.1",
+      "category": "Security Operations",
+      "front": "What is the chain of custody?",
+      "back": "Documentation of who collected and handled evidence, when, and where. Remember as: Tag, Bag, and Carry the evidence."
+    },
+    {
+      "id": "7-1f",
+      "domain": "7.1",
+      "category": "Security Operations",
+      "front": "What is eDiscovery and its phases?",
+      "back": "Process of identifying and producing electronic information for legal proceedings. 9 phases: Information Governance, Identification, Preservation, Collection, Processing, Review, Analysis, Production, Presentation."
+    },
+    {
+      "id": "7-2",
+      "domain": "7.2",
+      "category": "Security Operations",
+      "front": "What is the difference between IDS and IPS?",
+      "back": "• IDS - Detects and alerts on intrusions (passive monitoring)\n• IPS - Detects AND blocks attacks from reaching targets (active prevention)"
+    },
+    {
+      "id": "7-2b",
+      "domain": "7.2",
+      "category": "Security Operations",
+      "front": "What are SIEM capabilities?",
+      "back": "• Aggregation\n• Normalization\n• Correlation\n• Secure storage\n• Analysis\n• Reporting"
+    },
+    {
+      "id": "7-2c",
+      "domain": "7.2",
+      "category": "Security Operations",
+      "front": "What is SOAR?",
+      "back": "Security Orchestration, Automation, and Response - technologies that automatically respond to incidents using playbooks and runbooks, reducing admin workload and human error."
+    },
+    {
+      "id": "7-2d",
+      "domain": "7.2",
+      "category": "Security Operations",
+      "front": "What is the Cyber Kill Chain?",
+      "back": "Seven stages: Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command and Control, Actions on Objectives."
+    },
+    {
+      "id": "7-2e",
+      "domain": "7.2",
+      "category": "Security Operations",
+      "front": "What is UEBA?",
+      "back": "User and Entity Behavior Analytics - analyzes user/entity behavior to detect inappropriate activity by creating baselines and monitoring for deviations indicating malicious activity."
+    },
+    {
+      "id": "7-3",
+      "domain": "7.3",
+      "category": "Security Operations",
+      "front": "What are the three basic components of change control?",
+      "back": "• Request control\n• Change control\n• Release control"
+    },
+    {
+      "id": "7-3b",
+      "domain": "7.3",
+      "category": "Security Operations",
+      "front": "What is system hardening?",
+      "back": "Process of applying security configurations including: disabling unused services, closing unused ports, removing unused applications, and changing default passwords."
+    },
+    {
+      "id": "7-3c",
+      "domain": "7.3",
+      "category": "Security Operations",
+      "front": "What is a baseline in configuration management?",
+      "back": "Starting point configuration for a system, often deployed as images to ensure consistent security settings and reduce deployment time."
+    },
+    {
+      "id": "7-4",
+      "domain": "7.4",
+      "category": "Security Operations",
+      "front": "What is the difference between need-to-know and least privilege?",
+      "back": "• Need-to-know - restricts WHAT information someone can access\n• Least privilege - restricts HOW MUCH access/permissions someone has"
+    },
+    {
+      "id": "7-4b",
+      "domain": "7.4",
+      "category": "Security Operations",
+      "front": "What is Segregation of Duties (SoD)?",
+      "back": "Ensures no single person has total control over critical functions, reducing fraud by requiring collusion between multiple people for unauthorized activity."
+    },
+    {
+      "id": "7-4c",
+      "domain": "7.4",
+      "category": "Security Operations",
+      "front": "What is two-person control?",
+      "back": "Requires approval of two individuals for critical tasks, ensuring peer review and reducing likelihood of collusion and fraud."
+    },
+    {
+      "id": "7-4d",
+      "domain": "7.4",
+      "category": "Security Operations",
+      "front": "What is job rotation?",
+      "back": "Employees rotate through jobs or responsibilities, providing peer review, reducing fraud, and enabling cross-training. Acts as both deterrent and detection mechanism."
+    },
+    {
+      "id": "7-5",
+      "domain": "7.5",
+      "category": "Security Operations",
+      "front": "What types of media require management?",
+      "back": "• Paper\n• Microforms (microfilm/microfiche)\n• Magnetic (HD, disks, tapes)\n• Flash memory (SSD, memory cards)\n• Optical (CD, DVD)"
+    },
+    {
+      "id": "7-5b",
+      "domain": "7.5",
+      "category": "Security Operations",
+      "front": "How can data at rest and in transit be protected?",
+      "back": "Both can be protected via encryption, with appropriate key management and access controls."
+    },
+    {
+      "id": "7-6",
+      "domain": "7.6",
+      "category": "Security Operations",
+      "front": "What are the incident response steps (DRMRRRL)?",
+      "back": "Detection, Response, Mitigation, Reporting, Recovery, Remediation, Lessons Learned (remember as \"drumroll\")."
+    },
+    {
+      "id": "7-6b",
+      "domain": "7.6",
+      "category": "Security Operations",
+      "front": "What are the main goals of incident response?",
+      "back": "• Provide effective response to reduce impact\n• Maintain or restore business continuity\n• Defend against future attacks"
+    },
+    {
+      "id": "7-6c",
+      "domain": "7.6",
+      "category": "Security Operations",
+      "front": "What happens during the mitigation phase?",
+      "back": "Attempt to contain incident and prevent further damage, not fix the problem. May involve disconnecting systems from network."
+    },
+    {
+      "id": "7-6d",
+      "domain": "7.6",
+      "category": "Security Operations",
+      "front": "What is the difference between recovery and remediation?",
+      "back": "• Recovery - restoring systems to normal operational state\n• Remediation - implementing changes to prevent reoccurrence"
+    },
+    {
+      "id": "7-7",
+      "domain": "7.7",
+      "category": "Security Operations",
+      "front": "What are the types of firewalls?",
+      "back": "• Static Packet Filtering (Layer 3)\n• Application-Level (Layer 7)\n• Circuit-Level Gateway (Layer 5)\n• Stateful Inspection (Layers 3-4)\n• Next-Generation (Layers 3-7)\n• Internal Segmentation"
+    },
+    {
+      "id": "7-7b",
+      "domain": "7.7",
+      "category": "Security Operations",
+      "front": "What is sandboxing?",
+      "back": "Isolated, secure environment to run and analyze untrusted programs without risking harm to host system or network."
+    },
+    {
+      "id": "7-7c",
+      "domain": "7.7",
+      "category": "Security Operations",
+      "front": "What is the difference between honeypots and honeynets?",
+      "back": "• Honeypot - individual computer trap with pseudo flaws\n• Honeynet - two or more networked honeypots simulating a network"
+    },
+    {
+      "id": "7-7d",
+      "domain": "7.7",
+      "category": "Security Operations",
+      "front": "What are the key malware types?",
+      "back": "• Virus - requires user trigger\n• Worm - self-propagates\n• Trojan - appears harmless but malicious\n• Ransomware - encrypts data for ransom\n• Rootkit - embeds deep in OS\n• Zero-day - previously unknown vulnerability"
+    },
+    {
+      "id": "7-7e",
+      "domain": "7.7",
+      "category": "Security Operations",
+      "front": "What is the difference between allow lists and deny lists?",
+      "back": "• Allow list - only authorized apps can run (deny by default)\n• Deny list - specific unauthorized apps blocked\nSystem uses one or the other, not both."
+    },
+    {
+      "id": "7-8",
+      "domain": "7.8",
+      "category": "Security Operations",
+      "front": "What are the common steps in patch management?",
+      "back": "1. Evaluate patches for applicability\n2. Test on isolated systems\n3. Approve patches (often via change management)\n4. Deploy patches\n5. Verify deployment"
+    },
+    {
+      "id": "7-8b",
+      "domain": "7.8",
+      "category": "Security Operations",
+      "front": "What are the three methods for determining patch levels?",
+      "back": "• Agent - update software installed on devices\n• Agentless - remote connection to devices\n• Passive - monitor traffic to infer patch levels"
+    },
+    {
+      "id": "7-9",
+      "domain": "7.9",
+      "category": "Security Operations",
+      "front": "What are the steps in the change management process?",
+      "back": "1. Change request\n2. Assess impact\n3. Approval/reject\n4. Build and test\n5. Schedule/notification\n6. Implement\n7. Validation\n8. Document"
+    },
+    {
+      "id": "7-9b",
+      "domain": "7.9",
+      "category": "Security Operations",
+      "front": "Why is change management important?",
+      "back": "Creates documentation trail, allows review for unintended consequences, provides rollback capability, and ensures controlled changes to reduce risks."
+    },
+    {
+      "id": "7-10",
+      "domain": "7.10",
+      "category": "Security Operations",
+      "front": "What is the 3-2-1 backup rule?",
+      "back": "• 3 copies of critical files\n• 2 backups on different media\n• 1 backup stored offsite"
+    },
+    {
+      "id": "7-10b",
+      "domain": "7.10",
+      "category": "Security Operations",
+      "front": "What are the three types of backups?",
+      "back": "• Full - complete copy of all data\n• Incremental - changes since last incremental\n• Differential - changes since last full"
+    },
+    {
+      "id": "7-10c",
+      "domain": "7.10",
+      "category": "Security Operations",
+      "front": "What are the recovery site types?",
+      "back": "• Cold site - facility with no computing equipment\n• Warm site - basic equipment installed, no current data\n• Hot site - fully operational with current data (subscription service)\n• Mobile site - portable recovery facility"
+    },
+    {
+      "id": "7-10d",
+      "domain": "7.10",
+      "category": "Security Operations",
+      "front": "What are RAID levels?",
+      "back": "• RAID 0 - Striping (speed)\n• RAID 1 - Mirroring (redundancy)\n• RAID 5 - Parity protection (balance)\n• RAID 10 - Mirroring + Striping (speed + redundancy)"
+    },
+    {
+      "id": "7-11",
+      "domain": "7.11",
+      "category": "Security Operations",
+      "front": "What are the four key BCP/DRP measurements?",
+      "back": "• RPO - Recovery Point Objective (max data loss)\n• RTO - Recovery Time Objective (max recovery time)\n• WRT - Work Recovery Time (verification time)\n• MTD - Maximum Tolerable Downtime"
+    },
+    {
+      "id": "7-11b",
+      "domain": "7.11",
+      "category": "Security Operations",
+      "front": "What is the difference between restoration and recovery?",
+      "back": "• Restoration - bringing facility/environment to workable state\n• Recovery - bringing business operations/processes to working state"
+    },
+    {
+      "id": "7-12",
+      "domain": "7.12",
+      "category": "Security Operations",
+      "front": "What are the five DR test types in order of complexity?",
+      "back": "1. Read-through/checklist\n2. Structured walk-through/tabletop\n3. Simulation\n4. Parallel\n5. Full-interruption"
+    },
+    {
+      "id": "7-12b",
+      "domain": "7.12",
+      "category": "Security Operations",
+      "front": "What happens in a parallel test vs full-interruption test?",
+      "back": "• Parallel - personnel relocate to alternate site, primary site continues\n• Full-interruption - primary site shuts down, operations shift to recovery site"
+    },
+    {
+      "id": "7-13",
+      "domain": "7.13",
+      "category": "Security Operations",
+      "front": "What is the BCP lifecycle?",
+      "back": "1. Developing BC concept\n2. Assessing current environment\n3. Implementing continuity strategies\n4. Training staff\n5. Testing, exercising, and maintaining plans"
+    },
+    {
+      "id": "7-14",
+      "domain": "7.14",
+      "category": "Security Operations",
+      "front": "What is PIDAS?",
+      "back": "Perimeter Intrusion Detection and Assessment System - advanced fencing with 2-3 fences, space for patrols, touch detection, reduces false positives."
+    },
+    {
+      "id": "7-14b",
+      "domain": "7.14",
+      "category": "Security Operations",
+      "front": "What is an access control vestibule?",
+      "back": "Also known as mantrap - double set of doors preventing piggybacking, can trap individuals at security's discretion."
+    },
+    {
+      "id": "7-14c",
+      "domain": "7.14",
+      "category": "Security Operations",
+      "front": "What are common perimeter security controls?",
+      "back": "• Fences and gates\n• Turnstiles\n• Security bollards\n• Barricades\n• Lighting (deterrence)\n• Guards and guard dogs"
+    },
+    {
+      "id": "7-15",
+      "domain": "7.15",
+      "category": "Security Operations",
+      "front": "What are key travel security concerns?",
+      "back": "• Devices shouldn't contain sensitive data\n• Risk of malware/monitoring devices\n• Dangers of free WiFi\n• Need for VPN usage"
+    },
+    {
+      "id": "7-15b",
+      "domain": "7.15",
+      "category": "Security Operations",
+      "front": "What is a duress system?",
+      "back": "Emergency alert system (like panic button) allowing guards to raise alarms, useful when personnel work alone. May use code words to indicate false alarm or actual emergency."
+    },
+    {
+      "id": "7-15c",
+      "domain": "7.15",
+      "category": "Security Operations",
+      "front": "What is 2FA fatigue?",
+      "back": "User exhaustion from repeated authentication requests, requiring education on importance of 2FA and ways to make it more user-friendly."
+    }
+  ]
+}

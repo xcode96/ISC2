@@ -1,0 +1,1677 @@
+{
+  "domain_id": 4,
+  "domain_name": "Communication and Network Security",
+  "domain_weight": 13,
+  "total_questions": 83,
+  "generated_at": "2025-08-24T17:36:32.407Z",
+  "questions": [
+    {
+      "id": 1,
+      "question_text": "What is the primary function of a content delivery network (CDN)?",
+      "options": [
+        "To manage database transactions",
+        "To distribute content to edge locations for faster user access",
+        "To encrypt data during transit",
+        "To provide virtual private network (VPN) services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To distribute content to edge locations for faster user access",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vpn",
+        "virtual private network",
+        "cdn",
+        "content delivery network"
+      ]
+    },
+    {
+      "id": 15,
+      "question_text": "What is the primary function of an intrusion detection system (IDS)?",
+      "options": [
+        "To prevent unauthorized access to network resources",
+        "To detect and alert on potential security breaches or suspicious activity",
+        "To filter spam from email inboxes",
+        "To manage the distribution of encryption keys"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To detect and alert on potential security breaches or suspicious activity",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "ids",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 32,
+      "question_text": "What is the primary purpose of a Web Application Firewall (WAF)?",
+      "options": [
+        "To monitor network traffic and prevent unauthorized access",
+        "To encrypt web traffic",
+        "To protect web applications by filtering and monitoring HTTP traffic",
+        "To manage web application performance"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To protect web applications by filtering and monitoring HTTP traffic",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "http"
+      ]
+    },
+    {
+      "id": 40,
+      "question_text": "Which of the following is a characteristic of a distributed denial-of-service (DDoS) attack?",
+      "options": [
+        "It encrypts the victim's files and demands a ransom",
+        "It involves a single computer attacking a network",
+        "It floods the target with excessive requests to overload systems",
+        "It silently collects sensitive information from the target"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It floods the target with excessive requests to overload systems",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos"
+      ]
+    },
+    {
+      "id": 58,
+      "question_text": "Which of the following best describes the concept of \"micro segmentation\" in network ",
+      "options": [
+        "Dividing a network into smaller, more manageable pieces for better performance",
+        "Breaking down security tasks into smaller, more detailed tasks",
+        "Dividing a network into smaller, secure zones to limit the spread of attacks",
+        "Segmenting marketing strategies into micro-targets"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Dividing a network into smaller, secure zones to limit the spread of attacks",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 62,
+      "question_text": "What is the primary purpose of using a Virtual Private Network (VPN)?",
+      "options": [
+        "To create a secure and encrypted connection over a less secure network, such as the internet",
+        "To increase the speed of internet connectivity",
+        "To serve web content from distributed servers to reduce load time",
+        "To monitor and log user activity for audit purposes"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To create a secure and encrypted connection over a less secure network, such as  the internet",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 78,
+      "question_text": "Which of the following is a common indicator of a phishing attempt?",
+      "options": [
+        "An email from a known colleague asking for a meeting",
+        "A message that contains accurate spelling and grammar",
+        "An unsolicited email requesting sensitive information",
+        "A website that uses HTTPS in its URL"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: An unsolicited email requesting sensitive information",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "http",
+        "https"
+      ]
+    },
+    {
+      "id": 87,
+      "question_text": "What is the primary function of a demilitarized zone (DMZ) in network security?",
+      "options": [
+        "To serve as an isolated network that hosts public-facing services, separating them from the ",
+        "To encrypt data passing between different network segments",
+        "To monitor and filter outgoing employee communications",
+        "To act as a secure storage area for sensitive data"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To serve as an isolated network that hosts public-facing services, separating them  from the internal network",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "dmz",
+        "demilitarized zone"
+      ]
+    },
+    {
+      "id": 101,
+      "question_text": "What is the primary function of a content delivery network (CDN)?",
+      "options": [
+        "To manage database transactions",
+        "To distribute content to edge locations for faster user access",
+        "To encrypt data during transit",
+        "To provide virtual private network (VPN) services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To distribute content to edge locations for faster user access",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vpn",
+        "virtual private network",
+        "cdn",
+        "content delivery network"
+      ]
+    },
+    {
+      "id": 105,
+      "question_text": "Which of the following best describes a man-in-the-middle (MITM) attack?",
+      "options": [
+        "An attack where the perpetrator secretly relays and possibly alters the communication ",
+        "A physical attack where the attacker gains unauthorized access to a facility through social ",
+        "A software attack that involves injecting malicious code into a vulnerable program",
+        "An attack that focuses on compromising the physical hardware of a computer"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack where the perpetrator secretly relays and possibly alters the  communication between two parties who believe they are directly communicating with each  other",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 63,
+      "keywords": [
+        "man-in-the-middle",
+        "mitm"
+      ]
+    },
+    {
+      "id": 113,
+      "question_text": "What is the function of an intrusion detection system (IDS)?",
+      "options": [
+        "To filter spam from email",
+        "To detect and prevent direct attacks on a network or system",
+        "To monitor network or system activities for malicious activities or policy violations",
+        "To provide a secure and encrypted connection over the internet"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To monitor network or system activities for malicious activities or policy  violations",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ids",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 122,
+      "question_text": "What is the purpose of a demilitarized zone (DMZ) in network security?",
+      "options": [
+        "To serve as a buffer zone between the internal network and the internet, where public\u0002facing servers and services can be placed",
+        "To encrypt data transmissions over the internet",
+        "To serve as a storage area for sensitive data",
+        "To monitor and prevent social engineering attacks"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To serve as a buffer zone between the internal network and the internet, where  public-facing servers and services can be placed",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "dmz",
+        "demilitarized zone"
+      ]
+    },
+    {
+      "id": 133,
+      "question_text": "Which of the following is a characteristic of a distributed denial of service (DDoS) attack?",
+      "options": [
+        "It encrypts the victim’s files and demands a ransom",
+        "It exploits software vulnerabilities to gain unauthorized access",
+        "It floods the target with excessive requests to overload systems",
+        "It involves cracking passwords to gain unauthorized access"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It floods the target with excessive requests to overload systems",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "dos",
+        "ddos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 137,
+      "question_text": "What is the primary function of an intrusion prevention system (IPS)?",
+      "options": [
+        "To detect vulnerabilities in networked systems",
+        "To monitor network traffic for suspicious activity",
+        "To actively block or prevent detected threats in real time",
+        "To log and report security breaches to administrators"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To actively block or prevent detected threats in real time",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ips",
+        "intrusion prevention"
+      ]
+    },
+    {
+      "id": 138,
+      "question_text": "Which of the following is a principle of the Zero Trust security model?",
+      "options": [
+        "Trust all users within the organization",
+        "Always verify and never trust, even if the request comes from within the network",
+        "Use traditional perimeter-based security measures",
+        "Trust but verify all network traffic"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Always verify and never trust, even if the request comes from within the network",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 174,
+      "question_text": "What is the primary function of a Virtual Private Network (VPN)?",
+      "options": [
+        "To create a public Wi-Fi network for users to connect to freely",
+        "To monitor and log all internet traffic on a network",
+        "To provide a secure and encrypted connection over a less secure network, such as the ",
+        "To increase the bandwidth available to a network"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To provide a secure and encrypted connection over a less secure network, such as  the internet",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 175,
+      "question_text": "Which of the following best describes the purpose of implementing network segmentation?",
+      "options": [
+        "To decrease the overall security of the network by dividing it into less manageable ",
+        "To increase the complexity of the network for attackers, making it harder to navigate",
+        "To improve network performance and security by dividing the network into smaller, more ",
+        "To reduce the cost of network infrastructure by using less hardware"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To improve network performance and security by dividing the network into  smaller, more manageable segments",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "network segmentation"
+      ]
+    },
+    {
+      "id": 185,
+      "question_text": "In the context of network security, what is the purpose of a firewall?",
+      "options": [
+        "To physically secure the network hardware against theft",
+        "To monitor and control incoming and outgoing network traffic based on predetermined ",
+        "To increase the network’s bandwidth and speed",
+        "To serve as a physical barrier around the network infrastructure"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and control incoming and outgoing network traffic based on  predetermined security rules",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "firewall"
+      ]
+    },
+    {
+      "id": 201,
+      "question_text": "What is the primary function of a content delivery network (CDN)?",
+      "options": [
+        "To manage database transactions",
+        "To distribute content to edge locations for faster user access",
+        "To encrypt data during transit",
+        "To provide virtual private network (VPN) services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To distribute content to edge locations for faster user access",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vpn",
+        "virtual private network",
+        "cdn",
+        "content delivery network"
+      ]
+    },
+    {
+      "id": 205,
+      "question_text": "Which of the following best describes a man-in-the-middle (MITM) attack?",
+      "options": [
+        "An attack where the perpetrator secretly relays and possibly alters the communication ",
+        "A type of attack that involves injecting malicious scripts into web pages viewed by other ",
+        "An attack that targets the physical components of a computer network",
+        "A method of gaining unauthorized access to systems by exploiting software vulnerabilities"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack where the perpetrator secretly relays and possibly alters the  communication between two parties who believe they are directly communicating with each  other",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "man-in-the-middle",
+        "mitm"
+      ]
+    },
+    {
+      "id": 220,
+      "question_text": "Which of the following best describes the term “social engineering”?",
+      "options": [
+        "The process of designing secure network architectures",
+        "The manipulation of individuals into performing actions or divulging confidential ",
+        "The development of social media policies for an organization",
+        "The use of technology to influence social behavior"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The manipulation of individuals into performing actions or divulging confidential  information",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "network architecture"
+      ]
+    },
+    {
+      "id": 231,
+      "question_text": "Which of the following is considered a best practice for securing Wi-Fi networks?",
+      "options": [
+        "Using WEP encryption",
+        "Disabling SSID broadcasting",
+        "Setting the network to public",
+        "Enabling file sharing"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Disabling SSID broadcasting",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "wep"
+      ]
+    },
+    {
+      "id": 236,
+      "question_text": "What is the primary function of the Transport Layer Security (TLS) protocol?",
+      "options": [
+        "To distribute network traffic across multiple servers",
+        "To provide secure communications over a computer network",
+        "To manage digital rights and content protection",
+        "To enable secure management of network devices"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide secure communications over a computer network",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "tls",
+        "secure communication"
+      ]
+    },
+    {
+      "id": 242,
+      "question_text": "What is the primary function of the Simple Mail Transfer Protocol (SMTP)?",
+      "options": [
+        "To encrypt email messages",
+        "To route emails between servers",
+        "To filter spam from incoming email",
+        "To manage email storage on a server"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To route emails between servers",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 40,
+      "keywords": [
+        "smtp"
+      ]
+    },
+    {
+      "id": 266,
+      "question_text": "What is the primary function of the Internet Protocol Security (IPsec)?",
+      "options": [
+        "To create web content",
+        "To manage email servers",
+        "To secure Internet Protocol (IP) communications by authenticating and encrypting each IP ",
+        "To provide a platform for video conferencing"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To secure Internet Protocol (IP) communications by authenticating and  encrypting each IP packet",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "ipsec",
+        "ips"
+      ]
+    },
+    {
+      "id": 267,
+      "question_text": "Which of the following is a characteristic of a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "It encrypts the victim’s files and demands a ransom",
+        "It involves a single computer sending excessive requests to a server",
+        "It uses multiple compromised systems to target a single system",
+        "It silently collects sensitive information from the victim’s network"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It uses multiple compromised systems to target a single system",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 271,
+      "question_text": "Which of the following is a benefit of using a Virtual Private Network (VPN)?",
+      "options": [
+        "It increases the speed of internet connections",
+        "It allows for the unrestricted sharing of copyrighted materials",
+        "It provides a secure connection over a public network",
+        "It eliminates the need for antivirus software"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It provides a secure connection over a public network",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 278,
+      "question_text": "What is the primary function of a Web Application Firewall (WAF)?",
+      "options": [
+        "To speed up website performance",
+        "To monitor and filter incoming and outgoing web traffic to and from a web application",
+        "To serve as a reverse proxy for web servers",
+        "To provide a graphical interface for website design"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and filter incoming and outgoing web traffic to and from a web  application",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "proxy",
+        "reverse proxy"
+      ]
+    },
+    {
+      "id": 279,
+      "question_text": "Which of the following is a characteristic of “spear phishing” attacks?",
+      "options": [
+        "They are broadcasted to a large number of recipients indiscriminately",
+        "They involve physically tampering with network hardware",
+        "They are highly targeted and personalized to the recipient",
+        "They rely on brute force techniques to gain access to systems"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: They are highly targeted and personalized to the recipient",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 56,
+      "keywords": []
+    },
+    {
+      "id": 280,
+      "question_text": "What is the primary purpose of the Secure Shell (SSH) protocol?",
+      "options": [
+        "To provide a secure channel for remote login and command execution over insecure ",
+        "To encrypt email messages",
+        "To secure file transfers over the FTP protocol",
+        "To generate and manage encryption keys"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To provide a secure channel for remote login and command execution over  insecure networks",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "ftp",
+        "ssh"
+      ]
+    },
+    {
+      "id": 284,
+      "question_text": "What is the primary function of the Domain Name System (DNS)?",
+      "options": [
+        "To encrypt internet traffic",
+        "To translate domain names into IP addresses",
+        "To provide secure email services",
+        "To monitor network traffic for malicious activity"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To translate domain names into IP addresses",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "dns"
+      ]
+    },
+    {
+      "id": 301,
+      "question_text": "What is the primary function of a content delivery network (CDN)?",
+      "options": [
+        "To manage database transactions",
+        "To distribute content to edge locations for faster user access",
+        "To encrypt data during transit",
+        "To provide virtual private network (VPN) services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To distribute content to edge locations for faster user access",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vpn",
+        "virtual private network",
+        "cdn",
+        "content delivery network"
+      ]
+    },
+    {
+      "id": 305,
+      "question_text": "Which type of attack involves intercepting and altering communications between two parties ",
+      "options": [
+        "Phishing attack",
+        "Man-in-the-middle attack",
+        "Denial of Service attack",
+        "SQL injection attack"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Man-in-the-middle attack",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "denial of service",
+        "man-in-the-middle"
+      ]
+    },
+    {
+      "id": 320,
+      "question_text": "What is the main purpose of a VPN (Virtual Private Network)?",
+      "options": [
+        "To increase the speed of internet connections",
+        "To provide a secure connection over a public network",
+        "To serve as a firewall",
+        "To monitor and log internet usage"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide a secure connection over a public network",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 325,
+      "question_text": "Which of the following is a characteristic of spear phishing?",
+      "options": [
+        "Targeting a specific group or individual with personalized attacks",
+        "Sending the same phishing message to a large number of people",
+        "Attacking only high-profile targets, like celebrities or politicians",
+        "Using automated systems to detect phishing attempts"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Targeting a specific group or individual with personalized attacks",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 7,
+      "keywords": []
+    },
+    {
+      "id": 339,
+      "question_text": "Which of the following best describes a man-in-the-middle (MITM) attack?",
+      "options": [
+        "An attack that encrypts files and demands a ransom",
+        "An attack where the attacker secretly relays and possibly alters the communication ",
+        "A brute force attack to crack passwords",
+        "A denial of service attack to make a service unavailable"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: An attack where the attacker secretly relays and possibly alters the  communication between two parties",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "denial of service",
+        "man-in-the-middle",
+        "mitm"
+      ]
+    },
+    {
+      "id": 344,
+      "question_text": "What is the purpose of a Virtual Private Network (VPN)?",
+      "options": [
+        "To create a secure private network over the internet",
+        "To increase the speed of internet connections",
+        "To monitor and log internet usage",
+        "To serve as a firewall"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To create a secure private network over the internet",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 349,
+      "question_text": "Which of the following is a common indicator of a phishing attempt?",
+      "options": [
+        "An email from a known colleague asking for a meeting",
+        "A website that uses HTTPS",
+        "An unsolicited email requesting sensitive information",
+        "A text message from your bank with account activity alerts"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: An unsolicited email requesting sensitive information",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "http",
+        "https"
+      ]
+    },
+    {
+      "id": 357,
+      "question_text": "Which of the following is a key aspect of the ISO/IEC 27001 standard?",
+      "options": [
+        "It specifies requirements for a network architecture",
+        "It outlines a framework for an information security management system (ISMS)",
+        "It mandates specific encryption algorithms",
+        "It defines roles and responsibilities for software development"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It outlines a framework for an information security management system (ISMS)",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network architecture"
+      ]
+    },
+    {
+      "id": 363,
+      "question_text": "Which of the following is a characteristic of a distributed denial-of-service (DDoS) attack?",
+      "options": [
+        "It encrypts the victim’s files and demands a ransom",
+        "It involves the attacker physically accessing the network",
+        "It floods the target with superfluous requests to overload systems",
+        "It exploits software vulnerabilities to gain unauthorized access"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It floods the target with superfluous requests to overload systems",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos"
+      ]
+    },
+    {
+      "id": 401,
+      "question_text": "What is the primary function of a content delivery network (CDN)?",
+      "options": [
+        "To manage database transactions",
+        "To distribute content to edge locations for faster user access",
+        "To encrypt data during transit",
+        "To provide virtual private network (VPN) services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To distribute content to edge locations for faster user access",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vpn",
+        "virtual private network",
+        "cdn",
+        "content delivery network"
+      ]
+    },
+    {
+      "id": 435,
+      "question_text": "Which of the following is a common goal of a Denial of Service (DoS) attack?",
+      "options": [
+        "To steal sensitive information",
+        "To encrypt files for ransom",
+        "To disrupt services by overwhelming resources",
+        "To gain unauthorized access to systems"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To disrupt services by overwhelming resources",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 56,
+      "keywords": [
+        "dos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 441,
+      "question_text": "What is the primary purpose of using a Virtual Private Network (VPN) for remote access?",
+      "options": [
+        "To increase the speed of internet connections",
+        "To provide a secure encrypted connection over the internet",
+        "To bypass web content filtering",
+        "To reduce the cost of enterprise software"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide a secure encrypted connection over the internet",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 448,
+      "question_text": "Which of the following best describes the function of a Web Application Firewall (WAF)?",
+      "options": [
+        "To filter, monitor, and block HTTP traffic to and from a web application",
+        "To encrypt web traffic",
+        "To serve as a reverse proxy",
+        "To accelerate content delivery"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To filter, monitor, and block HTTP traffic to and from a web application",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "http",
+        "proxy",
+        "reverse proxy"
+      ]
+    },
+    {
+      "id": 479,
+      "question_text": "Which of the following best describes a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "A coordinated attack that floods a system or network with excessive requests to prevent ",
+        "A disagreement among distributed team members",
+        "A strategy for distributing software updates",
+        "A method for distributing digital content globally"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: A coordinated attack that floods a system or network with excessive requests to  prevent legitimate use",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 480,
+      "question_text": "What is the primary function of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To detect and prevent employees from accessing unauthorized websites",
+        "To identify and monitor potentially malicious activities within a network",
+        "To distribute internet access evenly across an organization",
+        "To manage the distribution of digital content"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify and monitor potentially malicious activities within a network",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ids",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 501,
+      "question_text": "What is the primary function of a content delivery network (CDN)?",
+      "options": [
+        "To manage database transactions",
+        "To distribute content to edge locations for faster user access",
+        "To encrypt data during transit",
+        "To provide virtual private network (VPN) services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To distribute content to edge locations for faster user access",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vpn",
+        "virtual private network",
+        "cdn",
+        "content delivery network"
+      ]
+    },
+    {
+      "id": 508,
+      "question_text": "What is the primary function of a firewall in a network?",
+      "options": [
+        "To serve web pages",
+        "To monitor and control incoming and outgoing network traffic based on predetermined ",
+        "To provide a platform for email services",
+        "To act as a storage device for networked computers"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and control incoming and outgoing network traffic based on  predetermined security rules",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "firewall"
+      ]
+    },
+    {
+      "id": 511,
+      "question_text": "Which of the following best describes social engineering?",
+      "options": [
+        "A process of improving social skills",
+        "A method of securing computer networks",
+        "The use of deception to manipulate individuals into divulging confidential or personal ",
+        "The study of social interactions within groups of computers"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The use of deception to manipulate individuals into divulging confidential or  personal information that may be used for fraudulent purposes",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 49,
+      "keywords": []
+    },
+    {
+      "id": 514,
+      "question_text": "What is the function of an intrusion detection system (IDS)?",
+      "options": [
+        "To detect and prevent users from installing unauthorized software",
+        "To filter spam from incoming email messages",
+        "To monitor network traffic for suspicious activity and issue alerts when such activity is ",
+        "To serve as a firewall and prevent unauthorized access to a network"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To monitor network traffic for suspicious activity and issue alerts when such  activity is discovered",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "ids",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 521,
+      "question_text": "What is the primary function of a security information and event management (SIEM) ",
+      "options": [
+        "To manage the installation of new software across an organization",
+        "To provide real-time analysis of security alerts generated by applications and network ",
+        "To serve as a firewall and intrusion detection system",
+        "To manage employee access to websites and internet services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To provide real-time analysis of security alerts generated by applications and  network hardware",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "firewall",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 529,
+      "question_text": "In the context of cybersecurity, what is a honeypot?",
+      "options": [
+        "A type of malware that spreads through email",
+        "A security mechanism set to detect, deflect, or, in some manner, counteract attempts at ",
+        "A tool for managing network traffic",
+        "A software package that provides encryption services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: A security mechanism set to detect, deflect, or, in some manner, counteract  attempts at unauthorized use of information systems",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "honeypot"
+      ]
+    },
+    {
+      "id": 574,
+      "question_text": "Which of the following is a benefit of using a Virtual Private Network (VPN)?",
+      "options": [
+        "Increased website traffic",
+        "Enhanced user experience on websites",
+        "Secure remote access to an organization’s internal network",
+        "Faster internet connection speeds"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Secure remote access to an organization’s internal network",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 576,
+      "question_text": "What is the primary function of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To detect and prevent employees from browsing non-work-related websites",
+        "To identify and alert on potential security breaches in the network",
+        "To filter spam from email inboxes",
+        "To detect hardware failures in real-time"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify and alert on potential security breaches in the network",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "ids",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 596,
+      "question_text": "Which of the following best describes the function of a rootkit?",
+      "options": [
+        "Software tools used to encrypt files on a victim’s computer, demanding payment for ",
+        "Malicious software that sends copies of itself to other computers via email",
+        "A set of tools designed to conceal the presence of a hacker’s activities on a computer or ",
+        "Software designed to create a secure tunnel between two points on the internet"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: A set of tools designed to conceal the presence of a hacker’s activities on a  computer or network",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": []
+    },
+    {
+      "id": 601,
+      "question_text": "What is the primary purpose of using a firewall in network security?",
+      "options": [
+        "To serve web pages to external users",
+        "To monitor the performance of network devices",
+        "To filter incoming and outgoing network traffic based on a set of rules",
+        "To provide a secure storage location for sensitive files"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To filter incoming and outgoing network traffic based on a set of rules",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "firewall"
+      ]
+    },
+    {
+      "id": 626,
+      "question_text": "What is the purpose of a demilitarized zone (DMZ) in network security?",
+      "options": [
+        "To serve as a buffer zone between the internal network and the internet",
+        "To store sensitive data securely",
+        "To monitor and log all incoming and outgoing traffic",
+        "To provide a secure area for users to access the internet"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To serve as a buffer zone between the internal network and the internet",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "dmz",
+        "demilitarized zone"
+      ]
+    },
+    {
+      "id": 640,
+      "question_text": "What is the primary function of a Web Application Firewall (WAF)?",
+      "options": [
+        "To monitor outbound traffic for data exfiltration attempts",
+        "To protect web applications by filtering and monitoring HTTP traffic between a web ",
+        "To encrypt web traffic with SSL/TLS",
+        "To serve as a reverse proxy for web servers"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To protect web applications by filtering and monitoring HTTP traffic between a web  application and the Internet",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "firewall",
+        "ssl",
+        "tls",
+        "http",
+        "proxy",
+        "reverse proxy"
+      ]
+    },
+    {
+      "id": 645,
+      "question_text": "Which of the following is a characteristic of a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "Encrypting an organization’s files and demanding a ransom for their release",
+        "Illegally copying and distributing software",
+        "Flooding a target with excessive requests to overload systems and prevent legitimate access",
+        "Exploiting vulnerabilities in software to gain unauthorized access"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Flooding a target with excessive requests to overload systems and prevent  legitimate access",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 665,
+      "question_text": "What does the term “microsegmentation” refer to in network security?",
+      "options": [
+        "The process of dividing a network into smaller, manageable parts",
+        "The use of lightweight antivirus software",
+        "The practice of assigning minimal privileges to users",
+        "The deployment of microservices in a secure environment"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The process of dividing a network into smaller, manageable parts",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "microsegmentation"
+      ]
+    },
+    {
+      "id": 681,
+      "question_text": "Which of the following best describes a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "A targeted attack that encrypts an organization’s files and demands a ransom",
+        "An attack that involves flooding a target with excessive requests to overload systems",
+        "A method of gaining unauthorized access to systems by exploiting software vulnerabilities",
+        "The act of monitoring and intercepting network traffic to gather information"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: An attack that involves flooding a target with excessive requests to overload  systems",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 700,
+      "question_text": "What role does an Intrusion Detection System (IDS) play in network security?",
+      "options": [
+        "It actively blocks malicious traffic from entering the network",
+        "It encrypts data packets to ensure secure transmission over the network",
+        "It monitors network traffic for suspicious activities and alerts administrators",
+        "It serves as the primary firewall for the organization’s IT infrastructure"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It monitors network traffic for suspicious activities and alerts administrators",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "network security",
+        "firewall",
+        "ids",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 701,
+      "question_text": "What is the primary function of a content delivery network (CDN)?",
+      "options": [
+        "To manage database transactions",
+        "To distribute content to edge locations for faster user access",
+        "To encrypt data during transit",
+        "To provide virtual private network (VPN) services"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To distribute content to edge locations for faster user access",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "vpn",
+        "virtual private network",
+        "cdn",
+        "content delivery network"
+      ]
+    },
+    {
+      "id": 711,
+      "question_text": "Which of the following is a characteristic of a Man-in-the-Middle (MitM) attack?",
+      "options": [
+        "The attacker secretly relays and possibly alters the communication between two parties ",
+        "The attacker sends numerous requests to a targeted web server to cause it to crash",
+        "The attacker exploits vulnerabilities in software to gain unauthorized access to a system",
+        "The attacker disguises malware as legitimate software to trick users into installing it"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The attacker secretly relays and possibly alters the communication between two  parties who believe they are directly communicating with each other",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 63,
+      "keywords": [
+        "man-in-the-middle",
+        "mitm"
+      ]
+    },
+    {
+      "id": 722,
+      "question_text": "What is the main purpose of a demilitarized zone (DMZ) in network security?",
+      "options": [
+        "To serve as a buffer zone between the internal network and the internet",
+        "To encrypt data passing through the network",
+        "To serve as the primary storage area for sensitive data",
+        "To monitor and filter email traffic"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To serve as a buffer zone between the internal network and the internet",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "dmz",
+        "demilitarized zone"
+      ]
+    },
+    {
+      "id": 727,
+      "question_text": "Which of the following best describes a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "A single source attempting to flood a network with traffic to cause a shutdown",
+        "Multiple compromised systems attacking a single target, causing denial of service for users ",
+        "A malware infection spreading across a network",
+        "Unauthorized access to network resources through a vulnerability"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Multiple compromised systems attacking a single target, causing denial of service  for users of the targeted system",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 730,
+      "question_text": "What is the primary function of a honeypot in network security?",
+      "options": [
+        "To serve as a primary firewall",
+        "To act as a decoy, luring attackers away from critical systems",
+        "To encrypt data transmissions",
+        "To provide secure remote access for users"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To act as a decoy, luring attackers away from critical systems",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "firewall",
+        "honeypot"
+      ]
+    },
+    {
+      "id": 747,
+      "question_text": "Which of the following is a common indicator of a phishing attempt?",
+      "options": [
+        "An email from a known colleague asking for a meeting",
+        "A message that contains accurate spelling and grammar",
+        "An unsolicited email requesting sensitive information",
+        "A website that uses HTTPS"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: An unsolicited email requesting sensitive information",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "http",
+        "https"
+      ]
+    },
+    {
+      "id": 748,
+      "question_text": "What is the main purpose of using a Virtual Private Network (VPN)?",
+      "options": [
+        "To create a secure private network over the internet",
+        "To increase the speed of internet connections",
+        "To serve as a firewall and protect against malware",
+        "To monitor and log user activity on the internet"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To create a secure private network over the internet",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 768,
+      "question_text": "Which of the following is a characteristic of Advanced Persistent Threats (APTs)?",
+      "options": [
+        "They are quickly and easily resolved",
+        "They use only known malware and attack vectors",
+        "They aim for immediate financial gain",
+        "They involve a long-term presence in the network to steal sensitive information"
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "The correct answer is: They involve a long-term presence in the network to steal sensitive information",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 49,
+      "keywords": []
+    },
+    {
+      "id": 775,
+      "question_text": "What is the primary purpose of a demilitarized zone (DMZ) in network security?",
+      "options": [
+        "To serve as a secure storage area for sensitive data",
+        "To host public-facing services while isolating them from the internal network",
+        "To encrypt all traffic entering and leaving the network",
+        "To monitor and filter outgoing employee internet traffic"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To host public-facing services while isolating them from the internal network",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "dmz",
+        "demilitarized zone"
+      ]
+    },
+    {
+      "id": 777,
+      "question_text": "What is the primary function of a Virtual Private Network (VPN)?",
+      "options": [
+        "To create a secure, encrypted connection over a less secure network, such as the internet",
+        "To provide a platform for virtual meetings and communications",
+        "To monitor and manage network traffic",
+        "To serve as a firewall and protect against external attacks"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To create a secure, encrypted connection over a less secure network, such as the  internet",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "firewall",
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 784,
+      "question_text": "What is the main purpose of using a Virtual Private Network (VPN)?",
+      "options": [
+        "To increase the speed of internet connections",
+        "To allow remote employees to connect to the company’s internal network securely",
+        "To prevent employees from accessing certain websites",
+        "To monitor and log all internet traffic in and out of the company"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To allow remote employees to connect to the company’s internal network securely",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 801,
+      "question_text": "What is the primary purpose of using a firewall in a network security architecture?",
+      "options": [
+        "To serve web pages to external users",
+        "To monitor and filter incoming and outgoing network traffic",
+        "To provide a user interface for network management",
+        "To increase the network’s bandwidth"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and filter incoming and outgoing network traffic",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "firewall"
+      ]
+    },
+    {
+      "id": 806,
+      "question_text": "What is the primary function of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To prevent unauthorized access to network resources",
+        "To detect and alert on potential intrusions into the network",
+        "To serve as a firewall and block malicious traffic",
+        "To encrypt data traffic on a network to protect against eavesdropping"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To detect and alert on potential intrusions into the network",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "firewall",
+        "ids",
+        "intrusion detection"
+      ]
+    },
+    {
+      "id": 823,
+      "question_text": "What is the primary function of an application firewall?",
+      "options": [
+        "To filter traffic between networks based on IP addresses",
+        "To monitor and block potentially harmful traffic to applications",
+        "To accelerate web application performance",
+        "To manage application development projects"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To monitor and block potentially harmful traffic to applications",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "firewall"
+      ]
+    },
+    {
+      "id": 825,
+      "question_text": "What is the purpose of a demilitarized zone (DMZ) in network security?",
+      "options": [
+        "To serve as a buffer zone between the internal network and the internet",
+        "To house military data and applications",
+        "To provide a secure area for users to browse the internet",
+        "To encrypt data passing through the network"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To serve as a buffer zone between the internal network and the internet",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "network security",
+        "dmz",
+        "demilitarized zone"
+      ]
+    },
+    {
+      "id": 828,
+      "question_text": "Which of the following is a characteristic of a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "It involves a single attacker attempting to gain unauthorized access to a network",
+        "It is focused on encrypting an organization’s files and demanding a ransom",
+        "It originates from multiple compromised systems attacking a single target",
+        "It is a legal method used by companies to test their network defenses"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It originates from multiple compromised systems attacking a single target",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "dos",
+        "ddos",
+        "denial of service"
+      ]
+    },
+    {
+      "id": 829,
+      "question_text": "What is the primary purpose of a honeypot in network security?",
+      "options": [
+        "To serve as a primary defense mechanism against malware",
+        "To act as a distraction to lure attackers away from real targets",
+        "To increase the bandwidth of the network",
+        "To monitor network traffic for legitimate purposes"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To act as a distraction to lure attackers away from real targets",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "network security",
+        "honeypot"
+      ]
+    },
+    {
+      "id": 833,
+      "question_text": "Which of the following is a principle of the Zero Trust security model?",
+      "options": [
+        "Trust but verify",
+        "Always trust internal network traffic",
+        "Never trust, always verify",
+        "Trust is inherent within the network perimeter"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Never trust, always verify",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 840,
+      "question_text": "What is the primary purpose of using a Virtual Private Network (VPN)?",
+      "options": [
+        "To create a secure and encrypted connection over a less secure network, such as the ",
+        "To distribute malware to targeted systems",
+        "To monitor and log user activity on a network",
+        "To provide a platform for developing and testing software"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To create a secure and encrypted connection over a less secure network, such as  the internet",
+      "domain_id": 4,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "vpn",
+        "virtual private network"
+      ]
+    },
+    {
+      "id": 875,
+      "question_text": "Which of the following is a characteristic of a “pharming” attack?",
+      "options": [
+        "Redirecting users to a fraudulent website even when they enter the correct address",
+        "Sending emails that appear to be from reputable sources to trick users into revealing ",
+        "Infecting a computer with malware that encrypts files and demands a ransom",
+        "Creating a fake Wi-Fi network to intercept wireless communications"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Redirecting users to a fraudulent website even when they enter the correct  address",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": []
+    },
+    {
+      "id": 890,
+      "question_text": "What is the primary goal of “network segmentation”?",
+      "options": [
+        "To reduce the cost of network infrastructure",
+        "To increase the speed of the network",
+        "To improve network security by dividing the network into smaller, manageable segments",
+        "To make it easier for attackers to move laterally within a network"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To improve network security by dividing the network into smaller, manageable  segments",
+      "domain_id": 4,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "network security",
+        "network segmentation"
+      ]
+    }
+  ]
+}

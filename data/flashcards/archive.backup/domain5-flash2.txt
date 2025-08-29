@@ -1,0 +1,203 @@
+Domain 5.4 – Implement and Manage Authorization Mechanisms
+
+Front:
+Domain/Subdomain: 5.4
+What is RBAC and how does it work?
+
+Back:
+Role-Based Access Control assigns users to roles based on job functions, with permissions assigned to roles rather than individual users, simplifying administration and ensuring consistent access.
+
+Front:
+Domain/Subdomain: 5.4
+What is rule-based access control?
+
+Back:
+An access control model that uses a set of rules, restrictions, or filters applied globally to all subjects, commonly used in firewalls with ACLs.
+
+Front:
+Domain/Subdomain: 5.4
+What is MAC and its key characteristic?
+
+Back:
+Mandatory Access Control uses labels on both subjects and objects, with system-enforced access based on matching security labels, supporting hierarchical and compartmentalized environments.
+
+Front:
+Domain/Subdomain: 5.4
+What is DAC and who controls access?
+
+Back:
+Discretionary Access Control where the object owner decides access permissions, with every object having an owner who can grant or deny access to other subjects.
+
+Front:
+Domain/Subdomain: 5.4
+What is ABAC and how is it different from rule-based control?
+
+Back:
+Attribute-Based Access Control uses rules based on multiple attributes (user, environment, action, resource), providing more flexibility than simple rule-based models through policy-based decisions.
+
+Front:
+Domain/Subdomain: 5.4
+What is risk-based access control?
+
+Back:
+An access model that evaluates environmental factors and situations to make dynamic access decisions based on risk assessment, often using machine learning for predictive analysis.
+
+Front:
+Domain/Subdomain: 5.4
+What are PDP and PEP in access policy enforcement?
+
+Back:
+Policy Decision Point (PDP) makes access control decisions based on policies; Policy Enforcement Point (PEP) acts as gatekeeper, enforcing PDP decisions.
+
+Domain 5.5 – Manage the Identity and Access Provisioning Lifecycle
+
+Front:
+Domain/Subdomain: 5.5
+What should account access reviews include?
+
+Back:
+Periodic review of user, system, and service accounts for policy compliance, checking for excessive privileges, unused accounts, and unauthorized privileged group membership.
+
+Front:
+Domain/Subdomain: 5.5
+What is account provisioning and what does it include?
+
+Back:
+The process of creating and configuring user accounts with appropriate privileges, including enrollment, hardware issuance, and automated or workflow-based account creation.
+
+Front:
+Domain/Subdomain: 5.5
+What is deprovisioning and why is it critical?
+
+Back:
+The process of disabling/deleting accounts when employees leave, including hardware collection, to prevent unauthorized access and potential sabotage from terminated employees.
+
+Front:
+Domain/Subdomain: 5.5
+What is privilege creep and how is it prevented?
+
+Back:
+The accumulation of unnecessary privileges over time as roles change; prevented through regular access reviews and role transitions management.
+
+Front:
+Domain/Subdomain: 5.5
+What is privilege escalation and its types?
+
+Back:
+Gaining elevated privileges beyond authorization; includes horizontal (similar privileges, different accounts) and vertical (significantly greater privileges) escalation.
+
+Front:
+Domain/Subdomain: 5.5
+What are service accounts and why do they need management?
+
+Back:
+Non-human accounts used by applications/services to interact with resources; require careful management to prevent unauthorized access and privilege escalation attacks.
+
+Domain 5.6 – Implement Authentication Systems
+
+Front:
+Domain/Subdomain: 5.6
+What is SAML and what does it provide?
+
+Back:
+Security Assertion Markup Language - an XML-based standard for exchanging authentication and authorization information between federated organizations, enabling SSO for browser access.
+
+Front:
+Domain/Subdomain: 5.6
+What are the three types of SAML assertions?
+
+Back:
+Authentication (proof of proper credentials), Authorization (access approval/denial), and Attribute (user information) assertions.
+
+Front:
+Domain/Subdomain: 5.6
+What is the difference between OAuth and OpenID Connect?
+
+Back:
+OAuth provides authorization (delegated access), while OpenID Connect adds authentication layer on OAuth 2.0, providing both authentication and authorization using JSON Web Tokens.
+
+Front:
+Domain/Subdomain: 5.6
+What is Kerberos and what port does it use?
+
+Back:
+A network authentication protocol using symmetric cryptography and tickets for SSO within organizations, operates on UDP port 88 by default.
+
+Front:
+Domain/Subdomain: 5.6
+What are the key components of Kerberos?
+
+Back:
+Key Distribution Center (KDC), Authentication Server (AS), Ticket-Granting Service (TGS), Ticket-Granting Ticket (TGT), and service tickets.
+
+Front:
+Domain/Subdomain: 5.6
+What is RADIUS and how does it differ from TACACS+?
+
+Back:
+RADIUS centralizes AAA for remote access using UDP, encrypting only passwords; TACACS+ separates AAA processes, uses TCP port 49, and encrypts all authentication information.
+
+Front:
+Domain/Subdomain: 5.6
+What is Diameter protocol?
+
+Back:
+An advanced AAA protocol addressing RADIUS limitations with enhanced security (IPsec/TLS), extensive attributes support, and complex session handling capabilities.
+
+Domain 5 – General Concepts
+
+Front:
+Domain/Subdomain: 5.0
+What are the three access control principles?
+
+Back:
+Need to know (access only to required information), least privilege (minimum necessary permissions), and separation of duties (dividing critical tasks).
+
+Front:
+Domain/Subdomain: 5.0
+What are the three primary authentication factors?
+
+Back:
+Something you know (Type 1 - passwords), something you have (Type 2 - tokens), and something you are (Type 3 - biometrics).
+
+Front:
+Domain/Subdomain: 5.0
+What are AAL levels and their significance?
+
+Back:
+Authenticator Assurance Levels (NIST 800-63-3b): AAL1 (single/multi-factor, basic), AAL2 (MFA required, replay-resistant), AAL3 (hardware MFA, phishing-resistant).
+
+Front:
+Domain/Subdomain: 5.0
+What is CER in biometrics?
+
+Back:
+Crossover Error Rate - the point where False Acceptance Rate equals False Rejection Rate, indicating biometric system accuracy and optimal operation point.
+
+Front:
+Domain/Subdomain: 5.0
+What is the difference between CSRF and XSS attacks?
+
+Back:
+CSRF tricks authenticated users into submitting forged requests; XSS injects malicious scripts into trusted websites to execute in users' browsers.
+
+Front:
+Domain/Subdomain: 5.0
+What is the difference between centralized and decentralized access control?
+
+Back:
+Centralized uses single entity for authorization (potential SPOF, easier management); decentralized distributes authorization across multiple entities (harder consistency, more complex).
+
+Front:
+Domain/Subdomain: 5.0
+What are capability tables?
+
+Back:
+Lists of privileges assigned to subjects that identify which objects those subjects can access, used in access control systems.
+
+Front:
+Domain/Subdomain: 5.0
+What is split-response attack?
+
+Back:
+An attack causing clients to download unintended content from requested web pages and store it in browser cache for later exploitation.

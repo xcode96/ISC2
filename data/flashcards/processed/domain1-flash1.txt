@@ -1,0 +1,175 @@
+Front:
+Domain/Subdomain: 1.1.1
+What are the four canons of the (ISC)² Code of Professional Ethics?
+
+Back:
+
+Protect society, the common good, necessary public trust and confidence, and the infrastructure.
+
+Act honorably, honestly, justly, responsibly, and legally.
+
+Provide diligent and competent service to principles.
+
+Advance and protect the profession.
+
+Front:
+Domain/Subdomain: 1.1.2
+What is a CISSP's responsibility regarding their organization’s code of ethics?
+
+Back:
+You must support ethics at your organization, which can mean evangelizing ethics, providing documentation and training, or enhancing existing organizational ethics. You should also familiarize yourself with your specific organization's ethics and guidelines.
+
+Domain 1.2: Security Concepts
+Front:
+Domain/Subdomain: 1.2.1
+What are the 5 Pillars of Information Security?
+
+Back:
+Confidentiality, integrity, availability, authenticity, and nonrepudiation.
+
+Front:
+Domain/Subdomain: 1.2.1
+Define Confidentiality, Integrity, and Availability (CIA).
+
+Back:
+
+Confidentiality: The principle that objects are not disclosed to unauthorized subjects.
+
+Integrity: The principle that objects retain their veracity and are modified only by authorized subjects.
+
+Availability: The principle that authorized subjects are granted timely and uninterrupted access to objects.
+
+Front:
+Domain/Subdomain: 1.2.1
+What are the AAA services in the context of access control?
+
+Back:
+
+Identification: Claiming to be an identity.
+
+Authentication: Proving a claimed identity.
+
+Authorization: Defining permissions for a specific identity.
+
+Accountability: Holding subjects accountable for their actions, often by reviewing logged events.
+
+Domain 1.3: Security Governance
+Front:
+Domain/Subdomain: 1.3
+What is security governance?
+
+Back:
+It's the collection of policies, roles, and processes used to make security decisions in an organization, ensuring that security strategies align with business goals and are consistent across the organization.
+
+Front:
+Domain/Subdomain: 1.3.1
+What are the three types of security management plans?
+
+Back:
+
+Strategic Plan: A long-term plan (e.g., 5 years) that defines the organization's security purpose.
+
+Tactical Plan: A mid-term plan (e.g., 1 year or less) with details for accomplishing strategic goals.
+
+Operational Plan: A short-term, highly detailed plan based on strategic or tactical plans.
+
+Front:
+Domain/Subdomain: 1.3.3
+What are the primary security roles and their responsibilities in an organization?
+
+Back:
+
+Senior Manager: Has ultimate responsibility for organizational security.
+
+Security Professional: Has functional responsibility for writing and implementing security policy.
+
+Asset Owner: Responsible for classifying information for protection.
+
+Custodian: Responsible for implementing the prescribed protection for data.
+
+Auditor: Responsible for reviewing and verifying that the security policy is properly implemented.
+
+Front:
+Domain/Subdomain: 1.3.4
+What is a security control framework?
+
+Back:
+A security control framework outlines an organization's approach to security, including its guidelines, standards, and controls. It provides the structure for planning an organization's security solution.
+
+Front:
+Domain/Subdomain: 1.3.4
+What are the six core functions of the NIST Cybersecurity Framework (CSF) 2.0?
+
+Back:
+
+Govern
+
+Identify
+
+Protect
+
+Detect
+
+Respond
+
+Recover
+
+Front:
+Domain/Subdomain: 1.3.4
+What is COBIT and what is it commonly used for?
+
+Back:
+COBIT (Control Objectives for Information and Related Technologies) is a framework created by ISACA that focuses on enterprise IT and aligning IT with business strategies. It is commonly used as an audit and compliance framework.
+
+Front:
+Domain/Subdomain: 1.3.4
+What is the purpose of the Payment Card Industry Data Security Standard (PCI DSS)?
+
+Back:
+It is a set of standards and requirements that aims to protect credit and debit card information. Key elements include building secure networks, protecting cardholder data, managing vulnerabilities, implementing strong access control, regular monitoring, and maintaining security policies.
+
+Front:
+Domain/Subdomain: 1.3.4
+What is FedRAMP?
+
+Back:
+The Federal Risk and Authorization Management Program (FedRAMP) is a U.S. government-wide program that standardizes the security assessment, authorization, and continuous monitoring of cloud products and services.
+
+Front:
+Domain/Subdomain: 1.3.5
+What is the difference between Due Diligence and Due Care?
+
+Back:
+
+Due Diligence: The process of establishing a plan, policy, and process to protect an organization's interests. It's about understanding risks and planning for them.
+
+Due Care: The practice of individual activities that maintain the due diligence effort. It involves acting responsibly and following security policies.
+
+Domain 1.4: Legal, Regulatory, and Compliance
+Front:
+Domain/Subdomain: 1.4.1
+What is the Computer Fraud and Abuse Act (CFAA)?
+
+Back:
+The CFAA is a U.S. federal law designed to protect computers used by the government or in interstate commerce from abuses like unauthorized access, committing fraud, causing damage, or trafficking in passwords.
+
+Front:
+Domain/Subdomain: 1.4.1
+What does the HITECH Breach Notification Rule require?
+
+Back:
+It requires HIPAA-covered entities that experience a data breach to notify affected individuals, the Secretary of Health and Human Services (HHS), and potentially the media within 60 days of discovery, especially when more than 500 individuals are affected.
+
+Front:
+Domain/Subdomain: 1.4.2
+What are four types of intellectual property protection?
+
+Back:
+
+Trademarks: Protects words, slogans, and logos used to identify a company or product.
+
+Patents: Provides a temporary monopoly for the creators of new and unique inventions.
+
+Copyright: Protects original works of authorship like books, articles, and software code.
+
+Trade Secrets: Protects confidential business information that provides a competitive advantage.

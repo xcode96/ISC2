@@ -1,0 +1,215 @@
+import React, { useState, useEffect } from 'react';
+import { Flashcard, FlashcardDeck, shuffleCards, filterByDomain } from './flashcard-types';
+import './FlashcardComponent.css';
+
+interface FlashcardComponentProps {
+  deck: FlashcardDeck;
+  shuffle?: boolean;
+  domainFilter?: string;
+}
+
+export const FlashcardComponent: React.FC<FlashcardComponentProps> = ({ 
+  deck, 
+  shuffle = false,
+  domainFilter 
+}) => {
+  const [cards, setCards] = useState<Flashcard[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [progress, setProgress] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    let processedCards = [...deck.flashcards];
+    
+    // Apply domain filter if provided
+    if (domainFilter) {
+      processedCards = filterByDomain(processedCards, domainFilter);
+    }
+    
+    // Shuffle if requested
+    if (shuffle) {
+      processedCards = shuffleCards(processedCards);
+    }
+    
+    setCards(processedCards);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+  }, [deck, shuffle, domainFilter]);
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
+
+  const handleNext = () => {
+    if (currentIndex < cards.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+      setIsFlipped(false);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+      setIsFlipped(false);
+    }
+  };
+
+  const markAsKnown = () => {
+    const newProgress = new Set(progress);
+    newProgress.add(cards[currentIndex].id);
+    setProgress(newProgress);
+    handleNext();
+  };
+
+  if (cards.length === 0) {
+    return <div className="no-cards">No flashcards available</div>;
+  }
+
+  const currentCard = cards[currentIndex];
+  const progressPercentage = (progress.size / cards.length) * 100;
+
+  return (
+    <div className="flashcard-container">
+      {/* Progress Bar */}
+      <div className="progress-section">
+        <div className="progress-bar">
+          <div 
+            className="progress-fill" 
+            style={{ width: `${progressPercentage}%` }}
+          />
+        </div>
+        <div className="progress-text">
+          {progress.size} / {cards.length} mastered
+        </div>
+      </div>
+
+      {/* Card Counter */}
+      <div className="card-counter">
+        Card {currentIndex + 1} of {cards.length}
+      </div>
+
+      {/* Domain/Category Info */}
+      <div className="card-meta">
+        <span className="domain-tag">Domain {currentCard.domain}</span>
+        <span className="category-tag">{currentCard.category}</span>
+      </div>
+
+      {/* Flashcard */}
+      <div className="flashcard-wrapper">
+        <div 
+          className={`flashcard ${isFlipped ? 'flipped' : ''}`}
+          onClick={handleFlip}
+        >
+          <div className="flashcard-front">
+            <div className="card-content">
+              <h3>Question</h3>
+              <p>{currentCard.front}</p>
+            </div>
+            <div className="flip-hint">Click to reveal answer</div>
+          </div>
+          
+          <div className="flashcard-back">
+            <div className="card-content">
+              <h3>Answer</h3>
+              <div className="answer-text">
+                {currentCard.back.split('\n').map((line, idx) => (
+                  <p key={idx}>{line}</p>
+                ))}
+              </div>
+            </div>
+            <div className="flip-hint">Click to see question</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Navigation Controls */}
+      <div className="controls">
+        <button 
+          className="btn btn-secondary" 
+          onClick={handlePrevious}
+          disabled={currentIndex === 0}
+        >
+          ← Previous
+        </button>
+        
+        <button 
+          className="btn btn-success"
+          onClick={markAsKnown}
+          disabled={progress.has(currentCard.id)}
+        >
+          {progress.has(currentCard.id) ? '✓ Known' : 'Mark as Known'}
+        </button>
+        
+        <button 
+          className="btn btn-primary" 
+          onClick={handleNext}
+          disabled={currentIndex === cards.length - 1}
+        >
+          Next →
+        </button>
+      </div>
+
+      {/* Keyboard Shortcuts Help */}
+      <div className="shortcuts-hint">
+        <span>Space: Flip</span> | 
+        <span>←/→: Navigate</span> | 
+        <span>K: Mark as Known</span>
+      </div>
+    </div>
+  );
+};
+
+// Example usage component
+export const FlashcardApp: React.FC = () => {
+  const [deck, setDeck] = useState<FlashcardDeck | null>(null);
+  const [shuffleMode, setShuffleMode] = useState(false);
+  const [selectedDomain, setSelectedDomain] = useState<string>('');
+
+  useEffect(() => {
+    // Load flashcards from JSON
+    fetch('/data/flashcards/domain1-flashcards.json')
+      .then(res => res.json())
+      .then(data => setDeck(data))
+      .catch(err => console.error('Failed to load flashcards:', err));
+  }, []);
+
+  if (!deck) {
+    return <div>Loading flashcards...</div>;
+  }
+
+  return (
+    <div className="flashcard-app">
+      <header className="app-header">
+        <h1>CISSP Study Cards - {deck.domain}</h1>
+        
+        <div className="settings">
+          <label>
+            <input 
+              type="checkbox" 
+              checked={shuffleMode}
+              onChange={(e) => setShuffleMode(e.target.checked)}
+            />
+            Shuffle Cards
+          </label>
+          
+          <select 
+            value={selectedDomain}
+            onChange={(e) => setSelectedDomain(e.target.value)}
+          >
+            <option value="">All Domains</option>
+            <option value="1.1">1.1 - Professional Ethics</option>
+            <option value="1.2">1.2 - Security Concepts</option>
+            <option value="1.3">1.3 - Security Governance</option>
+            <option value="1.4">1.4 - Legal & Compliance</option>
+          </select>
+        </div>
+      </header>
+      
+      <FlashcardComponent 
+        deck={deck}
+        shuffle={shuffleMode}
+        domainFilter={selectedDomain}
+      />
+    </div>
+  );
+};

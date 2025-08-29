@@ -1,0 +1,1877 @@
+{
+  "domain_id": 5,
+  "domain_name": "Identity and Access Management (IAM)",
+  "domain_weight": 13,
+  "total_questions": 90,
+  "generated_at": "2025-08-24T17:36:32.408Z",
+  "questions": [
+    {
+      "id": 4,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users have the minimum level of access required to perform their job",
+        "Provide users with as much access as possible to increase productivity",
+        "Restrict access to physical locations only",
+        "Increase the complexity of access control systems"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensure that users have the minimum level of access required to perform their job",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "privilege",
+        "least privilege"
+      ]
+    },
+    {
+      "id": 9,
+      "question_text": "In the context of identity and access management (IAM), what does authentication refer to?",
+      "options": [
+        "The process of granting or denying specific requests",
+        "The process of verifying the identity of a user or system",
+        "The method of determining user access levels",
+        "The technique of tracking user activities within a system"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The process of verifying the identity of a user or system",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "iam",
+        "identity and access",
+        "authentication"
+      ]
+    },
+    {
+      "id": 21,
+      "question_text": "What is the main advantage of using multi-factor authentication (MFA)?",
+      "options": [
+        "It simplifies the login process for users",
+        "It provides a backup method in case a password is forgotten",
+        "It significantly increases security by requiring two or more forms of verification",
+        "It reduces the need for complex passwords"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It significantly increases security by requiring two or more forms of verification",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 48,
+      "question_text": "In cybersecurity, what is the primary purpose of an access control list (ACL)?",
+      "options": [
+        "To list all the users who have forgotten their passwords",
+        "To manage the distribution of encryption keys",
+        "To specify which users or system processes have access to resources",
+        "To keep a record of all software licenses"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To specify which users or system processes have access to resources",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "access control list",
+        "acl",
+        "password"
+      ]
+    },
+    {
+      "id": 51,
+      "question_text": "What is the primary purpose of a Security Assertion Markup Language (SAML)?",
+      "options": [
+        "To mark up security documents for printing",
+        "To encrypt emails",
+        "To facilitate single sign-on (SSO) for web applications",
+        "To generate secure passwords"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To facilitate single sign-on (SSO) for web applications",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "single sign-on",
+        "sso",
+        "saml",
+        "password"
+      ]
+    },
+    {
+      "id": 75,
+      "question_text": "Which of the following best describes \"role-based access control\" (RBAC)?",
+      "options": [
+        "Access permissions are granted according to the specific role a user holds within an ",
+        "Access is controlled based on the attributes of the user, such as department or job function",
+        "Users are granted access based on their seniority level within the organization",
+        "Access rights are assigned based on the network segments a user needs to access"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Access permissions are granted according to the specific role a user holds within  an organization",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based",
+        "permission"
+      ]
+    },
+    {
+      "id": 104,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users are given the minimum levels of access – or permissions – needed to ",
+        "Provide users with as much access as possible to increase productivity",
+        "Ensure that all users have administrative access to perform self-service maintenance",
+        "Increase the complexity of the system to enhance security"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensure that users are given the minimum levels of access – or permissions – needed to perform their job functions",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege",
+        "permission"
+      ]
+    },
+    {
+      "id": 117,
+      "question_text": "Which of the following is a key component of identity and access management (IAM)?",
+      "options": [
+        "Data encryption",
+        "Firewall configuration",
+        "User authentication and authorization",
+        "Antivirus software"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: User authentication and authorization",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "iam",
+        "identity and access",
+        "authentication",
+        "authorization"
+      ]
+    },
+    {
+      "id": 125,
+      "question_text": "Which of the following is a common method for authenticating a user’s identity?",
+      "options": [
+        "Assigning a unique IP address to each user",
+        "Using a password or PIN",
+        "Allowing unrestricted access to all users",
+        "Using the same password for all users to simplify access"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Using a password or PIN",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 139,
+      "question_text": "What is the purpose of role-based access control (RBAC)?",
+      "options": [
+        "To monitor user activities and flag any unusual actions",
+        "To encrypt user data based on their role in the organization",
+        "To limit user access to information and resources based on their role",
+        "To authenticate users based on a role-specific password system"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To limit user access to information and resources based on their role",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based",
+        "password"
+      ]
+    },
+    {
+      "id": 143,
+      "question_text": "What is the main purpose of using multi-factor authentication (MFA)?",
+      "options": [
+        "To increase the complexity of passwords",
+        "To provide multiple backup systems in case of a failure",
+        "To enhance security by requiring two or more verification factors",
+        "To allow users to choose from different types of passwords"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enhance security by requiring two or more verification factors",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 148,
+      "question_text": "What is the primary function of digital rights management (DRM)?",
+      "options": [
+        "To manage digital identities for web access",
+        "To control access to and usage of digital media and documents",
+        "To encrypt email communications",
+        "To provide secure access to digital networks"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To control access to and usage of digital media and documents",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": []
+    },
+    {
+      "id": 153,
+      "question_text": "Which of the following is a characteristic of a strong password?",
+      "options": [
+        "It contains the user’s name or birthday",
+        "It is easy to remember and short",
+        "It includes a mix of letters, numbers, and special characters",
+        "It is reused across multiple accounts for consistency"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It includes a mix of letters, numbers, and special characters",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 167,
+      "question_text": "What is the primary goal of implementing an Identity and Access Management (IAM) ",
+      "options": [
+        "To ensure that users have faster access to resources, regardless of security implications",
+        "To monitor and log all user activities on social media platforms",
+        "To manage user identities and their access to resources in a secure manner",
+        "To increase the complexity of the network infrastructure"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To manage user identities and their access to resources in a secure manner",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "iam",
+        "identity and access"
+      ]
+    },
+    {
+      "id": 188,
+      "question_text": "Which of the following is a characteristic of a phishing attack?",
+      "options": [
+        "It is easily detectable by all users",
+        "It involves the attacker physically accessing the victim’s computer",
+        "It uses deceptive emails or messages to trick users into revealing personal information",
+        "It requires the attacker to have advanced programming skills"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It uses deceptive emails or messages to trick users into revealing personal  information",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 80,
+      "keywords": []
+    },
+    {
+      "id": 198,
+      "question_text": "Which of the following best describes “attribute-based access control” (ABAC)?",
+      "options": [
+        "It controls access based on the roles assigned to users within an organization",
+        "It grants access rights based on attributes of users, resources, and environmental ",
+        "It is a method of restricting access to objects based on the sensitivity of the information ",
+        "It restricts access to resources based on the department the user belongs to"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It grants access rights based on attributes of users, resources, and environmental  conditions",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "abac",
+        "attribute-based"
+      ]
+    },
+    {
+      "id": 204,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users have the minimum level of access required to perform their duties",
+        "Guarantee that all users have equal access rights to resources",
+        "Provide users with maximum privileges to ensure job efficiency",
+        "Restrict access to systems for all users except administrators"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensure that users have the minimum level of access required to perform their  duties",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege"
+      ]
+    },
+    {
+      "id": 222,
+      "question_text": "Which of the following is an example of an access control model?",
+      "options": [
+        "Public Key Infrastructure (PKI)",
+        "Role-Based Access Control (RBAC)",
+        "Secure Sockets Layer (SSL)",
+        "Simple Network Management Protocol (SNMP)"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Role-Based Access Control (RBAC)",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based"
+      ]
+    },
+    {
+      "id": 227,
+      "question_text": "What is the primary purpose of multi-factor authentication (MFA)?",
+      "options": [
+        "To increase the complexity of passwords",
+        "To provide multiple backup systems in case of failure",
+        "To enhance security by requiring two or more forms of verification before granting access",
+        "To allow users to choose their preferred method of authentication"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enhance security by requiring two or more forms of verification before  granting access",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 233,
+      "question_text": "Which of the following is a characteristic of a brute force attack?",
+      "options": [
+        "Attempting every possible combination to crack a password",
+        "Exploiting software vulnerabilities to gain unauthorized access",
+        "Intercepting and altering communications between two parties",
+        "Sending phishing emails to obtain sensitive information"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Attempting every possible combination to crack a password",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 238,
+      "question_text": "What is the primary purpose of role-based access control (RBAC)?",
+      "options": [
+        "To assign permissions to users based on their specific role within an organization",
+        "To monitor and log user activities on the network",
+        "To encrypt data transmissions over the internet",
+        "To prevent unauthorized physical access to facilities"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To assign permissions to users based on their specific role within an organization",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based",
+        "permission"
+      ]
+    },
+    {
+      "id": 269,
+      "question_text": "Which of the following best describes the principle of “non-repudiation”?",
+      "options": [
+        "Ensuring that a user cannot deny the authenticity of their signature on a document",
+        "Allowing users to change their passwords without restrictions",
+        "Permitting anonymous access to sensitive information",
+        "Encouraging the use of shared accounts for ease of access"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensuring that a user cannot deny the authenticity of their signature on a  document",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 272,
+      "question_text": "What is the primary function of the Access Control List (ACL) in network security?",
+      "options": [
+        "To list all users who have administrative access",
+        "To determine which resources a user can access",
+        "To keep a record of all software installations",
+        "To monitor real-time network traffic"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To determine which resources a user can access",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "access control list",
+        "acl"
+      ]
+    },
+    {
+      "id": 304,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users have the minimum level of access required to perform their duties",
+        "Guarantee that all users have equal access rights to resources",
+        "Provide users with the maximum permissions possible to avoid operational delays",
+        "Restrict access to systems for all users except administrators"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensure that users have the minimum level of access required to perform their  duties",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege",
+        "permission"
+      ]
+    },
+    {
+      "id": 321,
+      "question_text": "Which of the following is a common method for authenticating a user’s identity?",
+      "options": [
+        "Providing a username only",
+        "Using a physical key",
+        "Entering a password",
+        "Scanning the network for user devices"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Entering a password",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 338,
+      "question_text": "What is the main purpose of an access control list (ACL)?",
+      "options": [
+        "To list all users who have administrative access",
+        "To define rules that grant or deny network traffic",
+        "To inventory all hardware devices on a network",
+        "To log security events for analysis"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To define rules that grant or deny network traffic",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "access control list",
+        "acl"
+      ]
+    },
+    {
+      "id": 345,
+      "question_text": "Which of the following is a benefit of using multi-factor authentication (MFA)?",
+      "options": [
+        "It simplifies the login process for users",
+        "It reduces the need for passwords",
+        "It provides an additional layer of security beyond just a password",
+        "It eliminates the risk of phishing attacks"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It provides an additional layer of security beyond just a password",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 352,
+      "question_text": "What is the primary purpose of role-based access control (RBAC)?",
+      "options": [
+        "To monitor user activities in real-time",
+        "To assign permissions to users based on their role within an organization",
+        "To encrypt user data",
+        "To detect intrusions into the network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assign permissions to users based on their role within an organization",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based",
+        "permission"
+      ]
+    },
+    {
+      "id": 353,
+      "question_text": "Which of the following best describes the principle of “separation of duties”?",
+      "options": [
+        "Assigning multiple roles to a single user to simplify tasks",
+        "Dividing tasks among multiple users to reduce the risk of fraud or error",
+        "Allowing users to define their own roles within the system",
+        "Consolidating duties to improve efficiency"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Dividing tasks among multiple users to reduce the risk of fraud or error",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "separation of duties"
+      ]
+    },
+    {
+      "id": 359,
+      "question_text": "Which of the following best describes “two-factor authentication”?",
+      "options": [
+        "Using two antivirus programs simultaneously for increased security",
+        "Requiring two passwords for access to sensitive systems",
+        "Using two different methods of authentication to verify a user’s identity",
+        "Implementing two firewalls for network security"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Using two different methods of authentication to verify a user’s identity",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "two-factor",
+        "password"
+      ]
+    },
+    {
+      "id": 383,
+      "question_text": "Which of the following is a benefit of using multi-factor authentication (MFA)?",
+      "options": [
+        "It simplifies the login process for users",
+        "It reduces the need for strong passwords",
+        "It provides an additional layer of security beyond just a username and password",
+        "It eliminates the risk of phishing attacks"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It provides an additional layer of security beyond just a username and password",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 385,
+      "question_text": "What is the primary purpose of role-based access control (RBAC)?",
+      "options": [
+        "To monitor and log user activities on a system",
+        "To encrypt data transmissions between users and servers",
+        "To define user access to resources based on their role within an organization",
+        "To detect and prevent malware infections on devices"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To define user access to resources based on their role within an organization",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based"
+      ]
+    },
+    {
+      "id": 398,
+      "question_text": "Which of the following is a key benefit of implementing an Identity and Access Management ",
+      "options": [
+        "To increase the complexity of user passwords",
+        "To ensure that users have appropriate access rights to resources",
+        "To eliminate the need for encryption",
+        "To reduce the cost of software licenses"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that users have appropriate access rights to resources",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "identity and access",
+        "password"
+      ]
+    },
+    {
+      "id": 404,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users have the minimum level of access (or permissions) necessary to perform ",
+        "Provide users with as much access as possible to increase productivity",
+        "Ensure that all users have equal access rights to all systems",
+        "Increase the complexity of the system to enhance security"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensure that users have the minimum level of access (or permissions) necessary to  perform their job functions",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege",
+        "permission"
+      ]
+    },
+    {
+      "id": 405,
+      "question_text": "Which of the following best describes a man-in-the-middle (MITM) attack?",
+      "options": [
+        "An attack where the perpetrator secretly relays and possibly alters the communication ",
+        "A physical attack where the attacker gains unauthorized access to a facility",
+        "An attack that involves flooding a targeted machine or resource with excessive requests to ",
+        "A software attack where malware is embedded in a legitimate software package"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack where the perpetrator secretly relays and possibly alters the  communication between two parties who believe they are directly communicating with each  other",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "mac"
+      ]
+    },
+    {
+      "id": 416,
+      "question_text": "Which of the following is a key feature of an identity and access management (IAM) system?",
+      "options": [
+        "It provides physical security controls for data centers",
+        "It manages digital identities and their access to various resources within an organization",
+        "It encrypts data at rest and in transit",
+        "It monitors network traffic for signs of malicious activity"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It manages digital identities and their access to various resources within an  organization",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "access management",
+        "iam",
+        "identity and access"
+      ]
+    },
+    {
+      "id": 417,
+      "question_text": "What is the primary benefit of using multi-factor authentication (MFA)?",
+      "options": [
+        "It simplifies the login process for users",
+        "It reduces the need for passwords",
+        "It provides a higher level of security by requiring multiple forms of verification from users",
+        "It allows users to choose any password, regardless of complexity"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It provides a higher level of security by requiring multiple forms of verification from  users",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 434,
+      "question_text": "What type of access control model is based on a user’s job functions within an organization?",
+      "options": [
+        "Discretionary Access Control (DAC)",
+        "Mandatory Access Control (MAC)",
+        "Role-Based Access Control (RBAC)",
+        "Attribute-Based Access Control (ABAC)"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Role-Based Access Control (RBAC)",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based",
+        "dac",
+        "mac",
+        "abac",
+        "mandatory access control",
+        "discretionary access control",
+        "attribute-based"
+      ]
+    },
+    {
+      "id": 462,
+      "question_text": "What is the primary purpose of role-based access control (RBAC)?",
+      "options": [
+        "To monitor user activities in real-time",
+        "To assign system access to users based on their role within the organization",
+        "To encrypt data stored on the network",
+        "To detect and prevent intrusion attempts"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assign system access to users based on their role within the organization",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based"
+      ]
+    },
+    {
+      "id": 472,
+      "question_text": "Which of the following is a common method for authenticating users?",
+      "options": [
+        "Using a physical key to access a building",
+        "Assigning unique usernames and passwords",
+        "Providing a list of approved websites",
+        "Distributing company-branded merchandise"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Assigning unique usernames and passwords",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 481,
+      "question_text": "Which of the following is a key feature of an Identity and Access Management (IAM) system?",
+      "options": [
+        "Ensuring that all employees have the same level of access to resources",
+        "Allowing users to reset their passwords via a physical mail process",
+        "Managing digital identities and their access to resources within an organization",
+        "Distributing physical keys for building access"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Managing digital identities and their access to resources within an organization",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "iam",
+        "identity and access",
+        "password"
+      ]
+    },
+    {
+      "id": 482,
+      "question_text": "What is the primary benefit of using multi-factor authentication (MFA)?",
+      "options": [
+        "It simplifies the login process for users",
+        "It provides an additional layer of security by requiring multiple forms of verification",
+        "It eliminates the need for passwords",
+        "It decreases the time required to access resources"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It provides an additional layer of security by requiring multiple forms of verification",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 498,
+      "question_text": "What is the primary function of role-based access control (RBAC)?",
+      "options": [
+        "To encrypt data based on the user’s role",
+        "To audit user activities and generate compliance reports",
+        "To assign system access to users based on their role within the organization",
+        "To monitor and log all access to sensitive information"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To assign system access to users based on their role within the organization",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based"
+      ]
+    },
+    {
+      "id": 504,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users have the minimum level of access (or permissions) necessary to perform ",
+        "Provide users with as much access as possible to increase productivity",
+        "Ensure that all users have equal access rights to all systems",
+        "Increase the complexity of the system to enhance security"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensure that users have the minimum level of access (or permissions) necessary to  perform their job functions",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege",
+        "permission"
+      ]
+    },
+    {
+      "id": 505,
+      "question_text": "Which of the following best describes a man-in-the-middle (MITM) attack?",
+      "options": [
+        "An attack where the perpetrator secretly relays and possibly alters the communication ",
+        "A physical attack where the attacker gains unauthorized access to a facility",
+        "An attack that involves flooding a targeted machine or resource with excessive requests to ",
+        "A software attack where malware is embedded in a legitimate software to gain access to a "
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack where the perpetrator secretly relays and possibly alters the  communication between two parties who believe they are directly communicating with each  other",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "mac"
+      ]
+    },
+    {
+      "id": 507,
+      "question_text": "Which of the following is a characteristic of a strong password?",
+      "options": [
+        "Contains the user’s name or username",
+        "Is at least 8 characters long",
+        "Includes a mix of uppercase letters, lowercase letters, numbers, and symbols",
+        "Is reused across multiple accounts for ease of memory"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Includes a mix of uppercase letters, lowercase letters, numbers, and symbols",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 512,
+      "question_text": "What is the purpose of a digital signature?",
+      "options": [
+        "To digitally enhance the clarity of a document",
+        "To ensure the integrity and non-repudiation of a digital document",
+        "To encrypt the entire document for secrecy",
+        "To serve as a password for accessing encrypted files"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure the integrity and non-repudiation of a digital document",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 517,
+      "question_text": "What is the purpose of multi-factor authentication (MFA)?",
+      "options": [
+        "To increase the complexity of passwords",
+        "To provide multiple backup systems in case of a failure",
+        "To enhance security by requiring two or more forms of verification before granting access",
+        "To allow users to choose from multiple passwords"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enhance security by requiring two or more forms of verification before  granting access",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 525,
+      "question_text": "What role does an access control list (ACL) play in network security?",
+      "options": [
+        "It lists all the users who have administrative access to the network",
+        "It serves as a training document for new network security employees",
+        "It specifies which users or system processes are granted access to objects, as well as what ",
+        "It is a list of passwords and user IDs for all network users"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It specifies which users or system processes are granted access to objects, as well  as what operations are allowed on given objects",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "access control list",
+        "acl",
+        "password"
+      ]
+    },
+    {
+      "id": 538,
+      "question_text": "Which of the following is a characteristic of a Zero Trust security model?",
+      "options": [
+        "Trusting all users within the organization",
+        "Never trusting, always verifying",
+        "Using a single factor for authentication",
+        "Allowing unrestricted access to external networks"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Never trusting, always verifying",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication"
+      ]
+    },
+    {
+      "id": 556,
+      "question_text": "Which of the following best describes “attribute-based access control” (ABAC)?",
+      "options": [
+        "Access to resources is granted based on the attributes of users, resources, and the ",
+        "Access is determined by the job role of the user within the organization",
+        "Access is granted based on a list of approved IP addresses",
+        "Users are granted access based on their seniority in the organization"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Access to resources is granted based on the attributes of users, resources, and the  environment",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "abac",
+        "attribute-based"
+      ]
+    },
+    {
+      "id": 559,
+      "question_text": "In the context of cybersecurity, what is “credential stuffing”?",
+      "options": [
+        "The process of creating secure passwords",
+        "A type of social engineering attack",
+        "The automated injection of breached username/password pairs in order to fraudulently ",
+        "The manual testing of passwords on different websites"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The automated injection of breached username/password pairs in order to  fraudulently gain access to user accounts",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "password",
+        "credential"
+      ]
+    },
+    {
+      "id": 566,
+      "question_text": "Which of the following best describes “two-factor authentication”?",
+      "options": [
+        "Using two different passwords for the same account",
+        "Using a password and a physical token to authenticate a user",
+        "Requiring a user to log in twice for security reasons",
+        "Using two antivirus programs simultaneously"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Using a password and a physical token to authenticate a user",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "two-factor",
+        "password",
+        "token"
+      ]
+    },
+    {
+      "id": 584,
+      "question_text": "What is the primary function of “access controls” in information security?",
+      "options": [
+        "To ensure that only authorized users can access certain resources",
+        "To control the temperature in server rooms",
+        "To monitor employee attendance",
+        "To regulate access to the internet"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that only authorized users can access certain resources",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "access control"
+      ]
+    },
+    {
+      "id": 591,
+      "question_text": "Which of the following best describes the concept of “principle of least functionality” in ",
+      "options": [
+        "Granting users the minimum levels of access – or permissions – needed to perform their ",
+        "Installing the minimum number of applications on a system to perform its required ",
+        "Ensuring that all software on a system is up to date with the latest security patches",
+        "Configuring systems to provide services to as many users as possible"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Installing the minimum number of applications on a system to perform its  required functions",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "permission"
+      ]
+    },
+    {
+      "id": 592,
+      "question_text": "What is the primary purpose of a Security Assertion Markup Language (SAML) assertion ",
+      "options": [
+        "To encrypt data transmitted between a client and server",
+        "To provide a user with a new set of credentials for each website visited",
+        "To facilitate single sign-on (SSO) by conveying authentication and authorization ",
+        "To log user activities on web applications for audit purposes"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To facilitate single sign-on (SSO) by conveying authentication and authorization  information",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "authentication",
+        "authorization",
+        "single sign-on",
+        "sso",
+        "saml",
+        "credential"
+      ]
+    },
+    {
+      "id": 605,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that all users have the permissions they need to perform their job functions",
+        "Ensure that users are granted only the minimum levels of access – or permissions – needed ",
+        "Ensure that administrators have unrestricted access to all system functions",
+        "Ensure that audit logs are reviewed on a regular basis"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Ensure that users are granted only the minimum levels of access – or permissions – needed to perform their job functions",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege",
+        "permission"
+      ]
+    },
+    {
+      "id": 609,
+      "question_text": "Which of the following is a common method for authenticating a user’s identity?",
+      "options": [
+        "Passwords",
+        "Physical security tokens",
+        "Biometric verification",
+        "All of the above"
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "The correct answer is: All of the above",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "biometric",
+        "password",
+        "token"
+      ]
+    },
+    {
+      "id": 618,
+      "question_text": "What is the primary purpose of access control?",
+      "options": [
+        "To ensure that users can access any resources they need without restrictions",
+        "To monitor user activities on a network",
+        "To limit access to resources to authorized users",
+        "To log all access attempts to a system"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To limit access to resources to authorized users",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control"
+      ]
+    },
+    {
+      "id": 623,
+      "question_text": "Which of the following is an example of an administrative control?",
+      "options": [
+        "Security awareness training",
+        "Firewalls",
+        "Intrusion detection systems",
+        "Biometric access controls"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Security awareness training",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "biometric",
+        "access control"
+      ]
+    },
+    {
+      "id": 629,
+      "question_text": "Which of the following best describes the principle of “separation of duties”?",
+      "options": [
+        "Assigning security-related tasks to a single individual to ensure accountability",
+        "Dividing tasks among multiple individuals to prevent fraud and errors",
+        "Ensuring that duties are clearly defined in job descriptions",
+        "Separating physical and logical access controls"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Dividing tasks among multiple individuals to prevent fraud and errors",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "separation of duties"
+      ]
+    },
+    {
+      "id": 637,
+      "question_text": "Which of the following is a key feature of an Identity and Access Management (IAM) system?",
+      "options": [
+        "Network intrusion detection",
+        "Data encryption",
+        "Single sign-on (SSO)",
+        "Antivirus protection"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Single sign-on (SSO)",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "iam",
+        "identity and access",
+        "single sign-on",
+        "sso"
+      ]
+    },
+    {
+      "id": 655,
+      "question_text": "Which of the following is a common indicator of a phishing attempt?",
+      "options": [
+        "An email from a known colleague asking for a meeting",
+        "A website that requires two-factor authentication",
+        "An unsolicited email requesting sensitive information",
+        "A text message from your bank confirming a transaction you made"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: An unsolicited email requesting sensitive information",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": [
+        "authentication",
+        "two-factor"
+      ]
+    },
+    {
+      "id": 672,
+      "question_text": "What is the main objective of implementing a Zero Trust security model?",
+      "options": [
+        "To trust all users within the organization’s network by default",
+        "To verify the identity of all users and devices, both inside and outside the organization’s ",
+        "To use a single authentication method for all access requests",
+        "To eliminate the need for cybersecurity measures by trusting all network traffic"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To verify the identity of all users and devices, both inside and outside the  organization’s network, before granting access",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication"
+      ]
+    },
+    {
+      "id": 678,
+      "question_text": "Which of the following is a key consideration when implementing an Identity and Access ",
+      "options": [
+        "Ensuring that all users have the same level of access to minimize complexity",
+        "Automating the process of software development",
+        "Balancing the need for security with the need for user convenience",
+        "Focusing solely on external threats and ignoring insider threats"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Balancing the need for security with the need for user convenience",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "identity and access"
+      ]
+    },
+    {
+      "id": 688,
+      "question_text": "Which of the following is a key feature of an Identity and Access Management (IAM) system?",
+      "options": [
+        "It allows all users to access all resources by default",
+        "It provides a centralized platform for managing user identities and access rights",
+        "It eliminates the need for passwords",
+        "It focuses exclusively on physical access controls"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: It provides a centralized platform for managing user identities and access rights",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "iam",
+        "identity and access",
+        "access control",
+        "password"
+      ]
+    },
+    {
+      "id": 693,
+      "question_text": "Which of the following is a characteristic of a phishing attack?",
+      "options": [
+        "It is a form of social engineering that involves tricking users into installing malware",
+        "It exclusively targets high-profile individuals within an organization",
+        "It involves exploiting vulnerabilities in software to gain unauthorized access",
+        "It uses deceptive communications to trick individuals into revealing sensitive information"
+      ],
+      "correct_answer": "d",
+      "correct_index": 3,
+      "explanation": "The correct answer is: It uses deceptive communications to trick individuals into revealing sensitive  information",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 56,
+      "keywords": []
+    },
+    {
+      "id": 695,
+      "question_text": "What is the primary goal of implementing multi-factor authentication (MFA)?",
+      "options": [
+        "To increase the complexity of passwords required for system access",
+        "To provide a backup authentication method in case the primary one fails",
+        "To enhance security by requiring two or more forms of verification before granting access",
+        "To streamline the user authentication process for ease of access"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enhance security by requiring two or more forms of verification before granting  access",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 704,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users have the minimum level of access required to perform their duties",
+        "Guarantee that all users have equal access rights to resources",
+        "Provide users with the maximum permissions possible to avoid operational delays",
+        "Ensure that administrators have unrestricted access to all system functions"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Ensure that users have the minimum level of access required to perform their  duties",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege",
+        "permission"
+      ]
+    },
+    {
+      "id": 705,
+      "question_text": "Which type of access control model is based on a user’s job functions within an organization?",
+      "options": [
+        "Discretionary Access Control (DAC)",
+        "Mandatory Access Control (MAC)",
+        "Role-Based Access Control (RBAC)",
+        "Attribute-Based Access Control (ABAC)"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Role-Based Access Control (RBAC)",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based",
+        "dac",
+        "mac",
+        "abac",
+        "mandatory access control",
+        "discretionary access control",
+        "attribute-based"
+      ]
+    },
+    {
+      "id": 721,
+      "question_text": "Which of the following is a common method for authenticating a user’s identity?",
+      "options": [
+        "User’s physical location",
+        "User’s favorite color",
+        "Passwords",
+        "User’s age"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Passwords",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 723,
+      "question_text": "Which of the following best describes “two-factor authentication”?",
+      "options": [
+        "Using two passwords for logging into an account",
+        "Using two antivirus programs for better security",
+        "The process of verifying a user’s identity using two different components",
+        "Backing up data in two different locations"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The process of verifying a user’s identity using two different components",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "authentication",
+        "two-factor",
+        "password"
+      ]
+    },
+    {
+      "id": 739,
+      "question_text": "Which of the following is a benefit of implementing an Identity and Access Management ",
+      "options": [
+        "Increased operational costs",
+        "Slower access to resources",
+        "Enhanced security through proper authentication and authorization",
+        "Decreased efficiency in managing user identities"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Enhanced security through proper authentication and authorization",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "identity and access",
+        "authentication",
+        "authorization"
+      ]
+    },
+    {
+      "id": 746,
+      "question_text": "What is the primary purpose of role-based access control (RBAC)?",
+      "options": [
+        "To increase the complexity of the system",
+        "To assign system access to users based on their role within an organization",
+        "To ensure all users have equal access to all resources",
+        "To monitor user activities and behaviors in real-time"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To assign system access to users based on their role within an organization",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based"
+      ]
+    },
+    {
+      "id": 751,
+      "question_text": "Which of the following is a characteristic of a strong password?",
+      "options": [
+        "Contains the user’s name or birthday",
+        "Is reused across multiple accounts",
+        "Includes a mix of letters, numbers, and special characters",
+        "Is shorter than eight characters"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Includes a mix of letters, numbers, and special characters",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 757,
+      "question_text": "Which of the following best describes a brute force attack?",
+      "options": [
+        "An attack that exploits vulnerabilities in software",
+        "An attack that uses stolen credentials",
+        "An attack that attempts many passwords or encryption keys until the correct one is found",
+        "An attack that relies on user deception to gain access to systems"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: An attack that attempts many passwords or encryption keys until the correct one  is found",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "password",
+        "credential"
+      ]
+    },
+    {
+      "id": 762,
+      "question_text": "What is the primary purpose of using multi-factor authentication (MFA)?",
+      "options": [
+        "To increase the complexity of passwords",
+        "To provide multiple backup authentication methods in case one fails",
+        "To enhance security by requiring two or more verification factors",
+        "To streamline the user authentication process for faster access"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To enhance security by requiring two or more verification factors",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 779,
+      "question_text": "Which of the following is a benefit of implementing an Identity and Access Management ",
+      "options": [
+        "Decreasing the complexity of the network infrastructure",
+        "Reducing the need for physical security controls",
+        "Enhancing the ability to manage user access and identities efficiently",
+        "Eliminating the risk of data breaches entirely"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Enhancing the ability to manage user access and identities efficiently",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "identity and access"
+      ]
+    },
+    {
+      "id": 782,
+      "question_text": "What is the primary purpose of role-based access control (RBAC)?",
+      "options": [
+        "To ensure that users have access to all resources, regardless of their role",
+        "To limit user access to information and resources based on their roles within the ",
+        "To monitor and log all user activities on the network",
+        "To provide users with administrative access to manage network security settings"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To limit user access to information and resources based on their roles within the  organization",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based"
+      ]
+    },
+    {
+      "id": 787,
+      "question_text": "Which of the following is a characteristic of a strong password?",
+      "options": [
+        "Contains the user’s name or birthday",
+        "Is reused across multiple accounts",
+        "Includes a mix of letters, numbers, and special characters",
+        "Is shorter than eight characters"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Includes a mix of letters, numbers, and special characters",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "password"
+      ]
+    },
+    {
+      "id": 804,
+      "question_text": "What does the principle of least privilege aim to achieve?",
+      "options": [
+        "Ensure that users have the permissions they need to enjoy their work",
+        "Grant users only the access levels necessary to perform their roles",
+        "Provide all users with administrative privileges to simplify IT support",
+        "Increase security by giving users more responsibilities"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Grant users only the access levels necessary to perform their roles",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "privilege",
+        "least privilege",
+        "permission"
+      ]
+    },
+    {
+      "id": 805,
+      "question_text": "Which of the following best describes a Man-in-the-Middle (MitM) attack?",
+      "options": [
+        "An attack where the perpetrator secretly relays and possibly alters the communication ",
+        "A physical attack where the attacker gains unauthorized access to a facility",
+        "An attack that involves flooding a targeted machine or resource with excessive requests to ",
+        "A software attack where malicious software is installed on the victim’s machine"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: An attack where the perpetrator secretly relays and possibly alters the  communication between two parties who believe they are directly communicating with each  other",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "mac"
+      ]
+    },
+    {
+      "id": 820,
+      "question_text": "Which of the following is a benefit of using multi-factor authentication (MFA)?",
+      "options": [
+        "It simplifies the login process for users",
+        "It reduces the need for strong passwords",
+        "It provides an additional layer of security beyond just a username and password",
+        "It eliminates the risk of phishing attacks"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It provides an additional layer of security beyond just a username and password",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "multi-factor",
+        "mfa",
+        "password"
+      ]
+    },
+    {
+      "id": 824,
+      "question_text": "Which of the following is a common method for authenticating a user’s identity?",
+      "options": [
+        "Assigning a unique IP address to each user",
+        "Using a password or PIN",
+        "Assigning each user a specific network port",
+        "Using a single sign-on system for all external websites"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Using a password or PIN",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "single sign-on",
+        "password"
+      ]
+    },
+    {
+      "id": 845,
+      "question_text": "Which of the following best describes role-based access control (RBAC)?",
+      "options": [
+        "Access permissions are granted based on the sensitivity of the data and the user’s need to ",
+        "Access permissions are granted according to the roles individuals have within the ",
+        "Access is granted to all users within the organization equally",
+        "Access permissions are determined by the system administrator on a case-by-case basis"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Access permissions are granted according to the roles individuals have within the  organization",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "rbac",
+        "role-based",
+        "permission"
+      ]
+    },
+    {
+      "id": 859,
+      "question_text": "Which of the following is a benefit of implementing an Identity and Access Management ",
+      "options": [
+        "Reducing the complexity of network infrastructure",
+        "Increasing the speed of data transmissions",
+        "Enhancing the security of systems by controlling user access",
+        "Eliminating the need for physical security controls"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Enhancing the security of systems by controlling user access",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access management",
+        "identity and access"
+      ]
+    },
+    {
+      "id": 877,
+      "question_text": "Which of the following best describes “attribute-based access control” (ABAC)?",
+      "options": [
+        "Access to resources is granted based on the attributes of users, resources, and the ",
+        "Access is determined by the roles assigned to users within an organization",
+        "Users are granted access based on their seniority within the organization",
+        "Access is granted to all users equally to ensure fairness"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Access to resources is granted based on the attributes of users, resources, and the  environment",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "abac",
+        "attribute-based"
+      ]
+    },
+    {
+      "id": 885,
+      "question_text": "Which of the following is a key feature of “biometric authentication”?",
+      "options": [
+        "It uses physical or behavioral characteristics to verify identity",
+        "It relies on users remembering complex passwords",
+        "It is based on easily shared secret questions and answers",
+        "It requires users to carry a physical token at all times"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: It uses physical or behavioral characteristics to verify identity",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "authentication",
+        "biometric",
+        "password",
+        "token"
+      ]
+    },
+    {
+      "id": 886,
+      "question_text": "What is the primary function of “access control lists” (ACLs) in network security?",
+      "options": [
+        "To list all users who have administrative access to a system",
+        "To define rules that grant or deny traffic flow to or from a network",
+        "To keep an inventory of all hardware devices on a network",
+        "To catalog software applications authorized for use within the organization"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To define rules that grant or deny traffic flow to or from a network",
+      "domain_id": 5,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "access control",
+        "access control list",
+        "acl"
+      ]
+    },
+    {
+      "id": 897,
+      "question_text": "Which of the following is a characteristic of a spear phishing attack?",
+      "options": [
+        "It targets a specific group of users with a generic message",
+        "It is a broad, untargeted attack aimed at a wide audience",
+        "It involves sending targeted emails to specific individuals to gain unauthorized access",
+        "It uses physical means to gain access to premises"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It involves sending targeted emails to specific individuals to gain unauthorized  access",
+      "domain_id": 5,
+      "difficulty": 2,
+      "confidence": 80,
+      "keywords": []
+    }
+  ]
+}

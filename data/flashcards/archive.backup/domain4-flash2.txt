@@ -1,0 +1,344 @@
+Alright — here’s the next chunk, covering **4.1.3 through 4.1.6** in the same Domain 3 flashcard style.
+
+---
+
+### **Domain 4.1.3 – Secure Protocols**
+
+**Front:**
+*Domain/Subdomain: 4.1.3*
+What are the three primary functions of **Kerberos**?
+
+**Back:**
+Accounting, authentication, and auditing — used mainly in LANs for SSO and secure access control.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.3*
+What is the current recommended version of **TLS** for secure communications?
+
+**Back:**
+**TLS 1.2 or 1.3** — older versions (SSL, TLS 1.0, TLS 1.1) are deprecated due to security vulnerabilities.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.3*
+What is the difference between **SSL** and **TLS**?
+
+**Back:**
+Both provide encryption, integrity, and authentication. TLS is the newer, more secure replacement for SSL.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.3*
+What is **SFTP** and how does it differ from FTP?
+
+**Back:**
+Secure File Transfer Protocol encrypts data and authentication over SSH, unlike FTP, which sends data in plaintext.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.3*
+What are the two main protocols in **IPSec** and their purposes?
+
+**Back:**
+
+* **Authentication Header (AH)**: Provides authentication, integrity, and non-repudiation (no encryption).
+* **Encapsulating Security Payload (ESP)**: Provides encryption and integrity (with limited authentication).
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.3*
+What is the difference between **IPSec transport mode** and **tunnel mode**?
+
+**Back:**
+
+* **Transport mode**: Encrypts only the packet payload (peer-to-peer).
+* **Tunnel mode**: Encrypts the entire packet, including the header (gateway-to-gateway).
+
+---
+
+---
+
+### **Domain 4.1.4 – Implications of Multilayer Protocols**
+
+**Front:**
+*Domain/Subdomain: 4.1.4*
+What is **protocol encapsulation** and give a security example.
+
+**Back:**
+Wrapping one protocol inside another. Example: HTTPS encapsulates HTTP inside TLS, which is then inside TCP/IP.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.4*
+What is one advantage and one disadvantage of multilayer protocols?
+
+**Back:**
+
+* **Advantage**: Flexibility and encryption can be added at various layers.
+* **Disadvantage**: Can be used to hide malicious traffic.
+
+---
+
+---
+
+### **Domain 4.1.5 – Converged Protocols**
+
+**Front:**
+*Domain/Subdomain: 4.1.5*
+What is a **converged protocol**?
+
+**Back:**
+A protocol that merges specialty or proprietary protocols with standard protocols (e.g., TCP/IP) so they can run over existing network infrastructure.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.5*
+What is **Fibre Channel over Ethernet (FCoE)** used for?
+
+**Back:**
+Encapsulates Fibre Channel frames over Ethernet for high-speed storage networking without requiring dedicated cabling.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.5*
+What is **iSCSI** and what layer does it operate at?
+
+**Back:**
+Internet Small Computer Systems Interface — a network storage standard over IP at **Layer 3**, enabling location-independent file storage.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.5*
+What is **Voice over IP (VoIP)** and how is it secured?
+
+**Back:**
+Encapsulates audio/video into IP packets for calls and collaboration; typically secured with **SIPS** (signaling) and **SRTP** (media).
+
+---
+
+---
+
+### **Domain 4.1.6 – Transport Architecture**
+
+**Front:**
+*Domain/Subdomain: 4.1.6*
+What are the three planes in network architecture and their purposes?
+
+**Back:**
+
+* **Data plane**: Forwards packets (the “do-er”).
+* **Control plane**: Determines paths and routes (the “planner”).
+* **Management plane**: Configures and monitors the network (the “administrator”).
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.6*
+What is the difference between **cut-through** and **store-and-forward** switching?
+
+**Back:**
+
+* **Cut-through**: Forwards a frame as soon as the destination address is read; low latency but no full error check.
+* **Store-and-forward**: Receives the entire frame, checks for errors, then forwards; higher latency but more reliable.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.6*
+What is the difference between a **physical** and **logical** topology?
+
+**Back:**
+
+* **Physical topology**: Actual layout of cables and devices.
+* **Logical topology**: How data flows through the network, regardless of physical connections.
+
+---
+
+
+---
+
+### **Domain 4.1.14 – VPNs**
+
+**Front:**
+*Domain/Subdomain: 4.1.14*
+What is the difference between a **site-to-site VPN** and a **remote access VPN**?
+
+**Back:**
+
+* **Site-to-site VPN**: Connects entire networks (e.g., branch office to HQ).
+* **Remote access VPN**: Connects individual clients to a network over the internet.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.14*
+What is the difference between **SSL VPN** and **IPSec VPN**?
+
+**Back:**
+
+* **SSL VPN**: Uses SSL/TLS for encryption, typically over a web browser.
+* **IPSec VPN**: Uses IPSec protocols (AH/ESP) for encryption and authentication, often at the OS/network layer.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.14*
+What is **split tunneling** in VPNs and why is it risky?
+
+**Back:**
+A configuration allowing a VPN user to access both the corporate network and the internet directly at the same time; risk: traffic can bypass security controls, creating exposure.
+
+---
+
+---
+
+### **Domain 4.1.15 – Network Monitoring**
+
+**Front:**
+*Domain/Subdomain: 4.1.15*
+What is the difference between **NIDS** and **HIDS**?
+
+**Back:**
+
+* **NIDS**: Monitors network traffic for suspicious activity; not visible to attackers on the network.
+* **HIDS**: Monitors activity on a specific host; can be disabled if attacker gains host access.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.15*
+What is **SNMP** used for?
+
+**Back:**
+Simple Network Management Protocol — for monitoring and managing network devices by collecting information such as device health and performance.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.15*
+What is the difference between **SPAN** and **network taps**?
+
+**Back:**
+
+* **SPAN**: Switch Port Analyzer — mirrors traffic to a monitoring port.
+* **Network tap**: Dedicated hardware device that copies network traffic for monitoring.
+
+---
+
+---
+
+### **Domain 4.1.16 – Email & Messaging Security**
+
+**Front:**
+*Domain/Subdomain: 4.1.16*
+What is **SPF** and what does it protect against?
+
+**Back:**
+Sender Policy Framework — an email authentication protocol that verifies sending IP addresses to prevent spoofing.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.16*
+What is **DKIM** and how does it work?
+
+**Back:**
+DomainKeys Identified Mail — uses a digital signature in email headers that can be verified via the sender’s public DNS record to ensure authenticity and integrity.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.16*
+What is **DMARC** and how does it relate to SPF/DKIM?
+
+**Back:**
+Domain-based Message Authentication, Reporting, and Conformance — uses SPF and DKIM results with policy enforcement (reject, quarantine, allow) to prevent spoofed emails.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.16*
+What is the difference between **STARTTLS** and **Implicit SMTPS**?
+
+**Back:**
+
+* **STARTTLS**: Begins as plaintext, then upgrades to TLS encryption.
+* **Implicit SMTPS**: Starts with an encrypted TLS session immediately.
+
+---
+
+---
+
+### **Domain 4.1.17 – VoIP & Collaboration Security**
+
+**Front:**
+*Domain/Subdomain: 4.1.17*
+What are the two main protocols for securing VoIP?
+
+**Back:**
+
+* **SIPS**: Secures session initiation signaling.
+* **SRTP**: Secures the audio/video media streams.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.17*
+What is a common risk of VoIP systems?
+
+**Back:**
+They can be targeted by DoS attacks, eavesdropping, toll fraud, and caller ID spoofing.
+
+---
+
+---
+
+### **Domain 4.1.18 – Common Network Attacks**
+
+**Front:**
+*Domain/Subdomain: 4.1.18*
+What is a **smurf attack**?
+
+**Back:**
+A DoS attack where ICMP echo requests are sent to a broadcast address with a spoofed victim IP, causing all nodes to flood the victim with replies.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.18*
+What is a **teardrop attack**?
+
+**Back:**
+An attack that sends fragmented IP packets with overlapping offsets, causing systems to crash during reassembly.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.18*
+What is **VLAN hopping**?
+
+**Back:**
+A method of gaining unauthorized access to other VLANs by sending crafted packets to network devices.
+
+---
+
+**Front:**
+*Domain/Subdomain: 4.1.18*
+What is a **race condition**?
+
+**Back:**
+A flaw where the system’s behavior changes depending on the sequence or timing of events, potentially causing security failures.
+
+---
+
+---

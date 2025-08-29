@@ -1,0 +1,49 @@
+/**
+ * TEMPLATE for domainX-flashcards.json
+ * 
+ * Instructions:
+ * 1. Replace X with domain number (3-8)
+ * 2. Update domain name from cissp-data.ts
+ * 3. Add flashcards following the structure below
+ * 4. Ensure unique IDs and correct subdomain mapping
+ */
+
+{
+  "domain": "Domain X: [REPLACE WITH DOMAIN NAME]",
+  "flashcards": [
+    {
+      "id": "X-Y-Z",
+      "domain": "X.Y.Z",
+      "category": "[CATEGORY FROM CISSP-DATA.TS]",
+      "front": "[QUESTION TEXT]",
+      "back": "[ANSWER TEXT WITH • FOR BULLETS AND \n FOR NEWLINES]"
+    },
+    {
+      "id": "X-Y-Za",
+      "domain": "X.Y.Z",
+      "category": "[CATEGORY]",
+      "front": "[QUESTION]",
+      "back": "• Point 1\n• Point 2\n• Point 3"
+    }
+  ]
+}
+
+/**
+ * Domain Reference:
+ * 3: Security Architecture and Engineering
+ * 4: Communication and Network Security
+ * 5: Identity and Access Management (IAM)
+ * 6: Security Assessment and Testing
+ * 7: Security Operations
+ * 8: Software Development Security
+ * 
+ * ID Format Examples:
+ * - Single card: "3-1-1"
+ * - Multiple cards same subdomain: "3-1-1a", "3-1-1b", "3-1-1c"
+ * - General concepts: "3-0a", "3-0b"
+ * - Main subdomain: "3-1", "3-2"
+ * 
+ * Category Mapping:
+ * Use the main domain name as the category for all cards in that domain
+ * unless there's a more specific category in cissp-data.ts
+ */

@@ -1,0 +1,1919 @@
+{
+  "domain_id": 1,
+  "domain_name": "Security and Risk Management",
+  "domain_weight": 15,
+  "total_questions": 95,
+  "generated_at": "2025-08-24T17:36:32.401Z",
+  "questions": [
+    {
+      "id": 3,
+      "question_text": "Which of the following is a primary goal of business continuity planning (BCP)?",
+      "options": [
+        "To ensure all employees are trained in cybersecurity awareness",
+        "To minimize the risk of system downtime and data loss",
+        "To guarantee a 100% uptime for all IT systems",
+        "To comply with international data protection regulations"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To minimize the risk of system downtime and data loss",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "bcp",
+        "security awareness",
+        "data protection"
+      ]
+    },
+    {
+      "id": 11,
+      "question_text": "What is the primary goal of risk management in cybersecurity?",
+      "options": [
+        "To eliminate all risks associated with IT systems and data",
+        "To identify, assess, and prioritize risks followed by coordinated efforts to minimize, ",
+        "To ensure that all employees follow the security policies and procedures",
+        "To purchase insurance policies for all identified risks"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, assess, and prioritize risks followed by coordinated efforts to  minimize, monitor, and control the probability or impact of unfortunate events",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "risk management",
+        "policies and procedures"
+      ]
+    },
+    {
+      "id": 14,
+      "question_text": "Which of the following is a principle of the CIA triad in cybersecurity?",
+      "options": [
+        "Confidentiality",
+        "Continuity",
+        "Compliance",
+        "Cryptography"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Confidentiality",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "cia triad",
+        "confidentiality",
+        "compliance"
+      ]
+    },
+    {
+      "id": 19,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To ensure that IT staff are up to date on the latest security technologies",
+        "To inform employees about the company's security policies and procedures",
+        "To educate employees on recognizing and responding to security threats",
+        "To train employees on using new software applications"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To educate employees on recognizing and responding to security threats",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "policies and procedures",
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 28,
+      "question_text": "Which of the following best describes the term \"risk appetite\"?",
+      "options": [
+        "The amount of risk a company is willing to accept in pursuit of its objectives",
+        "The total amount of risk a company has assessed",
+        "The process of transferring risk to another party",
+        "The methodology used to assess risk"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The amount of risk a company is willing to accept in pursuit of its objectives",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": [
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 41,
+      "question_text": "What is the purpose of a risk assessment in cybersecurity?",
+      "options": [
+        "To evaluate the financial performance of security investments",
+        "To identify, assess, and prioritize risks to organizational operations",
+        "To assess the performance of the IT department",
+        "To determine the salary of security personnel"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, assess, and prioritize risks to organizational operations",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "risk assessment"
+      ]
+    },
+    {
+      "id": 59,
+      "question_text": "What is the primary purpose of a Business Impact Analysis (BIA) in business continuity ",
+      "options": [
+        "To analyze the impact of business decisions on stock prices",
+        "To identify critical business functions and the impact of their disruption",
+        "To determine the impact of new hires on business operations",
+        "To assess the environmental impact of business operations"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify critical business functions and the impact of their disruption",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 74,
+      "question_text": "What is the primary purpose of a Business Continuity Plan (BCP)?",
+      "options": [
+        "To ensure that critical business functions can continue during and after a disaster",
+        "To protect the organization from cyber attacks",
+        "To comply with international standards on environmental protection",
+        "To manage the organization's financial resources efficiently"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that critical business functions can continue during and after a disaster",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "bcp"
+      ]
+    },
+    {
+      "id": 80,
+      "question_text": "Which of the following best describes the purpose of \"security awareness training\"?",
+      "options": [
+        "To train security professionals on advanced hacking techniques",
+        "To ensure that all employees understand their role in maintaining the organization's ",
+        "To certify IT staff in the use of specific security technologies",
+        "To provide legal protection for the organization in the event of a data breach"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that all employees understand their role in maintaining the  organization's security posture",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "legal",
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 96,
+      "question_text": "Which of the following best describes the purpose of risk assessment in cybersecurity?",
+      "options": [
+        "To identify, evaluate, and prioritize risks to organizational operations",
+        "To ensure compliance with legal and regulatory requirements",
+        "To allocate resources for IT infrastructure development",
+        "To train employees on cybersecurity best practices"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify, evaluate, and prioritize risks to organizational operations",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment",
+        "compliance",
+        "regulatory",
+        "legal"
+      ]
+    },
+    {
+      "id": 103,
+      "question_text": "Which of the following is a primary goal of business continuity planning (BCP)?",
+      "options": [
+        "To ensure all employees are trained in cybersecurity awareness",
+        "To maintain business operations with minimal disruption in the event of a disaster",
+        "To guarantee that all data breaches are prevented",
+        "To reduce the company’s annual insurance premiums"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To maintain business operations with minimal disruption in the event of a  disaster",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "business continuity",
+        "bcp",
+        "security awareness"
+      ]
+    },
+    {
+      "id": 109,
+      "question_text": "What is the primary goal of risk management in cybersecurity?",
+      "options": [
+        "To eliminate all risks associated with information technology",
+        "To identify, assess, and prioritize risks followed by coordinated application of resources to ",
+        "To ensure that the organization is fully insured against all types of cyber risks",
+        "To transfer all cyber risks to third parties through outsourcing"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, assess, and prioritize risks followed by coordinated application of  resources to minimize, monitor, and control the probability or impact of unfortunate events",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "risk management"
+      ]
+    },
+    {
+      "id": 111,
+      "question_text": "What is the purpose of a digital signature?",
+      "options": [
+        "To ensure that a document is encrypted",
+        "To verify the integrity of a message or document and the identity of the sender",
+        "To provide a unique identifier for digital documents",
+        "To encrypt email messages for privacy"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To verify the integrity of a message or document and the identity of the sender",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "integrity",
+        "privacy"
+      ]
+    },
+    {
+      "id": 141,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To train IT staff in the use of advanced security tools",
+        "To ensure that all employees understand their role in protecting organizational assets",
+        "To certify employees in cybersecurity defense techniques",
+        "To prepare staff for roles in the security operations center"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that all employees understand their role in protecting organizational  assets",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 150,
+      "question_text": "What is the main purpose of a business impact analysis (BIA) in business continuity ",
+      "options": [
+        "To determine the potential financial impact of a business disruption",
+        "To identify which business functions are essential for survival",
+        "To ensure that all employees are trained in emergency procedures",
+        "To calculate the total cost of IT infrastructure"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify which business functions are essential for survival",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 151,
+      "question_text": "Which of the following best describes the term “risk appetite”?",
+      "options": [
+        "The total cost associated with mitigating a specific risk",
+        "The level of risk an organization is willing to accept in pursuit of its objectives",
+        "The process of transferring risk to another party through insurance",
+        "The likelihood of a risk occurring within a given time frame"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The level of risk an organization is willing to accept in pursuit of its objectives",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": [
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 157,
+      "question_text": "What is the main difference between spear phishing and phishing?",
+      "options": [
+        "Spear phishing targets a specific individual or organization, while phishing is more general",
+        "Phishing is a form of malware, while spear phishing is not",
+        "Spear phishing is legal, while phishing is illegal",
+        "Phishing requires technical skills, while spear phishing does not"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Spear phishing targets a specific individual or organization, while phishing is  more general",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 28,
+      "keywords": [
+        "legal"
+      ]
+    },
+    {
+      "id": 165,
+      "question_text": "In the context of digital forensics, what is the significance of maintaining a proper chain of ",
+      "options": [
+        "It ensures that the evidence can be safely ignored during the investigation",
+        "It guarantees the deletion of sensitive information after analysis",
+        "It provides a record of all individuals who have handled the evidence, preserving its ",
+        "It allows for the evidence to be altered without legal implications"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It provides a record of all individuals who have handled the evidence, preserving  its integrity",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "integrity",
+        "legal"
+      ]
+    },
+    {
+      "id": 176,
+      "question_text": "What is the primary goal of a security awareness training program?",
+      "options": [
+        "To ensure that all employees are proficient in programming and software development",
+        "To inform and educate staff about various security threats and the company’s policies ",
+        "To train employees in physical combat for self-defense against attackers",
+        "To prepare staff for careers in the cybersecurity industry"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To inform and educate staff about various security threats and the company’s  policies regarding them",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 179,
+      "question_text": "What is the primary purpose of a Business Impact Analysis (BIA) in business continuity ",
+      "options": [
+        "To decorate the office space in preparation for potential business disruptions",
+        "To identify critical business functions and the impact of their disruption",
+        "To calculate the annual budget for the IT department",
+        "To determine the social impact of the business on the local community"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify critical business functions and the impact of their disruption",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 180,
+      "question_text": "Which of the following best describes the principle of “segregation of duties” in information ",
+      "options": [
+        "Assigning all security-related tasks to a single department to improve efficiency",
+        "Dividing tasks among multiple individuals to prevent fraud and errors",
+        "Outsourcing security tasks to third-party vendors to reduce costs",
+        "Combining multiple security roles into one for simplicity"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Dividing tasks among multiple individuals to prevent fraud and errors",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "third-party"
+      ]
+    },
+    {
+      "id": 187,
+      "question_text": "What is the primary purpose of a risk assessment in cybersecurity?",
+      "options": [
+        "To decorate the office in a way that reduces stress and thus cyber risks",
+        "To identify, analyze, and evaluate the risks to an organization’s information assets",
+        "To ensure that all employees are satisfied with their IT equipment",
+        "To calculate the annual entertainment budget for the IT department"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, analyze, and evaluate the risks to an organization’s information assets",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "risk assessment"
+      ]
+    },
+    {
+      "id": 203,
+      "question_text": "Which of the following is a primary goal of business continuity planning (BCP)?",
+      "options": [
+        "To ensure all employees are trained in cybersecurity awareness",
+        "To minimize the risk of data breaches",
+        "To maintain business operations with minimal disruption in the event of a disaster",
+        "To ensure compliance with international standards"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To maintain business operations with minimal disruption in the event of a  disaster",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "compliance",
+        "business continuity",
+        "bcp",
+        "security awareness"
+      ]
+    },
+    {
+      "id": 211,
+      "question_text": "What is the primary goal of risk management in cybersecurity?",
+      "options": [
+        "To eliminate all risks",
+        "To identify, assess, and prioritize risks to ensure they are within acceptable levels",
+        "To transfer all risks to a third party",
+        "To detect risks as they occur in real-time"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, assess, and prioritize risks to ensure they are within acceptable levels",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "risk management"
+      ]
+    },
+    {
+      "id": 232,
+      "question_text": "What is the primary purpose of a business impact analysis (BIA) in business continuity ",
+      "options": [
+        "To identify and prioritize critical business functions",
+        "To ensure compliance with legal requirements",
+        "To configure network security appliances",
+        "To design the company website"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify and prioritize critical business functions",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "compliance",
+        "legal",
+        "business continuity",
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 240,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To ensure that IT staff are the only ones aware of security policies",
+        "To make all employees aware of their roles in maintaining security",
+        "To train employees in advanced hacking techniques",
+        "To comply with industry-specific regulations only"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To make all employees aware of their roles in maintaining security",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 255,
+      "question_text": "Which of the following best describes the term “risk appetite”?",
+      "options": [
+        "The total elimination of all risks",
+        "The amount of risk an organization is willing to accept in pursuit of its objectives",
+        "A detailed log of all identified risks",
+        "The process of transferring risk to another party"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The amount of risk an organization is willing to accept in pursuit of its objectives",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": [
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 264,
+      "question_text": "What is the primary goal of the National Institute of Standards and Technology (NIST) ",
+      "options": [
+        "To provide a comprehensive set of IT management policies",
+        "To standardize software development practices",
+        "To offer guidance for improving cybersecurity and risk management",
+        "To enforce legal compliance across international borders"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To offer guidance for improving cybersecurity and risk management",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk management",
+        "compliance",
+        "legal"
+      ]
+    },
+    {
+      "id": 265,
+      "question_text": "Which of the following best describes the purpose of threat modeling?",
+      "options": [
+        "To increase the speed of software development",
+        "To identify potential threats and vulnerabilities in a system",
+        "To market cybersecurity products",
+        "To recruit IT professionals"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify potential threats and vulnerabilities in a system",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "threat modeling"
+      ]
+    },
+    {
+      "id": 293,
+      "question_text": "Which of the following is a key objective of the Information Security Continuous Monitoring ",
+      "options": [
+        "To continuously improve the user interface of security tools",
+        "To provide real-time data analysis and reporting",
+        "To maintain ongoing awareness of information security, vulnerabilities, and threats to ",
+        "To ensure compliance with local data storage laws"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To maintain ongoing awareness of information security, vulnerabilities, and  threats to support organizational risk management decisions",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "risk management",
+        "compliance"
+      ]
+    },
+    {
+      "id": 297,
+      "question_text": "Which of the following is a characteristic of a successful disaster recovery plan (DRP)?",
+      "options": [
+        "It focuses solely on IT infrastructure and ignores business processes",
+        "It is tested once and then stored without updates",
+        "It includes detailed recovery strategies, roles, and responsibilities",
+        "It relies on external agencies to dictate the recovery steps"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It includes detailed recovery strategies, roles, and responsibilities",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "disaster recovery",
+        "drp"
+      ]
+    },
+    {
+      "id": 299,
+      "question_text": "Which of the following best describes the term “risk mitigation”?",
+      "options": [
+        "The process of transferring all organizational risk to a third party",
+        "The elimination of all risks associated with information technology",
+        "The implementation of measures to reduce the impact and likelihood of realized risks",
+        "The act of ignoring potential risks due to cost constraints"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The implementation of measures to reduce the impact and likelihood of realized  risks",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk mitigation"
+      ]
+    },
+    {
+      "id": 303,
+      "question_text": "Which of the following is a primary goal of business continuity planning (BCP)?",
+      "options": [
+        "To ensure all employees are trained in cybersecurity awareness",
+        "To minimize the impact of disruptions on business operations",
+        "To guarantee a 100% uptime for all IT systems",
+        "To comply with international data protection regulations"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To minimize the impact of disruptions on business operations",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "bcp",
+        "security awareness",
+        "data protection"
+      ]
+    },
+    {
+      "id": 313,
+      "question_text": "Which of the following best describes the concept of “risk appetite”?",
+      "options": [
+        "The total cost associated with mitigating a specific risk",
+        "The maximum level of risk that an organization is willing to accept",
+        "The likelihood of a risk occurring",
+        "The impact of a risk if it were to occur"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The maximum level of risk that an organization is willing to accept",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 322,
+      "question_text": "What is the primary concern of the CIA Triad in cybersecurity?",
+      "options": [
+        "Confidentiality, Integrity, and Availability of information",
+        "Certification, Identification, and Authorization",
+        "Cost, Investment, and Analysis",
+        "Computing, Infrastructure, and Applications"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Confidentiality, Integrity, and Availability of information",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "cia triad",
+        "confidentiality",
+        "integrity",
+        "availability"
+      ]
+    },
+    {
+      "id": 332,
+      "question_text": "What is the primary purpose of a Business Impact Analysis (BIA)?",
+      "options": [
+        "To evaluate the potential impact of disruptions to business operations",
+        "To assess the overall security posture of a business",
+        "To identify vulnerabilities in software applications",
+        "To determine the budget for the IT department"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To evaluate the potential impact of disruptions to business operations",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 334,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To ensure compliance with industry regulations",
+        "To prepare IT staff for security certifications",
+        "To inform employees about security policies and procedures",
+        "To install security software on employee devices"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To inform employees about security policies and procedures",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "compliance",
+        "policies and procedures",
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 400,
+      "question_text": "Which of the following best describes the concept of “security by design”?",
+      "options": [
+        "Implementing security measures as a response to detected threats",
+        "Considering security as an afterthought in the development process",
+        "Integrating security practices throughout the software development lifecycle",
+        "Outsourcing security responsibilities to third-party vendors"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Integrating security practices throughout the software development lifecycle.",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "third-party"
+      ]
+    },
+    {
+      "id": 409,
+      "question_text": "What does the term “risk assessment” refer to in the context of information security?",
+      "options": [
+        "The process of identifying and prioritizing risks based on the potential impact to the ",
+        "The act of transferring risk to another party through the purchase of an insurance policy",
+        "The process of eliminating all risks associated with the operation of information systems",
+        "The act of accepting a known risk without taking steps to mitigate it"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The process of identifying and prioritizing risks based on the potential impact to the  business",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment"
+      ]
+    },
+    {
+      "id": 411,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To ensure that IT staff are up to date on the latest programming languages",
+        "To inform employees about the company’s vacation policy",
+        "To educate employees about security policies and procedures to reduce human error and ",
+        "To train employees on how to use new software applications"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To educate employees about security policies and procedures to reduce human  error and prevent security breaches",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "policies and procedures",
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 432,
+      "question_text": "What is the primary purpose of a business impact analysis (BIA)?",
+      "options": [
+        "To identify and prioritize critical business functions and their dependencies",
+        "To assess the overall security posture of an organization",
+        "To detect vulnerabilities in software applications",
+        "To manage the distribution of security patches"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify and prioritize critical business functions and their dependencies",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 454,
+      "question_text": "Which of the following is a key component of an effective security awareness training ",
+      "options": [
+        "Focusing solely on technical aspects of security",
+        "Providing legal advice on data protection laws",
+        "Tailoring the training to the specific roles and responsibilities of the audience",
+        "Limiting training sessions to new employees only"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Tailoring the training to the specific roles and responsibilities of the audience",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "legal",
+        "security awareness",
+        "awareness training",
+        "data protection"
+      ]
+    },
+    {
+      "id": 456,
+      "question_text": "Which of the following best describes the term “risk appetite”?",
+      "options": [
+        "The total cost of all risks associated with a specific project",
+        "The level of risk an organization is willing to accept in pursuit of its objectives",
+        "The process of transferring risk to another party through insurance",
+        "The likelihood of a risk occurring within a given time frame"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The level of risk an organization is willing to accept in pursuit of its objectives",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 90,
+      "keywords": [
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 461,
+      "question_text": "Which of the following best describes the purpose of a Business Continuity Plan (BCP)?",
+      "options": [
+        "To ensure that critical business functions continue during and after a disaster",
+        "To protect the organization from external cyber attacks",
+        "To manage the organization’s investment portfolio",
+        "To oversee the daily operations of the IT department"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that critical business functions continue during and after a disaster",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "bcp"
+      ]
+    },
+    {
+      "id": 464,
+      "question_text": "What is the primary goal of a risk management program?",
+      "options": [
+        "To eliminate all risks",
+        "To identify, assess, and prioritize risks",
+        "To ensure compliance with international standards only",
+        "To increase the organization’s profit margins"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, assess, and prioritize risks",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk management",
+        "compliance"
+      ]
+    },
+    {
+      "id": 478,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To ensure that all employees are proficient in coding",
+        "To inform employees about the organization’s stock performance",
+        "To educate employees about cybersecurity threats and best practices",
+        "To train employees in physical security measures"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To educate employees about cybersecurity threats and best practices",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 484,
+      "question_text": "Which of the following best describes the purpose of an Information Security Policy?",
+      "options": [
+        "To outline the recreational activities available to employees",
+        "To define the rules and procedures for protecting organizational information",
+        "To detail the organization’s hiring practices",
+        "To describe the organization’s social media strategy"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To define the rules and procedures for protecting organizational information",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "security policy"
+      ]
+    },
+    {
+      "id": 493,
+      "question_text": "Which of the following is a principle of the CIA triad that ensures only authorized users have ",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Authentication"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Confidentiality",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "cia triad",
+        "confidentiality",
+        "integrity",
+        "availability"
+      ]
+    },
+    {
+      "id": 495,
+      "question_text": "Which of the following best describes the purpose of a Business Impact Analysis (BIA)?",
+      "options": [
+        "To identify critical business functions and the impact of their disruption",
+        "To assess the organization’s compliance with legal requirements",
+        "To evaluate the effectiveness of the incident response team",
+        "To determine the budget for the IT department"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify critical business functions and the impact of their disruption",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "compliance",
+        "legal",
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 510,
+      "question_text": "What does the term “risk management” refer to in cybersecurity?",
+      "options": [
+        "The process of identifying, assessing, and prioritizing risks followed by coordinated efforts ",
+        "The process of transferring all risks to a third party",
+        "The act of avoiding any activities that could lead to a risk",
+        "The process of eliminating all risks associated with information technology"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The process of identifying, assessing, and prioritizing risks followed by  coordinated efforts to minimize, monitor, and control the probability or impact of  unfortunate events",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "risk management"
+      ]
+    },
+    {
+      "id": 515,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To train IT professionals in the development of secure code",
+        "To ensure that all employees understand the role they play in maintaining security",
+        "To certify employees in cybersecurity",
+        "To prepare employees for IT support roles"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that all employees understand the role they play in maintaining  security",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 527,
+      "question_text": "Which of the following best describes the concept of “risk appetite”?",
+      "options": [
+        "The amount of risk that an organization is willing to accept in pursuit of its objectives",
+        "A measure of the likelihood that an organization will be attacked",
+        "The total amount of risk that an organization can eliminate",
+        "The desire of an organization to engage in high-risk ventures"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The amount of risk that an organization is willing to accept in pursuit of its  objectives",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 90,
+      "keywords": [
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 532,
+      "question_text": "What is the primary purpose of a business impact analysis (BIA)?",
+      "options": [
+        "To identify critical business functions and their dependencies",
+        "To assess the overall security posture of an organization",
+        "To configure network security appliances",
+        "To develop a company-wide risk management strategy"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify critical business functions and their dependencies",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk management",
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 560,
+      "question_text": "What is the primary purpose of a security policy within an organization?",
+      "options": [
+        "To define the organization’s stance on security and provide guidelines for its ",
+        "To outline the organization’s sales and marketing strategies",
+        "To provide a detailed list of employees’ personal information",
+        "To serve as a legal contract between the organization and its clients"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To define the organization’s stance on security and provide guidelines for its  implementation and maintenance",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "legal",
+        "security policy"
+      ]
+    },
+    {
+      "id": 577,
+      "question_text": "Which of the following best describes the purpose of “security awareness training”?",
+      "options": [
+        "To train IT staff on new software tools",
+        "To educate all members of an organization about cybersecurity threats and best practices",
+        "To provide physical security training for security guards",
+        "To train employees on customer service protocols"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To educate all members of an organization about cybersecurity threats and best  practices",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "security awareness",
+        "security training",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 581,
+      "question_text": "What is the primary goal of a “business continuity plan” (BCP)?",
+      "options": [
+        "To ensure that business operations can continue during and after a disaster",
+        "To manage day-to-day business operations",
+        "To outline a company’s financial goals",
+        "To plan for new business ventures"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that business operations can continue during and after a disaster",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "bcp"
+      ]
+    },
+    {
+      "id": 583,
+      "question_text": "Which of the following best describes “risk assessment” in the context of cybersecurity?",
+      "options": [
+        "Assessing the financial risks associated with new business ventures",
+        "Evaluating the potential risks to an organization’s information security",
+        "Calculating the risks of investing in new technology",
+        "Assessing the health and safety risks in the workplace"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Evaluating the potential risks to an organization’s information security",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment"
+      ]
+    },
+    {
+      "id": 588,
+      "question_text": "In the context of cybersecurity, what is “threat modeling”?",
+      "options": [
+        "The process of designing new cybersecurity threats",
+        "The act of modeling an organization’s network infrastructure",
+        "The process of identifying, assessing, and prioritizing potential threats",
+        "The practice of simulating threats for training purposes"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The process of identifying, assessing, and prioritizing potential threats",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "threat modeling"
+      ]
+    },
+    {
+      "id": 599,
+      "question_text": "Which of the following best describes the purpose of a Business Continuity Plan (BCP)?",
+      "options": [
+        "To ensure that critical business functions can continue during and after a disaster",
+        "To protect the physical security of business assets and personnel",
+        "To comply with legal and regulatory requirements regarding data protection",
+        "To manage the IT infrastructure and network operations of a business"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that critical business functions can continue during and after a disaster",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "regulatory",
+        "legal",
+        "business continuity",
+        "bcp",
+        "data protection"
+      ]
+    },
+    {
+      "id": 603,
+      "question_text": "What is the primary goal of business continuity planning (BCP)?",
+      "options": [
+        "To ensure that critical business functions can continue during and after a disaster",
+        "To protect the organization from external threats",
+        "To ensure the physical security of an organization’s assets",
+        "To comply with industry-specific regulations"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that critical business functions can continue during and after a disaster",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "bcp"
+      ]
+    },
+    {
+      "id": 607,
+      "question_text": "Which of the following best describes risk mitigation?",
+      "options": [
+        "Transferring the risk to another party",
+        "Accepting the risk without taking any action to address it",
+        "Taking steps to reduce the impact or likelihood of a risk",
+        "Avoiding the risk by not engaging in the activity that introduces the risk"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Taking steps to reduce the impact or likelihood of a risk",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk mitigation"
+      ]
+    },
+    {
+      "id": 615,
+      "question_text": "Which of the following is a principle of the CIA triad in information security?",
+      "options": [
+        "Confidentiality",
+        "Consistency",
+        "Continuity",
+        "Compliance"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Confidentiality",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "cia triad",
+        "confidentiality",
+        "compliance"
+      ]
+    },
+    {
+      "id": 619,
+      "question_text": "Which of the following is a characteristic of a risk assessment?",
+      "options": [
+        "It focuses solely on external threats",
+        "It is a one-time activity",
+        "It involves identifying and evaluating risks to the organization’s information assets",
+        "It guarantees that all risks will be eliminated"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: It involves identifying and evaluating risks to the organization’s information assets",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment"
+      ]
+    },
+    {
+      "id": 625,
+      "question_text": "Which of the following best describes the term “threat vector”?",
+      "options": [
+        "A path or tool that a threat actor uses to attack a target",
+        "A mathematical model used to calculate risk",
+        "A software tool used to detect threats",
+        "A type of malware"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: A path or tool that a threat actor uses to attack a target",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": []
+    },
+    {
+      "id": 630,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To ensure that IT staff are aware of the latest security technologies",
+        "To educate all members of an organization about their role in maintaining security",
+        "To train security professionals in advanced hacking techniques",
+        "To comply with industry-specific security certification requirements"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To educate all members of an organization about their role in maintaining security",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 652,
+      "question_text": "What is the primary purpose of a Business Impact Analysis (BIA) in business continuity ",
+      "options": [
+        "To identify and prioritize critical business functions and their dependencies",
+        "To calculate the total cost of ownership of IT assets",
+        "To determine the organization’s annual budget for IT expenditures",
+        "To assess the performance of the IT department"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify and prioritize critical business functions and their dependencies",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "business continuity",
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 660,
+      "question_text": "What is the primary goal of a Security Awareness Training program?",
+      "options": [
+        "To train IT staff on the technical aspects of the organization’s IT infrastructure",
+        "To ensure that all employees understand the IT budgeting process",
+        "To educate employees about security threats and the importance of following security ",
+        "To certify employees in cybersecurity defense techniques"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To educate employees about security threats and the importance of following  security policies",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 684,
+      "question_text": "Which of the following is a primary concern when implementing Bring Your Own Device ",
+      "options": [
+        "Ensuring that devices have sufficient storage capacity",
+        "Balancing the flexibility it offers with the security risks it introduces",
+        "Making sure that all devices use the same operating system",
+        "Preventing employees from installing any personal applications"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Balancing the flexibility it offers with the security risks it introduces",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 691,
+      "question_text": "Which of the following best describes the concept of “risk appetite” in risk management?",
+      "options": [
+        "The total cost associated with mitigating a specific risk",
+        "The level of risk that an organization is willing to accept before taking action",
+        "The process of transferring risk to another party through insurance",
+        "The identification of potential threats to an organization’s assets"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The level of risk that an organization is willing to accept before taking action",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk management",
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 703,
+      "question_text": "Which of the following is a primary goal of business continuity planning (BCP)?",
+      "options": [
+        "To ensure all employees are trained in cybersecurity awareness",
+        "To maintain business operations with minimal disruption in the event of a disaster",
+        "To ensure that all IT systems are updated with the latest software patches",
+        "To conduct annual risk assessments"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To maintain business operations with minimal disruption in the event of a  disaster",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment",
+        "business continuity",
+        "bcp",
+        "security awareness"
+      ]
+    },
+    {
+      "id": 707,
+      "question_text": "In risk management, what does the term “risk appetite” refer to?",
+      "options": [
+        "The total cost of all risks identified in an assessment",
+        "The level of risk an organization is willing to accept in pursuit of its objectives",
+        "The process of transferring risk to another party through insurance",
+        "The likelihood of a risk occurring"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: The level of risk an organization is willing to accept in pursuit of its objectives",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk management",
+        "risk appetite"
+      ]
+    },
+    {
+      "id": 720,
+      "question_text": "In the context of information security, what does “CIA” stand for?",
+      "options": [
+        "Central Intelligence Agency",
+        "Confidentiality, Integrity, and Availability",
+        "Computer Information Agency",
+        "Certification and Accreditation"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Confidentiality, Integrity, and Availability",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "confidentiality",
+        "integrity",
+        "availability"
+      ]
+    },
+    {
+      "id": 724,
+      "question_text": "What is the primary purpose of a risk assessment in cybersecurity?",
+      "options": [
+        "To determine the financial impact of potential risks",
+        "To identify, analyze, and evaluate the risks to an organization’s information assets",
+        "To ensure compliance with industry regulations",
+        "To purchase insurance policies for potential cyber threats"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify, analyze, and evaluate the risks to an organization’s information assets",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment",
+        "compliance"
+      ]
+    },
+    {
+      "id": 726,
+      "question_text": "What is the main goal of a security awareness training program?",
+      "options": [
+        "To train IT staff on new technologies",
+        "To ensure that all employees understand the organization’s security policies and ",
+        "To prepare the organization for security audits",
+        "To comply with local business regulations"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that all employees understand the organization’s security policies and  procedures",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 732,
+      "question_text": "What is the primary purpose of a Business Impact Analysis (BIA)?",
+      "options": [
+        "To evaluate the potential impact of disruptions to business operations",
+        "To assess the organization’s cybersecurity posture",
+        "To determine the budget for the IT department",
+        "To identify vulnerabilities in software applications"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To evaluate the potential impact of disruptions to business operations",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "business impact analysis",
+        "bia"
+      ]
+    },
+    {
+      "id": 736,
+      "question_text": "What is the purpose of a security policy?",
+      "options": [
+        "To provide detailed step-by-step instructions for configuring network devices",
+        "To outline the organization’s approach to managing and protecting information",
+        "To serve as a legal contract between an organization and its clients",
+        "To document the technical specifications of security tools"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To outline the organization’s approach to managing and protecting information",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "legal",
+        "security policy"
+      ]
+    },
+    {
+      "id": 742,
+      "question_text": "What is the primary function of a digital signature?",
+      "options": [
+        "To encrypt the entire message for confidentiality",
+        "To verify the integrity and authenticity of a message",
+        "To increase the size of the message for better transmission",
+        "To convert the message into an unreadable format for everyone except the sender"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To verify the integrity and authenticity of a message",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 80,
+      "keywords": [
+        "confidentiality",
+        "integrity"
+      ]
+    },
+    {
+      "id": 743,
+      "question_text": "Which of the following is a key principle of the ISO 27001 standard?",
+      "options": [
+        "Continuous improvement",
+        "One-time compliance",
+        "Focus solely on technology controls",
+        "Avoidance of risk assessment"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Continuous improvement",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment",
+        "compliance"
+      ]
+    },
+    {
+      "id": 756,
+      "question_text": "What is the primary purpose of a security awareness training program?",
+      "options": [
+        "To ensure that IT staff are the only ones aware of security policies",
+        "To educate all employees about security policies and procedures",
+        "To train employees on how to use new software",
+        "To comply with industry regulations without improving security"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To educate all employees about security policies and procedures",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "policies and procedures",
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 773,
+      "question_text": "What is the primary goal of security controls?",
+      "options": [
+        "To eliminate all risks",
+        "To detect and respond to threats in real-time",
+        "To reduce risks to an acceptable level",
+        "To comply with international security standards only"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To reduce risks to an acceptable level",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 791,
+      "question_text": "Which of the following best describes the purpose of a Business Continuity Plan (BCP)?",
+      "options": [
+        "To ensure that critical business functions continue during and after a disaster",
+        "To protect the organization from external cyber attacks",
+        "To manage the organization’s investment portfolio",
+        "To ensure that all employees follow the IT security policy"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that critical business functions continue during and after a disaster",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "security policy",
+        "business continuity",
+        "bcp"
+      ]
+    },
+    {
+      "id": 793,
+      "question_text": "Which of the following is a key principle of the Information Security Management System ",
+      "options": [
+        "Continuous improvement",
+        "Risk avoidance",
+        "Single factor authentication",
+        "Open-source software usage"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: Continuous improvement",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": []
+    },
+    {
+      "id": 803,
+      "question_text": "What is the main goal of Business Continuity Planning (BCP)?",
+      "options": [
+        "To ensure all business operations are profitable",
+        "To protect the organization from insider threats",
+        "To maintain business operations in the face of disruptions",
+        "To ensure compliance with international standards"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: To maintain business operations in the face of disruptions",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "compliance",
+        "business continuity",
+        "bcp"
+      ]
+    },
+    {
+      "id": 808,
+      "question_text": "What is the primary purpose of risk assessment in the context of information security?",
+      "options": [
+        "To identify and quantify the risks to an organization’s information assets",
+        "To eliminate all risks associated with information technology",
+        "To transfer all identified risks to a third-party insurer",
+        "To comply with regulatory requirements without implementing any security measures"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify and quantify the risks to an organization’s information assets",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment",
+        "regulatory",
+        "third-party"
+      ]
+    },
+    {
+      "id": 822,
+      "question_text": "Which of the following best describes the term “risk mitigation”?",
+      "options": [
+        "The process of transferring all risks to an insurance company",
+        "The elimination of all risks associated with information technology",
+        "The implementation of measures to reduce the impact of identified risks",
+        "Ignoring risks as a strategic decision"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: The implementation of measures to reduce the impact of identified risks",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk mitigation"
+      ]
+    },
+    {
+      "id": 827,
+      "question_text": "What is the primary goal of security awareness training?",
+      "options": [
+        "To train employees on how to use new software",
+        "To ensure employees understand the security policies and procedures of the organization",
+        "To prepare employees for IT certification exams",
+        "To increase the speed of the organization’s network"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure employees understand the security policies and procedures of the  organization",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "policies and procedures",
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 837,
+      "question_text": "Which of the following is a key component of an Incident Response Plan (IRP)?",
+      "options": [
+        "Business Impact Analysis",
+        "Security Awareness Training",
+        "Communication Plan",
+        "Risk Assessment"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Communication Plan",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment",
+        "business impact analysis",
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 852,
+      "question_text": "What is the primary purpose of an information security policy?",
+      "options": [
+        "To outline the procedures for installing software updates",
+        "To define the framework for managing and protecting organizational information assets",
+        "To provide detailed technical documentation for IT systems",
+        "To list all authorized users within an organization"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To define the framework for managing and protecting organizational information  assets",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 70,
+      "keywords": [
+        "security policy"
+      ]
+    },
+    {
+      "id": 860,
+      "question_text": "What is the primary concern of supply chain security in cybersecurity?",
+      "options": [
+        "Ensuring that all suppliers have a green sustainability rating",
+        "Guaranteeing the lowest cost for all components purchased from suppliers",
+        "Securing the information and products from tampering, theft, or insertion of malicious ",
+        "Ensuring that suppliers deliver products on time"
+      ],
+      "correct_answer": "c",
+      "correct_index": 2,
+      "explanation": "The correct answer is: Securing the information and products from tampering, theft, or insertion of  malicious software throughout the supply chain",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "supply chain"
+      ]
+    },
+    {
+      "id": 865,
+      "question_text": "Which of the following best describes the purpose of threat modeling?",
+      "options": [
+        "To create a detailed map of the organization’s physical infrastructure",
+        "To identify potential threats to a system and assess the possible impact",
+        "To develop a comprehensive list of an organization’s assets",
+        "To ensure compliance with local and international regulations"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To identify potential threats to a system and assess the possible impact",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "compliance",
+        "threat modeling"
+      ]
+    },
+    {
+      "id": 867,
+      "question_text": "Which of the following is a key principle of the Information Security Management System ",
+      "options": [
+        "Prioritizing physical security measures over cybersecurity measures",
+        "Implementing a continuous improvement process for information security",
+        "Focusing solely on technology to solve security issues",
+        "Ignoring legal and regulatory requirements when inconvenient"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: Implementing a continuous improvement process for information security",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "regulatory",
+        "legal"
+      ]
+    },
+    {
+      "id": 874,
+      "question_text": "What is the primary purpose of conducting a risk assessment?",
+      "options": [
+        "To identify, evaluate, and prioritize risks to the organization",
+        "To eliminate all risks to the organization",
+        "To transfer all identified risks to insurance companies",
+        "To comply with industry-specific regulations only"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To identify, evaluate, and prioritize risks to the organization",
+      "domain_id": 1,
+      "difficulty": 1,
+      "confidence": 100,
+      "keywords": [
+        "risk assessment"
+      ]
+    },
+    {
+      "id": 882,
+      "question_text": "What is the primary purpose of “security awareness training”?",
+      "options": [
+        "To train employees on how to bypass security controls",
+        "To ensure that employees understand the security risks and their responsibilities in ",
+        "To prepare employees for careers in cybersecurity",
+        "To comply with industry regulations without implementing any real security measures"
+      ],
+      "correct_answer": "b",
+      "correct_index": 1,
+      "explanation": "The correct answer is: To ensure that employees understand the security risks and their responsibilities  in mitigating those risks",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "security awareness",
+        "awareness training"
+      ]
+    },
+    {
+      "id": 895,
+      "question_text": "Which of the following best describes the purpose of a Business Continuity Plan (BCP)?",
+      "options": [
+        "To ensure that critical business operations can continue during and after a disaster",
+        "To protect the physical security of business assets",
+        "To manage the day-to-day operations of a business",
+        "To outline the legal framework within which a business operates"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: To ensure that critical business operations can continue during and after a  disaster",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 70,
+      "keywords": [
+        "legal",
+        "business continuity",
+        "bcp"
+      ]
+    },
+    {
+      "id": 899,
+      "question_text": "Which of the following best describes the term “risk appetite”?",
+      "options": [
+        "The maximum level of risk that an organization is willing to accept in pursuit of its ",
+        "The process of transferring risk to another party through insurance",
+        "The identification of risks associated with the use of third-party vendors",
+        "The technical controls implemented to mitigate risks"
+      ],
+      "correct_answer": "a",
+      "correct_index": 0,
+      "explanation": "The correct answer is: The maximum level of risk that an organization is willing to accept in pursuit of  its objectives",
+      "domain_id": 1,
+      "difficulty": 2,
+      "confidence": 100,
+      "keywords": [
+        "risk appetite",
+        "third-party"
+      ]
+    }
+  ]
+}
