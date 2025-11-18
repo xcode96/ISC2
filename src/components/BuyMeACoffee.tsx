@@ -13,7 +13,7 @@ export default function BuyMeACoffee() {
         onMouseLeave={() => setShowTooltip(false)}
       >
         <a
-          href="https://buymeacoffee.com/kylemanley"
+          href="https://buymeacoffee.com/xcode96"
           target="_blank"
           rel="noopener noreferrer"
           className="buy-me-coffee-button"
